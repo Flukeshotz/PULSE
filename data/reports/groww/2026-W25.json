@@ -2,7 +2,7 @@
   "product": "Groww",
   "iso_week": "2026-W25",
   "period_label": "Last 10 weeks",
-  "generated_at": "2026-06-15T12:40:20.649695",
+  "generated_at": "2026-06-15T17:30:45.362894",
   "sources_covered": [
     "app_store",
     "play_store"
@@ -14,46 +14,111 @@
   ],
   "themes": [
     {
-      "name": "[Negative] Aggressive Ads",
+      "name": "[Negative] Excessive Brokerage Costs",
       "rank": 1,
       "quotes": [
         {
-          "text": "very disturbing apps",
+          "text": "don't use this app booohoth jada brokerage ka pese letha he ek din ka 2k. 3k brokarage jarahahe profit sirf 0 me bi koi use math karna is app ko",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "Disgusting app not recommended.",
+          "text": "ab broker charge bahut jayada ho gya ha ab groww app ko delete kar ka dusra treading app use karna hoga",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "Worst app ever, don't install it Not working properly",
+          "text": "20 rupiya profit hoga toh dalali charge 18 rupiya 20-18=2 apke hat me dalali charge bohat jiyada hai",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "all ways wrong ad",
+          "text": "guru bahut badhiya hai invest karne ke liye",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "SBSE BEST APP LEKIN BROKERAGE SBSE HIGH BHI HAI...MTF ME...",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "bahut hi bekar Hai ismein mat karo mat karo trading",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "very worst app not interested",
+          "text": "These high costs reduce overall returns and make the experience frustrating.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Almost zero profit.",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "very bad app",
+          "text": "The highest brokerage - 0.2% of the whole transaction for MTF with no capping.",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "bad application",
+          "text": "YOU LOOSE 2-3%.",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "worst app i have used for waste of money brokrage are two high",
+          "text": "Grow app increase in Market because costumer demate account loot , fake report gift nifty current market news,",
+          "source": "play_store",
+          "rating": 3.0
+        }
+      ],
+      "description": "Users are criticizing Groww for charging high brokerage fees, which they feel are excessively high and eat into their profits.",
+      "business_impact": "High customer dissatisfaction and potential loss of users due to perceived unfair pricing, which could negatively impact revenue and business growth.",
+      "root_cause_hypothesis": "Groww's pricing strategy and model are viewed as unfavorable by users, leading to a perception of excessive brokerage costs.",
+      "action_plan": "\u2022 Reassess and potentially adjust pricing strategy to make it more customer-friendly. Provide clear, transparent fee disclosure to avoid misunderstandings.",
+      "teams_impacted": [
+        "Product Management",
+        "Marketing"
+      ],
+      "mentions_count": 149,
+      "rating_distribution": {
+        "1": 90,
+        "2": 11,
+        "3": 10,
+        "4": 7,
+        "5": 31
+      },
+      "average_rating": 2.18,
+      "confidence_score": 0.84,
+      "confidence_components": {
+        "volume": 0.73,
+        "quote_validation": 1.0
+      },
+      "priority_score": 43,
+      "theme_id": "high_brokerage_charges",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 98.7,
+        "priority_wow_delta": 12,
+        "rating_wow_delta": -0.3,
+        "first_seen": "2026-W24",
+        "age_weeks": 1
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Poor App Quality",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "worst app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst apo",
           "source": "play_store",
           "rating": 1.0
         },
@@ -63,311 +128,74 @@
           "rating": 1.0
         },
         {
-          "text": "stupid app. unable to give pin even before that app goes back to homepage",
+          "text": "Pathetic Application.",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "IMPROVE YOUR ADS im not able to play my game because ur ads were gliching",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "worst app ever limited order excutive nahi hota dont download any one",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "very very very very worst app and platform.",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "repeated ads. is headache. pl. stop this ad in my mobile. please stop this ad",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "just because of your ads",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "worst application",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "most pathetic app.",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "This app's ads are bothering me repeatedly, so I've given this app a 1-star rating.",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "very much dirty app comes in phone again and again",
+          "text": "bad application",
           "source": "play_store",
           "rating": 1.0
         }
       ],
-      "description": "Users are complaining about the overwhelming presence of ads, which are disrupting their experience and causing frustration.",
-      "business_impact": "Potential loss of user trust, increased uninstalls due to ad fatigue, and negative word-of-mouth.",
-      "root_cause_hypothesis": "The app's business model relies heavily on ads, leading to an overemphasis on ad placement and frequency, resulting in a poor user experience.",
-      "action_plan": "\u2022 Optimize ad placement to minimize disruption\n\u2022 Implement a more user-friendly ad experience, such as rewards or gamification\n\u2022 Review and revise the app's business model to prioritize user experience",
-      "teams_impacted": [
-        "Marketing",
-        "Product",
-        "Design"
-      ],
-      "mentions_count": 54,
-      "rating_distribution": {
-        "1": 48,
-        "2": 0,
-        "3": 1,
-        "4": 1,
-        "5": 4
-      },
-      "average_rating": 1.39,
-      "confidence_score": 0.75,
-      "confidence_components": {
-        "volume": 0.58,
-        "quote_validation": 1.0
-      },
-      "priority_score": 39,
-      "theme_id": "aggressive_ads",
-      "trend": {
-        "status": "emerging",
-        "mentions_wow_pct": 100.0,
-        "priority_wow_delta": 39,
-        "rating_wow_delta": 0.0,
-        "first_seen": "2026-W25",
-        "age_weeks": 0
-      },
-      "evidence_score": 0.7916666666666666,
-      "summary_validation": "Supported"
-    },
-    {
-      "name": "[Negative] App Crashes & Technical Issues",
-      "rank": 2,
-      "quotes": [
-        {
-          "text": "If Groww cannot execute orders at the correct price and repeatedly hits the wrong target, how are traders supposed to trust the platform for professional trading in Nifty 50 F&O?",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "Groww charge is scam kind of. better I will go with my own Bank. for investment.",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "don't use grow you can use delta exchange it's not promotion it's reality",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "Almost everyone think groww charges less brokerage,but guess what, it charges the highest brokerage",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "vry vry bad experience.All stocks watching u in Groww app n withdrawal times he not get up. After withdrawal he is sudden up what is this.",
-          "source": "play_store",
-          "rating": 1.0
-        }
-      ],
-      "description": "Users have reported frequent app crashes, glitches, and delays while trading. Technical issues with order execution, delayed P&L updates, and difficulties withdrawing funds have led to financial losses and frustration.",
-      "business_impact": "Reputation damage, loss of user trust, and potentially large financial losses due to unexecuted trades and delayed funds withdrawal.",
-      "root_cause_hypothesis": "Inadequate load testing, inefficient server infrastructure, and poorly written software code exacerbating existing technical debt leading to frequent crashes and delays.",
-      "action_plan": "\u2022 Conduct an emergency debugging session to address existing technical issues, perform system load testing to identify and resolve bottlenecks, rewrite problematic code sections, and ensure sufficient server resources are allocated to support the platform's user base.",
+      "description": "Users reported frequent bugs, crashes, and overall poor app quality, which led to a frustrating experience.",
+      "business_impact": "The high number of 1-star ratings may indicate a significant loss of user trust and long-term damage to the app's reputation.",
+      "root_cause_hypothesis": "Insufficient pre-launch testing and quality assurance processes may be contributing to the poor app quality.",
+      "action_plan": "\u2022 Re-establish and execute comprehensive pre-launch testing, improve QA processes, and prioritize bug fixing.",
       "teams_impacted": [
         "Android Eng",
         "UX Design",
-        "Core Product",
-        "DevOps",
-        "Quality Assurance"
+        "Core Product"
       ],
-      "mentions_count": 55,
+      "mentions_count": 34,
       "rating_distribution": {
-        "1": 41,
-        "2": 7,
-        "3": 3,
-        "4": 1,
-        "5": 3
+        "1": 32,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 1
       },
-      "average_rating": 1.51,
-      "confidence_score": 0.75,
+      "average_rating": 1.18,
+      "confidence_score": 0.71,
       "confidence_components": {
-        "volume": 0.58,
-        "quote_validation": 1.0
-      },
-      "priority_score": 38,
-      "theme_id": "trading_issues_app_crashes_and_poor_experience",
-      "trend": {
-        "status": "improving",
-        "mentions_wow_pct": -76.1,
-        "priority_wow_delta": -21,
-        "rating_wow_delta": -0.1,
-        "first_seen": "2026-W23",
-        "age_weeks": 2
-      },
-      "evidence_score": 1.0,
-      "summary_validation": "Supported"
-    },
-    {
-      "name": "[Negative] High Brokerage Charges",
-      "rank": 3,
-      "quotes": [
-        {
-          "text": "charge jada lag rha hai",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "brockrage charge bahut leta hai pura fayda yahi le jata hai",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "brokerage jyada hai",
-          "source": "play_store",
-          "rating": 5.0
-        },
-        {
-          "text": "brockrage 10 rs kar do taki me groww app me trading kar saku",
-          "source": "play_store",
-          "rating": 5.0
-        }
-      ],
-      "description": "Users frequently express dissatisfaction with the high brokerage charges on the platform, which is perceived as a major obstacle for traders.",
-      "business_impact": "Prolonged high brokerage charges may deter customers, leading to decreased revenue and market share.",
-      "root_cause_hypothesis": "High brokerage charges may be attributed to the company's pricing strategy or revenue model, which may need to be reassessed.",
-      "action_plan": "\u2022 Re-evaluate pricing strategy to balance revenue goals with customer affordability and satisfaction\n\u2022 Optimize revenue streams without affecting user experience\n\u2022 Offer discounts or promotions to loyal customers",
-      "teams_impacted": [
-        "Product Management",
-        "Revenue Optimization Team"
-      ],
-      "mentions_count": 133,
-      "rating_distribution": {
-        "1": 69,
-        "2": 5,
-        "3": 8,
-        "4": 11,
-        "5": 40
-      },
-      "average_rating": 2.61,
-      "confidence_score": 0.83,
-      "confidence_components": {
-        "volume": 0.71,
+        "volume": 0.51,
         "quote_validation": 1.0
       },
       "priority_score": 35,
-      "theme_id": "high_brokerage_charges",
+      "theme_id": "app_inefficiency_losses",
       "trend": {
         "status": "stable",
-        "mentions_wow_pct": 77.3,
-        "priority_wow_delta": 4,
-        "rating_wow_delta": 0.1,
+        "mentions_wow_pct": -66.7,
+        "priority_wow_delta": -12,
+        "rating_wow_delta": -0.3,
         "first_seen": "2026-W24",
         "age_weeks": 1
       },
-      "evidence_score": 0.8,
+      "evidence_score": 0.625,
       "summary_validation": "Supported"
     }
   ],
   "counts": {
-    "reviews": 4820,
-    "unauthentic_quotes_dropped": 0,
+    "reviews": 5326,
+    "unauthentic_quotes_dropped": 1,
     "irrelevant_quotes_dropped": 0,
-    "filtered_short": 2860,
-    "filtered_short_positive": 2707,
-    "filtered_short_negative": 96,
+    "filtered_short": 2870,
+    "filtered_short_positive": 2715,
+    "filtered_short_negative": 98,
     "filtered_short_neutral": 57
   },
   "source_counts": {
-    "app_store": 0,
-    "play_store": 7875
+    "app_store": 500,
+    "play_store": 7893
   },
   "rating_distribution": {
-    "1": 965,
-    "2": 133,
-    "3": 153,
-    "4": 401,
-    "5": 3168
+    "1": 978,
+    "2": 140,
+    "3": 161,
+    "4": 422,
+    "5": 3625
   },
-  "average_rating": 3.969709543568465,
+  "average_rating": 4.0469395418700715,
   "top_escalations": [],
-  "top_improvements": [
-    {
-      "name": "[Negative] App Crashes & Technical Issues",
-      "rank": 2,
-      "quotes": [
-        {
-          "text": "If Groww cannot execute orders at the correct price and repeatedly hits the wrong target, how are traders supposed to trust the platform for professional trading in Nifty 50 F&O?",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "Groww charge is scam kind of. better I will go with my own Bank. for investment.",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "don't use grow you can use delta exchange it's not promotion it's reality",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "Almost everyone think groww charges less brokerage,but guess what, it charges the highest brokerage",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "vry vry bad experience.All stocks watching u in Groww app n withdrawal times he not get up. After withdrawal he is sudden up what is this.",
-          "source": "play_store",
-          "rating": 1.0
-        }
-      ],
-      "description": "Users have reported frequent app crashes, glitches, and delays while trading. Technical issues with order execution, delayed P&L updates, and difficulties withdrawing funds have led to financial losses and frustration.",
-      "business_impact": "Reputation damage, loss of user trust, and potentially large financial losses due to unexecuted trades and delayed funds withdrawal.",
-      "root_cause_hypothesis": "Inadequate load testing, inefficient server infrastructure, and poorly written software code exacerbating existing technical debt leading to frequent crashes and delays.",
-      "action_plan": "\u2022 Conduct an emergency debugging session to address existing technical issues, perform system load testing to identify and resolve bottlenecks, rewrite problematic code sections, and ensure sufficient server resources are allocated to support the platform's user base.",
-      "teams_impacted": [
-        "Android Eng",
-        "UX Design",
-        "Core Product",
-        "DevOps",
-        "Quality Assurance"
-      ],
-      "mentions_count": 55,
-      "rating_distribution": {
-        "1": 41,
-        "2": 7,
-        "3": 3,
-        "4": 1,
-        "5": 3
-      },
-      "average_rating": 1.51,
-      "confidence_score": 0.75,
-      "confidence_components": {
-        "volume": 0.58,
-        "quote_validation": 1.0
-      },
-      "priority_score": 38,
-      "theme_id": "trading_issues_app_crashes_and_poor_experience",
-      "trend": {
-        "status": "improving",
-        "mentions_wow_pct": -76.1,
-        "priority_wow_delta": -21,
-        "rating_wow_delta": -0.1,
-        "first_seen": "2026-W23",
-        "age_weeks": 2
-      },
-      "evidence_score": 1.0,
-      "summary_validation": "Supported"
-    }
-  ]
+  "top_improvements": []
 }

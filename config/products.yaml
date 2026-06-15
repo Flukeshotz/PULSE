@@ -23,7 +23,7 @@ products:
     sources:
       app_store:
         enabled: true
-        app_id: "1402598485"
+        app_id: "1404871703"
         countries: ["in"]
       play_store:
         enabled: true

@@ -2,7 +2,7 @@
   "product": "Groww",
   "iso_week": "2026-W24",
   "period_label": "Last 10 weeks",
-  "generated_at": "2026-06-15T12:38:14.712030",
+  "generated_at": "2026-06-15T17:27:57.424765",
   "sources_covered": [
     "app_store",
     "play_store"
@@ -14,237 +14,315 @@
   ],
   "themes": [
     {
-      "name": "[Negative] Unresponsive Customer Support & Multiple Technical Issues",
+      "name": "[Critical] App Inefficiency & Losses",
       "rank": 1,
       "quotes": [
         {
-          "text": "Every day call from different number and said ur broking company send ur profile. Can u buy our trading tips? Why Groww sell our data, name and mobile num to such trading tip company?",
-          "source": "play_store",
-          "rating": 3.0
-        },
-        {
-          "text": "Customer service is total waste. For the first time I called customer care, the support executive was not able to resolve the issue or rather I would say was not inclined to listen the query and resolve the issue.",
+          "text": "If Groww cannot execute orders at the correct price and repeatedly hits the wrong target, how are traders supposed to trust the platform for professional trading in Nifty 50 F&O?",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "I have been investing in mutual funds for the last year. A few months ago, I took a loan against my mutual fund through Groww. I borrowed 10k and repaid it within a week, but they charged more than 1.1k.",
+          "text": "I am very disappointed with Groww. The platform charges high fees on almost every transaction, whether the investment amount is small or large.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Who is doing your PR ??? 10-12 apps she has and she is asking for grow spell lolz .... so annoying.",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "Much time technical problem and many order failed from groww ends and loss taken by customer. OFS failed,IPO order failed and some ipo alloted not showing in demat at the time of listing.",
+          "text": "Much time technical problem and many order failed from groww ends and loss taken by customer.",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "Pay Attention to the prices and your money while trading on this Groww App. Multiple Discrepancies, lags while doing Transactions.",
+          "text": "Groww is a scam company. It tells they charges 20rs or 0.1% of trade value, whichever is lower. But they charges more than 83rs in just 2 trade.",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "when we are paying this much brokerage to grow then grow should also be responsible for the trader facilities like kills switch option in option trading which protect their capital and stop over trading but only temporary pause which is not useful I am very much regretting to use this app",
+          "text": "I want to share my personal experience with Groww. I have been trading for a while and despite doing proper analysis before entering trades, I consistently end up in losses.",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "I have used Groww for almost 4 years and traded F&O for 3 years. My concern is that the live P&L often seems delayed when a trade moves in my favor, while losses appear immediately.",
-          "source": "play_store",
-          "rating": 1.0
-        },
-        {
-          "text": "vry vry bad experience.All stocks watching u in Groww app n withdrawal times he not get up. After withdrawal he is sudden up what is this.I watching this many times. do plz do not cheat the people.what is this?????",
+          "text": "Groww is very bad and irritated app because i trade and app is not working properly slowly and hang very big bug not exit very early and much issues now i wil losses make to this app is bug",
           "source": "play_store",
           "rating": 1.0
         }
       ],
-      "description": "Users are experiencing frequent disconnections, failed orders, and unresponsive customer support, leading to financial losses, frustration, and loss of confidence in the platform.",
-      "business_impact": "The high number of users reporting similar issues suggests a significant risk of loss of customer trust, negative word-of-mouth, and potential business decline.",
-      "root_cause_hypothesis": "The root cause of these issues is likely a combination of inadequate infrastructure, inefficient architecture, and insufficient resource allocation.",
-      "action_plan": "\u2022 Improve server infrastructure, optimize platform architecture, allocate more resources, and invest in proactive monitoring and debugging tools\n\u2022 Implement multiple support channels (e.g., phone, chat, email) and empower agents with advanced troubleshooting tools\n\u2022 Introduce automated order resolution mechanisms and escalate critical issues to senior support teams |",
+      "description": "Users consistently report issues with app functionality, such as crashes, incorrect order execution, high brokerage fees, and poor customer support, resulting in financial losses.",
+      "business_impact": "High risk of user churn, damage to brand reputation, and potential financial losses for investors.",
+      "root_cause_hypothesis": "The app's technical infrastructure and customer support may not be able to handle the increased demand for real-time trading and transactions, leading to inefficiencies and financial losses.",
+      "action_plan": "\u2022 Improve the app's technical infrastructure, enhance customer support, and reduce brokerage fees to prevent issues and financial losses. |\n   Conduct thorough testing and quality assurance of new features before releasing them to prevent crashes and errors. |\n   Develop and implement a robust system for resolving customer complaints and issues in a timely and efficient manner.",
       "teams_impacted": [
-        "Support Team",
-        "Engineering Team",
-        "Product Team",
-        "Operations Team"
+        "Android Eng",
+        "Core Product",
+        "Customer Support"
       ],
-      "mentions_count": 84,
+      "mentions_count": 102,
       "rating_distribution": {
-        "1": 67,
-        "2": 6,
-        "3": 4,
+        "1": 78,
+        "2": 10,
+        "3": 6,
         "4": 3,
-        "5": 4
+        "5": 5
       },
-      "average_rating": 1.46,
-      "confidence_score": 0.79,
+      "average_rating": 1.5,
+      "confidence_score": 0.8,
       "confidence_components": {
-        "volume": 0.64,
+        "volume": 0.67,
         "quote_validation": 1.0
       },
-      "priority_score": 45,
-      "theme_id": "unresponsive_customer_support_multiple_technical_issues",
+      "priority_score": 47,
+      "theme_id": "app_inefficiency_losses",
       "trend": {
         "status": "emerging",
         "mentions_wow_pct": 100.0,
-        "priority_wow_delta": 45,
+        "priority_wow_delta": 47,
         "rating_wow_delta": 0.0,
         "first_seen": "2026-W24",
         "age_weeks": 0
       },
-      "evidence_score": 1.0,
+      "evidence_score": 0.875,
       "summary_validation": "Supported"
     },
     {
-      "name": "[Negative] App Manipulates Prices for Profit",
+      "name": "[Negative] App Freezes and Crashes",
       "rank": 2,
       "quotes": [
         {
-          "text": "frauds deliberately manipulating graphs so user can book at wrong prices",
+          "text": "app.is hang so much and after 3:30 app run smooth can developer explain about this",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "Not good for customers , good for manipulation with hni",
+          "text": "I have some issues in... exit my trade ..I can't exit it...so please ensure the bug",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "this adv kills me. foolish adv, repeats many times and when ever the cell phone is opened.",
+          "text": "lagging during Indraday trade many times",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "scammer this is a totally scam app I bought a call of 71700 Sensex for Rs 183 and placed a stop loss of 170 and touched the graph at 172 and my SL was also triggered.",
+          "text": "when ever I sell showing different value it's being 3 time in a single day.. I got losses due to it",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "Extra charges, why T+1 share immediately show in demat holding and allowed as normal delivery sell with auto converting to intraday?",
+          "text": "too much hanging problem during the trade.its really pathetic. i have lost many time thousands of rupees",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "App crashed. Error:Failed to load data. Unable to see or do anything just before market close.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "server down. failed to trade today for 1 hour. failed to add money",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "again today I am Unable to buy or sell share ,and I have loss ammount",
           "source": "play_store",
           "rating": 1.0
         }
       ],
-      "description": "Users reported that the app manipulates graphs and entry points to favor profits over user needs, leading to financial losses and frustration.",
-      "business_impact": "Financial loss for users due to unauthorized price manipulation, damage to user trust in the app.",
-      "root_cause_hypothesis": "Insufficient checks and balances in the app's pricing and order processing systems lead to manipulation.",
-      "action_plan": "\u2022 Improve price calculation algorithms to ensure transparency and correctness\n\u2022 Implement robust checks to prevent unauthorized price manipulation\n\u2022 Educate users about potential risks and consequences.",
+      "description": "Users experience freezing and crashing issues during trading, making it difficult or impossible to place orders, exit trades, or view real-time data.",
+      "business_impact": "Users may experience significant financial losses due to delayed or cancelled trades, as well as frustration and potential long-term damage to the app's reputation.",
+      "root_cause_hypothesis": "Insufficient testing and validation of new features, poor scalability of the app's infrastructure, or inadequate handling of edge cases may be contributing to these freezing and crashing issues.",
+      "action_plan": "\u2022 Investigate and fix the root causes of the freezing and crashing issues, implement robust error handling and recovery mechanisms, and prioritize improvements to the app's scalability and performance.",
       "teams_impacted": [
-        "Technical Engineering",
-        "Product Management",
-        "Risk Management"
+        "Android Eng",
+        "Core Product",
+        "Backend Dev"
       ],
       "mentions_count": 39,
       "rating_distribution": {
-        "1": 37,
-        "2": 1,
-        "3": 0,
-        "4": 1,
-        "5": 0
+        "1": 30,
+        "2": 3,
+        "3": 2,
+        "4": 2,
+        "5": 2
       },
-      "average_rating": 1.1,
+      "average_rating": 1.54,
       "confidence_score": 0.72,
       "confidence_components": {
         "volume": 0.53,
         "quote_validation": 1.0
       },
-      "priority_score": 37,
-      "theme_id": "app_manipulates_prices_for_profit",
+      "priority_score": 33,
+      "theme_id": "trading_issues_app_crashes_and_poor_experience",
       "trend": {
-        "status": "emerging",
-        "mentions_wow_pct": 100.0,
-        "priority_wow_delta": 37,
-        "rating_wow_delta": 0.0,
-        "first_seen": "2026-W24",
-        "age_weeks": 0
+        "status": "stable",
+        "mentions_wow_pct": -51.2,
+        "priority_wow_delta": -11,
+        "rating_wow_delta": 0.1,
+        "first_seen": "2026-W23",
+        "age_weeks": 1
       },
       "evidence_score": 1.0,
       "summary_validation": "Supported"
     },
     {
-      "name": "[Negative] High Brokerage Charges",
+      "name": "[Negative] Inconsistent and Cluttered Interface",
       "rank": 3,
       "quotes": [
         {
-          "text": "brokerage charge are high..",
+          "text": "New view of the upper bar showing the index is not pleasant, the earlier one was better.",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "After lastest index is showing not user friendly.",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "they charge 50+ ruppe of amount ",
+          "text": "very weird UI of new update not able see clearly the Nifty & sensex in one go always need to click to see % , previous one more better to get in one go, please go back to previous one , ASAP else need to switch to another app.",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "very High brokerage",
+          "text": "bring back previous nifty50 UI.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "the old version of this app is good before this last updated. window for nifty and sensex or all indian market make too small. the old one is very good . you are requested to change in graphics to maximize the new little window reflecting market",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "I don't like the current way of showing income and profit of companies , please update back to the previous design.",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "they said brokerage is maximum 20 but it is charging around 50",
+          "text": "Earlier, the UI was much simpler and more user-friendly. It allowed users to track market movements in both points and percentage simultaneously, making it easy to understand performance at a glance. The recent redesign has worsened the experience.",
           "source": "play_store",
           "rating": 1.0
+        },
+        {
+          "text": "the new app design is really a downgrade from previous one. when I open app I don't just want to see numbers about current market trend I want to see it by percentage as well. I want to see by how many percentage the market is up or down. please bring that back please...",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Recent UI design for indices is so bad. it feels like it's non existent. Please make it bigger so that we can quickly overlook how the market is performing for the day.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "font size is too small can I increase font size in groww app?",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "After the latest update, the commodities section has become very confusing. Prices are now shown in percentage instead of actual figures, which makes it difficult to understand real values at a glance.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The new features are third class The old features were great to know all the charts at a single time after seeing the new feature I really want to uninstall the app",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "The old UX and UI was clean simple and better! New UI has accessibility challenges and needs additional steps to get critical information like %High/Low of Sensex.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "in my mobile I can't see nifty 50 in top. the box was cut . fix ui problem",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "the previous index icon was correct",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "please increase the font size of index prices as it was prior to update of the app",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "big in sclaper mode, not getting option to change index. please fix it",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "Please bring the old update. of the dashboard screen. Indixes like nifty sensex should show in the square card.",
+          "source": "play_store",
+          "rating": 3.0
         }
       ],
-      "description": "Users are expressing frustration and concern about the high brokerage charges on the app, leading to a negative experience and a potential loss of trust. The charges are perceived as excessive compared to other apps, and users are requesting a reduction or a more transparent fee structure.",
-      "business_impact": "High customer churn risk due to perceived overcharging and potential loss of revenue as users may switch to competitors.",
-      "root_cause_hypothesis": "The root cause is likely a misalignment between the app's pricing strategy and user expectations, combined with a lack of transparency and communication around fees.",
-      "action_plan": "\u2022 Analyze user feedback to understand the reasons behind the high perceived costs\n\u2022 Identify competitors' pricing strategies and adjust accordingly\n\u2022 Implement a more transparent fee structure, with clear explanations and comparisons\n\u2022 Offer incentives for long-term users or loyalty programs\n\u2022 Regularly review and adjust the pricing strategy to ensure alignment with user expectations and value perception.",
+      "description": "Users are experiencing frustration with the new interface of the app, citing difficulties with navigation, unclear presentation of information, and cluttered design. They feel that the previous interface was better and are requesting changes to make the current version more user-friendly and intuitive.",
+      "business_impact": "High churn risk due to user dissatisfaction with the app's new features and design, potentially leading to loss of subscribers and revenue.",
+      "root_cause_hypothesis": "The new design features and layout are causing confusion and frustration among users, leading to a decrease in user engagement and satisfaction.",
+      "action_plan": "\u2022 Conduct user research to identify specific pain points and areas of improvement\n\u2022 Revise the design to align with user expectations and preferences\n\u2022 Implement clear and concise navigation\n\u2022 Provide users with options for customizing the interface to suit their needs.",
       "teams_impacted": [
-        "Product Management",
-        "Finance",
-        "Customer Support",
-        "Marketing"
+        "Android Eng",
+        "UX Design",
+        "Core Product"
       ],
-      "mentions_count": 75,
+      "mentions_count": 68,
       "rating_distribution": {
-        "1": 32,
-        "2": 13,
-        "3": 7,
-        "4": 7,
-        "5": 16
+        "1": 33,
+        "2": 4,
+        "3": 8,
+        "4": 15,
+        "5": 8
       },
-      "average_rating": 2.49,
-      "confidence_score": 0.78,
+      "average_rating": 2.43,
+      "confidence_score": 0.77,
       "confidence_components": {
-        "volume": 0.63,
+        "volume": 0.61,
         "quote_validation": 1.0
       },
-      "priority_score": 31,
-      "theme_id": "high_brokerage_charges",
+      "priority_score": 30,
+      "theme_id": "inconsistent_and_cluttered_interface",
       "trend": {
         "status": "emerging",
         "mentions_wow_pct": 100.0,
-        "priority_wow_delta": 31,
+        "priority_wow_delta": 30,
         "rating_wow_delta": 0.0,
         "first_seen": "2026-W24",
         "age_weeks": 0
       },
-      "evidence_score": 0.8,
+      "evidence_score": 0.9473684210526315,
       "summary_validation": "Supported"
     }
   ],
   "counts": {
-    "reviews": 5036,
+    "reviews": 5529,
     "unauthentic_quotes_dropped": 1,
     "irrelevant_quotes_dropped": 0,
-    "filtered_short": 3034,
-    "filtered_short_positive": 2880,
-    "filtered_short_negative": 90,
+    "filtered_short": 3037,
+    "filtered_short_positive": 2882,
+    "filtered_short_negative": 91,
     "filtered_short_neutral": 64
   },
   "source_counts": {
-    "app_store": 0,
-    "play_store": 8273
+    "app_store": 500,
+    "play_store": 8271
   },
   "rating_distribution": {
-    "1": 1010,
-    "2": 137,
-    "3": 161,
-    "4": 417,
-    "5": 3311
+    "1": 1021,
+    "2": 143,
+    "3": 168,
+    "4": 437,
+    "5": 3760
   },
-  "average_rating": 3.9694201747418587,
+  "average_rating": 4.043950081389039,
   "top_escalations": [],
   "top_improvements": []
 }

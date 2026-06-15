@@ -1,5 +1,14 @@
 [
   {
+    "iso_week": "2026-W23",
+    "name": "[Negative] Poor Customer Service",
+    "description": "Multiple users reported issues with unresponsive or ineffective customer support, including long wait times, lack of help, and inadequate problem resolution.",
+    "mentions_count": 37,
+    "priority_score": 34,
+    "average_rating": 1.38,
+    "confidence_score": 0.72
+  },
+  {
     "iso_week": "2026-W24",
     "name": "[Negative] Unresponsive Customer Support & Multiple Technical Issues",
     "description": "Users are experiencing frequent disconnections, failed orders, and unresponsive customer support, leading to financial losses, frustration, and loss of confidence in the platform.",

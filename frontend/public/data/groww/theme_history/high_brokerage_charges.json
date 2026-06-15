@@ -10,11 +10,11 @@
   },
   {
     "iso_week": "2026-W25",
-    "name": "[Negative] High Brokerage Charges",
-    "description": "Users frequently express dissatisfaction with the high brokerage charges on the platform, which is perceived as a major obstacle for traders.",
-    "mentions_count": 133,
-    "priority_score": 35,
-    "average_rating": 2.61,
-    "confidence_score": 0.83
+    "name": "[Negative] Excessive Brokerage Costs",
+    "description": "Users are criticizing Groww for charging high brokerage fees, which they feel are excessively high and eat into their profits.",
+    "mentions_count": 149,
+    "priority_score": 43,
+    "average_rating": 2.18,
+    "confidence_score": 0.84
   }
 ]
