@@ -1,0 +1,23 @@
+[project]
+name = "indmoney-reviewer"
+version = "0.1.0"
+description = "MCP Server for INDMoney Weekly Product Review Pulse"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.0.0",
+    "google-play-scraper>=1.2.4",
+    "app-store-scraper>=0.3.5",
+    "requests>=2.31.0",
+    "google-genai>=0.2.0",
+    "python-dotenv>=1.0.1",
+    "pandas>=2.0.0",
+]
+
+[project.scripts]
+indmoney-reviewer = "src.server:main"
+
+[tool.pyright]
+extraPaths = ["."]
+venvPath = "."
+venv = "venv"

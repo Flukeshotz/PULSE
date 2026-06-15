@@ -1,0 +1,99 @@
+{
+  "product": "INDMoney",
+  "iso_week": "2026-W23",
+  "period_label": "Last 8 weeks",
+  "generated_at": "2026-06-15T10:42:05.561537",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Poor Trading Execution and High Risk of Financial Loss",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "For a financial trading application, execution speed and price accuracy are the most basic expectations.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Extremely poor and unacceptable trading experience with INDMoney.",
+          "source": "app_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users experience delayed order execution, huge differences in shown and executed prices, lagging charts, and unreliable platform performance, resulting in high risk of financial loss and poor trading experience.",
+      "business_impact": "Potential financial losses, damage to the company's reputation, and a high risk of user churn.",
+      "root_cause_hypothesis": "Inadequate system design, inefficient algorithmic execution, and lack of sufficient testing for extreme market scenarios.",
+      "action_plan": "\u2022 Review and optimize the trading execution engine, improve order matching algorithm, increase testing for edge cases, and provide more transparent information to users about their trades.",
+      "teams_impacted": [
+        "Trading Engineering",
+        "Product Management",
+        "Quality Assurance"
+      ]
+    },
+    {
+      "name": "[Negative] App Performance Issues",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "My basket is also clear and not preserved for one session.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Bugs This update totally waste. We are facing lots of problem, please fix this big bugs",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "horrible experience after the last update.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "unable to install app after doing all options",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "very slow app with poor internet buffering",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are experiencing frequent app crashes/hangs, poor UI responsiveness, and issues with screen navigation. Some users report that the app is no longer showing important details such as STT charges, transaction history, and premium properly.",
+      "business_impact": "App crashes/hangs lead to significant loss of productivity, potential loss of revenue, and damage to brand reputation.",
+      "root_cause_hypothesis": "Poor quality control during the software development process, inadequate testing, or rushed deployment may have contributed to the issues.",
+      "action_plan": "\u2022 Conduct thorough testing and quality assurance, refactor the code to improve performance, and prioritize stability and usability fixes through continuous delivery.",
+      "teams_impacted": [
+        "Android Eng, UX Design, Core Product, Testing"
+      ]
+    }
+  ],
+  "counts": {
+    "reviews": 565,
+    "dropped_quotes": 1,
+    "filtered_short": 183,
+    "filtered_short_positive": 168,
+    "filtered_short_negative": 8,
+    "filtered_short_neutral": 7
+  },
+  "source_counts": {
+    "app_store": 102,
+    "play_store": 655
+  },
+  "rating_distribution": {
+    "1": 145,
+    "2": 36,
+    "3": 37,
+    "4": 75,
+    "5": 272
+  },
+  "average_rating": 3.51858407079646
+}

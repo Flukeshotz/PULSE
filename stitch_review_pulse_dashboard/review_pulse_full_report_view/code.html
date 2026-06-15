@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Overview - Review Pulse</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config from Design System -->
+<script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+                "surface-variant": "#dce2f3",
+                "secondary": "#006591",
+                "primary-container": "#6063ee",
+                "on-secondary-fixed": "#001e2f",
+                "on-background": "#151c27",
+                "inverse-primary": "#c0c1ff",
+                "background": "#f9f9ff",
+                "error": "#ba1a1a",
+                "tertiary": "#006b2d",
+                "on-secondary": "#ffffff",
+                "primary": "#4648d4",
+                "primary-fixed-dim": "#c0c1ff",
+                "on-surface": "#151c27",
+                "error-container": "#ffdad6",
+                "surface-container-high": "#e2e8f8",
+                "on-tertiary-fixed": "#002109",
+                "primary-fixed": "#e1e0ff",
+                "tertiary-fixed": "#6bff8f",
+                "surface-bright": "#f9f9ff",
+                "on-secondary-container": "#004666",
+                "surface-container-highest": "#dce2f3",
+                "tertiary-fixed-dim": "#4ae176",
+                "on-surface-variant": "#464554",
+                "on-primary-fixed": "#07006c",
+                "on-error-container": "#93000a",
+                "on-tertiary": "#ffffff",
+                "surface-container-low": "#f0f3ff",
+                "inverse-on-surface": "#ebf1ff",
+                "secondary-fixed-dim": "#89ceff",
+                "secondary-fixed": "#c9e6ff",
+                "on-primary-container": "#fffbff",
+                "outline": "#767586",
+                "outline-variant": "#c7c4d7",
+                "on-tertiary-fixed-variant": "#005321",
+                "inverse-surface": "#2a313d",
+                "on-secondary-fixed-variant": "#004c6e",
+                "tertiary-container": "#00873b",
+                "on-primary": "#ffffff",
+                "secondary-container": "#39b8fd",
+                "on-primary-fixed-variant": "#2f2ebe",
+                "surface-container": "#e7eefe",
+                "surface-dim": "#d3daea",
+                "on-tertiary-container": "#f7fff3",
+                "on-error": "#ffffff",
+                "surface": "#f9f9ff",
+                "surface-tint": "#494bd6",
+                "surface-container-lowest": "#ffffff"
+        },
+        "borderRadius": {
+                "DEFAULT": "0.25rem",
+                "lg": "0.5rem",
+                "xl": "0.75rem",
+                "full": "9999px"
+        },
+        "spacing": {
+                "gutter": "16px",
+                "base": "4px",
+                "xs": "4px",
+                "md": "16px",
+                "lg": "24px",
+                "container-margin": "24px",
+                "sm": "8px",
+                "xl": "32px"
+        },
+        "fontFamily": {
+                "headline-xl": [
+                        "Inter"
+                ],
+                "body-sm": [
+                        "Inter"
+                ],
+                "body-base": [
+                        "Inter"
+                ],
+                "label-xs": [
+                        "Inter"
+                ],
+                "display-3xl": [
+                        "Inter"
+                ],
+                "headline-2xl": [
+                        "Inter"
+                ],
+                "title-lg": [
+                        "Inter"
+                ]
+        },
+        "fontSize": {
+                "headline-xl": [
+                        "20px",
+                        {
+                                "lineHeight": "28px",
+                                "letterSpacing": "-0.01em",
+                                "fontWeight": "600"
+                        }
+                ],
+                "body-sm": [
+                        "14px",
+                        {
+                                "lineHeight": "20px",
+                                "letterSpacing": "0",
+                                "fontWeight": "400"
+                        }
+                ],
+                "body-base": [
+                        "16px",
+                        {
+                                "lineHeight": "24px",
+                                "letterSpacing": "0",
+                                "fontWeight": "400"
+                        }
+                ],
+                "label-xs": [
+                        "12px",
+                        {
+                                "lineHeight": "16px",
+                                "letterSpacing": "0.02em",
+                                "fontWeight": "500"
+                        }
+                ],
+                "display-3xl": [
+                        "30px",
+                        {
+                                "lineHeight": "38px",
+                                "letterSpacing": "-0.01em",
+                                "fontWeight": "700"
+                        }
+                ],
+                "headline-2xl": [
+                        "24px",
+                        {
+                                "lineHeight": "32px",
+                                "letterSpacing": "-0.01em",
+                                "fontWeight": "600"
+                        }
+                ],
+                "title-lg": [
+                        "18px",
+                        {
+                                "lineHeight": "26px",
+                                "letterSpacing": "-0.01em",
+                                "fontWeight": "600"
+                        }
+                ]
+        }
+},
+    },
+  }
+</script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: theme('colors.background');
+            color: theme('colors.on-background');
+        }
+        
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        /* Custom Scrollbar for Carousel */
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* Staggered Fade Up Animation */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-up {
+            opacity: 0;
+            animation: fadeUp 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+        }
+
+        .delay-100 { animation-delay: 100ms; }
+        .delay-200 { animation-delay: 200ms; }
+        .delay-300 { animation-delay: 300ms; }
+        
+        /* Card Hover Lift */
+        .card-lift {
+            transition: transform 150ms ease, box-shadow 150ms ease;
+        }
+        .card-lift:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        
+        /* Donut Chart CSS Approximation */
+        .donut-segment {
+            transition: stroke-width 0.2s ease;
+        }
+        .donut-segment:hover {
+            stroke-width: 30;
+            cursor: pointer;
+        }
+
+        /* Crossfade transition */
+        #tab-content {
+            transition: opacity 200ms ease-in-out;
+        }
+        .fade-out {
+            opacity: 0;
+        }
+    </style>
+<style>@media print { nav, header, .no-print, button { display: none !important; } main { width: 100% !important; max-width: none !important; padding: 0 !important; margin: 0 !important; } .card-lift { box-shadow: none !important; transform: none !important; border: 1px solid #eee !important; } body { background: white !important; color: black !important; } blockquote { break-inside: avoid; } } .report-view { animation: fadeIn 200ms ease-in-out; } @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }</style></head>
+<body class="min-h-screen flex flex-col bg-surface-bright">
+<!-- TopNavBar & Tab Navigation -->
+<div class="bg-surface dark:bg-surface-dim shadow-sm sticky top-0 z-50 flex flex-col w-full">
+<header class="flex justify-between items-center w-full max-w-[1200px] mx-auto px-container-margin py-md">
+<div class="flex items-center">
+<span class="font-headline-2xl text-headline-2xl font-bold text-primary dark:text-inverse-primary">Review Pulse</span>
+</div>
+<!-- Context Selectors (Center) -->
+<div class="flex gap-sm items-center justify-center absolute left-1/2 -translate-x-1/2">
+<button class="flex items-center gap-xs px-sm py-xs rounded hover:bg-surface-container-high transition-colors text-on-surface-variant font-medium">
+<span class="material-symbols-outlined text-[18px]">account_balance_wallet</span>
+<span class="font-body-sm text-body-sm">INDmoney</span>
+<span class="material-symbols-outlined text-[18px]">expand_more</span>
+</button>
+<div class="h-4 w-px bg-outline-variant mx-xs"></div>
+<button class="flex items-center gap-xs px-sm py-xs rounded hover:bg-surface-container-high transition-colors text-on-surface-variant font-medium">
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+<span class="font-body-sm text-body-sm">2026-W25</span>
+<span class="material-symbols-outlined text-[18px]">expand_more</span>
+</button>
+</div>
+<div class="flex items-center gap-sm">
+<button class="p-xs rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors cursor-pointer active:scale-95">
+<span class="material-symbols-outlined">dark_mode</span>
+</button>
+</div>
+</header>
+<!-- Tab Navigation -->
+<nav class="flex items-center w-full max-w-[1200px] mx-auto px-container-margin border-t border-outline-variant/30 overflow-x-auto hide-scrollbar"><button class="px-md py-sm border-b-2 border-transparent text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-colors font-title-lg text-title-lg whitespace-nowrap" data-tab="overview">Overview</button><button class="px-md py-sm border-b-2 border-transparent text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-colors font-title-lg text-title-lg whitespace-nowrap" data-tab="themes">Themes</button><button class="px-md py-sm border-b-2 border-transparent text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-colors font-title-lg text-title-lg whitespace-nowrap" data-tab="trends">Trends</button><button class="px-md py-sm border-b-2 border-primary text-primary font-title-lg text-title-lg whitespace-nowrap" data-tab="report">Report</button></nav>
+</div>
+<div class="flex flex-1 overflow-hidden w-full max-w-[1200px] mx-auto">
+<!-- Main Content Canvas -->
+<main class="flex-1 overflow-y-auto px-container-margin py-lg flex flex-col gap-lg" id="tab-content"><div class="report-view max-w-[720px] mx-auto flex flex-col gap-xl py-xl leading-[1.7]"><div class="flex justify-between items-end border-b border-outline-variant/30 pb-md mb-md"><div class="flex flex-col"> <span class="text-label-xs uppercase tracking-wider text-primary font-bold">Weekly Insight Report</span><h1 class="text-display-3xl font-bold text-on-surface">Review Pulse: INDmoney</h1><p class="text-body-sm text-on-surface-variant">Week 25 (June 15 – June 21, 2026)</p></div><div class="flex gap-sm no-print"><button class="flex items-center gap-xs px-md py-2 rounded border border-outline-variant hover:bg-surface-container-high transition-colors text-on-surface-variant font-medium text-body-sm"><span class="material-symbols-outlined text-[18px]">description</span> Open in Docs</button><button class="flex items-center gap-xs px-md py-2 rounded bg-primary text-on-primary hover:opacity-90 transition-opacity font-medium text-body-sm" onclick="window.print()"><span class="material-symbols-outlined text-[18px]">print</span> Print PDF</button></div></div><section class="prose"><p class="text-title-lg font-medium text-on-surface mb-md">This week saw a significant 14% uptick in positive sentiment following the Dashboard UI Refresh. While overall ratings stabilized at 4.2, we observed a recurring friction point regarding hidden transaction fees which remains the primary driver of 3-star reviews.</p></section><section class="flex flex-col gap-lg"><div class="flex flex-col gap-sm"><h2 class="text-headline-2xl font-bold text-on-surface">Theme: Hidden Charges &amp; Fees</h2><p class="text-body-base text-on-surface-variant">Users are reporting unexpected costs during the US Stock execution phase, specifically around currency conversion spreads that aren't clearly disclosed in the primary UI flow.</p><div class="bg-surface-container-low p-md rounded-lg border-l-4 border-error"><h4 class="font-bold text-body-sm uppercase text-error mb-xs">Business Impact</h4><p class="text-body-sm">High churn risk for first-time investors; 22% of negative reviews this week cited 'transparency' issues.</p></div><div class="flex flex-col gap-xs"><h4 class="font-bold text-body-sm uppercase text-on-surface-variant">Action Plan</h4><ul class="list-disc ml-md text-body-sm flex flex-col gap-xs"><li>Update the 'Review Order' screen to show a detailed breakdown of conversion fees.</li><li>Add a tooltip explaining the mid-market rate vs. the execution rate.</li><li>Send a push notification to affected users with a fee-waiver voucher for their next trade.</li></ul></div><div class="flex gap-xs mt-xs"><span class="px-2 py-1 bg-secondary-container text-on-secondary-container rounded text-label-xs">#Product</span><span class="px-2 py-1 bg-secondary-container text-on-secondary-container rounded text-label-xs">#Compliance</span></div></div><div class="relative py-lg px-xl bg-surface-container-lowest rounded-xl italic text-title-lg text-on-surface-variant border border-outline-variant/20"><span class="absolute top-2 left-4 text-primary/20 text-6xl font-serif">“</span><p class="relative z-10">I love the app, but I felt cheated when I saw the final amount. The exchange rate was way off from what Google showed, and there was no warning.</p><cite class="not-italic text-label-xs font-bold uppercase mt-md block text-primary">— Verified App Store User</cite></div></section><section class="flex flex-col gap-lg"><div class="flex flex-col gap-sm"><h2 class="text-headline-2xl font-bold text-on-surface">Theme: Dashboard UI Refresh</h2><p class="text-body-base text-on-surface-variant">The new 'Kinetic' design language has been overwhelmingly well-received, with users praising the improved legibility and faster navigation between portfolios.</p><div class="bg-surface-container-low p-md rounded-lg border-l-4 border-tertiary"><h4 class="font-bold text-body-sm uppercase text-tertiary mb-xs">Business Impact</h4><p class="text-body-sm">Average session duration increased by 45 seconds; 12% increase in daily active users (DAU).</p></div><div class="flex flex-col gap-xs"><h4 class="font-bold text-body-sm uppercase text-on-surface-variant">Action Plan</h4><ul class="list-disc ml-md text-body-sm flex flex-col gap-xs"><li>Roll out the dark mode optimization for the new charts.</li><li>Conduct A/B testing on the 'Quick Actions' widget placement.</li></ul></div><div class="flex gap-xs mt-xs"><span class="px-2 py-1 bg-secondary-container text-on-secondary-container rounded text-label-xs">#Design</span><span class="px-2 py-1 bg-secondary-container text-on-secondary-container rounded text-label-xs">#Growth</span></div></div></section></div></main>
+</div>
+<script>
+        // Count-up animation for stats
+        document.addEventListener("DOMContentLoaded", () => {
+            const counters = document.querySelectorAll('.count-up');
+            
+            counters.forEach(counter => {
+                const target = +counter.getAttribute('data-target');
+                const duration = 1500; // ms
+                const steps = 60;
+                const stepTime = Math.abs(Math.floor(duration / steps));
+                let current = 0;
+                
+                // Add ease out curve
+                const easeOutQuad = t => t * (2 - t);
+                
+                const updateCounter = () => {
+                    const progress = current / steps;
+                    const easeProgress = easeOutQuad(progress);
+                    const val = Math.round(target * easeProgress);
+                    
+                    counter.innerText = val;
+                    
+                    if(current < steps) {
+                        current++;
+                        setTimeout(updateCounter, stepTime);
+                    } else {
+                        counter.innerText = target;
+                    }
+                };
+                
+                // Small delay to allow fade-in to start
+                setTimeout(updateCounter, 200);
+            });
+
+            // Carousel scroll logic
+            const carousel = document.getElementById('quote-carousel');
+            const scrollLeftBtn = document.getElementById('scroll-left');
+            const scrollRightBtn = document.getElementById('scroll-right');
+
+            if(carousel && scrollLeftBtn && scrollRightBtn) {
+                const scrollAmount = 400 + 16; // card width + gap
+                
+                scrollLeftBtn.addEventListener('click', () => {
+                    carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+                });
+                
+                scrollRightBtn.addEventListener('click', () => {
+                    carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+                });
+            }
+
+            // Tab Switching Logic
+            const tabs = document.querySelectorAll('nav button');
+            const contentArea = document.getElementById('tab-content');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    // Update active tab styling
+                    tabs.forEach(t => {
+                        t.classList.remove('border-primary', 'text-primary');
+                        t.classList.add('border-transparent', 'text-on-surface-variant');
+                    });
+                    tab.classList.remove('border-transparent', 'text-on-surface-variant');
+                    tab.classList.add('border-primary', 'text-primary');
+
+                    // Crossfade content (mock transition)
+                    contentArea.classList.add('fade-out');
+                    setTimeout(() => {
+                        // Here you would typically swap content based on tab.dataset.tab
+                        // For this demo, we just fade back in.
+                        contentArea.classList.remove('fade-out');
+                    }, 200);
+                });
+            });
+        });
+    </script>
+</body></html>

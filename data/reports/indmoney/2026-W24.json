@@ -1,0 +1,86 @@
+{
+  "product": "INDMoney",
+  "iso_week": "2026-W24",
+  "period_label": "Last 8 weeks",
+  "generated_at": "2026-06-15T10:43:36.915315",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Delayed Transactions and Poor Order Execution",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "even when the market moves in profit direction, the delayed execution and poor order matching reduce or completely destroy the gains.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I request the INDMoney team to seriously investigate their execution engine and compensate users suffering losses due to such poor platform performance.",
+          "source": "app_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are consistently experiencing unacceptably delayed transactions and poor order execution, leading to financial losses and a frustrating trading experience. This is evident in delayed execution of orders, huge price discrepancies, and poor support responses.",
+      "business_impact": "Delayed transactions and poor order execution are likely to result in significant financial losses, increased customer churn, and damage to the company's reputation.",
+      "root_cause_hypothesis": "The root cause of this issue is likely a flawed transaction processing system and inadequate support infrastructure, possibly due to inadequate resources or inefficient processes.",
+      "action_plan": "\u2022 Investigate and optimize the transaction processing system to minimize delays\n\u2022 Hire additional support staff to handle customer inquiries\n\u2022 Implement a more robust and transparent support system to provide timely and accurate resolutions.",
+      "teams_impacted": [
+        "Core Product",
+        "Support Team",
+        "Engineering"
+      ]
+    },
+    {
+      "name": "[Negative] Insufficient Risk Management Features",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "it is essential. For traders, even a small delay or missed execution can make a big difference in outcomes.",
+          "source": "app_store",
+          "rating": 5.0
+        },
+        {
+          "text": "Having both SL and TP in place from the start ensures discipline, protects capital, and removes emotional decision making during volatility.",
+          "source": "app_store",
+          "rating": 5.0
+        }
+      ],
+      "description": "The app is criticized for not having essential risk management features such as Stop Loss (SL) and Take Profit (TP) orders, making it difficult for traders to manage positions and protect their capital.",
+      "business_impact": "The lack of risk management features increases the risk of trader losses, potentially leading to decreased user satisfaction and revenue loss.",
+      "root_cause_hypothesis": "The current risk management features are insufficient for traders, leading to a need for more advanced features",
+      "action_plan": "\u2022 Implement Stop Loss (SL) and Take Profit (TP) orders for traders, allowing them to set both SL and TP orders at the same time\n\u2022 Provide clear, number-based inputs for SL and TP\n\u2022 Communicate the changes to existing users and provide training on the new features",
+      "teams_impacted": [
+        "Core Product",
+        "Risk Management",
+        "UX Design"
+      ]
+    }
+  ],
+  "counts": {
+    "reviews": 580,
+    "dropped_quotes": 2,
+    "filtered_short": 191,
+    "filtered_short_positive": 176,
+    "filtered_short_negative": 8,
+    "filtered_short_neutral": 7
+  },
+  "source_counts": {
+    "app_store": 101,
+    "play_store": 679
+  },
+  "rating_distribution": {
+    "1": 154,
+    "2": 40,
+    "3": 38,
+    "4": 80,
+    "5": 268
+  },
+  "average_rating": 3.462068965517241
+}

@@ -1,0 +1,91 @@
+name: Weekly Pulse
+
+on:
+  schedule:
+    - cron: '0 0 * * 1' # Every Monday at 00:00 UTC (05:30 IST)
+  workflow_dispatch:
+    inputs:
+      product:
+        description: 'Product name (e.g. indmoney, groww) or "all"'
+        required: false
+        default: 'all'
+        type: string
+      week:
+        description: 'Target ISO week (e.g. 2026-W24). Leave empty for current week.'
+        required: false
+        type: string
+
+jobs:
+  run-pulse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Run Pulse Pipeline
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          PRODUCT="${{ github.event.inputs.product || 'all' }}"
+          WEEK_ARG=""
+          
+          if [ -n "${{ github.event.inputs.week }}" ]; then
+            WEEK_ARG="--week ${{ github.event.inputs.week }}"
+          fi
+          
+          if [ "$PRODUCT" = "all" ]; then
+            echo "Running pipeline for ALL products sequentially..."
+            # Extract product names from config (requires yq which is available on ubuntu-latest)
+            PRODUCTS=$(yq e '.products | keys | .[]' config/products.yaml)
+            
+            for p in $PRODUCTS; do
+              echo "-----------------------------------"
+              echo "Starting run for: $p"
+              python pulse.py run --product "$p" $WEEK_ARG || echo "Warning: Run failed for $p, continuing to next..."
+              # Sleep a bit to respect rate limits between full runs
+              sleep 10
+            done
+          else
+            echo "Running pipeline for specific product: $PRODUCT"
+            python pulse.py run --product "$PRODUCT" $WEEK_ARG
+          fi
+          
+      - name: Audit History
+        run: |
+          PRODUCT="${{ github.event.inputs.product || 'all' }}"
+          
+          echo "=== RUN HISTORY AUDIT ==="
+          if [ "$PRODUCT" = "all" ]; then
+            PRODUCTS=$(yq e '.products | keys | .[]' config/products.yaml)
+            for p in $PRODUCTS; do
+              echo "History for $p:"
+              python pulse.py history --product "$p" || true
+              echo ""
+            done
+          else
+            python pulse.py history --product "$PRODUCT" || true
+          fi
+          
+      - name: Upload Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pulse-run-artifacts
+          path: |
+            outbox/
+            data/
+            state.db
+          retention-days: 14

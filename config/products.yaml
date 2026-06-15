@@ -1,0 +1,101 @@
+products:
+  indmoney:
+    display_name: "INDMoney"
+    doc_title: "Weekly Review Pulse — INDMoney"
+    sources:
+      app_store:
+        enabled: true
+        app_id: "1450178837"
+        countries: ["in"]
+      play_store:
+        enabled: true
+        package: "in.indwealth"
+      reddit:
+        enabled: false
+        queries: ["INDMoney"]
+        subreddits: ["IndiaInvestments", "personalfinanceindia", "indmoney"]
+    window_weeks: 8
+    recipients: ["stakeholders@example.com"]
+
+  groww:
+    display_name: "Groww"
+    doc_title: "Weekly Review Pulse — Groww"
+    sources:
+      app_store:
+        enabled: true
+        app_id: "1402598485"
+        countries: ["in"]
+      play_store:
+        enabled: true
+        package: "com.nextbillion.groww"
+      reddit:
+        enabled: true
+        queries: ["Groww"]
+        subreddits: ["IndiaInvestments", "personalfinanceindia", "groww"]
+    window_weeks: 10
+    recipients: ["stakeholders@example.com"]
+
+  powerup_money:
+    display_name: "PowerUp Money"
+    doc_title: "Weekly Review Pulse — PowerUp Money"
+    sources:
+      app_store:
+        enabled: true
+        app_id: "0000000001"
+        countries: ["in"]
+      play_store:
+        enabled: true
+        package: "com.powerup.money"
+      reddit:
+        enabled: true
+        queries: ["PowerUp Money"]
+        subreddits: ["IndiaInvestments", "personalfinanceindia"]
+    window_weeks: 10
+    recipients: ["stakeholders@example.com"]
+
+  wealth_monitor:
+    display_name: "Wealth Monitor"
+    doc_title: "Weekly Review Pulse — Wealth Monitor"
+    sources:
+      app_store:
+        enabled: true
+        app_id: "0000000002"
+        countries: ["in"]
+      play_store:
+        enabled: true
+        package: "com.wealth.monitor"
+      reddit:
+        enabled: true
+        queries: ["Wealth Monitor"]
+        subreddits: ["IndiaInvestments"]
+    window_weeks: 10
+    recipients: ["stakeholders@example.com"]
+
+  kuvera:
+    display_name: "Kuvera"
+    doc_title: "Weekly Review Pulse — Kuvera"
+    sources:
+      app_store:
+        enabled: true
+        app_id: "1336040851"
+        countries: ["in"]
+      play_store:
+        enabled: true
+        package: "com.kuvera.android"
+      reddit:
+        enabled: true
+        queries: ["Kuvera"]
+        subreddits: ["IndiaInvestments", "personalfinanceindia", "kuvera"]
+    window_weeks: 10
+    recipients: ["stakeholders@example.com"]
+
+run:
+  send_email: false
+  max_tokens_per_run: 60000
+  max_cost_usd_per_run: 1.50
+  embedding_model: "models/embedding-001"
+  llm_model: "gemini-1.5-pro"
+  umap_random_state: 42
+  top_themes: 3
+  delivery_target: "real"
+  mcp_server_url: "https://web-production-cdc1c.up.railway.app"

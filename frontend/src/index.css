@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-card: var(--bg-card);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-border-subtle: var(--border-subtle);
+  --color-border-focus: var(--border-focus);
+  
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-tertiary: var(--text-tertiary);
+  
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-hover: var(--accent-hover);
+  
+  --color-negative: var(--negative);
+  --color-negative-soft: var(--negative-soft);
+  --color-positive: var(--positive);
+  --color-positive-soft: var(--positive-soft);
+  --color-neutral-sentiment: var(--neutral-sentiment);
+  --color-neutral-soft: var(--neutral-soft);
+  
+  --color-source-appstore: var(--source-appstore);
+  --color-source-playstore: var(--source-playstore);
+  
+  --color-star-1: var(--star-1);
+  --color-star-2: var(--star-2);
+  --color-star-3: var(--star-3);
+  --color-star-4: var(--star-4);
+  --color-star-5: var(--star-5);
+  
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-full: var(--radius-full);
+}
+
+:root {
+  /* Backgrounds */
+  --bg-primary: #FAFBFC;
+  --bg-card: #FFFFFF;
+  --bg-elevated: #F3F4F6;
+  --border-subtle: #E5E7EB;
+  --border-focus: #6366F1;
+
+  /* Text */
+  --text-primary: #111827;
+  --text-secondary: #6B7280;
+  --text-tertiary: #9CA3AF;
+
+  /* Accent */
+  --accent: #6366F1;
+  --accent-soft: #EEF2FF;
+  --accent-hover: #4F46E5;
+
+  /* Sentiment */
+  --negative: #EF4444;
+  --negative-soft: #FEF2F2;
+  --positive: #10B981;
+  --positive-soft: #ECFDF5;
+  --neutral-sentiment: #F59E0B;
+  --neutral-soft: #FFFBEB;
+
+  /* Sources */
+  --source-appstore: #0EA5E9;
+  --source-playstore: #22C55E;
+
+  /* Rating colors */
+  --star-1: #EF4444;
+  --star-2: #F97316;
+  --star-3: #F59E0B;
+  --star-4: #84CC16;
+  --star-5: #10B981;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-lg: 0 8px 24px rgba(0,0,0,0.08);
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark mode */
+.dark {
+  --bg-primary: #0F1117;
+  --bg-card: #1A1D27;
+  --bg-elevated: #242734;
+  --border-subtle: #2D3040;
+  --text-primary: #F3F4F6;
+  --text-secondary: #9CA3AF;
+  --text-tertiary: #6B7280;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.2);
+  --shadow-md: 0 2px 8px rgba(0,0,0,0.3);
+  --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+  --accent-soft: #1E2135;
+}
+
+* {
+  transition: background-color var(--transition-fast),
+              border-color var(--transition-fast),
+              color var(--transition-fast);
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', -apple-system, system-ui, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

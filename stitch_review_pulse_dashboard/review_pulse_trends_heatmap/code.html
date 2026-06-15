@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Overview - Review Pulse</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config from Design System -->
+<script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+                "surface-variant": "#dce2f3",
+                "secondary": "#006591",
+                "primary-container": "#6063ee",
+                "on-secondary-fixed": "#001e2f",
+                "on-background": "#151c27",
+                "inverse-primary": "#c0c1ff",
+                "background": "#f9f9ff",
+                "error": "#ba1a1a",
+                "tertiary": "#006b2d",
+                "on-secondary": "#ffffff",
+                "primary": "#4648d4",
+                "primary-fixed-dim": "#c0c1ff",
+                "on-surface": "#151c27",
+                "error-container": "#ffdad6",
+                "surface-container-high": "#e2e8f8",
+                "on-tertiary-fixed": "#002109",
+                "primary-fixed": "#e1e0ff",
+                "tertiary-fixed": "#6bff8f",
+                "surface-bright": "#f9f9ff",
+                "on-secondary-container": "#004666",
+                "surface-container-highest": "#dce2f3",
+                "tertiary-fixed-dim": "#4ae176",
+                "on-surface-variant": "#464554",
+                "on-primary-fixed": "#07006c",
+                "on-error-container": "#93000a",
+                "on-tertiary": "#ffffff",
+                "surface-container-low": "#f0f3ff",
+                "inverse-on-surface": "#ebf1ff",
+                "secondary-fixed-dim": "#89ceff",
+                "secondary-fixed": "#c9e6ff",
+                "on-primary-container": "#fffbff",
+                "outline": "#767586",
+                "outline-variant": "#c7c4d7",
+                "on-tertiary-fixed-variant": "#005321",
+                "inverse-surface": "#2a313d",
+                "on-secondary-fixed-variant": "#004c6e",
+                "tertiary-container": "#00873b",
+                "on-primary": "#ffffff",
+                "secondary-container": "#39b8fd",
+                "on-primary-fixed-variant": "#2f2ebe",
+                "surface-container": "#e7eefe",
+                "surface-dim": "#d3daea",
+                "on-tertiary-container": "#f7fff3",
+                "on-error": "#ffffff",
+                "surface": "#f9f9ff",
+                "surface-tint": "#494bd6",
+                "surface-container-lowest": "#ffffff"
+        },
+        "borderRadius": {
+                "DEFAULT": "0.25rem",
+                "lg": "0.5rem",
+                "xl": "0.75rem",
+                "full": "9999px"
+        },
+        "spacing": {
+                "gutter": "16px",
+                "base": "4px",
+                "xs": "4px",
+                "md": "16px",
+                "lg": "24px",
+                "container-margin": "24px",
+                "sm": "8px",
+                "xl": "32px"
+        },
+        "fontFamily": {
+                "headline-xl": [
+                        "Inter"
+                ],
+                "body-sm": [
+                        "Inter"
+                ],
+                "body-base": [
+                        "Inter"
+                ],
+                "label-xs": [
+                        "Inter"
+                ],
+                "display-3xl": [
+                        "Inter"
+                ],
+                "headline-2xl": [
+                        "Inter"
+                ],
+                "title-lg": [
+                        "Inter"
+                ]
+        },
+        "fontSize": {
+                "headline-xl": [
+                        "20px",
+                        {
+                                "lineHeight": "28px",
+                                "letterSpacing": "-0.01em",
+                                "fontWeight": "600"
+                        }
+                ],
+                "body-sm": [
+                        "14px",
+                        {
+                                "lineHeight": "20px",
+                                "letterSpacing": "0",
+                                "fontWeight": "400"
+                        }
+                ],
+                "body-base": [
+                        "16px",
+                        {
+                                "lineHeight": "24px",
+                                "letterSpacing": "0",
+                                "fontWeight": "400"
+                        }
+                ],
+                "label-xs": [
+                        "12px",
+                        {
+                                "lineHeight": "16px",
+                                "letterSpacing": "0.02em",
+                                "fontWeight": "500"
+                        }
+                ],
+                "display-3xl": [
+                        "30px",
+                        {
+                                "lineHeight": "38px",
+                                "letterSpacing": "-0.01em",
+                                "fontWeight": "700"
+                        }
+                ],
+                "headline-2xl": [
+                        "24px",
+                        {
+                                "lineHeight": "32px",
+                                "letterSpacing": "-0.01em",
+                                "fontWeight": "600"
+                        }
+                ],
+                "title-lg": [
+                        "18px",
+                        {
+                                "lineHeight": "26px",
+                                "letterSpacing": "-0.01em",
+                                "fontWeight": "600"
+                        }
+                ]
+        }
+},
+    },
+  }
+</script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: theme('colors.background');
+            color: theme('colors.on-background');
+        }
+        
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        /* Custom Scrollbar for Carousel */
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* Staggered Fade Up Animation */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-up {
+            opacity: 0;
+            animation: fadeUp 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+        }
+
+        .delay-100 { animation-delay: 100ms; }
+        .delay-200 { animation-delay: 200ms; }
+        .delay-300 { animation-delay: 300ms; }
+        
+        /* Card Hover Lift */
+        .card-lift {
+            transition: transform 150ms ease, box-shadow 150ms ease;
+        }
+        .card-lift:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        
+        /* Donut Chart CSS Approximation */
+        .donut-segment {
+            transition: stroke-width 0.2s ease;
+        }
+        .donut-segment:hover {
+            stroke-width: 30;
+            cursor: pointer;
+        }
+
+        /* Crossfade transition */
+        #tab-content {
+            transition: opacity 200ms ease-in-out;
+        }
+        .fade-out {
+            opacity: 0;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col bg-surface-bright">
+<!-- TopNavBar & Tab Navigation -->
+<div class="bg-surface dark:bg-surface-dim shadow-sm sticky top-0 z-50 flex flex-col w-full">
+<header class="flex justify-between items-center w-full max-w-[1200px] mx-auto px-container-margin py-md">
+<div class="flex items-center">
+<span class="font-headline-2xl text-headline-2xl font-bold text-primary dark:text-inverse-primary">Review Pulse</span>
+</div>
+<!-- Context Selectors (Center) -->
+<div class="flex gap-sm items-center justify-center absolute left-1/2 -translate-x-1/2">
+<button class="flex items-center gap-xs px-sm py-xs rounded hover:bg-surface-container-high transition-colors text-on-surface-variant font-medium">
+<span class="material-symbols-outlined text-[18px]">account_balance_wallet</span>
+<span class="font-body-sm text-body-sm">INDmoney</span>
+<span class="material-symbols-outlined text-[18px]">expand_more</span>
+</button>
+<div class="h-4 w-px bg-outline-variant mx-xs"></div>
+<button class="flex items-center gap-xs px-sm py-xs rounded hover:bg-surface-container-high transition-colors text-on-surface-variant font-medium">
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+<span class="font-body-sm text-body-sm">2026-W25</span>
+<span class="material-symbols-outlined text-[18px]">expand_more</span>
+</button>
+</div>
+<div class="flex items-center gap-sm">
+<button class="p-xs rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors cursor-pointer active:scale-95">
+<span class="material-symbols-outlined">dark_mode</span>
+</button>
+</div>
+</header>
+<!-- Tab Navigation -->
+<nav class="flex items-center w-full max-w-[1200px] mx-auto px-container-margin border-t border-outline-variant/30 overflow-x-auto hide-scrollbar">
+<button class="px-md py-sm border-b-2 border-transparent text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-colors font-title-lg text-title-lg whitespace-nowrap" data-tab="overview">
+            Overview
+        </button>
+<button class="px-md py-sm border-b-2 font-title-lg text-title-lg whitespace-nowrap border-transparent" data-tab="themes">
+            Themes
+        </button>
+<button class="px-md py-sm border-b-2 border-transparent text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-colors font-title-lg text-title-lg whitespace-nowrap border-primary text-primary" data-tab="trends">
+            Trends
+        </button>
+<button class="px-md py-sm border-b-2 border-transparent text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-colors font-title-lg text-title-lg whitespace-nowrap" data-tab="report">
+            Report
+        </button>
+</nav>
+</div>
+<div class="flex flex-1 overflow-hidden w-full max-w-[1200px] mx-auto">
+<!-- Main Content Canvas -->
+<main class="flex-1 overflow-y-auto px-container-margin py-lg flex flex-col gap-lg" id="tab-content"><div class="grid grid-cols-1 lg:grid-cols-2 gap-lg">
+<!-- Section 1: Review Volume -->
+<div class="bg-surface-container-lowest p-lg rounded-xl border border-outline-variant/30 card-lift flex flex-col gap-md">
+<div class="flex justify-between items-center">
+<h3 class="font-title-lg text-title-lg text-on-surface">Review Volume</h3>
+<div class="flex gap-sm">
+<div class="flex items-center gap-xs"><span class="w-2 h-2 rounded-full bg-secondary-container"></span><span class="text-label-xs text-on-surface-variant">App Store</span></div>
+<div class="flex items-center gap-xs"><span class="w-2 h-2 rounded-full bg-tertiary"></span><span class="text-label-xs text-on-surface-variant">Play Store</span></div>
+</div>
+</div>
+<div class="h-64 w-full relative flex items-end gap-2 px-2">
+<!-- Mock Area Chart Visualization -->
+<svg class="w-full h-full" viewbox="0 0 400 200">
+<defs>
+<lineargradient id="gradApp" x1="0" x2="0" y1="0" y2="1"><stop offset="5%" stop-color="#39b8fd" stop-opacity="0.3"></stop><stop offset="95%" stop-color="#39b8fd" stop-opacity="0"></stop></lineargradient>
+<lineargradient id="gradPlay" x1="0" x2="0" y1="0" y2="1"><stop offset="5%" stop-color="#006b2d" stop-opacity="0.3"></stop><stop offset="95%" stop-color="#006b2d" stop-opacity="0"></stop></lineargradient>
+</defs>
+<path d="M0,180 Q50,140 100,160 T200,120 T300,150 T400,100 L400,200 L0,200 Z" fill="url(#gradApp)" fill-rule="evenodd" stroke="#39b8fd" stroke-width="2"></path>
+<path d="M0,190 Q50,170 100,185 T200,160 T300,175 T400,140 L400,200 L0,200 Z" fill="url(#gradPlay)" fill-rule="evenodd" stroke="#006b2d" stroke-width="2"></path>
+</svg>
+<div class="absolute bottom-0 left-0 w-full flex justify-between px-2 text-label-xs text-on-surface-variant">
+<span>W21</span><span>W22</span><span>W23</span><span>W24</span><span>W25</span>
+</div>
+</div>
+</div>
+<!-- Section 2: Rating Trend -->
+<div class="bg-surface-container-lowest p-lg rounded-xl border border-outline-variant/30 card-lift flex flex-col gap-md">
+<h3 class="font-title-lg text-title-lg text-on-surface">Rating Trend</h3>
+<div class="h-64 w-full relative">
+<div class="absolute inset-0 flex flex-col justify-between text-label-xs text-on-surface-variant py-2">
+<span>5.0</span><span>4.0</span><span class="border-t border-outline-variant/20 w-full">3.0</span><span>2.0</span><span>1.0</span>
+</div>
+<svg class="w-full h-full pt-4 pb-2 px-8" viewbox="0 0 400 200">
+<polyline fill="none" points="0,120 100,80 200,100 300,40 400,60" stroke="#4648d4" stroke-width="3"></polyline>
+<circle cx="0" cy="120" fill="#4648d4" r="4"></circle><circle cx="100" cy="80" fill="#4648d4" r="4"></circle><circle cx="200" cy="100" fill="#4648d4" r="4"></circle><circle cx="300" cy="40" fill="#4648d4" r="4"></circle><circle cx="400" cy="60" fill="#4648d4" r="4"></circle>
+</svg>
+</div>
+</div>
+<!-- Section 3: Theme Persistence Heatmap -->
+<div class="lg:col-span-2 bg-surface-container-lowest p-lg rounded-xl border border-outline-variant/30 card-lift flex flex-col gap-lg">
+<div class="flex flex-col gap-xs">
+<h3 class="font-title-lg text-title-lg text-on-surface">Theme Persistence Heatmap</h3>
+<p class="text-body-sm text-on-surface-variant">Tracking recurring themes across the last 5 weeks.</p>
+</div>
+<div class="overflow-x-auto">
+<div class="min-w-[800px]">
+<!-- Heatmap Header -->
+<div class="grid grid-cols-[240px_repeat(5,1fr)] gap-md mb-md">
+<div></div>
+<div class="text-center font-label-xs text-on-surface-variant uppercase">W21</div>
+<div class="text-center font-label-xs text-on-surface-variant uppercase">W22</div>
+<div class="text-center font-label-xs text-on-surface-variant uppercase">W23</div>
+<div class="text-center font-label-xs text-on-surface-variant uppercase">W24</div>
+<div class="text-center font-label-xs text-on-surface-variant uppercase">W25</div>
+</div>
+<!-- Heatmap Rows -->
+<div class="flex flex-col gap-sm">
+<!-- Row 1 -->
+<div class="grid grid-cols-[240px_repeat(5,1fr)] gap-md items-center group">
+<span class="text-body-sm text-on-surface truncate font-medium">Hidden Charges &amp; Fees</span>
+<div class="flex justify-center"><span class="material-symbols-outlined text-primary/40 cursor-help" title="Rank #4 • 12 quotes">radio_button_checked</span></div>
+<div class="flex justify-center"><span class="material-symbols-outlined text-primary/60 cursor-help" title="Rank #3 • 18 quotes">radio_button_checked</span></div>
+<div class="flex justify-center"><span class="material-symbols-outlined text-primary/80 cursor-help" title="Rank #2 • 25 quotes">radio_button_checked</span></div>
+<div class="flex justify-center"><span class="material-symbols-outlined text-primary cursor-help" title="Rank #1 • 42 quotes">radio_button_checked</span></div>
+<div class="flex justify-center"><span class="material-symbols-outlined text-primary cursor-help" title="Rank #1 • 38 quotes">radio_button_checked</span></div>
+</div>
+<!-- Row 2 -->
+<div class="grid grid-cols-[240px_repeat(5,1fr)] gap-md items-center group">
+<span class="text-body-sm text-on-surface truncate font-medium">US Stock Execution</span>
+<div class="flex justify-center"><span class="material-symbols-outlined text-outline-variant/30">radio_button_unchecked</span></div>
+<div class="flex justify-center"><span class="material-symbols-outlined text-primary/40 cursor-help" title="Rank #5 • 8 quotes">radio_button_checked</span></div>
+<div class="flex justify-center"><span class="material-symbols-outlined text-primary/60 cursor-help" title="Rank #3 • 15 quotes">radio_button_checked</span></div>
+<div class="flex justify-center"><span class="material-symbols-outlined text-primary/80 cursor-help" title="Rank #2 • 22 quotes">radio_button_checked</span></div>
+<div class="flex justify-center"><span class="material-symbols-outlined text-primary/80 cursor-help" title="Rank #2 • 20 quotes">radio_button_checked</span></div>
+</div>
+<!-- Row 3 -->
+<div class="grid grid-cols-[240px_repeat(5,1fr)] gap-md items-center group">
+<span class="text-body-sm text-on-surface truncate font-medium">Dashboard UI Refresh</span>
+<div class="flex justify-center"><span class="material-symbols-outlined text-outline-variant/30">radio_button_unchecked</span></div>
+<div class="flex justify-center"><span class="material-symbols-outlined text-outline-variant/30">radio_button_unchecked</span></div>
+<div class="flex justify-center"><span class="material-symbols-outlined text-outline-variant/30">radio_button_unchecked</span></div>
+<div class="flex justify-center"><span class="material-symbols-outlined text-primary/60 cursor-help" title="Rank #3 • 14 quotes">radio_button_checked</span></div>
+<div class="flex justify-center"><span class="material-symbols-outlined text-primary/60 cursor-help" title="Rank #3 • 16 quotes">radio_button_checked</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></main>
+</div>
+<script>
+        // Count-up animation for stats
+        document.addEventListener("DOMContentLoaded", () => {
+            const counters = document.querySelectorAll('.count-up');
+            
+            counters.forEach(counter => {
+                const target = +counter.getAttribute('data-target');
+                const duration = 1500; // ms
+                const steps = 60;
+                const stepTime = Math.abs(Math.floor(duration / steps));
+                let current = 0;
+                
+                // Add ease out curve
+                const easeOutQuad = t => t * (2 - t);
+                
+                const updateCounter = () => {
+                    const progress = current / steps;
+                    const easeProgress = easeOutQuad(progress);
+                    const val = Math.round(target * easeProgress);
+                    
+                    counter.innerText = val;
+                    
+                    if(current < steps) {
+                        current++;
+                        setTimeout(updateCounter, stepTime);
+                    } else {
+                        counter.innerText = target;
+                    }
+                };
+                
+                // Small delay to allow fade-in to start
+                setTimeout(updateCounter, 200);
+            });
+
+            // Carousel scroll logic
+            const carousel = document.getElementById('quote-carousel');
+            const scrollLeftBtn = document.getElementById('scroll-left');
+            const scrollRightBtn = document.getElementById('scroll-right');
+
+            if(carousel && scrollLeftBtn && scrollRightBtn) {
+                const scrollAmount = 400 + 16; // card width + gap
+                
+                scrollLeftBtn.addEventListener('click', () => {
+                    carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+                });
+                
+                scrollRightBtn.addEventListener('click', () => {
+                    carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+                });
+            }
+
+            // Tab Switching Logic
+            const tabs = document.querySelectorAll('nav button');
+            const contentArea = document.getElementById('tab-content');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    // Update active tab styling
+                    tabs.forEach(t => {
+                        t.classList.remove('border-primary', 'text-primary');
+                        t.classList.add('border-transparent', 'text-on-surface-variant');
+                    });
+                    tab.classList.remove('border-transparent', 'text-on-surface-variant');
+                    tab.classList.add('border-primary', 'text-primary');
+
+                    // Crossfade content (mock transition)
+                    contentArea.classList.add('fade-out');
+                    setTimeout(() => {
+                        // Here you would typically swap content based on tab.dataset.tab
+                        // For this demo, we just fade back in.
+                        contentArea.classList.remove('fade-out');
+                    }, 200);
+                });
+            });
+        });
+    </script>
+</body></html>
