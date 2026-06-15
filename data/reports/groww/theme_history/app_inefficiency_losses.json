@@ -1,0 +1,20 @@
+[
+  {
+    "iso_week": "2026-W24",
+    "name": "[Critical] App Inefficiency & Losses",
+    "description": "Users consistently report issues with app functionality, such as crashes, incorrect order execution, high brokerage fees, and poor customer support, resulting in financial losses.",
+    "mentions_count": 102,
+    "priority_score": 47,
+    "average_rating": 1.5,
+    "confidence_score": 0.8
+  },
+  {
+    "iso_week": "2026-W25",
+    "name": "[Negative] Poor App Quality",
+    "description": "Users reported frequent bugs, crashes, and overall poor app quality, which led to a frustrating experience.",
+    "mentions_count": 34,
+    "priority_score": 35,
+    "average_rating": 1.18,
+    "confidence_score": 0.71
+  }
+]
