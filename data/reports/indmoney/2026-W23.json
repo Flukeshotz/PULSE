@@ -2,7 +2,7 @@
   "product": "INDMoney",
   "iso_week": "2026-W23",
   "period_label": "Last 8 weeks",
-  "generated_at": "2026-06-15T10:42:05.561537",
+  "generated_at": "2026-06-15T12:42:06.562661",
   "sources_covered": [
     "app_store",
     "play_store"
@@ -13,46 +13,86 @@
   ],
   "themes": [
     {
-      "name": "[Negative] Poor Trading Execution and High Risk of Financial Loss",
+      "name": "[Negative] App Issues, Security Concerns, and Poor User Experience",
       "rank": 1,
       "quotes": [
         {
-          "text": "For a financial trading application, execution speed and price accuracy are the most basic expectations.",
-          "source": "app_store",
+          "text": "I have big trust issues as I observed couple of issues today and previously also but that time I ignored.",
+          "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "Extremely poor and unacceptable trading experience with INDMoney.",
-          "source": "app_store",
-          "rating": 1.0
-        }
-      ],
-      "description": "Users experience delayed order execution, huge differences in shown and executed prices, lagging charts, and unreliable platform performance, resulting in high risk of financial loss and poor trading experience.",
-      "business_impact": "Potential financial losses, damage to the company's reputation, and a high risk of user churn.",
-      "root_cause_hypothesis": "Inadequate system design, inefficient algorithmic execution, and lack of sufficient testing for extreme market scenarios.",
-      "action_plan": "\u2022 Review and optimize the trading execution engine, improve order matching algorithm, increase testing for edge cases, and provide more transparent information to users about their trades.",
-      "teams_impacted": [
-        "Trading Engineering",
-        "Product Management",
-        "Quality Assurance"
-      ]
-    },
-    {
-      "name": "[Negative] App Performance Issues",
-      "rank": 2,
-      "quotes": [
-        {
-          "text": "My basket is also clear and not preserved for one session.",
-          "source": "app_store",
+          "text": "They fail to track credit card bills.",
+          "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "Bugs This update totally waste. We are facing lots of problem, please fix this big bugs",
-          "source": "app_store",
+          "text": "Unable to invest in our stock sip",
+          "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "horrible experience after the last update.",
+          "text": "I have sold some shares for urgent money. I cannot see my wallet or cash available for withdrawel.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Indmoney added so many feature chart everything that traders and investors need. I love this protect position feature we can move the Stop loss just by moving in chart like MT5 is good one.",
+          "source": "app_store",
+          "rating": 5.0
+        },
+        {
+          "text": "why do you keep changing interfaces and each change is making it worse. 2 years ago the interface was clear and simple everything was just below the stock charts.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "the new update has a very bad UI and UX. Portfolio is not selected by default. Added one extra step to check the portfolio.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "What the hell are you guys doing?",
+          "source": "app_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Please roll back your latest updates. The previous one was much better. This one doesn\u2019t have sort capabilities. Doesn\u2019t show pre and post market or current US market performance either",
+          "source": "app_store",
+          "rating": 2.0
+        },
+        {
+          "text": "the new UI of ur app is literally so confusing a investor just need a simple UI which can be easy and fast",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "app working very poor",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "not good",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "very very Bad chor he ye aplication",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "waste dont download this app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "one of the worst apps I ever used",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst after update",
           "source": "play_store",
           "rating": 1.0
         },
@@ -62,23 +102,54 @@
           "rating": 1.0
         },
         {
-          "text": "very slow app with poor internet buffering",
+          "text": "I don't know why but I am unable to open the app it is not opening at all it keep exiting on its own",
           "source": "play_store",
-          "rating": 1.0
+          "rating": 5.0
         }
       ],
-      "description": "Users are experiencing frequent app crashes/hangs, poor UI responsiveness, and issues with screen navigation. Some users report that the app is no longer showing important details such as STT charges, transaction history, and premium properly.",
-      "business_impact": "App crashes/hangs lead to significant loss of productivity, potential loss of revenue, and damage to brand reputation.",
-      "root_cause_hypothesis": "Poor quality control during the software development process, inadequate testing, or rushed deployment may have contributed to the issues.",
-      "action_plan": "\u2022 Conduct thorough testing and quality assurance, refactor the code to improve performance, and prioritize stability and usability fixes through continuous delivery.",
+      "description": "Users complained about various issues including app crashes, poor performance, unreliable transactions, delayed fund transfers, incorrect auto-linked bank account information, and lack of transparency in withdrawal and conversion processes. There are also concerns about data security and potential misuse of customer information. Additionally, users expressed disappointment with the app's user interface, lack of advanced features, and poor customer support experience.",
+      "business_impact": "High customer churn risk due to reliability concerns, potential financial losses, damage to brand reputation, and negative word-of-mouth.",
+      "root_cause_hypothesis": "The root cause of these issues is a lack of attention to detail, inadequate testing, and a general disregard for user experience. This is likely due to a lack of effective communication and collaboration between different teams, leading to a fragmented product development process.",
+      "action_plan": "\u2022 Conduct thorough user testing and gather feedback to identify and prioritize issues. Implement agile development processes to ensure timely and effective resolution of problems. Enhance customer support through dedicated agents, timely responses, and proactive issue resolution. Implement data security measures to protect user information and prevent potential misuse.",
       "teams_impacted": [
-        "Android Eng, UX Design, Core Product, Testing"
-      ]
+        "Android Eng",
+        "UX Design",
+        "Core Product",
+        "Customer Support",
+        "Security"
+      ],
+      "mentions_count": 129,
+      "rating_distribution": {
+        "1": 65,
+        "2": 13,
+        "3": 18,
+        "4": 19,
+        "5": 14
+      },
+      "average_rating": 2.25,
+      "confidence_score": 0.82,
+      "confidence_components": {
+        "volume": 0.7,
+        "quote_validation": 1.0
+      },
+      "priority_score": 40,
+      "theme_id": "app_issues_security_concerns_and_poor_user_experience",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 40,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W23",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
     }
   ],
   "counts": {
     "reviews": 565,
-    "dropped_quotes": 1,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
     "filtered_short": 183,
     "filtered_short_positive": 168,
     "filtered_short_negative": 8,
@@ -95,5 +166,7 @@
     "4": 75,
     "5": 272
   },
-  "average_rating": 3.51858407079646
+  "average_rating": 3.51858407079646,
+  "top_escalations": [],
+  "top_improvements": []
 }

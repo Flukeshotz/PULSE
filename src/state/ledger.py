@@ -24,7 +24,8 @@ class RunLedger:
                     email_message_id TEXT,
                     email_draft_id TEXT,
                     review_counts TEXT,
-                    dropped_quote_count INTEGER,
+                    unauthentic_quotes_dropped INTEGER,
+                    irrelevant_quotes_dropped INTEGER,
                     status TEXT,
                     PRIMARY KEY (product, iso_week)
                 )
@@ -53,7 +54,8 @@ class RunLedger:
                 email_message_id=row["email_message_id"],
                 email_draft_id=row["email_draft_id"],
                 review_counts=json.loads(row["review_counts"]),
-                dropped_quote_count=row["dropped_quote_count"],
+                unauthentic_quotes_dropped=row["unauthentic_quotes_dropped"] if "unauthentic_quotes_dropped" in row.keys() else 0,
+                irrelevant_quotes_dropped=row["irrelevant_quotes_dropped"] if "irrelevant_quotes_dropped" in row.keys() else 0,
                 status=row["status"]
             )
 
@@ -63,8 +65,8 @@ class RunLedger:
                 INSERT OR REPLACE INTO runs (
                     product, iso_week, started_at, finished_at, sources_covered,
                     doc_id, doc_heading_id, doc_deep_link, email_message_id,
-                    email_draft_id, review_counts, dropped_quote_count, status
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    email_draft_id, review_counts, unauthentic_quotes_dropped, irrelevant_quotes_dropped, status
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (
                 record.product,
                 record.iso_week,
@@ -77,6 +79,7 @@ class RunLedger:
                 record.email_message_id,
                 record.email_draft_id,
                 json.dumps(record.review_counts),
-                record.dropped_quote_count,
+                record.unauthentic_quotes_dropped,
+                record.irrelevant_quotes_dropped,
                 record.status
             ))

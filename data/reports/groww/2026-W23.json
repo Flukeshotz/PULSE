@@ -2,7 +2,7 @@
   "product": "Groww",
   "iso_week": "2026-W23",
   "period_label": "Last 10 weeks",
-  "generated_at": "2026-06-15T11:47:22.085849",
+  "generated_at": "2026-06-15T12:35:06.046619",
   "sources_covered": [
     "app_store",
     "play_store"
@@ -14,49 +14,214 @@
   ],
   "themes": [
     {
-      "name": "[Negative] App Freezes, Technical Issues, Poor Support",
+      "name": "[Negative] Trading Issues, App Crashes, and Poor Experience",
       "rank": 1,
       "quotes": [
         {
-          "text": "my account balance showed negative balance.",
+          "text": "Don't use Groww for active trading or options. It's okay for long-term investment or just monitoring stocks, but for execution, it is very unreliable.",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "The Auto-Square off didn't work and the intraday trade was dragged beyond 3:20 Auto-Square off time. Many Transactions look shady due to Discrepancies.",
+          "text": "The app lags almost 100% of the time during live trades, and the data is often inaccurate.",
           "source": "play_store",
           "rating": 1.0
+        },
+        {
+          "text": "Using it for trading is a sure way to lose your money due to technical errors.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Groww app ver bad experience.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "in the segment of scalping and overall during the time of profit most of the time groww start buffering or not working at all",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "groww start buffering or not working at all, in my individual openion it not good at all for the scalper.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Grow doesn't open since a hour. Who will pay my loss?",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "it is worst app. it is taking money without permission",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Total Rip-Off",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Don't install this app totally frustrating, once they received your money, don't take back easily, no customer support services",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "the groee app is totally fraud",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "lost my old mobile phone unable to login and not even able change the number",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app, peak time, application got hang, so much glitches",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "very poor app.. plz dont use it.. fraud app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "fake app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "sometimes i am getting something went wrong (Data fetching minious into an error) on screen.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "not live showing why ? i have to open it repeatedly.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "it's been more than a year raised multiple complaints about slow app loading in the morning and evening session but their development team unableto fix this bug",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app is very good but it takes to much time in processing fee",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "stucks when needed most",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "lagging while opening the app",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "application is giving live data compare to other apps it is lagging too much please look into it",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "this app hang Not smooth ",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "sometimes the app becomes slow",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "Some time hang app & not show correct data .",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "some time this app network issue",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Refresh Time To much my internet ok",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "so much lagg",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "stuck at important time",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Use of app, is not much user friendly. lagging behind its Peer, considering filter, sorting features.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "third class app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "bugs problm",
+          "source": "play_store",
+          "rating": 4.0
         }
       ],
-      "description": "Users reported frequent app crashes, technical issues, delays, and poor customer support leading to financial losses, lost opportunities, and frustration with the Groww platform.",
-      "business_impact": "Substantial financial losses, customer dissatisfaction, potential revenue loss, damage to brand reputation",
-      "root_cause_hypothesis": "Outdated and inefficient backend infrastructure, inadequate load testing, and insufficient training for customer support executives",
-      "action_plan": "\u2022 Upgrade the backend infrastructure, conduct thorough load testing, retrain customer support executives, implement robust error handling and real-time issue resolution mechanisms\n\u2022 Enhance the user onboarding experience and provide clear, concise instructions to reduce technical issues\n\u2022 Develop a comprehensive knowledge base for FAQs and provide transparent information on technical issues and resolution timelines",
-      "teams_impacted": [
-        "Backend Engineering",
-        "QA Engineering",
-        "Customer Support",
-        "UX Design"
-      ]
-    },
-    {
-      "name": "[Negative] Slow App Performance",
-      "rank": 2,
-      "quotes": [],
-      "description": "Users experience frequent app crashes, slow loading times, and freezing, which severely impacts their ability to use the app effectively.",
-      "business_impact": "High user frustration leading to negative word-of-mouth and potential long-term churn risk.",
-      "root_cause_hypothesis": "Insufficient optimization of app functionality for multiple devices and network conditions, combined with potential performance bottlenecks in the underlying architecture.",
-      "action_plan": "\u2022 Improve app performance by optimizing UI, leveraging caching and background processing, and monitoring network requests. Identify and address potential bottlenecks in the architecture, and prioritize features to minimize impact on app performance.",
+      "description": "Users consistently report various issues with trading, including lagging, inaccurate data, and unreliability, resulting in financial losses. Additionally, some users experience app crashes, poor performance, and unresponsive customer support, leading to frustration and a negative experience.",
+      "business_impact": "Substantial financial losses, reputational damage, and high churn rate due to unreliable trading and poor app performance, ultimately impacting the company's revenue and market share.",
+      "root_cause_hypothesis": "Insufficient infrastructure and bandwidth to handle the increasing volume of trades, coupled with inadequate quality assurance testing and delayed patches, contributing to the reliability issues.",
+      "action_plan": "\u2022 Invest in scalable infrastructure and bandwidth to support high-traffic periods\n\u2022 Implement robust quality assurance testing to identify and fix issues before they reach production\n\u2022 Develop and deploy patches to resolve outstanding problems\n\u2022 Enhance customer support to address user concerns promptly and professionally\n\u2022 Conduct regular app performance monitoring and analysis to identify areas for improvement and optimize the user experience.",
       "teams_impacted": [
         "Android Eng",
-        "Web Dev",
-        "UX Design"
-      ]
+        "UX Design",
+        "Core Product",
+        "Quality Assurance",
+        "Customer Support",
+        "Infrastructure and Operations"
+      ],
+      "mentions_count": 230,
+      "rating_distribution": {
+        "1": 172,
+        "2": 20,
+        "3": 16,
+        "4": 11,
+        "5": 11
+      },
+      "average_rating": 1.56,
+      "confidence_score": 0.87,
+      "confidence_components": {
+        "volume": 0.79,
+        "quote_validation": 1.0
+      },
+      "priority_score": 59,
+      "theme_id": "trading_issues_app_crashes_and_poor_experience",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 59,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W23",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
     }
   ],
   "counts": {
     "reviews": 4928,
-    "dropped_quotes": 5,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
     "filtered_short": 3010,
     "filtered_short_positive": 2853,
     "filtered_short_negative": 87,
@@ -73,5 +238,7 @@
     "4": 399,
     "5": 3245
   },
-  "average_rating": 3.9705762987012987
+  "average_rating": 3.9705762987012987,
+  "top_escalations": [],
+  "top_improvements": []
 }

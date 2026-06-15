@@ -2,7 +2,7 @@
   "product": "Groww",
   "iso_week": "2026-W24",
   "period_label": "Last 10 weeks",
-  "generated_at": "2026-06-15T11:39:58.606406",
+  "generated_at": "2026-06-15T12:38:14.712030",
   "sources_covered": [
     "app_store",
     "play_store"
@@ -14,70 +14,220 @@
   ],
   "themes": [
     {
-      "name": "Negative, Unreliable Trades and Transactions",
+      "name": "[Negative] Unresponsive Customer Support & Multiple Technical Issues",
       "rank": 1,
       "quotes": [
         {
-          "text": "It often feels like the moment I buy, the price starts going down.",
+          "text": "Every day call from different number and said ur broking company send ur profile. Can u buy our trading tips? Why Groww sell our data, name and mobile num to such trading tip company?",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Customer service is total waste. For the first time I called customer care, the support executive was not able to resolve the issue or rather I would say was not inclined to listen the query and resolve the issue.",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "the app lags almost 100% of the time during live trades, and the data is often inaccurate.",
+          "text": "I have been investing in mutual funds for the last year. A few months ago, I took a loan against my mutual fund through Groww. I borrowed 10k and repaid it within a week, but they charged more than 1.1k.",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "App frequently crashes.",
+          "text": "Much time technical problem and many order failed from groww ends and loss taken by customer. OFS failed,IPO order failed and some ipo alloted not showing in demat at the time of listing.",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "Crashing during trading and hanging in between order placement.",
+          "text": "Pay Attention to the prices and your money while trading on this Groww App. Multiple Discrepancies, lags while doing Transactions.",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "Today it crashed when I tried to exit from F&O and it doesn't load data.",
+          "text": "when we are paying this much brokerage to grow then grow should also be responsible for the trader facilities like kills switch option in option trading which protect their capital and stop over trading but only temporary pause which is not useful I am very much regretting to use this app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I have used Groww for almost 4 years and traded F&O for 3 years. My concern is that the live P&L often seems delayed when a trade moves in my favor, while losses appear immediately.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "vry vry bad experience.All stocks watching u in Groww app n withdrawal times he not get up. After withdrawal he is sudden up what is this.I watching this many times. do plz do not cheat the people.what is this?????",
           "source": "play_store",
           "rating": 1.0
         }
       ],
-      "description": "The app is experiencing frequent and severe issues with trades and transactions, including delayed and inaccurate data, technical failures, and incorrect executions. Users are frustrated with the high risk of losing their money due to these issues.",
-      "business_impact": "Significant financial losses for traders, damage to the company's reputation, and potential loss of customers due to mistrust",
-      "root_cause_hypothesis": "Insufficient investment in infrastructure, poor maintenance of the app, and inadequate testing and quality assurance processes may be contributing to these issues",
-      "action_plan": "\u2022 Conduct a thorough audit of the app's infrastructure and codebase to identify and fix underlying technical issues\n\u2022 Implement robust testing and quality assurance processes to prevent future failures\n\u2022 Invest in additional personnel and resources to improve maintenance and support",
+      "description": "Users are experiencing frequent disconnections, failed orders, and unresponsive customer support, leading to financial losses, frustration, and loss of confidence in the platform.",
+      "business_impact": "The high number of users reporting similar issues suggests a significant risk of loss of customer trust, negative word-of-mouth, and potential business decline.",
+      "root_cause_hypothesis": "The root cause of these issues is likely a combination of inadequate infrastructure, inefficient architecture, and insufficient resource allocation.",
+      "action_plan": "\u2022 Improve server infrastructure, optimize platform architecture, allocate more resources, and invest in proactive monitoring and debugging tools\n\u2022 Implement multiple support channels (e.g., phone, chat, email) and empower agents with advanced troubleshooting tools\n\u2022 Introduce automated order resolution mechanisms and escalate critical issues to senior support teams |",
       "teams_impacted": [
-        "Core Product",
-        "Android Eng",
-        "UX Design"
-      ]
+        "Support Team",
+        "Engineering Team",
+        "Product Team",
+        "Operations Team"
+      ],
+      "mentions_count": 84,
+      "rating_distribution": {
+        "1": 67,
+        "2": 6,
+        "3": 4,
+        "4": 3,
+        "5": 4
+      },
+      "average_rating": 1.46,
+      "confidence_score": 0.79,
+      "confidence_components": {
+        "volume": 0.64,
+        "quote_validation": 1.0
+      },
+      "priority_score": 45,
+      "theme_id": "unresponsive_customer_support_multiple_technical_issues",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 45,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W24",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
     },
     {
-      "name": "[Negative] Unreasonably High Brokerage Charges",
+      "name": "[Negative] App Manipulates Prices for Profit",
       "rank": 2,
       "quotes": [
         {
-          "text": "bro don't use this app for investment they charge tooooo much",
+          "text": "frauds deliberately manipulating graphs so user can book at wrong prices",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Not good for customers , good for manipulation with hni",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "this adv kills me. foolish adv, repeats many times and when ever the cell phone is opened.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "scammer this is a totally scam app I bought a call of 71700 Sensex for Rs 183 and placed a stop loss of 170 and touched the graph at 172 and my SL was also triggered.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Extra charges, why T+1 share immediately show in demat holding and allowed as normal delivery sell with auto converting to intraday?",
           "source": "play_store",
           "rating": 1.0
         }
       ],
-      "description": "Users have reported consistently finding the brokerage charges to be exorbitantly high, leading to significant losses in their profit margins.",
-      "business_impact": "High brokerage charges can lead to increased losses in profit margins for users, potentially resulting in reduced user loyalty and increased churn.",
-      "root_cause_hypothesis": "The brokerage charges are likely calculated based on a flawed formula, leading to unexpected high charges. Alternatively, it might be due to hidden charges not disclosed properly to users.",
-      "action_plan": "\u2022 Revise the brokerage charge calculation formula to ensure it is more transparent and reasonable. Disclose any additional charges clearly during the onboarding process\n\u2022 Conduct a thorough review of the current charge structure and fees to identify areas for improvement. Consider implementing a tiered charge structure based on user activity\n\u2022 Enhance product education to clearly communicate to users the potential impact of high brokerage charges on their investments.",
+      "description": "Users reported that the app manipulates graphs and entry points to favor profits over user needs, leading to financial losses and frustration.",
+      "business_impact": "Financial loss for users due to unauthorized price manipulation, damage to user trust in the app.",
+      "root_cause_hypothesis": "Insufficient checks and balances in the app's pricing and order processing systems lead to manipulation.",
+      "action_plan": "\u2022 Improve price calculation algorithms to ensure transparency and correctness\n\u2022 Implement robust checks to prevent unauthorized price manipulation\n\u2022 Educate users about potential risks and consequences.",
+      "teams_impacted": [
+        "Technical Engineering",
+        "Product Management",
+        "Risk Management"
+      ],
+      "mentions_count": 39,
+      "rating_distribution": {
+        "1": 37,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "average_rating": 1.1,
+      "confidence_score": 0.72,
+      "confidence_components": {
+        "volume": 0.53,
+        "quote_validation": 1.0
+      },
+      "priority_score": 37,
+      "theme_id": "app_manipulates_prices_for_profit",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 37,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W24",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] High Brokerage Charges",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "brokerage charge are high..",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "they charge 50+ ruppe of amount ",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "very High brokerage",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "they said brokerage is maximum 20 but it is charging around 50",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are expressing frustration and concern about the high brokerage charges on the app, leading to a negative experience and a potential loss of trust. The charges are perceived as excessive compared to other apps, and users are requesting a reduction or a more transparent fee structure.",
+      "business_impact": "High customer churn risk due to perceived overcharging and potential loss of revenue as users may switch to competitors.",
+      "root_cause_hypothesis": "The root cause is likely a misalignment between the app's pricing strategy and user expectations, combined with a lack of transparency and communication around fees.",
+      "action_plan": "\u2022 Analyze user feedback to understand the reasons behind the high perceived costs\n\u2022 Identify competitors' pricing strategies and adjust accordingly\n\u2022 Implement a more transparent fee structure, with clear explanations and comparisons\n\u2022 Offer incentives for long-term users or loyalty programs\n\u2022 Regularly review and adjust the pricing strategy to ensure alignment with user expectations and value perception.",
       "teams_impacted": [
         "Product Management",
-        "Finance Team",
+        "Finance",
         "Customer Support",
-        "Technical Support"
-      ]
+        "Marketing"
+      ],
+      "mentions_count": 75,
+      "rating_distribution": {
+        "1": 32,
+        "2": 13,
+        "3": 7,
+        "4": 7,
+        "5": 16
+      },
+      "average_rating": 2.49,
+      "confidence_score": 0.78,
+      "confidence_components": {
+        "volume": 0.63,
+        "quote_validation": 1.0
+      },
+      "priority_score": 31,
+      "theme_id": "high_brokerage_charges",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 31,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W24",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
     }
   ],
   "counts": {
     "reviews": 5036,
-    "dropped_quotes": 1,
+    "unauthentic_quotes_dropped": 1,
+    "irrelevant_quotes_dropped": 0,
     "filtered_short": 3034,
     "filtered_short_positive": 2880,
     "filtered_short_negative": 90,
@@ -94,5 +244,7 @@
     "4": 417,
     "5": 3311
   },
-  "average_rating": 3.9694201747418587
+  "average_rating": 3.9694201747418587,
+  "top_escalations": [],
+  "top_improvements": []
 }

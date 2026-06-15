@@ -2,7 +2,7 @@
   "product": "INDMoney",
   "iso_week": "2026-W24",
   "period_label": "Last 8 weeks",
-  "generated_at": "2026-06-15T10:43:36.915315",
+  "generated_at": "2026-06-15T12:44:04.651160",
   "sources_covered": [
     "app_store",
     "play_store"
@@ -13,59 +13,201 @@
   ],
   "themes": [
     {
-      "name": "[Negative] Delayed Transactions and Poor Order Execution",
+      "name": "[Negative] Poor UI and UX",
       "rank": 1,
       "quotes": [
         {
-          "text": "even when the market moves in profit direction, the delayed execution and poor order matching reduce or completely destroy the gains.",
-          "source": "app_store",
+          "text": "The new update has a very bad UI and UX.",
+          "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "I request the INDMoney team to seriously investigate their execution engine and compensate users suffering losses due to such poor platform performance.",
+          "text": "The Stocks UI is so confusing. How do I check my funds after I sell a stock?",
           "source": "app_store",
+          "rating": 4.0
+        },
+        {
+          "text": "UI can be improved.",
+          "source": "app_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Design needs overall update. Keep it simple and clear.",
+          "source": "app_store",
+          "rating": 4.0
+        },
+        {
+          "text": "The new Dashboard cheap and not helpful.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Frequent updates shift menus and navigation, forcing users to relearn the app again and again.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "farzii app hai ye logg bina nse ki website dekhe hi PCR value batane lagte hai jo loss karwate hai logo ka ..",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "order exicute par phle hi brokerage kaat lete hai our fir baad ne profit ko bhi transit money me rokk lete hai our fir wapas usme se bhi phle kati hui brokerage ko wapas kaat lete hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "please bhai logo esko leak ko sudhaaroo jo anjal one ya zeroodha walo ki tarhaa ham indmoney wale bhi profit me aaye",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "bekar ghatiya app isme transitions karne ke liye bad me charge leta hei",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "price grafix ko kyu bigad diya... update karne wale baad m app chala k nahi dekhate ki grafix m point k upper hi price show ho raha h.....",
+          "source": "play_store",
           "rating": 1.0
         }
       ],
-      "description": "Users are consistently experiencing unacceptably delayed transactions and poor order execution, leading to financial losses and a frustrating trading experience. This is evident in delayed execution of orders, huge price discrepancies, and poor support responses.",
-      "business_impact": "Delayed transactions and poor order execution are likely to result in significant financial losses, increased customer churn, and damage to the company's reputation.",
-      "root_cause_hypothesis": "The root cause of this issue is likely a flawed transaction processing system and inadequate support infrastructure, possibly due to inadequate resources or inefficient processes.",
-      "action_plan": "\u2022 Investigate and optimize the transaction processing system to minimize delays\n\u2022 Hire additional support staff to handle customer inquiries\n\u2022 Implement a more robust and transparent support system to provide timely and accurate resolutions.",
+      "description": "Users have expressed frustration with the app's current design and navigation, citing difficulties with accessing core features, portfolio management, and overall user experience.",
+      "business_impact": "Difficulty with portfolio management and trading, increased user frustration and potential churn due to the lack of a consistent and intuitive UI.",
+      "root_cause_hypothesis": "The frequent changes to the app's UI and UX design, potentially driven by an overemphasis on new features without sufficient consideration for user experience.",
+      "action_plan": "\u2022 Implement a design freeze to stabilize the current UI, and then iterate on feedback from users to create a more consistent and intuitive experience. Collaborate closely with both UX Design and Product teams to ensure any new features are designed with the user experience in mind.",
       "teams_impacted": [
-        "Core Product",
-        "Support Team",
-        "Engineering"
-      ]
+        "UX Design",
+        "Core Product"
+      ],
+      "mentions_count": 301,
+      "rating_distribution": {
+        "1": 143,
+        "2": 36,
+        "3": 31,
+        "4": 48,
+        "5": 43
+      },
+      "average_rating": 2.38,
+      "confidence_score": 0.9,
+      "confidence_components": {
+        "volume": 0.83,
+        "quote_validation": 1.0
+      },
+      "priority_score": 49,
+      "theme_id": "poor_ui_and_ux",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 49,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W24",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.8571428571428571,
+      "summary_validation": "Supported"
     },
     {
-      "name": "[Negative] Insufficient Risk Management Features",
+      "name": "[Positive] Excellent Investment Platform",
       "rank": 2,
       "quotes": [
         {
-          "text": "it is essential. For traders, even a small delay or missed execution can make a big difference in outcomes.",
+          "text": "very good app for investment",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "The best Broker in industry, and the app is so smooth and easy to understand",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "best platform to invest",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "Amazing App Great app developed with such easy navigation and compression of US stock market",
           "source": "app_store",
           "rating": 5.0
         },
         {
-          "text": "Having both SL and TP in place from the start ensures discipline, protects capital, and removes emotional decision making during volatility.",
+          "text": "Ease of Investing This is the best app to invest in US equities from India",
           "source": "app_store",
+          "rating": 5.0
+        },
+        {
+          "text": "Perfect Investment app Perfect app for investing",
+          "source": "app_store",
+          "rating": 5.0
+        },
+        {
+          "text": "Best for US stocks",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "best application for stock market application",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "great app for investing",
+          "source": "app_store",
+          "rating": 5.0
+        },
+        {
+          "text": "INDmoney is one of the best finance management apps I have used",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "Really an outstanding,highly creditable and commendable investment platform which is indeed ideal for building enviable wealth",
+          "source": "play_store",
           "rating": 5.0
         }
       ],
-      "description": "The app is criticized for not having essential risk management features such as Stop Loss (SL) and Take Profit (TP) orders, making it difficult for traders to manage positions and protect their capital.",
-      "business_impact": "The lack of risk management features increases the risk of trader losses, potentially leading to decreased user satisfaction and revenue loss.",
-      "root_cause_hypothesis": "The current risk management features are insufficient for traders, leading to a need for more advanced features",
-      "action_plan": "\u2022 Implement Stop Loss (SL) and Take Profit (TP) orders for traders, allowing them to set both SL and TP orders at the same time\n\u2022 Provide clear, number-based inputs for SL and TP\n\u2022 Communicate the changes to existing users and provide training on the new features",
+      "description": "The primary theme revolves around users appreciating Indmoney as an ideal platform for investing. They praise its ease of use, smooth interface, and ability to track and monitor investments. Users also appreciate the app's user-friendly interface and its capabilities in tracking financial growth with detailed insights and reports.",
+      "business_impact": "High user satisfaction and loyalty, potentially leading to positive word-of-mouth and repeat business",
+      "root_cause_hypothesis": "The app's success can be attributed to its user-centric approach, intuitive design, and seamless integration with various financial services",
+      "action_plan": "\u2022 Continuously gather user feedback, enhance the app's features and functionalities to stay competitive, and maintain a high-quality user experience\n\u2022 Invest in user education and support resources to alleviate any concerns or doubts users may have\n\u2022 Regularly update the app to ensure compatibility with emerging technologies and financial services",
       "teams_impacted": [
-        "Core Product",
-        "Risk Management",
-        "UX Design"
-      ]
+        "Product Management",
+        "User Experience Design",
+        "Engineering and Development"
+      ],
+      "mentions_count": 88,
+      "rating_distribution": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 11,
+        "5": 73
+      },
+      "average_rating": 4.75,
+      "confidence_score": 0.79,
+      "confidence_components": {
+        "volume": 0.65,
+        "quote_validation": 1.0
+      },
+      "priority_score": 3,
+      "theme_id": "excellent_investment_platform",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 3,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W24",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
     }
   ],
   "counts": {
     "reviews": 580,
-    "dropped_quotes": 2,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
     "filtered_short": 191,
     "filtered_short_positive": 176,
     "filtered_short_negative": 8,
@@ -82,5 +224,7 @@
     "4": 80,
     "5": 268
   },
-  "average_rating": 3.462068965517241
+  "average_rating": 3.462068965517241,
+  "top_escalations": [],
+  "top_improvements": []
 }

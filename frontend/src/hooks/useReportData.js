@@ -34,7 +34,7 @@ export function useReportData(product, week) {
     }
 
     setLoading(true);
-    fetch(`/data/${product}/${week}.json`)
+    fetch(`/data/${product}/${week}.json?t=${Date.now()}`)
       .then((res) => {
         if (!res.ok) throw new Error('Failed to load report data');
         const contentType = res.headers.get("content-type");

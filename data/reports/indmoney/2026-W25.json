@@ -2,7 +2,7 @@
   "product": "INDMoney",
   "iso_week": "2026-W25",
   "period_label": "Last 8 weeks",
-  "generated_at": "2026-06-15T10:45:06.621720",
+  "generated_at": "2026-06-15T12:45:50.718140",
   "sources_covered": [
     "app_store",
     "play_store"
@@ -13,85 +13,199 @@
   ],
   "themes": [
     {
-      "name": "[Negative] Poor Order Execution and Delayed Transactions",
+      "name": "[Mixed] App Performance and Reliability Concerns",
       "rank": 1,
       "quotes": [
         {
-          "text": "The most frustrating part is that even when the market moves in profit direction, the delayed execution and poor order matching reduce or completely destroy the gains.",
-          "source": "app_store",
-          "rating": 1.0
+          "text": "the US stock investment process is bad and fails most of the time.",
+          "source": "play_store",
+          "rating": 3.0
         },
         {
-          "text": "For a financial trading application, execution speed and price accuracy are the most basic expectations. Unfortunately INDMoney fails badly in this area.",
-          "source": "app_store",
-          "rating": 1.0
+          "text": "I don\u2019t use this app because managing trades feels difficult compared to other trading platforms.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "this app doesn\u2019t work on tablet.",
+          "source": "play_store",
+          "rating": 3.0
         }
       ],
-      "description": "INDMoney users consistently experience slippage, delayed order execution, and non-existent support for issues related to order processing and fund transfers, causing financial losses.",
-      "business_impact": "Financial losses and potential loss of customer trust due to repeated instances of delayed transactions, incorrect order execution, and inability to resolve issues promptly.",
-      "root_cause_hypothesis": "The root cause of this issue is likely a flawed order execution engine, inadequate testing, and insufficient support processes.",
-      "action_plan": "\u2022 Review and optimize the order execution engine\n\u2022 Implement a more robust testing framework\n\u2022 Provide dedicated support for critical issues\n\u2022 Increase transparency around transaction processing times and order status\n\u2022 Enhance customer communication regarding delays and resolution progress.",
+      "description": "Users are experiencing issues with app performance, including crashes, slow loading, and failed synchronizations. Some also mention difficulties in using certain features, such as managing trades, and issues with user interface and user experience.",
+      "business_impact": "Deteriorating user trust and increasing churn risk due to repeated app crashes and performance issues.",
+      "root_cause_hypothesis": "Insufficient testing and quality assurance, outdated infrastructure, and inefficient error handling are contributing to the issues.",
+      "action_plan": "\u2022 Re-invest in testing and quality assurance, deploy a more robust infrastructure, and implement efficient error handling mechanisms\n\u2022 Identify and address underlying technical debt\n\u2022 Provide regular updates and notifications to users affected by app crashes and failures\n\u2022 Implement a dedicated customer support team to address user concerns and issues\n\u2022 Enhance user interface and user experience to improve user engagement and retention.",
       "teams_impacted": [
-        "Engineering (Order Execution Team)",
-        "Support",
-        "Product Management"
-      ]
+        "Android Eng",
+        "Core Product",
+        "UX Design",
+        "Quality Assurance"
+      ],
+      "mentions_count": 273,
+      "rating_distribution": {
+        "1": 139,
+        "2": 35,
+        "3": 35,
+        "4": 38,
+        "5": 26
+      },
+      "average_rating": 2.18,
+      "confidence_score": 0.89,
+      "confidence_components": {
+        "volume": 0.81,
+        "quote_validation": 1.0
+      },
+      "priority_score": 51,
+      "theme_id": "app_performance_and_reliability_concerns",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 51,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W25",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.6,
+      "summary_validation": "Supported"
     },
     {
-      "name": "[Negative] Poor Performance and Features",
+      "name": "[Negative] App Not User-friendly",
       "rank": 2,
       "quotes": [
         {
-          "text": "if u want to loose ur money then invest with this app",
+          "text": "farzii app hai ye logg bina nse ki website dekhe hi PCR value batane lagte hai jo loss karwate hai logo ka ,,,",
           "source": "play_store",
           "rating": 1.0
         },
-        {
-          "text": "Jack of all but master of None",
-          "source": "app_store",
-          "rating": 2.0
-        }
-      ],
-      "description": "Several users mentioned that the app has performance issues, lacks essential features, and has an uninformative user interface, affecting their overall experience and making it inferior to other similar platforms like Zerodha.",
-      "business_impact": "Loss of customers due to poor feature set and user experience, potentially significant revenue loss as customers switch to competitors.",
-      "root_cause_hypothesis": "App's current infrastructure and prioritization of features are not aligned with the needs of its target market.",
-      "action_plan": "\u2022 Improve app's performance and add essential features such as advanced portfolio rebalancing, transaction categorization, and a full budgeting system. Conduct user research to better understand the target market's needs and prioritize features accordingly.",
-      "teams_impacted": [
-        "Mobile Development",
-        "Product Management",
-        "UX/UI Design"
-      ]
-    },
-    {
-      "name": "[Negative] App Bugs, UI Issues, and Poor User Experience",
-      "rank": 3,
-      "quotes": [
         {
           "text": "farzii app hai order exicute par phle hi brokerage kaat lete hai our fir baad ne profit ko bhi transit money me rokk lete hai our fir wapas usme se bhi phle kati hui brokerage ko wapas kaat lete hai,,",
           "source": "play_store",
           "rating": 1.0
         },
         {
-          "text": "bhai logo esko leak ko sudhaaroo jo anjal one ya zeroodha walo ki tarhaa ham indmoney wale bhi profit me aaye",
+          "text": "Math nahi ata in logo ko Bhai i swear by god ,  Tum log sab ke sab 1st std mein jao wapis ,",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Bekar ghatiya app isme transitions karne ke liye bad me charge leta hei",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Is app ko Play Store se ban kar dena chahiye isme hamesha kuchh na kuchh Problem hoti rahti hai.... US account open karne me asamarth hai ye app chahe jitna bar Prayas karo hamesha reject kar deta hai app.....",
           "source": "play_store",
           "rating": 1.0
         }
       ],
-      "description": "Users have reported various issues with the app, including app crashes, poor UI, inability to open US accounts, issues with brokerage, and other UX problems. Some have also mentioned concerns about being misled into trading losses. There are also demands for added features, such as emergency fund options, SLBM, and more.",
-      "business_impact": "High volume of negative reviews, potential loss of customer trust, and missed revenue opportunities due to lack of desired features.",
-      "root_cause_hypothesis": "Lack of thorough quality control and user testing during app development might have led to a plethora of UX issues, while inadequate feature set is causing users to lose faith in the product.",
-      "action_plan": "\u2022 Conduct a thorough bug-fixing sweep, revamp the user interface to make it more intuitive, implement rigorous quality control measures, address user feature requests, and reevaluate the core product to better meet user needs, all while prioritizing UI/UX enhancements and feature additions.",
+      "description": "Users are complaining about the app's complexity, poor navigation, and lack of transparency. Many are experiencing difficulty using the app, especially in creating orders and accessing certain features. Additionally, some users are criticizing the app for making losses for them, possibly due to incorrect calculations or unexplained losses.",
+      "business_impact": "High churn risk, revenue loss, and damage to brand reputation",
+      "root_cause_hypothesis": "The app's onboarding process is unclear, leading to user confusion. Technical issues, such as bugs and glitches, are also causing frustration. Furthermore, some users believe that the app is manipulating their trades or charging unnecessary fees, eroding trust.",
+      "action_plan": "\u2022 Simplify the onboarding process\n\u2022 Conduct A/B testing to improve navigation and feature accessibility\n\u2022 Develop a more transparent and user-friendly interface\n\u2022 Train customer support on explaining technical issues and providing clear trade explanations\n\u2022 Address user concerns about trading losses through clear explanations and potentially providing refunds",
+      "teams_impacted": [
+        "Core Product",
+        "Android Eng",
+        "UX Design"
+      ],
+      "mentions_count": 26,
+      "rating_distribution": {
+        "1": 10,
+        "2": 0,
+        "3": 0,
+        "4": 5,
+        "5": 11
+      },
+      "average_rating": 3.27,
+      "confidence_score": 0.69,
+      "confidence_components": {
+        "volume": 0.48,
+        "quote_validation": 1.0
+      },
+      "priority_score": 14,
+      "theme_id": "app_not_user_friendly",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 14,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W25",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Positive] Easy US Stock Market Access",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "I never thought, it\u2019s so easy to invest in US market sitting in your place from India.",
+          "source": "app_store",
+          "rating": 5.0
+        },
+        {
+          "text": "It\u2019s without any commission.",
+          "source": "app_store",
+          "rating": 5.0
+        },
+        {
+          "text": "IND money is a good application for investing and trading because when you add the money to ind money wallet, no charges, is the best facilities.",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "Amazing Experience with the INDmoney app.. Good Trading Platform.",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "Excellent app for investment in stocks as well mutual funds.",
+          "source": "play_store",
+          "rating": 5.0
+        }
+      ],
+      "description": "Users praise the app for making US stock market investments easy to navigate and commission-free, allowing even Indian users to invest without the complexity of traditional US markets.",
+      "business_impact": "Increased user acquisition and retention through seamless US stock market access, especially among Indian users.",
+      "root_cause_hypothesis": "The app's focus on user-centric design and its ability to simplify complex financial systems have created a competitive advantage in the Indian market.",
+      "action_plan": "\u2022 Enhance user onboarding by providing clear, concise educational content on US stock market investing and commission-free trading.",
       "teams_impacted": [
         "Android Eng",
         "UX Design",
-        "Core Product",
-        "DevOps"
-      ]
+        "Core Product"
+      ],
+      "mentions_count": 105,
+      "rating_distribution": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 18,
+        "5": 83
+      },
+      "average_rating": 4.72,
+      "confidence_score": 0.81,
+      "confidence_components": {
+        "volume": 0.68,
+        "quote_validation": 1.0
+      },
+      "priority_score": 4,
+      "theme_id": "easy_us_stock_market_access",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 4,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W25",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
     }
   ],
   "counts": {
-    "reviews": 591,
-    "dropped_quotes": 0,
+    "reviews": 592,
+    "unauthentic_quotes_dropped": 2,
+    "irrelevant_quotes_dropped": 0,
     "filtered_short": 208,
     "filtered_short_positive": 190,
     "filtered_short_negative": 9,
@@ -99,14 +213,16 @@
   },
   "source_counts": {
     "app_store": 104,
-    "play_store": 702
+    "play_store": 703
   },
   "rating_distribution": {
     "1": 159,
     "2": 37,
     "3": 41,
     "4": 90,
-    "5": 264
+    "5": 265
   },
-  "average_rating": 3.4450084602368864
+  "average_rating": 3.447635135135135,
+  "top_escalations": [],
+  "top_improvements": []
 }

@@ -45,9 +45,9 @@ export function RatingBars({ report }) {
 
         <div className="relative min-h-[150px]">
           <ResponsiveContainer width="100%" height={150}>
-            <BarChart data={ratingData} layout="vertical" margin={{ top: 0, right: 30, left: -10, bottom: 0 }}>
+            <BarChart data={ratingData} layout="vertical" margin={{ top: 0, right: 30, left: 0, bottom: 0 }}>
               <XAxis type="number" hide />
-              <YAxis dataKey="name" type="category" axisLine={false} tickLine={false} tick={{fill: 'var(--text-secondary)', fontSize: 14, fontWeight: 500}} width={35} />
+              <YAxis dataKey="name" type="category" axisLine={false} tickLine={false} tick={{fill: 'var(--text-secondary)', fontSize: 14, fontWeight: 500}} width={45} />
               <Bar dataKey="count" radius={[0, 4, 4, 0]} barSize={16}>
                 {ratingData.map((entry, index) => (
                   <Cell key={`cell-${index}`} fill={entry.fill} />

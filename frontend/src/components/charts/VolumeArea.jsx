@@ -1,5 +1,6 @@
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { getSourceColor } from '../../utils/colors';
+import { formatSourceName } from '../../utils/format';
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
@@ -10,14 +11,10 @@ const CustomTooltip = ({ active, payload, label }) => {
         {payload.map((p, i) => (
           <div key={i} className="flex items-center gap-2 text-sm text-[var(--text-secondary)] mb-1">
             <span className="w-2 h-2 rounded-full" style={{ backgroundColor: p.color }} />
-            <span className="flex-1 capitalize">{p.name.replace('_', ' ')}</span>
+            <span className="flex-1 capitalize">{formatSourceName(p.name)}</span>
             <span className="font-medium text-[var(--text-primary)]">{p.value}</span>
           </div>
         ))}
-        <div className="mt-2 pt-2 border-t border-[var(--border-subtle)] text-sm flex justify-between font-semibold text-[var(--text-primary)]">
-          <span>Total</span>
-          <span>{total}</span>
-        </div>
       </div>
     );
   }
@@ -48,17 +45,7 @@ export function VolumeArea({ data }) {
       <div className="mb-6 flex justify-between items-end">
         <div>
           <h3 className="text-lg font-semibold text-[var(--text-primary)]">Review Volume</h3>
-          <p className="text-sm text-[var(--text-secondary)]">{totalReviews} total reviews in timeframe</p>
-        </div>
-        <div className="flex gap-4 text-sm">
-          <div className="flex items-center gap-2">
-            <span className="w-3 h-3 rounded-full" style={{ backgroundColor: getSourceColor('app_store') }} />
-            <span className="text-[var(--text-secondary)]">App Store</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="w-3 h-3 rounded-full" style={{ backgroundColor: getSourceColor('play_store') }} />
-            <span className="text-[var(--text-secondary)]">Play Store</span>
-          </div>
+          <p className="text-sm text-[var(--text-secondary)]">{totalReviews} clean reviews analyzed in timeframe</p>
         </div>
       </div>
 
@@ -66,13 +53,9 @@ export function VolumeArea({ data }) {
         <ResponsiveContainer width="100%" height="100%">
           <AreaChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
             <defs>
-              <linearGradient id="colorAppStore" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor={getSourceColor('app_store')} stopOpacity={0.6}/>
-                <stop offset="95%" stopColor={getSourceColor('app_store')} stopOpacity={0.1}/>
-              </linearGradient>
-              <linearGradient id="colorPlayStore" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor={getSourceColor('play_store')} stopOpacity={0.6}/>
-                <stop offset="95%" stopColor={getSourceColor('play_store')} stopOpacity={0.1}/>
+              <linearGradient id="colorTotal" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="5%" stopColor="var(--text-primary)" stopOpacity={0.4}/>
+                <stop offset="95%" stopColor="var(--text-primary)" stopOpacity={0.0}/>
               </linearGradient>
             </defs>
             <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border-subtle)" />
@@ -82,20 +65,20 @@ export function VolumeArea({ data }) {
             <Area 
               type="monotone" 
               dataKey="play_store" 
-              stackId="1" 
-              stroke={getSourceColor('play_store')} 
-              fill="url(#colorPlayStore)" 
+              stackId="1"
+              stroke="var(--source-playstore)" 
+              fill="var(--source-playstore)" 
               strokeWidth={2}
-              activeDot={{ r: 4, strokeWidth: 0, fill: 'var(--text-primary)' }}
+              activeDot={{ r: 4, strokeWidth: 0, fill: 'var(--source-playstore)' }}
             />
             <Area 
               type="monotone" 
               dataKey="app_store" 
-              stackId="1" 
-              stroke={getSourceColor('app_store')} 
-              fill="url(#colorAppStore)" 
+              stackId="1"
+              stroke="var(--source-appstore)" 
+              fill="var(--source-appstore)" 
               strokeWidth={2}
-              activeDot={{ r: 4, strokeWidth: 0, fill: 'var(--text-primary)' }}
+              activeDot={{ r: 4, strokeWidth: 0, fill: 'var(--source-appstore)' }}
             />
           </AreaChart>
         </ResponsiveContainer>

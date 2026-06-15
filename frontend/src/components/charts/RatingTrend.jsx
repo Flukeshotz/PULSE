@@ -7,7 +7,7 @@ const CustomTooltip = ({ active, payload, label }) => {
       <div className="bg-[var(--bg-card)] border border-[var(--border-subtle)] rounded-[var(--radius-sm)] p-3 shadow-[var(--shadow-md)] flex items-center gap-3">
         <span className="font-semibold text-[var(--text-secondary)]">{label}</span>
         <div className="flex items-center gap-1 font-bold text-[var(--text-primary)]">
-          {payload[0].value.toFixed(1)}
+          {payload[0].value.toFixed(2)}
           <Star className="w-3.5 h-3.5 text-[var(--star-4)]" fill="currentColor" />
         </div>
       </div>
@@ -43,7 +43,7 @@ export function RatingTrend({ data }) {
           <p className="text-sm text-[var(--text-secondary)]">Based on analyzed quotes</p>
         </div>
         <div className="flex items-center gap-1 text-3xl font-bold text-[var(--text-primary)]">
-          {currentWeek.rating.toFixed(1)}
+          {currentWeek.rating.toFixed(2)}
           <Star className="w-6 h-6 text-[var(--star-4)]" fill="currentColor" />
         </div>
       </div>
@@ -53,7 +53,7 @@ export function RatingTrend({ data }) {
           <LineChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
             <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border-subtle)" />
             <XAxis dataKey="week" axisLine={false} tickLine={false} tick={{fill: 'var(--text-secondary)', fontSize: 12}} dy={10} />
-            <YAxis domain={[1, 5]} ticks={[1, 2, 3, 4, 5]} axisLine={false} tickLine={false} tick={{fill: 'var(--text-secondary)', fontSize: 12}} />
+            <YAxis domain={['auto', 'auto']} axisLine={false} tickLine={false} tick={{fill: 'var(--text-secondary)', fontSize: 12}} tickFormatter={(val) => val.toFixed(2)} />
             <ReferenceLine y={3} stroke="var(--text-tertiary)" strokeDasharray="3 3" />
             <Tooltip content={<CustomTooltip />} cursor={{ stroke: 'var(--border-subtle)' }} />
             <Line 

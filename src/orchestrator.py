@@ -84,6 +84,7 @@ class Orchestrator:
             doc_id=None,
             doc_heading_id=None,
             doc_deep_link=None,
+            email_message_id=None,
             email_draft_id=None,
             review_counts={},
             unauthentic_quotes_dropped=0,
@@ -232,9 +233,55 @@ class Orchestrator:
         # We can eventually pass report to _deliver. For now, print report stats.
         logger.info(f"Generated Pulse Report with {len(themes)} themes. Unauthentic Quotes Dropped: {record.unauthentic_quotes_dropped}. Irrelevant Quotes Dropped: {record.irrelevant_quotes_dropped}")
         
+        # Feature 2: Save the JSON report for the Frontend Dashboard
+        import os
+        import json
+        import dataclasses
+        
+        reports_dir = f"data/reports/{self.product_name}"
+        os.makedirs(reports_dir, exist_ok=True)
+        report_path = f"{reports_dir}/{self.iso_week}.json"
+        
+        # Need to convert datetime to string for JSON serialization
+        def _json_serial(obj):
+            if isinstance(obj, (datetime, date)):
+                return obj.isoformat()
+            raise TypeError(f"Type {type(obj)} not serializable")
+            
+        with open(report_path, "w") as f:
+            json.dump(dataclasses.asdict(report), f, default=_json_serial, indent=2)
+        logger.info(f"Saved JSON report to {report_path}")
+        
+        # Update manifest.json
+        manifest_path = "data/reports/manifest.json"
+        manifest = {"products": {}}
+        if os.path.exists(manifest_path):
+            try:
+                with open(manifest_path, "r") as f:
+                    manifest = json.load(f)
+            except Exception as e:
+                logger.error(f"Error reading manifest: {e}")
+        
+        if "products" not in manifest:
+            manifest["products"] = {}
+            
+        if self.product_name not in manifest["products"]:
+            manifest["products"][self.product_name] = {
+                "display_name": self.product_config.display_name,
+                "weeks": []
+            }
+        
+        product_data = manifest["products"][self.product_name]
+        if self.iso_week not in product_data["weeks"]:
+            product_data["weeks"].append(self.iso_week)
+            # Sort descending
+            product_data["weeks"].sort(reverse=True)
+            
+        with open(manifest_path, "w") as f:
+            json.dump(manifest, f, indent=2)
+
         if self.dry_run:
             from pprint import pprint
-            import dataclasses
             logger.info("\n=== DRY RUN OUTPUT ===")
             pprint(dataclasses.asdict(report))
             record.status = "partial" if partial_run else "ok"
@@ -301,56 +348,10 @@ class Orchestrator:
             record.status = "partial" if record.doc_heading_id else "failed"
             
         finally:
-            await self.mcp.close()
+            if not self.dry_run:
+                await self.mcp.close()
             record.finished_at = datetime.utcnow()
             self.ledger.upsert_run(record)
-            
-            # Feature 2: Save the JSON report for the Frontend Dashboard
-            import os
-            import json
-            import dataclasses
-            
-            reports_dir = f"data/reports/{self.product_name}"
-            os.makedirs(reports_dir, exist_ok=True)
-            report_path = f"{reports_dir}/{self.iso_week}.json"
-            
-            # Need to convert datetime to string for JSON serialization
-            def _json_serial(obj):
-                if isinstance(obj, (datetime, date)):
-                    return obj.isoformat()
-                raise TypeError(f"Type {type(obj)} not serializable")
-                
-            with open(report_path, "w") as f:
-                json.dump(dataclasses.asdict(report), f, default=_json_serial, indent=2)
-            logger.info(f"Saved JSON report to {report_path}")
-            
-            # Update manifest.json
-            manifest_path = "data/reports/manifest.json"
-            manifest = {"products": {}}
-            if os.path.exists(manifest_path):
-                try:
-                    with open(manifest_path, "r") as f:
-                        manifest = json.load(f)
-                except Exception as e:
-                    logger.error(f"Error reading manifest: {e}")
-            
-            if "products" not in manifest:
-                manifest["products"] = {}
-                
-            if self.product_name not in manifest["products"]:
-                manifest["products"][self.product_name] = {
-                    "display_name": self.product_config.display_name,
-                    "weeks": []
-                }
-            
-            product_data = manifest["products"][self.product_name]
-            if self.iso_week not in product_data["weeks"]:
-                product_data["weeks"].append(self.iso_week)
-                # Sort descending
-                product_data["weeks"].sort(reverse=True)
-                
-            with open(manifest_path, "w") as f:
-                json.dump(manifest, f, indent=2)
             
         logger.info(f"Run completed. Status: {record.status}")
         return record

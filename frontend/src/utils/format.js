@@ -6,7 +6,7 @@ export const formatNumber = (num) => {
 export function parseThemeName(themeName) {
   if (!themeName) return { sentiment: null, name: '' };
   
-  const match = themeName.match(/^\[(Negative|Positive|Neutral)\]\s*/i);
+  const match = themeName.match(/^\[(Negative|Positive|Neutral|Mixed)\]\s*/i);
   if (match) {
     return {
       sentiment: match[1].toLowerCase(),

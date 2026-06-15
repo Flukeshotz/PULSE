@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 from src.models import Review
 
 class Clusterer:
-    def __init__(self, random_state: int = 42, min_cluster_size: int = 10, min_samples: int = 2):
+    def __init__(self, random_state: int = 42, min_cluster_size: int = 6, min_samples: int = 1):
         self.random_state = random_state
         self.min_cluster_size = min_cluster_size
         self.min_samples = min_samples

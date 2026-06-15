@@ -22,11 +22,11 @@ export function Overview({ report }) {
         <StatCard title="Validated" value={totalValidated} subtitle="Quotes" icon={Quote} />
         <div className="col-span-2 md:col-span-1">
           <StatCard 
-            title="Dropped" 
-            value={counts.dropped_quotes} 
-            subtitle="Invalid quotes" 
-            icon={AlertCircle} 
-            valueColor={counts.dropped_quotes > 0 ? 'text-[var(--negative)]' : 'text-[var(--positive)]'} 
+            title="DROPPED — Invalid quotes" 
+            value={(counts?.unauthentic_quotes_dropped || 0) + (counts?.irrelevant_quotes_dropped || 0)} 
+            subtitle="Excluded by AI Validation"
+            icon={AlertCircle}
+            valueColor={((counts?.unauthentic_quotes_dropped || 0) + (counts?.irrelevant_quotes_dropped || 0)) > 0 ? 'text-[var(--negative)]' : 'text-[var(--positive)]'} 
           />
         </div>
       </div>

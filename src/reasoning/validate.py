@@ -7,9 +7,10 @@ from src.config.loader import load_config
 
 class QuoteValidator:
     def __init__(self):
+        import os
         self.unauthentic_quotes_dropped = 0
         self.irrelevant_quotes_dropped = 0
-        self.client = Groq()
+        self.client = Groq(api_key=os.environ.get("GROQ_API"))
         self.model = load_config().run.llm_model
 
     def _normalize(self, text: str) -> str:

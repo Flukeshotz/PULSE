@@ -1,0 +1,20 @@
+[
+  {
+    "iso_week": "2026-W23",
+    "name": "[Negative] Trading Issues, App Crashes, and Poor Experience",
+    "description": "Users consistently report various issues with trading, including lagging, inaccurate data, and unreliability, resulting in financial losses. Additionally, some users experience app crashes, poor performance, and unresponsive customer support, leading to frustration and a negative experience.",
+    "mentions_count": 230,
+    "priority_score": 59,
+    "average_rating": 1.56,
+    "confidence_score": 0.87
+  },
+  {
+    "iso_week": "2026-W25",
+    "name": "[Negative] App Crashes & Technical Issues",
+    "description": "Users have reported frequent app crashes, glitches, and delays while trading. Technical issues with order execution, delayed P&L updates, and difficulties withdrawing funds have led to financial losses and frustration.",
+    "mentions_count": 55,
+    "priority_score": 38,
+    "average_rating": 1.51,
+    "confidence_score": 0.75
+  }
+]
