@@ -83,11 +83,11 @@ export function Overview({ report, setActiveTab }) {
                 </div>
                 
                 <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-3 mb-2">
-                    {sentiment && <SentimentBadge sentiment={sentiment} />}
-                    <h3 className="text-lg font-semibold text-[var(--text-primary)] truncate">{name}</h3>
+                  <div className="flex items-start gap-3 mb-2 pr-12 md:pr-0">
+                    {sentiment && <div className="mt-1"><SentimentBadge sentiment={sentiment} /></div>}
+                    <h3 className="text-lg font-semibold text-[var(--text-primary)] leading-tight">{name}</h3>
                   </div>
-                  <p className="text-sm text-[var(--text-secondary)] line-clamp-2 mb-4 pr-12 leading-relaxed">
+                  <p className="text-sm text-[var(--text-secondary)] line-clamp-2 mb-4 pr-12 md:pr-0 leading-relaxed">
                     {theme.description}
                   </p>
                   

@@ -29,7 +29,7 @@ export function RatingBars({ report }) {
   ];
 
   return (
-    <div className="bg-[var(--bg-card)] rounded-[var(--radius-md)] shadow-[var(--shadow-sm)] h-full flex flex-col md:flex-row overflow-hidden">
+    <div className="min-w-0 bg-[var(--bg-card)] rounded-[var(--radius-md)] shadow-[var(--shadow-sm)] h-full flex flex-col md:flex-row overflow-hidden">
       
       {/* Rating Distribution Side */}
       <div className="flex-1 p-6 border-b md:border-b-0 md:border-r border-[var(--border-subtle)]">

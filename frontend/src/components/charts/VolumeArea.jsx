@@ -41,7 +41,7 @@ export function VolumeArea({ data }) {
   const totalReviews = chartData.reduce((sum, d) => sum + d.total, 0);
 
   return (
-    <div className="bg-[var(--bg-card)] rounded-[var(--radius-md)] p-6 shadow-[var(--shadow-sm)]">
+    <div className="min-w-0 bg-[var(--bg-card)] rounded-[var(--radius-md)] p-6 shadow-[var(--shadow-sm)]">
       <div className="mb-6 flex justify-between items-end">
         <div>
           <h3 className="text-lg font-semibold text-[var(--text-primary)]">Review Volume</h3>

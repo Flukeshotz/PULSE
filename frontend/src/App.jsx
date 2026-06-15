@@ -38,7 +38,7 @@ function App() {
   }, [selectedProduct, manifest, selectedWeek]);
 
   return (
-    <div className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] font-sans antialiased">
+    <div className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] font-sans antialiased overflow-x-hidden w-full">
       <TopBar 
         manifest={manifest}
         selectedProduct={selectedProduct}

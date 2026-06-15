@@ -21,7 +21,7 @@ export function SourceDonut({ report }) {
   const total = data.reduce((sum, d) => sum + d.value, 0);
 
   return (
-    <div className="bg-[var(--bg-card)] rounded-[var(--radius-md)] p-6 shadow-[var(--shadow-sm)] h-full flex flex-col">
+    <div className="min-w-0 h-full bg-[var(--bg-card)] rounded-[var(--radius-md)] p-6 shadow-[var(--shadow-sm)] flex flex-col">
       <h3 className="text-lg font-semibold mb-4">Source Breakdown</h3>
       <div className="flex-1 relative min-h-[200px]">
         <ResponsiveContainer width="100%" height={200}>
