@@ -1,0 +1,60 @@
+name: Weekly Pulse Data Refresh
+
+on:
+  schedule:
+    # Runs at 00:00 every Monday
+    - cron: '0 0 * * 1'
+  workflow_dispatch: # Allows manual trigger from the GitHub UI
+
+jobs:
+  run-pulse:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to push data back to the repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Pulse for Groww
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          python pulse.py run --product groww
+          
+      - name: Run Pulse for INDmoney
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          python pulse.py run --product indmoney
+          
+      - name: Run Pulse for Zerodha
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          python pulse.py run --product zerodha
+
+      - name: Commit and push generated data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/reports/ frontend/public/data/ run_ledger.db
+          
+          # Only commit and push if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: Weekly automated pulse data refresh [skip ci]"
+            git push origin main
+          else
+            echo "No new data to commit."
+          fi
