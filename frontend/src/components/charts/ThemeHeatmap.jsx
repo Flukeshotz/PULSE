@@ -34,8 +34,12 @@ export function ThemeHeatmap({ data, themeMapData = {} }) {
     });
   });
 
-  // 2. Sort rows by persistence
-  const sortedThemes = Array.from(themeMap.values()).sort((a, b) => b.totalPresent - a.totalPresent);
+  // 2. Sort rows by persistence (number of weeks present)
+  const sortedThemes = Array.from(themeMap.values()).sort((a, b) => {
+    const aCount = Object.keys(a.weeks).length;
+    const bCount = Object.keys(b.weeks).length;
+    return bCount - aCount;
+  });
   
   const weekLabels = data.map(d => d.iso_week.split('-')[1]);
   const totalWeeks = weekLabels.length;
@@ -118,11 +122,11 @@ export function ThemeHeatmap({ data, themeMapData = {} }) {
 
               {/* Persistence Bar */}
               <div className="w-[80px] md:w-[15%] flex justify-end items-center pr-2 shrink-0">
-                <span className="text-xs text-[var(--text-secondary)] mr-1 md:mr-2">{t.totalPresent}/{totalWeeks}</span>
+                <span className="text-xs text-[var(--text-secondary)] mr-1 md:mr-2">{Object.keys(t.weeks).length}/{totalWeeks}</span>
                 <div className="hidden md:block w-12 h-1.5 bg-[var(--border-subtle)] rounded-full overflow-hidden">
                   <div 
                     className="h-full bg-[var(--accent)]" 
-                    style={{ width: `${(t.totalPresent / totalWeeks) * 100}%` }}
+                    style={{ width: `${(Object.keys(t.weeks).length / totalWeeks) * 100}%` }}
                   />
                 </div>
               </div>

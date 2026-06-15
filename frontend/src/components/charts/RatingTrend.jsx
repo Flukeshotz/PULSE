@@ -48,7 +48,7 @@ export function RatingTrend({ data }) {
         </div>
       </div>
 
-      <div className="flex-1 relative min-h-[200px] md:min-h-[280px]">
+      <div className="flex-1 relative h-[200px] md:h-[280px]">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
             <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border-subtle)" />
