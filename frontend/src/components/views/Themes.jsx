@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { AlertTriangle, Search, Lightbulb, Quote, Star, Users, Code, Paintbrush, Headphones, Layers } from 'lucide-react';
+import { AlertTriangle, Search, Lightbulb, Quote, Star, Users, Code, Paintbrush, Headphones, Layers, TrendingUp, TrendingDown, Sparkles } from 'lucide-react';
 import { SentimentBadge } from '../shared/SentimentBadge';
 import { parseThemeName, formatSourceName } from '../../utils/format';
 import { getSentimentBgClass, getSourceColor, getRatingColor } from '../../utils/colors';
@@ -16,7 +16,7 @@ const getTeamIcon = (team) => {
 export function Themes({ report }) {
   const themes = report?.themes || [];
   const [selectedIdx, setSelectedIdx] = useState(0);
-  const [sortBy, setSortBy] = useState('rank');
+  const [sortBy, setSortBy] = useState('priority');
   const [quotesExpanded, setQuotesExpanded] = useState(false);
 
   // Reset selection if report changes
@@ -26,6 +26,7 @@ export function Themes({ report }) {
   }, [report, sortBy]);
   
   const sortedThemes = [...themes].sort((a, b) => {
+    if (sortBy === 'priority') return (b.priority_score || 0) - (a.priority_score || 0);
     if (sortBy === 'mentions') return (b.mentions_count || 0) - (a.mentions_count || 0);
     if (sortBy === 'lowest_rated') return (a.average_rating || 5) - (b.average_rating || 5);
     if (sortBy === 'highest_confidence') return (b.confidence_score || 0) - (a.confidence_score || 0);
@@ -46,10 +47,53 @@ export function Themes({ report }) {
   const actionItems = selectedTheme.action_plan ? selectedTheme.action_plan.split('\n').map(s => s.replace(/^[•\-]\s*/, '').trim()).filter(Boolean) : [];
 
   return (
-    <div className="flex flex-col lg:flex-row gap-8 pb-12 animate-in fade-in duration-300">
+    <div className="flex flex-col space-y-8 pb-12 animate-in fade-in duration-300">
       
-      {/* LEFT PANEL / TOP PILLS: Theme List */}
-      <div className="w-full lg:w-1/3 shrink-0">
+      {/* Executive Briefing Block */}
+      {(report?.top_escalations?.length > 0 || report?.top_improvements?.length > 0) && (
+        <div className="w-full bg-[var(--bg-elevated)] border border-[var(--border-subtle)] rounded-[var(--radius-lg)] p-6 md:p-8">
+          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-6">Executive Briefing</h2>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Escalations */}
+            <div>
+              <div className="flex items-center gap-2 mb-4 text-[var(--negative)]">
+                <TrendingUp className="w-5 h-5" />
+                <h3 className="font-semibold uppercase tracking-wider text-sm">Top Escalations This Week</h3>
+              </div>
+              <ul className="space-y-3">
+                {report.top_escalations?.length > 0 ? report.top_escalations.map((t, i) => (
+                  <li key={i} className="flex justify-between items-center text-sm">
+                    <span className="font-medium text-[var(--text-primary)] truncate max-w-[70%]">{parseThemeName(t.name).name}</span>
+                    <span className="font-bold text-[var(--negative)]">↑ {t.trend?.mentions_wow_pct}%</span>
+                  </li>
+                )) : <li className="text-[var(--text-secondary)] text-sm italic">No significant escalations detected.</li>}
+              </ul>
+            </div>
+            
+            {/* Improvements */}
+            <div>
+              <div className="flex items-center gap-2 mb-4 text-[var(--positive)]">
+                <TrendingDown className="w-5 h-5" />
+                <h3 className="font-semibold uppercase tracking-wider text-sm">Top Improvements</h3>
+              </div>
+              <ul className="space-y-3">
+                {report.top_improvements?.length > 0 ? report.top_improvements.map((t, i) => (
+                  <li key={i} className="flex justify-between items-center text-sm">
+                    <span className="font-medium text-[var(--text-primary)] truncate max-w-[70%]">{parseThemeName(t.name).name}</span>
+                    <span className="font-bold text-[var(--positive)]">Priority ↓ {Math.abs(t.trend?.priority_wow_delta || 0)}</span>
+                  </li>
+                )) : <li className="text-[var(--text-secondary)] text-sm italic">No significant improvements detected.</li>}
+              </ul>
+            </div>
+          </div>
+        </div>
+      )}
+
+      <div className="flex flex-col lg:flex-row gap-8">
+        
+        {/* LEFT PANEL / TOP PILLS: Theme List */}
+        <div className="w-full lg:w-1/3 shrink-0">
         
         {/* Sort Controls */}
         <div className="mb-4 px-4 md:px-0">
@@ -60,6 +104,7 @@ export function Themes({ report }) {
             className="w-full bg-[var(--bg-elevated)] border border-[var(--border-subtle)] text-[var(--text-primary)] text-sm rounded-md px-3 py-2 outline-none focus:border-[var(--accent)] transition-colors"
           >
             <option value="rank">Default (Rank)</option>
+            <option value="priority">Highest Priority</option>
             <option value="mentions">Most Mentioned</option>
             <option value="lowest_rated">Lowest Rated</option>
             <option value="highest_confidence">Highest Confidence</option>
@@ -102,11 +147,45 @@ export function Themes({ report }) {
         
         {/* Header */}
         <div>
-          <div className="flex items-center gap-3 mb-2">
+          <div className="flex items-center gap-3 mb-2 flex-wrap">
             {sentiment && <SentimentBadge sentiment={sentiment} />}
             <span className="px-2 py-0.5 rounded-full bg-[var(--accent-soft)] text-[var(--accent)] text-xs font-semibold uppercase tracking-wider">
               Rank #{selectedTheme.rank}
             </span>
+            {selectedTheme.priority_score > 0 && (
+              <div className="flex items-center gap-2">
+                <span className={`px-2 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider border ${
+                  selectedTheme.priority_score >= 90 ? 'bg-red-500/10 text-red-500 border-red-500/20' :
+                  selectedTheme.priority_score >= 70 ? 'bg-orange-500/10 text-orange-500 border-orange-500/20' :
+                  selectedTheme.priority_score >= 40 ? 'bg-amber-500/10 text-amber-500 border-amber-500/20' :
+                  'bg-green-500/10 text-green-500 border-green-500/20'
+                }`}>
+                  {selectedTheme.priority_score >= 90 ? 'Critical' :
+                   selectedTheme.priority_score >= 70 ? 'High' :
+                   selectedTheme.priority_score >= 40 ? 'Medium' : 'Low'}
+                </span>
+                <span className="text-xs font-semibold text-[var(--text-tertiary)]">
+                  Priority: {selectedTheme.priority_score}
+                </span>
+              </div>
+            )}
+            
+            {/* Trend Badge */}
+            {selectedTheme.trend && selectedTheme.trend.status !== 'stable' && (
+              <span className={`px-2 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider border flex items-center gap-1 ${
+                selectedTheme.trend.status === 'escalating' ? 'bg-red-500/10 text-red-500 border-red-500/20' :
+                selectedTheme.trend.status === 'improving' ? 'bg-green-500/10 text-green-500 border-green-500/20' :
+                'bg-indigo-500/10 text-indigo-500 border-indigo-500/20'
+              }`}>
+                {selectedTheme.trend.status === 'escalating' && <TrendingUp className="w-3 h-3" />}
+                {selectedTheme.trend.status === 'improving' && <TrendingDown className="w-3 h-3" />}
+                {(selectedTheme.trend.status === 'emerging' || selectedTheme.trend.status === 'new') && <Sparkles className="w-3 h-3" />}
+                
+                {selectedTheme.trend.status === 'escalating' ? `Escalating ↑ ${selectedTheme.trend.mentions_wow_pct}% WoW` :
+                 selectedTheme.trend.status === 'improving' ? `Improving ↓ ${Math.abs(selectedTheme.trend.priority_wow_delta)} priority points` :
+                 selectedTheme.trend.status === 'emerging' ? `Emerging` : 'New Theme'}
+              </span>
+            )}
           </div>
           <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-4">{name}</h2>
           

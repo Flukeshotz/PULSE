@@ -170,7 +170,8 @@ Output JSON strictly matching this schema:
                 average_rating = total_stars / rating_count if rating_count > 0 else 0.0
                 
                 # Confidence score heuristic (Volume + Quote Extraction Success)
-                volume_score = min(1.0, mentions_count / 50.0)
+                import math
+                volume_score = min(1.0, math.log10(mentions_count + 1) / 3.0)
                 quote_count = len(parsed.get("quotes", []))
                 quote_score = min(1.0, quote_count / 5.0)
                 confidence_score = round((volume_score * 0.6) + (quote_score * 0.4), 2)

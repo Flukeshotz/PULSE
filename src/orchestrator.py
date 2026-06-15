@@ -12,6 +12,8 @@ from src.reasoning.cluster import Clusterer
 from src.reasoning.dedupe import ThemeDeduplicator
 from src.reasoning.summarize import Summarizer
 from src.reasoning.validate import QuoteValidator
+from src.reasoning.theme_identity import ThemeTracker
+from src.reasoning.trends import TrendEngine
 from src.render.builder import ReportBuilder
 from src.models import PulseReport, RunRecord
 import logging
@@ -58,6 +60,8 @@ class Orchestrator:
         self.deduplicator = ThemeDeduplicator()
         self.summarizer = Summarizer()
         self.validator = QuoteValidator()
+        self.theme_tracker = ThemeTracker(product)
+        self.trend_engine = TrendEngine(product)
 
     async def run(self) -> RunRecord:
         logger.info(f"Starting pulse run for {self.product_name} (Week: {self.iso_week})")
@@ -186,6 +190,17 @@ class Orchestrator:
             logger.info("Deduplicating themes...")
             themes = self.deduplicator.dedupe(themes)
             
+            logger.info("Assigning stable Theme IDs...")
+            themes = self.theme_tracker.assign_ids(themes)
+            
+            logger.info("Computing trends...")
+            self.trend_engine.compute_trends(themes, self.iso_week)
+            
+            logger.info("Updating historical records...")
+            self.theme_tracker.update_history(self.iso_week, themes)
+            
+            top_escalations, top_improvements = self.trend_engine.get_top_escalations_and_improvements(themes)
+            
         report = PulseReport(
             product=self.product_config.display_name,
             iso_week=self.iso_week,
@@ -204,7 +219,9 @@ class Orchestrator:
             },
             source_counts=record.review_counts,
             rating_distribution=rating_dist,
-            average_rating=avg_rating
+            average_rating=avg_rating,
+            top_escalations=top_escalations if len(reviews) > 0 else [],
+            top_improvements=top_improvements if len(reviews) > 0 else []
         )
         
         # We can eventually pass report to _deliver. For now, print report stats.

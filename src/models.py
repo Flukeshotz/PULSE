@@ -26,6 +26,13 @@ class Review:
     meta: Dict[str, Any]    # source-specific extras (upvotes, version, etc.)
 
 @dataclass
+class ThemeTrend:
+    status: str             # "escalating", "improving", "emerging", "stable", "new"
+    mentions_wow_pct: float # e.g. 83.0 for +83%
+    priority_wow_delta: int # e.g. +15
+    rating_wow_delta: float # e.g. -0.3
+
+@dataclass
 class Theme:
     name: str
     rank: int
@@ -40,6 +47,10 @@ class Theme:
     average_rating: float = 0.0
     confidence_score: float = 0.0
     confidence_components: Dict[str, float] = None
+    priority_score: int = 0
+    theme_id: Optional[str] = None
+    trend: Optional[ThemeTrend] = None
+    trend: Optional[ThemeTrend] = None
 
 @dataclass
 class PulseReport:
@@ -54,6 +65,8 @@ class PulseReport:
     source_counts: Dict[str, int]
     rating_distribution: Dict[str, int]
     average_rating: float
+    top_escalations: List[Theme] = None
+    top_improvements: List[Theme] = None
 
 @dataclass
 class RunRecord:

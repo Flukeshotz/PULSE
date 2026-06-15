@@ -60,7 +60,8 @@ class ThemeDeduplicator:
                             kept_theme['theme'].rating_distribution[k] += theme.rating_distribution.get(k, 0)
                             
                     if kept_theme['theme'].confidence_components:
-                        vol_score = min(1.0, total_mentions / 50.0)
+                        import math
+                        vol_score = min(1.0, math.log10(total_mentions + 1) / 3.0)
                         kept_theme['theme'].confidence_components['volume'] = round(vol_score, 2)
                         q_score = min(1.0, len(unique_quotes) / 5.0)
                         kept_theme['theme'].confidence_components['quote_validation'] = round(q_score, 2)
@@ -74,7 +75,16 @@ class ThemeDeduplicator:
                 merged.append({'orig_idx': i, 'theme': theme})
                 
         final_themes = [item['theme'] for item in merged]
-        # Re-rank based on the new final list
+        
+        # Calculate priority_score
+        import math
+        for t in final_themes:
+            vol_factor = min(1.0, math.log10(t.mentions_count + 1) / 3.0)
+            neg_factor = max(0.0, (5.0 - t.average_rating) / 4.0)
+            t.priority_score = int(round(vol_factor * neg_factor * t.confidence_score * 100))
+            
+        # Re-rank based on priority
+        final_themes.sort(key=lambda t: t.priority_score, reverse=True)
         for idx, t in enumerate(final_themes):
             t.rank = idx + 1
             
