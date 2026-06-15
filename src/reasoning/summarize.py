@@ -155,6 +155,31 @@ Output JSON strictly matching this schema:
                     if action_plan_str and not action_plan_str.startswith("•"):
                         action_plan_str = "• " + action_plan_str
                 
+                # Compute cluster metrics
+                mentions_count = len(cluster)
+                rating_dist = {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0}
+                total_stars = 0
+                rating_count = 0
+                for r in cluster:
+                    if r.rating is not None:
+                        key = str(int(r.rating))
+                        if key in rating_dist:
+                            rating_dist[key] += 1
+                        total_stars += r.rating
+                        rating_count += 1
+                average_rating = total_stars / rating_count if rating_count > 0 else 0.0
+                
+                # Confidence score heuristic (Volume + Quote Extraction Success)
+                volume_score = min(1.0, mentions_count / 50.0)
+                quote_count = len(parsed.get("quotes", []))
+                quote_score = min(1.0, quote_count / 5.0)
+                confidence_score = round((volume_score * 0.6) + (quote_score * 0.4), 2)
+                
+                confidence_components = {
+                    "volume": round(volume_score, 2),
+                    "quote_validation": round(quote_score, 2)
+                }
+                
                 return Theme(
                     name=parsed.get("name", "Unknown Theme"),
                     rank=rank,
@@ -163,7 +188,12 @@ Output JSON strictly matching this schema:
                     business_impact=parsed.get("business_impact", "Unknown impact."),
                     root_cause_hypothesis=parsed.get("root_cause_hypothesis", "Unknown root cause."),
                     action_plan=action_plan_str,
-                    teams_impacted=parsed.get("teams_impacted", ["General"])
+                    teams_impacted=parsed.get("teams_impacted", ["General"]),
+                    mentions_count=mentions_count,
+                    rating_distribution=rating_dist,
+                    average_rating=round(average_rating, 2),
+                    confidence_score=confidence_score,
+                    confidence_components=confidence_components
                 )
                 
             except httpx.HTTPStatusError as e:

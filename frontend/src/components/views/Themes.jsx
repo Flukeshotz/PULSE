@@ -16,11 +16,21 @@ const getTeamIcon = (team) => {
 export function Themes({ report }) {
   const themes = report?.themes || [];
   const [selectedIdx, setSelectedIdx] = useState(0);
+  const [sortBy, setSortBy] = useState('rank');
+  const [quotesExpanded, setQuotesExpanded] = useState(false);
 
   // Reset selection if report changes
   useEffect(() => {
     setSelectedIdx(0);
-  }, [report]);
+    setQuotesExpanded(false);
+  }, [report, sortBy]);
+  
+  const sortedThemes = [...themes].sort((a, b) => {
+    if (sortBy === 'mentions') return (b.mentions_count || 0) - (a.mentions_count || 0);
+    if (sortBy === 'lowest_rated') return (a.average_rating || 5) - (b.average_rating || 5);
+    if (sortBy === 'highest_confidence') return (b.confidence_score || 0) - (a.confidence_score || 0);
+    return a.rank - b.rank; // rank
+  });
 
   if (themes.length === 0) {
     return (
@@ -31,7 +41,7 @@ export function Themes({ report }) {
     );
   }
 
-  const selectedTheme = themes[selectedIdx];
+  const selectedTheme = sortedThemes[selectedIdx] || sortedThemes[0];
   const { sentiment, name } = parseThemeName(selectedTheme.name);
   const actionItems = selectedTheme.action_plan ? selectedTheme.action_plan.split('\n').map(s => s.replace(/^[•\-]\s*/, '').trim()).filter(Boolean) : [];
 
@@ -40,8 +50,24 @@ export function Themes({ report }) {
       
       {/* LEFT PANEL / TOP PILLS: Theme List */}
       <div className="w-full lg:w-1/3 shrink-0">
+        
+        {/* Sort Controls */}
+        <div className="mb-4 px-4 md:px-0">
+          <label className="text-xs font-semibold text-[var(--text-tertiary)] uppercase tracking-wider mb-2 block">Sort By</label>
+          <select 
+            value={sortBy} 
+            onChange={(e) => setSortBy(e.target.value)}
+            className="w-full bg-[var(--bg-elevated)] border border-[var(--border-subtle)] text-[var(--text-primary)] text-sm rounded-md px-3 py-2 outline-none focus:border-[var(--accent)] transition-colors"
+          >
+            <option value="rank">Default (Rank)</option>
+            <option value="mentions">Most Mentioned</option>
+            <option value="lowest_rated">Lowest Rated</option>
+            <option value="highest_confidence">Highest Confidence</option>
+          </select>
+        </div>
+
         <div className="sticky top-[104px] md:top-32 space-x-2 md:space-x-0 space-y-0 lg:space-y-2 flex flex-row lg:flex-col overflow-x-auto lg:overflow-visible pb-4 lg:pb-0 snap-x snap-mandatory lg:snap-none no-scrollbar -mx-4 md:mx-0 px-4 md:px-0">
-          {themes.map((theme, idx) => {
+          {sortedThemes.map((theme, idx) => {
             const parsed = parseThemeName(theme.name);
             const isActive = idx === selectedIdx;
             
@@ -79,10 +105,49 @@ export function Themes({ report }) {
           <div className="flex items-center gap-3 mb-2">
             {sentiment && <SentimentBadge sentiment={sentiment} />}
             <span className="px-2 py-0.5 rounded-full bg-[var(--accent-soft)] text-[var(--accent)] text-xs font-semibold uppercase tracking-wider">
-              Rank #{selectedIdx + 1}
+              Rank #{selectedTheme.rank}
             </span>
           </div>
-          <h2 className="text-2xl font-bold text-[var(--text-primary)]">{name}</h2>
+          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-4">{name}</h2>
+          
+          {/* Metadata Section */}
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-3 p-4 bg-[var(--bg-elevated)] rounded-[var(--radius-md)] mb-6 border border-[var(--border-subtle)]">
+            <div className="flex flex-col">
+              <span className="text-xs font-semibold text-[var(--text-tertiary)] uppercase tracking-wider mb-1">Mentions</span>
+              <span className="text-lg font-bold text-[var(--text-primary)]">{selectedTheme.mentions_count || 0} reviews</span>
+            </div>
+            <div className="flex flex-col">
+              <span className="text-xs font-semibold text-[var(--text-tertiary)] uppercase tracking-wider mb-1">Avg Rating</span>
+              <div className="flex items-center gap-1">
+                <Star className="w-4 h-4 text-amber-500 fill-amber-500" />
+                <span className="text-lg font-bold text-[var(--text-primary)]">{selectedTheme.average_rating || '-'}</span>
+              </div>
+            </div>
+            <div className="flex flex-col">
+              <span className="text-xs font-semibold text-[var(--text-tertiary)] uppercase tracking-wider mb-1">Confidence</span>
+              <span className="text-lg font-bold text-[var(--text-primary)]">{selectedTheme.confidence_score ? `${Math.round(selectedTheme.confidence_score * 100)}%` : '-'}</span>
+            </div>
+            
+            {/* Rating Distribution */}
+            {selectedTheme.rating_distribution && (
+              <div className="flex flex-col w-full md:w-auto md:ml-auto mt-2 md:mt-0">
+                <span className="text-xs font-semibold text-[var(--text-tertiary)] uppercase tracking-wider mb-1">Distribution</span>
+                <div className="flex items-center gap-3">
+                  {[5,4,3,2,1].map(star => {
+                    const count = selectedTheme.rating_distribution[star] || 0;
+                    const total = selectedTheme.mentions_count || 1;
+                    const pct = Math.round((count / total) * 100);
+                    return (
+                      <div key={star} className="flex flex-col items-center group relative cursor-default">
+                        <span className="text-xs font-medium text-[var(--text-secondary)]">{star}★</span>
+                        <span className="text-xs text-[var(--text-tertiary)]">{pct}%</span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+          </div>
         </div>
 
         {/* Impact & Hypothesis */}
@@ -148,7 +213,10 @@ export function Themes({ report }) {
             <p className="text-[var(--text-secondary)] italic">No quotes met the validation threshold this week.</p>
           ) : (
             <div className="space-y-4">
-              {selectedTheme.quotes.map(q => typeof q === 'string' ? { text: q, source: null, rating: null } : q).map((q, i) => (
+              {selectedTheme.quotes
+                .slice(0, quotesExpanded ? selectedTheme.quotes.length : 3)
+                .map(q => typeof q === 'string' ? { text: q, source: null, rating: null } : q)
+                .map((q, i) => (
                 <div key={i} className="bg-[var(--bg-card)] dark:bg-[var(--bg-elevated)] rounded-[var(--radius-md)] p-5 shadow-[var(--shadow-sm)] relative overflow-hidden">
                   <div className="absolute -top-3 -left-1 text-6xl font-serif text-[var(--text-tertiary)] opacity-[0.08] select-none pointer-events-none">"</div>
                   
@@ -178,6 +246,15 @@ export function Themes({ report }) {
                   </div>
                 </div>
               ))}
+              
+              {!quotesExpanded && selectedTheme.quotes.length > 3 && (
+                <button 
+                  onClick={() => setQuotesExpanded(true)}
+                  className="w-full py-3 mt-2 rounded-md border border-[var(--border-subtle)] bg-[var(--bg-elevated)] text-[var(--text-secondary)] text-sm font-medium hover:bg-[var(--accent-soft)] hover:text-[var(--accent)] hover:border-[var(--accent)] transition-colors"
+                >
+                  View {selectedTheme.quotes.length - 3} More Quotes
+                </button>
+              )}
             </div>
           )}
         </div>

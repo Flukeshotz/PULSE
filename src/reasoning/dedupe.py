@@ -45,6 +45,27 @@ class ThemeDeduplicator:
                             seen_texts.add(text_val)
                             unique_quotes.append(q)
                     kept_theme['theme'].quotes = unique_quotes
+                    
+                    # Merge metadata
+                    total_mentions = kept_theme['theme'].mentions_count + theme.mentions_count
+                    if total_mentions > 0:
+                        avg1 = kept_theme['theme'].average_rating * kept_theme['theme'].mentions_count
+                        avg2 = theme.average_rating * theme.mentions_count
+                        kept_theme['theme'].average_rating = round((avg1 + avg2) / total_mentions, 2)
+                    
+                    kept_theme['theme'].mentions_count = total_mentions
+                    
+                    if kept_theme['theme'].rating_distribution and theme.rating_distribution:
+                        for k in kept_theme['theme'].rating_distribution:
+                            kept_theme['theme'].rating_distribution[k] += theme.rating_distribution.get(k, 0)
+                            
+                    if kept_theme['theme'].confidence_components:
+                        vol_score = min(1.0, total_mentions / 50.0)
+                        kept_theme['theme'].confidence_components['volume'] = round(vol_score, 2)
+                        q_score = min(1.0, len(unique_quotes) / 5.0)
+                        kept_theme['theme'].confidence_components['quote_validation'] = round(q_score, 2)
+                        kept_theme['theme'].confidence_score = round((vol_score * 0.6) + (q_score * 0.4), 2)
+                        
                     is_duplicate = True
                     print(f"  [dedupe] Merged '{theme.name}' into '{kept_theme['theme'].name}' (sim: {sim:.2f})")
                     break

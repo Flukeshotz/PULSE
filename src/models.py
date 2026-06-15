@@ -35,6 +35,11 @@ class Theme:
     root_cause_hypothesis: str
     action_plan: str
     teams_impacted: List[str]
+    mentions_count: int = 0
+    rating_distribution: Dict[str, int] = None
+    average_rating: float = 0.0
+    confidence_score: float = 0.0
+    confidence_components: Dict[str, float] = None
 
 @dataclass
 class PulseReport:
