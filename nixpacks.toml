@@ -1,3 +1,6 @@
+[variables]
+PUPPETEER_SKIP_DOWNLOAD = "1"
+
 [phases.setup]
 nixPkgs = ["nodejs_20"]
 
