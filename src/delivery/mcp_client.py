@@ -58,9 +58,14 @@ class MCPClientManager:
             self.gmail = MockGmailMCP()
         elif self.delivery_target == "real":
             if not server_url:
-                raise ValueError("server_url is required for real delivery target")
-            self.docs = None
-            self.gmail = None
+                import logging
+                logging.getLogger("pulse").warning("server_url is missing for real delivery target. Falling back to mock delivery.")
+                self.delivery_target = "mock"
+                self.docs = MockDocsMCP()
+                self.gmail = MockGmailMCP()
+            else:
+                self.docs = None
+                self.gmail = None
         else:
             raise ValueError(f"Unknown delivery target: {delivery_target}")
 
