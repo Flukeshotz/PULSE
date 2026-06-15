@@ -63,7 +63,7 @@ function App() {
           </div>
         ) : (
           <div className="w-full">
-            {activeTab === 'overview' && <Overview report={report} />}
+            {activeTab === 'overview' && <Overview report={report} setActiveTab={setActiveTab} />}
             {activeTab === 'themes' && <Themes report={report} />}
             {activeTab === 'trends' && <Trends manifest={manifest} selectedProduct={selectedProduct} />}
             {activeTab === 'report' && <Report report={report} />}

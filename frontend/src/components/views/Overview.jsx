@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import { FileText, Database, Layers, Quote, AlertCircle, TrendingDown, TrendingUp, Minus, ChevronRight, ChevronLeft, Star } from 'lucide-react';
 import { StatCard } from '../shared/StatCard';
 import { SourceDonut } from '../charts/SourceDonut';
@@ -6,11 +7,20 @@ import { SentimentBadge } from '../shared/SentimentBadge';
 import { parseThemeName, formatSourceName } from '../../utils/format';
 import { getSentimentBgClass, getSourceColor, getRatingColor } from '../../utils/colors';
 
-export function Overview({ report }) {
+export function Overview({ report, setActiveTab }) {
   if (!report) return null;
 
   const counts = report.counts || {};
   const totalValidated = report.themes?.reduce((acc, t) => acc + (t.quotes?.length || 0), 0) || 0;
+
+  const carouselRef = useRef(null);
+
+  const scrollCarousel = (direction) => {
+    if (carouselRef.current) {
+      const scrollAmount = 340 + 24; // Card width + gap
+      carouselRef.current.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+    }
+  };
 
   return (
     <div className="space-y-8 pb-12 animate-in fade-in duration-300">
@@ -45,7 +55,10 @@ export function Overview({ report }) {
       <section>
         <div className="flex justify-between items-end mb-6">
           <h2 className="text-2xl font-semibold text-[var(--text-primary)] tracking-tight">Primary Themes</h2>
-          <button className="text-sm font-medium text-[var(--accent)] hover:text-[var(--accent-hover)] transition-colors">
+          <button 
+            onClick={() => setActiveTab('themes')}
+            className="text-sm font-medium text-[var(--accent)] hover:text-[var(--accent-hover)] transition-colors"
+          >
             View all {report.themes?.length} themes &rarr;
           </button>
         </div>
@@ -61,6 +74,7 @@ export function Overview({ report }) {
             return (
               <div 
                 key={i} 
+                onClick={() => setActiveTab('themes')}
                 className="group flex flex-col md:flex-row items-start p-4 md:p-6 bg-[var(--bg-card)] rounded-[var(--radius-md)] shadow-[var(--shadow-sm)] hover:shadow-[var(--shadow-md)] hover:-translate-y-[1px] transition-all cursor-pointer relative"
                 style={{ animationDelay: `${i * 60}ms`, animationFillMode: 'both' }}
               >
@@ -110,16 +124,25 @@ export function Overview({ report }) {
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-2xl font-semibold text-[var(--text-primary)] tracking-tight">Highlight Quotes</h2>
           <div className="flex gap-2">
-            <button className="p-2 border border-[var(--border-subtle)] rounded-full text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--text-primary)] transition-all">
+            <button 
+              onClick={() => scrollCarousel(-1)}
+              className="p-2 border border-[var(--border-subtle)] rounded-full text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--text-primary)] transition-all"
+            >
               <ChevronLeft className="w-4 h-4" />
             </button>
-            <button className="p-2 border border-[var(--border-subtle)] rounded-full text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--text-primary)] transition-all">
+            <button 
+              onClick={() => scrollCarousel(1)}
+              className="p-2 border border-[var(--border-subtle)] rounded-full text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--text-primary)] transition-all"
+            >
               <ChevronRight className="w-4 h-4" />
             </button>
           </div>
         </div>
         
-        <div className="flex overflow-x-auto gap-4 md:gap-6 pb-4 snap-x snap-mandatory no-scrollbar -mx-4 md:mx-0 px-4 md:px-0">
+        <div 
+          ref={carouselRef}
+          className="flex overflow-x-auto gap-4 md:gap-6 pb-4 snap-x snap-mandatory no-scrollbar -mx-4 md:mx-0 px-4 md:px-0 scroll-smooth"
+        >
           {report.themes?.flatMap(t => {
             const rawQuotes = t.quotes || [];
             return rawQuotes.map(q => 
