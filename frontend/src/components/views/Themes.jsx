@@ -189,6 +189,25 @@ export function Themes({ report }) {
           </div>
           <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-4">{name}</h2>
           
+          {selectedTheme.trend && (
+            <div className="flex flex-wrap gap-6 bg-[var(--bg-elevated)] border border-[var(--border-subtle)] p-4 mb-6 rounded-[var(--radius-md)] items-center">
+              <div>
+                <span className="text-xs font-bold text-[var(--text-tertiary)] uppercase tracking-wide block mb-1">First Seen</span>
+                <span className="text-sm text-[var(--text-primary)] font-medium">{selectedTheme.trend.first_seen} <span className="text-[var(--text-secondary)] font-normal">({selectedTheme.trend.age_weeks} weeks ago)</span></span>
+              </div>
+              {selectedTheme.trend.status !== 'stable' && selectedTheme.trend.status !== 'new' && selectedTheme.trend.status !== 'emerging' && (
+                <div>
+                  <span className="text-xs font-bold text-[var(--text-tertiary)] uppercase tracking-wide block mb-1">Trend Drivers (WoW)</span>
+                  <div className="text-xs text-[var(--text-secondary)] flex gap-4">
+                    <span>Mentions: <strong className={selectedTheme.trend.mentions_wow_pct > 0 ? "text-[var(--negative)]" : ""}>{selectedTheme.trend.mentions_wow_pct > 0 ? '+' : ''}{selectedTheme.trend.mentions_wow_pct}%</strong></span>
+                    <span>Priority: <strong className={selectedTheme.trend.priority_wow_delta > 0 ? "text-[var(--negative)]" : "text-[var(--positive)]"}>{selectedTheme.trend.priority_wow_delta > 0 ? '+' : ''}{selectedTheme.trend.priority_wow_delta} pts</strong></span>
+                    <span>Rating: <strong>{selectedTheme.trend.rating_wow_delta > 0 ? '+' : ''}{selectedTheme.trend.rating_wow_delta}</strong></span>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+          
           {/* Metadata Section */}
           <div className="flex flex-wrap items-center gap-x-6 gap-y-3 p-4 bg-[var(--bg-elevated)] rounded-[var(--radius-md)] mb-6 border border-[var(--border-subtle)]">
             <div className="flex flex-col">
@@ -338,6 +357,7 @@ export function Themes({ report }) {
           )}
         </div>
 
+        </div>
       </div>
     </div>
   );
