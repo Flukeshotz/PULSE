@@ -2,10 +2,10 @@
 nixPkgs = ["nodejs_20"]
 
 [phases.install]
-cmds = ["cd frontend && npm install"]
+cmds = ["echo 'Deferring install to build phase'"]
 
 [phases.build]
-cmds = ["cd frontend && npm run build"]
+cmds = ["cd frontend && npm install", "cd frontend && npm run build"]
 
 [start]
 cmd = "cd frontend && npx serve -s dist -l $PORT"

@@ -4,8 +4,24 @@ import glob
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
+import numpy as np
 
-def generate_theme_map(product="indmoney"):
+# Load model globally to avoid reloading for every product
+model = None
+def get_model():
+    global model
+    if model is None:
+        model = SentenceTransformer('BAAI/bge-small-en-v1.5')
+    return model
+
+def generate_theme_map(product=None):
+    if product is None:
+        products = [d for d in os.listdir("data/reports") if os.path.isdir(os.path.join("data/reports", d))]
+        for p in products:
+            print(f"Generating theme map for {p}...")
+            generate_theme_map(p)
+        return
+        
     reports_dir = f"data/reports/{product}"
     files = glob.glob(os.path.join(reports_dir, "*.json"))
     
@@ -32,8 +48,8 @@ def generate_theme_map(product="indmoney"):
         return
 
     print(f"Embedding {len(unique_themes)} unique themes...")
-    model = SentenceTransformer('BAAI/bge-small-en-v1.5')
-    embeddings = model.encode(unique_themes)
+    m = get_model()
+    embeddings = m.encode(unique_themes)
     
     # Group themes
     threshold = 0.65

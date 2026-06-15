@@ -34,6 +34,23 @@ async def run_pipeline(product: str, week: Optional[str], send_email: bool, dry_
         print("⚠️ WARNING! Pipeline completed with partial source coverage.")
     else:
         print("❌ FAILED! Pipeline failed.")
+        return
+
+    if record.status in ["ok", "partial"]:
+        try:
+            print(f"\\n=== POST-RUN AUTOMATION: {product.upper()} ===")
+            print("1. Generating canonical theme map...")
+            import sys
+            sys.path.append(os.path.abspath("."))
+            from scripts.generate_theme_map import generate_theme_map
+            generate_theme_map(product)
+            
+            print("2. Pushing data to frontend...")
+            import shutil
+            shutil.copytree(f"data/reports/{product}", f"frontend/public/data/{product}", dirs_exist_ok=True)
+            print("✅ Data synced to frontend successfully. No manual steps needed!")
+        except Exception as e:
+            print(f"⚠️ Warning: Post-run automation failed: {e}")
 
 def list_history(product: str):
     print(f"=== PULSE HISTORY: {product.upper()} ===")
