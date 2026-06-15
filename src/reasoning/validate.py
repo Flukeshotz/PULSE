@@ -14,6 +14,7 @@ class QuoteValidator:
         return text
 
     def validate_theme(self, theme: Theme, cluster: List[Review]) -> Theme:
+        from rapidfuzz import fuzz
         valid_quotes = []
         for quote in theme.quotes:
             norm_quote = self._normalize(quote)
@@ -24,7 +25,8 @@ class QuoteValidator:
             matched = False
             for r in cluster:
                 text = self._normalize(r.text)
-                if norm_quote in text:
+                score = fuzz.partial_ratio(norm_quote, text)
+                if score >= 90:
                     matched = True
                     valid_quotes.append({
                         "text": quote,

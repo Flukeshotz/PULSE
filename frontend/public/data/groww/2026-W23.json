@@ -1,0 +1,77 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W23",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-06-15T11:47:22.085849",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Freezes, Technical Issues, Poor Support",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "my account balance showed negative balance.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The Auto-Square off didn't work and the intraday trade was dragged beyond 3:20 Auto-Square off time. Many Transactions look shady due to Discrepancies.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users reported frequent app crashes, technical issues, delays, and poor customer support leading to financial losses, lost opportunities, and frustration with the Groww platform.",
+      "business_impact": "Substantial financial losses, customer dissatisfaction, potential revenue loss, damage to brand reputation",
+      "root_cause_hypothesis": "Outdated and inefficient backend infrastructure, inadequate load testing, and insufficient training for customer support executives",
+      "action_plan": "\u2022 Upgrade the backend infrastructure, conduct thorough load testing, retrain customer support executives, implement robust error handling and real-time issue resolution mechanisms\n\u2022 Enhance the user onboarding experience and provide clear, concise instructions to reduce technical issues\n\u2022 Develop a comprehensive knowledge base for FAQs and provide transparent information on technical issues and resolution timelines",
+      "teams_impacted": [
+        "Backend Engineering",
+        "QA Engineering",
+        "Customer Support",
+        "UX Design"
+      ]
+    },
+    {
+      "name": "[Negative] Slow App Performance",
+      "rank": 2,
+      "quotes": [],
+      "description": "Users experience frequent app crashes, slow loading times, and freezing, which severely impacts their ability to use the app effectively.",
+      "business_impact": "High user frustration leading to negative word-of-mouth and potential long-term churn risk.",
+      "root_cause_hypothesis": "Insufficient optimization of app functionality for multiple devices and network conditions, combined with potential performance bottlenecks in the underlying architecture.",
+      "action_plan": "\u2022 Improve app performance by optimizing UI, leveraging caching and background processing, and monitoring network requests. Identify and address potential bottlenecks in the architecture, and prioritize features to minimize impact on app performance.",
+      "teams_impacted": [
+        "Android Eng",
+        "Web Dev",
+        "UX Design"
+      ]
+    }
+  ],
+  "counts": {
+    "reviews": 4928,
+    "dropped_quotes": 5,
+    "filtered_short": 3010,
+    "filtered_short_positive": 2853,
+    "filtered_short_negative": 87,
+    "filtered_short_neutral": 70
+  },
+  "source_counts": {
+    "app_store": 0,
+    "play_store": 8138
+  },
+  "rating_distribution": {
+    "1": 989,
+    "2": 128,
+    "3": 167,
+    "4": 399,
+    "5": 3245
+  },
+  "average_rating": 3.9705762987012987
+}
