@@ -1,76 +1,98 @@
 {
-  "product": "groww",
+  "product": "Groww",
   "iso_week": "2026-W24",
   "period_label": "Last 10 weeks",
-  "generated_at": "2026-06-15T09:10:10.530030",
+  "generated_at": "2026-06-15T11:39:58.606406",
   "sources_covered": [
     "app_store",
     "play_store"
   ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
   "themes": [
     {
-      "name": "Groww Platform Reliability Issues",
+      "name": "Negative, Unreliable Trades and Transactions",
       "rank": 1,
       "quotes": [
-        "'So if you love your money, keep it away from groww'",
-        "'You LOOSE 2-3%'",
-        "'App lags almost 100% of the time during live trades, and the data is often inaccurate.'"
+        {
+          "text": "It often feels like the moment I buy, the price starts going down.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "the app lags almost 100% of the time during live trades, and the data is often inaccurate.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "App frequently crashes.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Crashing during trading and hanging in between order placement.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Today it crashed when I tried to exit from F&O and it doesn't load data.",
+          "source": "play_store",
+          "rating": 1.0
+        }
       ],
-      "description": "Users are complaining about Groww's platform unreliability, poor performance, and technical issues which are affecting their trading experience. The issues are diverse but include inaccurate data, delayed transactions, app lags and freezes, and unresponsive customer support. This has led to significant financial losses for some users, damage to their trust in the platform, and a negative overall experience.",
-      "business_impact": "High risk of customer churn, reputational damage, and loss of market share due to the platform's reliability and performance issues.",
-      "root_cause_hypothesis": "Groww's platform reliability issues are likely caused by a combination of factors, including inadequate infrastructure, insufficient testing, poor code quality, and inadequate monitoring and feedback mechanisms.",
-      "action_plan": "\u2022 Conduct a thorough root cause analysis to identify the underlying technical issues, develop a comprehensive fix plan, invest in infrastructure scaling, enhance testing and QA processes, and improve feedback mechanisms to address user concerns in a timely manner.",
+      "description": "The app is experiencing frequent and severe issues with trades and transactions, including delayed and inaccurate data, technical failures, and incorrect executions. Users are frustrated with the high risk of losing their money due to these issues.",
+      "business_impact": "Significant financial losses for traders, damage to the company's reputation, and potential loss of customers due to mistrust",
+      "root_cause_hypothesis": "Insufficient investment in infrastructure, poor maintenance of the app, and inadequate testing and quality assurance processes may be contributing to these issues",
+      "action_plan": "\u2022 Conduct a thorough audit of the app's infrastructure and codebase to identify and fix underlying technical issues\n\u2022 Implement robust testing and quality assurance processes to prevent future failures\n\u2022 Invest in additional personnel and resources to improve maintenance and support",
       "teams_impacted": [
-        "Engineering",
-        "Product",
-        "Customer Support"
+        "Core Product",
+        "Android Eng",
+        "UX Design"
       ]
     },
     {
-      "name": "Poor User Experience and Financial Losses",
+      "name": "[Negative] Unreasonably High Brokerage Charges",
       "rank": 2,
       "quotes": [
-        "I lost around 35 -40 Lakh rupees in total trading F&O. I completely became obsessed with this but no matter what I take if I pick call and wait it goes put if I wait for put it goes call.",
-        "It happened multiple times that a position in loss was exited instead of the one in profit. Like, how is it possible when I open position A to exit, how can you exit from B or C?"
+        {
+          "text": "bro don't use this app for investment they charge tooooo much",
+          "source": "play_store",
+          "rating": 1.0
+        }
       ],
-      "description": "Users report frequent app crashes, slow navigation, and manipulation of sell orders, leading to significant financial losses. The app often fails to load data, and the customer support is inadequate, with unresponsive agents and unhelpful responses.",
-      "business_impact": "High churn risk due to poor user experience and significant financial losses, ultimately resulting in a loss of trust and damage to the company's reputation.",
-      "root_cause_hypothesis": "The app's poor performance is likely due to underlying technical issues, inadequate testing, and insufficient investment in customer support, leading to a lack of confidence among users.",
-      "action_plan": "\u2022 Investigate and resolve underlying technical issues, conduct thorough testing to ensure app stability and functionality, and revamp customer support to provide timely, helpful, and empathetic responses to user concerns. Improve communication with users, and provide clear information about the app's performance and potential risks.",
+      "description": "Users have reported consistently finding the brokerage charges to be exorbitantly high, leading to significant losses in their profit margins.",
+      "business_impact": "High brokerage charges can lead to increased losses in profit margins for users, potentially resulting in reduced user loyalty and increased churn.",
+      "root_cause_hypothesis": "The brokerage charges are likely calculated based on a flawed formula, leading to unexpected high charges. Alternatively, it might be due to hidden charges not disclosed properly to users.",
+      "action_plan": "\u2022 Revise the brokerage charge calculation formula to ensure it is more transparent and reasonable. Disclose any additional charges clearly during the onboarding process\n\u2022 Conduct a thorough review of the current charge structure and fees to identify areas for improvement. Consider implementing a tiered charge structure based on user activity\n\u2022 Enhance product education to clearly communicate to users the potential impact of high brokerage charges on their investments.",
       "teams_impacted": [
-        "App Development Team",
-        "Quality Assurance Team",
-        "Customer Support Team"
-      ]
-    },
-    {
-      "name": "Stocks and Indices Layout Issues",
-      "rank": 3,
-      "quotes": [
-        "The Nifty 50 and Sensex tickers are pushed into the status bar and cut off by the notch, making it impossible to read key indices at a glance.",
-        "Please Give a old update for grow app interface to see nifty and sensex and bank nifty please we are missing it",
-        "nifty and sensex tab made smaller. difficult to click tab",
-        "the new app design is really a downgrade from previous one. when I open app I don't just want to see numbers about current market trend I want to see it by percentage as well.",
-        "all are good but there is one thing missing that is layout..."
-      ],
-      "description": "Users are unable to easily view market indices (Nifty 50, Sensex, etc.) due to layout changes in the latest app update, which have resulted in reduced visibility, difficulty in comparing values, and overall poor user experience. They are requesting the old layout to be restored for better clarity and intuitiveness.",
-      "business_impact": "High churn risk due to poor user experience, UX friction from increased effort required to access information",
-      "root_cause_hypothesis": "The root cause of this issue is a lack of adequate testing and design consideration for the Stocks and Indices layout in the latest app update.",
-      "action_plan": "\u2022 Restore the previous layout for Stocks and Indices, conduct thorough testing to ensure bug-free and user-friendly interface, engage UX Design team for input and review.",
-      "teams_impacted": [
-        "Android Eng",
-        "UX Design",
-        "Core Product"
+        "Product Management",
+        "Finance Team",
+        "Customer Support",
+        "Technical Support"
       ]
     }
   ],
   "counts": {
-    "reviews": 5037,
-    "dropped_quotes": 2
+    "reviews": 5036,
+    "dropped_quotes": 1,
+    "filtered_short": 3034,
+    "filtered_short_positive": 2880,
+    "filtered_short_negative": 90,
+    "filtered_short_neutral": 64
   },
-  "short_review_counts": {
-    "positive": 2880,
-    "neutral": 64,
-    "negative": 90
-  }
+  "source_counts": {
+    "app_store": 0,
+    "play_store": 8273
+  },
+  "rating_distribution": {
+    "1": 1010,
+    "2": 137,
+    "3": 161,
+    "4": 417,
+    "5": 3311
+  },
+  "average_rating": 3.9694201747418587
 }

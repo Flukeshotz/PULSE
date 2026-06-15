@@ -25,12 +25,22 @@ export function useReportData(product, week) {
 
   // 2. Fetch specific report
   useEffect(() => {
-    if (!product || !week) return;
+    if (!product || !week || !manifest) return;
+
+    // Validate that the requested week actually exists for this product
+    const validWeeks = manifest.products?.[product]?.weeks || [];
+    if (!validWeeks.includes(week)) {
+      return; // Wait for App.jsx to correct the week state
+    }
 
     setLoading(true);
     fetch(`/data/${product}/${week}.json`)
       .then((res) => {
         if (!res.ok) throw new Error('Failed to load report data');
+        const contentType = res.headers.get("content-type");
+        if (!contentType || !contentType.includes("application/json")) {
+          throw new Error(`Data for ${product} (${week}) is not available yet.`);
+        }
         return res.json();
       })
       .then((data) => {
