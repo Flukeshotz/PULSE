@@ -225,6 +225,10 @@ export function Themes({ report }) {
               <span className="text-xs font-semibold text-[var(--text-tertiary)] uppercase tracking-wider mb-1">Confidence</span>
               <span className="text-lg font-bold text-[var(--text-primary)]">{selectedTheme.confidence_score ? `${Math.round(selectedTheme.confidence_score * 100)}%` : '-'}</span>
             </div>
+            <div className="flex flex-col">
+              <span className="text-xs font-semibold text-[var(--text-tertiary)] uppercase tracking-wider mb-1">Evidence Score</span>
+              <span className="text-lg font-bold text-[var(--text-primary)]">{selectedTheme.evidence_score ? `${Math.round(selectedTheme.evidence_score * 100)}%` : '-'}</span>
+            </div>
             
             {/* Rating Distribution */}
             {selectedTheme.rating_distribution && (
@@ -305,6 +309,14 @@ export function Themes({ report }) {
             <span className="ml-2 px-2 py-0.5 rounded-full bg-[var(--bg-elevated)] text-[var(--text-secondary)] text-xs font-medium">
               {selectedTheme.quotes?.length || 0} validated
             </span>
+            {selectedTheme.summary_validation && (
+              <span className={`ml-auto px-2 py-0.5 rounded-full text-xs font-semibold border ${
+                selectedTheme.summary_validation === 'Supported' ? 'bg-green-500/10 text-green-500 border-green-500/20' :
+                'bg-amber-500/10 text-amber-500 border-amber-500/20'
+              }`}>
+                Summary: {selectedTheme.summary_validation}
+              </span>
+            )}
           </div>
 
           {(!selectedTheme.quotes || selectedTheme.quotes.length === 0) ? (

@@ -84,10 +84,10 @@ class Orchestrator:
             doc_id=None,
             doc_heading_id=None,
             doc_deep_link=None,
-            email_message_id=None,
             email_draft_id=None,
             review_counts={},
-            dropped_quote_count=0,
+            unauthentic_quotes_dropped=0,
+            irrelevant_quotes_dropped=0,
             status="running"
         )
         
@@ -183,9 +183,13 @@ class Orchestrator:
                 theme = self.summarizer.summarize_cluster(cluster, rank=i+1)
                 if theme:
                     theme = self.validator.validate_theme(theme, cluster)
-                    themes.append(theme)
+                    if len(theme.quotes) == 0 or theme.summary_validation == "Unsupported":
+                        logger.warning(f"Theme '{theme.name}' hallucination detected! Quotes: {len(theme.quotes)}, Summary: {theme.summary_validation}. Dropping theme.")
+                    else:
+                        themes.append(theme)
             
-            record.dropped_quote_count = self.validator.dropped_quotes
+            record.unauthentic_quotes_dropped = self.validator.unauthentic_quotes_dropped
+            record.irrelevant_quotes_dropped = self.validator.irrelevant_quotes_dropped
             
             logger.info("Deduplicating themes...")
             themes = self.deduplicator.dedupe(themes)
@@ -211,7 +215,8 @@ class Orchestrator:
             themes=themes,
             counts={
                 "reviews": len(reviews),
-                "dropped_quotes": record.dropped_quote_count,
+                "unauthentic_quotes_dropped": record.unauthentic_quotes_dropped,
+                "irrelevant_quotes_dropped": record.irrelevant_quotes_dropped,
                 "filtered_short": sum(short_stats.values()),
                 "filtered_short_positive": short_stats.get("positive", 0),
                 "filtered_short_negative": short_stats.get("negative", 0),
@@ -225,7 +230,7 @@ class Orchestrator:
         )
         
         # We can eventually pass report to _deliver. For now, print report stats.
-        logger.info(f"Generated Pulse Report with {len(themes)} themes and dropped {record.dropped_quote_count} quotes.")
+        logger.info(f"Generated Pulse Report with {len(themes)} themes. Unauthentic Quotes Dropped: {record.unauthentic_quotes_dropped}. Irrelevant Quotes Dropped: {record.irrelevant_quotes_dropped}")
         
         if self.dry_run:
             from pprint import pprint

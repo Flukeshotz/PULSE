@@ -52,7 +52,8 @@ class Theme:
     priority_score: int = 0
     theme_id: Optional[str] = None
     trend: Optional[ThemeTrend] = None
-    trend: Optional[ThemeTrend] = None
+    evidence_score: float = 0.0
+    summary_validation: str = ""
 
 @dataclass
 class PulseReport:
@@ -83,5 +84,6 @@ class RunRecord:
     email_message_id: Optional[str]     # None if draft-only
     email_draft_id: Optional[str]
     review_counts: Dict[str, int]
-    dropped_quote_count: int
+    unauthentic_quotes_dropped: int
+    irrelevant_quotes_dropped: int
     status: str                       # "ok" | "partial" | "failed"
