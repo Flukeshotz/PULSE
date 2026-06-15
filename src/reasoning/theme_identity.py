@@ -13,6 +13,7 @@ class ThemeTracker:
         self.history_dir = os.path.join("data", "reports", product, "theme_history")
         os.makedirs(self.history_dir, exist_ok=True)
         self.model_name = "BAAI/bge-small-en-v1.5"
+        self.similarity_threshold = 0.85
         self._model = None
         self._history = self._load_history()
 
@@ -71,8 +72,22 @@ class ThemeTracker:
                 emb1 = current_embeddings[i]
                 sims = np.dot(hist_embeddings, emb1) / (np.linalg.norm(hist_embeddings, axis=1) * np.linalg.norm(emb1))
                 best_idx = np.argmax(sims)
-                if sims[best_idx] > 0.85:
+                best_sim = float(sims[best_idx])
+                
+                decision = "new_theme"
+                if best_sim > self.similarity_threshold:
                     assigned_id = hist_ids[best_idx]
+                    decision = "matched"
+                    
+                # Log the decision
+                log_record = {
+                    "incoming_theme": theme.name,
+                    "matched_theme": hist_texts[best_idx] if hist_texts else None,
+                    "similarity": round(best_sim, 4),
+                    "decision": decision
+                }
+                with open(os.path.join(self.history_dir, "matching_log.jsonl"), "a") as f:
+                    f.write(json.dumps(log_record) + "\n")
                     
             if not assigned_id:
                 assigned_id = self._slugify(theme.name)

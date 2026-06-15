@@ -31,7 +31,9 @@ class ThemeTrend:
     mentions_wow_pct: float # e.g. 83.0 for +83%
     priority_wow_delta: int # e.g. +15
     rating_wow_delta: float # e.g. -0.3
-
+    first_seen: str         # e.g. "2026-W08"
+    age_weeks: int          # e.g. 16
+    
 @dataclass
 class Theme:
     name: str
