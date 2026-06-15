@@ -2,13 +2,13 @@
 PUPPETEER_SKIP_DOWNLOAD = "1"
 
 [phases.setup]
-nixPkgs = ["nodejs_20"]
+nixPkgs = ["nodejs_22"]
 
 [phases.install]
 cmds = ["echo 'Deferring install to build phase'"]
 
 [phases.build]
-cmds = ["cd frontend && npm install", "cd frontend && npm run build"]
+cmds = ["cd frontend && rm -rf node_modules package-lock.json", "cd frontend && npm install", "cd frontend && npm run build"]
 
 [start]
 cmd = "cd frontend && npx serve -s dist -l $PORT"
