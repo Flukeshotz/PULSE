@@ -28,11 +28,20 @@ class QuoteValidator:
                 score = fuzz.partial_ratio(norm_quote, text)
                 if score >= 90:
                     matched = True
-                    valid_quotes.append({
-                        "text": quote,
-                        "source": r.source,
-                        "rating": r.rating
-                    })
+                    
+                    # Deduplication check
+                    is_duplicate = False
+                    for existing in valid_quotes:
+                        if fuzz.token_set_ratio(norm_quote, self._normalize(existing["text"])) > 95:
+                            is_duplicate = True
+                            break
+                            
+                    if not is_duplicate:
+                        valid_quotes.append({
+                            "text": quote,
+                            "source": r.source,
+                            "rating": r.rating
+                        })
                     break
                     
             if not matched:
