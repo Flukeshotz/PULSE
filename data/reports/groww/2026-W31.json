@@ -1,0 +1,405 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W31",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-07-30T11:03:45.003163",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Crashes and Bugs",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "worst app ... due to install groww app, my phone continuously being hanged in every 5 min.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "It's toooooo much difficult to earn money through using this platform.Grow is a ever hated platform for me.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "in my experience Grow is a super scammer and worst platform I had ever seen.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "A lot of manipulation I found when u put an market order or to square off on market price.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "my withdraw pending before 3 days today reject withdraw today my emi last date that reason 1200 panelty charges added my emi bounce charges",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users encounter consistent app crashes and bugs upon app installation and usage, disrupting the overall experience.",
+      "business_impact": "High frequency of app crashes and bugs negatively impact user experience, potentially leading to app uninstalls and revenue loss.",
+      "root_cause_hypothesis": "The root cause of these issues is likely inadequate testing and quality assurance processes.",
+      "action_plan": "\u2022 Improve testing and QA processes to identify and fix bugs before deployment\n\u2022 Increase server capacity to handle user load\n\u2022 Implement crash reporting and analytics tools to gain insights into failures.",
+      "teams_impacted": [
+        "Android Eng",
+        "Core Product",
+        "DevOps"
+      ],
+      "mentions_count": 175,
+      "rating_distribution": {
+        "1": 111,
+        "2": 11,
+        "3": 15,
+        "4": 13,
+        "5": 25
+      },
+      "average_rating": 2.03,
+      "confidence_score": 0.85,
+      "confidence_components": {
+        "volume": 0.75,
+        "quote_validation": 1.0
+      },
+      "priority_score": 47,
+      "theme_id": "app_inefficiency_losses",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 414.7,
+        "priority_wow_delta": 12,
+        "rating_wow_delta": 0.8,
+        "first_seen": "2026-W24",
+        "age_weeks": 7
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Poor Customer Service",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "There is no customer support really very worst",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "customer care service not good",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "terrible service and customer support. they use chat bots in the name of cost cutting.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "3rd class Customer support",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "customer care service is pathetic",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "very poor customer care service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst service ever... i placed a redemption order a week ago .. but did not receive any amount",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Customer service poor still not resolved my issue almost twice time connected and updated , but tried to avoid what is the issue and reading a script?",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst customer service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Fire all staff",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Boot App 0% Best Customer Support Service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Customer support executive is good at all",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "coustomer care team is very very rude and irritated to update any things",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "poor customer support",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Your customer service is hopeless. Even after waiting for 20 mins no reply.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "your worst service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "customer care service is still poor",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "support team is worst",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst customer support very bad ,really very bad they don't communicate they do not respond just waste your time and energy",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "3rd class service service service service service was not available",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "costomer sport no help",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Pathetic customer support. UI full.of bugs.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "very bad service refr and arn offr not active",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Customer support is the worst. Does not help",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "why the customer service is so poor?in an emergency , if I call the agent don't answer for hours, of i choose to chat, they took more 15 to 30 minutes for average reply! please do something regarding this.",
+          "source": "play_store",
+          "rating": 2.0
+        }
+      ],
+      "description": "Users are consistently dissatisfied with the customer support team citing issues such as delayed responses, rudeness, and lack of helpfulness.",
+      "business_impact": "Customers may choose to cancel their membership or subscription services due to the unhelpful and inefficient customer support team.",
+      "root_cause_hypothesis": "The customer support team may be understaffed, undertrained, or not equipped with the necessary tools to provide timely and effective solutions to customers' issues.",
+      "action_plan": "\u2022 Reassess customer support operations, provide training for support staff on empathetic communication and problem-solving, invest in efficient ticketing and communication tools, and establish clear response time SLAs.",
+      "teams_impacted": [
+        "Customer Support",
+        "Customer Success",
+        "Operations"
+      ],
+      "mentions_count": 40,
+      "rating_distribution": {
+        "1": 33,
+        "2": 5,
+        "3": 2,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.23,
+      "confidence_score": 0.72,
+      "confidence_components": {
+        "volume": 0.54,
+        "quote_validation": 1.0
+      },
+      "priority_score": 36,
+      "theme_id": "unresponsive_customer_support_multiple_technical_issues",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -52.4,
+        "priority_wow_delta": -9,
+        "rating_wow_delta": -0.2,
+        "first_seen": "2026-W23",
+        "age_weeks": 8
+      },
+      "evidence_score": 0.6944444444444444,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Brochure Fees are High",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "charges bahut jyada hai",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "brokerage charge bahut jayada ho gya ha ab groww app ko delete kar ka dusra treading app use karna hoga",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "brokerage charge 18 rupiya 20-18=2 apke hat me dalali charge bohat jiyada hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "har cheez ka broker charger lagta h",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "broker charge jayada h",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are complaining about the high brokerage fees charged by the platform. They feel it is too expensive and hinders their potential gains. This has led to a negative experience, particularly for beginner investors.",
+      "business_impact": "High customer churn and negative word-of-mouth due to the perceived high costs associated with using the platform.",
+      "root_cause_hypothesis": "The high brokerage fees may be a result of aggressive pricing, failure to offer competitive fees, or inadequate communication to users about the costs involved.",
+      "action_plan": "\u2022 Review and optimize pricing strategy to ensure a competitive edge, provide clear and concise information about brokerage fees, and offer fee waivers or discounts for heavy users.",
+      "teams_impacted": [
+        "Product",
+        "Finance",
+        "Marketing"
+      ],
+      "mentions_count": 97,
+      "rating_distribution": {
+        "1": 44,
+        "2": 3,
+        "3": 4,
+        "4": 6,
+        "5": 40
+      },
+      "average_rating": 2.95,
+      "confidence_score": 0.8,
+      "confidence_components": {
+        "volume": 0.66,
+        "quote_validation": 1.0
+      },
+      "priority_score": 27,
+      "theme_id": "high_brokerage_charges",
+      "trend": {
+        "status": "improving",
+        "mentions_wow_pct": -34.9,
+        "priority_wow_delta": -16,
+        "rating_wow_delta": 0.8,
+        "first_seen": "2026-W24",
+        "age_weeks": 7
+      },
+      "evidence_score": 0.8333333333333334,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 5969,
+    "unauthentic_quotes_dropped": 1,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 3936,
+    "filtered_short_positive": 3794,
+    "filtered_short_negative": 89,
+    "filtered_short_neutral": 53
+  },
+  "source_counts": {
+    "app_store": 500,
+    "play_store": 9602
+  },
+  "rating_distribution": {
+    "1": 912,
+    "2": 139,
+    "3": 178,
+    "4": 437,
+    "5": 4303
+  },
+  "average_rating": 4.186128329703468,
+  "top_escalations": [],
+  "top_improvements": [
+    {
+      "name": "[Negative] Brochure Fees are High",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "charges bahut jyada hai",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "brokerage charge bahut jayada ho gya ha ab groww app ko delete kar ka dusra treading app use karna hoga",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "brokerage charge 18 rupiya 20-18=2 apke hat me dalali charge bohat jiyada hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "har cheez ka broker charger lagta h",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "broker charge jayada h",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are complaining about the high brokerage fees charged by the platform. They feel it is too expensive and hinders their potential gains. This has led to a negative experience, particularly for beginner investors.",
+      "business_impact": "High customer churn and negative word-of-mouth due to the perceived high costs associated with using the platform.",
+      "root_cause_hypothesis": "The high brokerage fees may be a result of aggressive pricing, failure to offer competitive fees, or inadequate communication to users about the costs involved.",
+      "action_plan": "\u2022 Review and optimize pricing strategy to ensure a competitive edge, provide clear and concise information about brokerage fees, and offer fee waivers or discounts for heavy users.",
+      "teams_impacted": [
+        "Product",
+        "Finance",
+        "Marketing"
+      ],
+      "mentions_count": 97,
+      "rating_distribution": {
+        "1": 44,
+        "2": 3,
+        "3": 4,
+        "4": 6,
+        "5": 40
+      },
+      "average_rating": 2.95,
+      "confidence_score": 0.8,
+      "confidence_components": {
+        "volume": 0.66,
+        "quote_validation": 1.0
+      },
+      "priority_score": 27,
+      "theme_id": "high_brokerage_charges",
+      "trend": {
+        "status": "improving",
+        "mentions_wow_pct": -34.9,
+        "priority_wow_delta": -16,
+        "rating_wow_delta": 0.8,
+        "first_seen": "2026-W24",
+        "age_weeks": 7
+      },
+      "evidence_score": 0.8333333333333334,
+      "summary_validation": "Supported"
+    }
+  ]
+}
