@@ -6,6 +6,7 @@ import { PageContainer } from './components/layout/PageContainer';
 import { Overview } from './components/views/Overview';
 import { Themes } from './components/views/Themes';
 import { Trends } from './components/views/Trends';
+import { Compare } from './components/views/Compare';
 import { Report } from './components/views/Report';
 
 function App() {
@@ -66,6 +67,7 @@ function App() {
             {activeTab === 'overview' && <Overview report={report} setActiveTab={setActiveTab} />}
             {activeTab === 'themes' && <Themes report={report} />}
             {activeTab === 'trends' && <Trends manifest={manifest} selectedProduct={selectedProduct} />}
+            {activeTab === 'compare' && <Compare manifest={manifest} />}
             {activeTab === 'report' && <Report report={report} />}
           </div>
         )}

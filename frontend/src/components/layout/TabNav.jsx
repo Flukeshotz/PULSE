@@ -3,6 +3,7 @@ export function TabNav({ activeTab, setActiveTab }) {
     { id: 'overview', label: 'Overview' },
     { id: 'themes', label: 'Themes' },
     { id: 'trends', label: 'Trends' },
+    { id: 'compare', label: 'Compare' },
     { id: 'report', label: 'Report' }
   ];
 
