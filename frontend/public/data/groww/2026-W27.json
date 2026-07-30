@@ -1,0 +1,351 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W27",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-07-30T14:21:22.261924",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Unreliable and Glitchy App Experience",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "hangs in between the trades- risk of extreme losses.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "higher charges than peers",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "childish charts for trading",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "suffer badly to withdraw our own money forget the profit settlement.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Really very bad experience....Today I will exit from Groww....Will go with Paytm.",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "groww is using money of public lying with demat offering loans unable to withdraw money it's a fraud company",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app for trading.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "my withdraw pending before 3 days today reject withdraw today my emi last date that reason 1200 panelty charges added my emi bounce charges but groww have so much excuses her customer team speak totally lie only make fool us",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users experience frequent app crashes, glitches, and technical issues while trading, leading to significant losses and frustration.",
+      "business_impact": "Users are losing their money due to delayed execution of orders, incorrect price discrepancies, and failed trades, resulting in increased financial loss and decreased customer trust.",
+      "root_cause_hypothesis": "The app's instability and technical issues are likely caused by poor code quality, inadequate testing, and insufficient resources allocated to maintain and improve the platform.",
+      "action_plan": "\u2022 Improve app stability by rewriting critical modules, implementing proper error handling, and enhancing testing procedures\n\u2022 Conduct user acceptance testing to identify and fix critical issues\n\u2022 Allocate additional resources to maintain and improve the platform",
+      "teams_impacted": [
+        "Android Eng",
+        "Core Product",
+        "UX Design",
+        "Quality Assurance"
+      ],
+      "mentions_count": 63,
+      "rating_distribution": {
+        "1": 48,
+        "2": 5,
+        "3": 4,
+        "4": 2,
+        "5": 4
+      },
+      "average_rating": 1.56,
+      "confidence_score": 0.76,
+      "confidence_components": {
+        "volume": 0.6,
+        "quote_validation": 1.0
+      },
+      "priority_score": 39,
+      "theme_id": "app_inefficiency_losses",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 85.3,
+        "priority_wow_delta": 4,
+        "rating_wow_delta": 0.4,
+        "first_seen": "2026-W24",
+        "age_weeks": 3
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Poor Customer Support",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "very poor service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "customer care can't work proper",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Customer service poor still not resolved my issue almost twice time connected and updated , but tried to avoid what is the issue and reading a script?",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Worst customer support ever. You guys should close this app if you are not able to provide any support",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Customer support is the worst. Does not help",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Worst customer support Service There is an issue with return values",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Worst customer support.. They are clueless on their own app and unable to provide the support and answer the query raised on the discrepancy",
+          "source": "play_store",
+          "rating": 3.0
+        }
+      ],
+      "description": "Users are frustrated with the lack of effectiveness and responsiveness of the customer support service, leading to unaddressed issues and unresolved problems.",
+      "business_impact": "This theme could lead to increased customer dissatisfaction, reduced retention, and ultimately, revenue loss as customers seek alternatives with better support services.",
+      "root_cause_hypothesis": "The customer support service may lack adequate resources, training, or infrastructure to handle the volume and complexity of customer inquiries, resulting in delays and unhelpful responses.",
+      "action_plan": "\u2022 Conduct a thorough review of the customer support process and infrastructure\n\u2022 Provide additional training for customer support agents\n\u2022 Increase the number of support agents and improve workflow efficiency\n\u2022 Implement a more effective ticketing and escalation system\n\u2022 Introduce a proactive outreach mechanism to address customer concerns before they become issues.",
+      "teams_impacted": [
+        "Customer Support",
+        "Product Management",
+        "Engineering"
+      ],
+      "mentions_count": 40,
+      "rating_distribution": {
+        "1": 30,
+        "2": 5,
+        "3": 3,
+        "4": 1,
+        "5": 1
+      },
+      "average_rating": 1.45,
+      "confidence_score": 0.72,
+      "confidence_components": {
+        "volume": 0.54,
+        "quote_validation": 1.0
+      },
+      "priority_score": 34,
+      "theme_id": "unresponsive_customer_support_multiple_technical_issues",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -52.4,
+        "priority_wow_delta": -11,
+        "rating_wow_delta": -0.0,
+        "first_seen": "2026-W23",
+        "age_weeks": 4
+      },
+      "evidence_score": 0.875,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Brokerage Charges",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "ek rupaye ka profit nahin hua Hai",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "20 rupiya profit hoga toh dalali charge 18 rupiya 20-18=2 apke hat me dalali charge bohat jiyada hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "brokareg jayada jata hai vo ak nagetive point hai",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "brokerage charge 18 rupiya 20-18=2 apke hat me dalali charge bohat jiyada hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "brokerage charge ka samjh nhi aata hai kabhi 14 rupees to kabhi 20 aur kabhi 35 kat leta hai aur extra charge bhi bahut hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Dalali charge bahut jayada ho gya ha ab groww app ko delete kar ka dusra treading app use karna hoga",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "broker charge kucha jyada hone laga",
+          "source": "play_store",
+          "rating": 3.0
+        }
+      ],
+      "description": "Users are complaining about high brokerage charges, inconsistent fees, and excessive charges that can lead to significant losses.",
+      "business_impact": "High brokerage charges can result in substantial financial losses for users, potentially deterring them from using the platform.",
+      "root_cause_hypothesis": "Inconsistent and high brokerage charges may be a result of a flawed pricing strategy or inefficient fee calculation process.",
+      "action_plan": "\u2022 Re-evaluate and optimize brokerage charges to ensure they are competitive, reasonable, and consistent. Implement clear and transparent fee disclosure to users.",
+      "teams_impacted": [
+        "Finance Team",
+        "Product Management",
+        "Marketing"
+      ],
+      "mentions_count": 71,
+      "rating_distribution": {
+        "1": 31,
+        "2": 2,
+        "3": 5,
+        "4": 7,
+        "5": 26
+      },
+      "average_rating": 2.93,
+      "confidence_score": 0.77,
+      "confidence_components": {
+        "volume": 0.62,
+        "quote_validation": 1.0
+      },
+      "priority_score": 25,
+      "theme_id": "high_brokerage_charges",
+      "trend": {
+        "status": "improving",
+        "mentions_wow_pct": -52.3,
+        "priority_wow_delta": -18,
+        "rating_wow_delta": 0.8,
+        "first_seen": "2026-W24",
+        "age_weeks": 3
+      },
+      "evidence_score": 0.875,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 5182,
+    "unauthentic_quotes_dropped": 1,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 2927,
+    "filtered_short_positive": 2788,
+    "filtered_short_negative": 87,
+    "filtered_short_neutral": 52
+  },
+  "source_counts": {
+    "app_store": 500,
+    "play_store": 7783
+  },
+  "rating_distribution": {
+    "1": 899,
+    "2": 132,
+    "3": 157,
+    "4": 404,
+    "5": 3590
+  },
+  "average_rating": 4.091084523350058,
+  "top_escalations": [],
+  "top_improvements": [
+    {
+      "name": "[Negative] Brokerage Charges",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "ek rupaye ka profit nahin hua Hai",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "20 rupiya profit hoga toh dalali charge 18 rupiya 20-18=2 apke hat me dalali charge bohat jiyada hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "brokareg jayada jata hai vo ak nagetive point hai",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "brokerage charge 18 rupiya 20-18=2 apke hat me dalali charge bohat jiyada hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "brokerage charge ka samjh nhi aata hai kabhi 14 rupees to kabhi 20 aur kabhi 35 kat leta hai aur extra charge bhi bahut hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Dalali charge bahut jayada ho gya ha ab groww app ko delete kar ka dusra treading app use karna hoga",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "broker charge kucha jyada hone laga",
+          "source": "play_store",
+          "rating": 3.0
+        }
+      ],
+      "description": "Users are complaining about high brokerage charges, inconsistent fees, and excessive charges that can lead to significant losses.",
+      "business_impact": "High brokerage charges can result in substantial financial losses for users, potentially deterring them from using the platform.",
+      "root_cause_hypothesis": "Inconsistent and high brokerage charges may be a result of a flawed pricing strategy or inefficient fee calculation process.",
+      "action_plan": "\u2022 Re-evaluate and optimize brokerage charges to ensure they are competitive, reasonable, and consistent. Implement clear and transparent fee disclosure to users.",
+      "teams_impacted": [
+        "Finance Team",
+        "Product Management",
+        "Marketing"
+      ],
+      "mentions_count": 71,
+      "rating_distribution": {
+        "1": 31,
+        "2": 2,
+        "3": 5,
+        "4": 7,
+        "5": 26
+      },
+      "average_rating": 2.93,
+      "confidence_score": 0.77,
+      "confidence_components": {
+        "volume": 0.62,
+        "quote_validation": 1.0
+      },
+      "priority_score": 25,
+      "theme_id": "high_brokerage_charges",
+      "trend": {
+        "status": "improving",
+        "mentions_wow_pct": -52.3,
+        "priority_wow_delta": -18,
+        "rating_wow_delta": 0.8,
+        "first_seen": "2026-W24",
+        "age_weeks": 3
+      },
+      "evidence_score": 0.875,
+      "summary_validation": "Supported"
+    }
+  ]
+}

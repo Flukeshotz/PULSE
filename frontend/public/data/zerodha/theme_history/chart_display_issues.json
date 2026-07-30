@@ -7,5 +7,14 @@
     "priority_score": 30,
     "average_rating": 2.27,
     "confidence_score": 0.75
+  },
+  {
+    "iso_week": "2026-W27",
+    "name": "[Critical] Chart Functionality Issues",
+    "description": "Users are experiencing frequent issues with viewing and interacting with charts on the platform. The chart view is not loading correctly, charts are not saving, and zooming functionality is not working properly. This is affecting users' ability to accurately view and analyze market data.",
+    "mentions_count": 41,
+    "priority_score": 23,
+    "average_rating": 2.59,
+    "confidence_score": 0.72
   }
 ]

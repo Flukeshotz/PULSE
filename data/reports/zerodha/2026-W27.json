@@ -1,0 +1,326 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W27",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-07-30T14:24:01.351738",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Critical] Chart Functionality Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "Unable to view charts sometimes",
+          "source": "app_store",
+          "rating": 4.0
+        },
+        {
+          "text": "Live chart is not showing last 3 days kindly check and resolve",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Chart open problem Kindly solve chat open problem iam facing. While close and new open chart display.",
+          "source": "app_store",
+          "rating": 3.0
+        },
+        {
+          "text": "chart not working",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "The drawings on Chart must be Auto saved for long time",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "in dark theme stock name is not visible in the charts",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "don't show chart",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "can't open charts after the latest update",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Chart not loading!",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "some few days facing chart loading issue",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "hanging and error while saving charts...",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "The chart does not load the last saved chart setup. Everytime you have to redo the charts.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "it doesn't save your work in charts once refresh remove everything.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Charts are not getting loaded since past 2 days. My app and Mobile, both are updated with the latest versions.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "graph not open in my app",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "chart not open",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "unable to view chart",
+          "source": "app_store",
+          "rating": 4.0
+        }
+      ],
+      "description": "Users are experiencing frequent issues with viewing and interacting with charts on the platform. The chart view is not loading correctly, charts are not saving, and zooming functionality is not working properly. This is affecting users' ability to accurately view and analyze market data.",
+      "business_impact": "Frequent chart functionality issues are causing users to have an inaccurate view of market data, leading to potentially poor investment decisions and a negative experience on the platform.",
+      "root_cause_hypothesis": "The chart functionality issues may be caused by a combination of factors including, but not limited to, bugs in the chart rendering engine, issues with data storage and retrieval, and incompatibilities with different screen sizes and orientations.",
+      "action_plan": "\u2022 Identify and fix bugs in the chart rendering engine\n\u2022 Optimize data storage and retrieval for improved chart loading times\n\u2022 Investigate and resolve issues with chart saving and restore functionality\n\u2022 Ensure chart zooming and panning functionality is optimized across different screen sizes and orientations.",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product"
+      ],
+      "mentions_count": 41,
+      "rating_distribution": {
+        "1": 14,
+        "2": 7,
+        "3": 9,
+        "4": 4,
+        "5": 7
+      },
+      "average_rating": 2.59,
+      "confidence_score": 0.72,
+      "confidence_components": {
+        "volume": 0.54,
+        "quote_validation": 1.0
+      },
+      "priority_score": 23,
+      "theme_id": "chart_display_issues",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -25.5,
+        "priority_wow_delta": -7,
+        "rating_wow_delta": 0.3,
+        "first_seen": "2026-W26",
+        "age_weeks": 1
+      },
+      "evidence_score": 0.8947368421052632,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Technical Issues and Poor Customer Support",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "I have not got allotment in OFS and very bad customer support.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "zerodha application getting problem on daily basis.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I lost 10 lakh as mcx got stuck in zerodha",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I added funds via upi method and they are claiming as they add instant fund to your demat account but after 30 minutes i have not received my funds in my demat account or not also received back to my back account",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "It keeps getting stuck at step 5 . No help provided . None contact .",
+          "source": "app_store",
+          "rating": 2.0
+        },
+        {
+          "text": "after 15 + days of submitting the application you just a message saying that application is rejected.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "very bad I withdraw money from zerodha but did not get in my account and customer care didn't help me so I closed my account.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Philosopher Zerodha has the worst possible product designs for managing wealth",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are experiencing frequent technical issues with the platform, causing problems with order executions, account verification, and money withdrawal, which is further compounded by poor customer support.",
+      "business_impact": "Delays and cancellations of trades, loss of revenue due to inefficient money withdrawal processes, and reputational damage from frustrated customers.",
+      "root_cause_hypothesis": "Insufficient infrastructure capacity, inadequate testing, and inefficient support processes are exacerbating user frustrations.",
+      "action_plan": "\u2022 Enhance infrastructure scalability, implement robust backup and contingency procedures, and redesign the customer support workflow to provide more efficient and proactive assistance.",
+      "teams_impacted": [
+        "Engineering",
+        "Support Operations",
+        "Product"
+      ],
+      "mentions_count": 20,
+      "rating_distribution": {
+        "1": 14,
+        "2": 1,
+        "3": 2,
+        "4": 1,
+        "5": 2
+      },
+      "average_rating": 1.8,
+      "confidence_score": 0.66,
+      "confidence_components": {
+        "volume": 0.44,
+        "quote_validation": 1.0
+      },
+      "priority_score": 23,
+      "theme_id": "technical_issues_and_poor_customer_support",
+      "trend": {
+        "status": "new",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 23,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W27",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Critical] App Crashes & Technical Issues",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "bar bar 300 sec bta rha h. login hi nhi krne de rha. 1 hour ho gya. kya ghatiya app h",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "aare bhai apps to instal hee nahi ho raha hai yaar",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Ye kya zoom in zoom out bana ke rkha Diya hai na toh dhang se dekh pa rhe hai 1D timeframe pe na kuch dikh rha hai na 5 minutes dikh rha hai bara bar thik kardo old version hi badiya hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Amc charge hone ke baad bhi Issey bekar app nahi dekha maine.... Maine Paise add kar raha hu par wo bhi nahi ho pa rahe hai.... usme bhi error aa raha hai.....",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "main account mein - 900 Ho Gaye kyon ho rahe hain",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "koi bhi chart khul raha paise udaye faltu mein",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "bhai yar apna dhandha din rat 24 ghnte sb time me start rkha kro Muje ghr bnana hai paise kmake",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "trading ke liye sabse bekar aap mai se ik.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "The app crashes frequently, taking an extended period of time to load or resulting in a timeout. This also leads to an inability to perform tasks due to technical issues.",
+      "business_impact": "Substantial loss of user trust due to frequent downtimes. It also poses a risk that users might abandon the app, opting for more stable alternatives.",
+      "root_cause_hypothesis": "The root cause is likely an issue with the app's architecture or performance optimizations.",
+      "action_plan": "\u2022 Investigate the root cause\n\u2022 Optimize the app's architecture for better performance\n\u2022 Conduct rigorous testing\n\u2022 Implement robust backup systems and recovery processes.",
+      "teams_impacted": [
+        "Android Eng",
+        "Core Product"
+      ],
+      "mentions_count": 29,
+      "rating_distribution": {
+        "1": 14,
+        "2": 3,
+        "3": 2,
+        "4": 4,
+        "5": 6
+      },
+      "average_rating": 2.48,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.49,
+        "quote_validation": 1.0
+      },
+      "priority_score": 22,
+      "theme_id": "app_crashes_technical_issues",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 22,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W27",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 952,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 223,
+    "filtered_short_positive": 214,
+    "filtered_short_negative": 3,
+    "filtered_short_neutral": 6
+  },
+  "source_counts": {
+    "app_store": 55,
+    "play_store": 1127
+  },
+  "rating_distribution": {
+    "1": 224,
+    "2": 50,
+    "3": 51,
+    "4": 96,
+    "5": 531
+  },
+  "average_rating": 3.69327731092437,
+  "top_escalations": [],
+  "top_improvements": []
+}

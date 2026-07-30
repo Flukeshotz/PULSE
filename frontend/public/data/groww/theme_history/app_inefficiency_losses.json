@@ -16,5 +16,14 @@
     "priority_score": 35,
     "average_rating": 1.18,
     "confidence_score": 0.71
+  },
+  {
+    "iso_week": "2026-W27",
+    "name": "[Negative] Unreliable and Glitchy App Experience",
+    "description": "Users experience frequent app crashes, glitches, and technical issues while trading, leading to significant losses and frustration.",
+    "mentions_count": 63,
+    "priority_score": 39,
+    "average_rating": 1.56,
+    "confidence_score": 0.76
   }
 ]

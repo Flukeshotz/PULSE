@@ -3,6 +3,7 @@
     "indmoney": {
       "display_name": "INDMoney",
       "weeks": [
+        "2026-W27",
         "2026-W26",
         "2026-W25",
         "2026-W24",
@@ -13,6 +14,7 @@
       "display_name": "Groww",
       "weeks": [
         "2026-W31",
+        "2026-W27",
         "2026-W26",
         "2026-W25",
         "2026-W24",
@@ -22,30 +24,35 @@
     "zerodha": {
       "display_name": "Zerodha Kite",
       "weeks": [
+        "2026-W27",
         "2026-W26"
       ]
     },
     "stablemoney": {
       "display_name": "Stable Money",
       "weeks": [
+        "2026-W27",
         "2026-W26"
       ]
     },
     "powerup_money": {
       "display_name": "PowerUp Money",
       "weeks": [
+        "2026-W27",
         "2026-W26"
       ]
     },
     "wealth_monitor": {
       "display_name": "Wealth Monitor",
       "weeks": [
+        "2026-W27",
         "2026-W26"
       ]
     },
     "kuvera": {
       "display_name": "Kuvera",
       "weeks": [
+        "2026-W27",
         "2026-W26"
       ]
     }

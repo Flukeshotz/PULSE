@@ -16,5 +16,14 @@
     "priority_score": 43,
     "average_rating": 2.18,
     "confidence_score": 0.84
+  },
+  {
+    "iso_week": "2026-W27",
+    "name": "[Negative] Brokerage Charges",
+    "description": "Users are complaining about high brokerage charges, inconsistent fees, and excessive charges that can lead to significant losses.",
+    "mentions_count": 71,
+    "priority_score": 25,
+    "average_rating": 2.93,
+    "confidence_score": 0.77
   }
 ]

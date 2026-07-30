@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W27",
+    "name": "[Critical] App Crashes & Technical Issues",
+    "description": "The app crashes frequently, taking an extended period of time to load or resulting in a timeout. This also leads to an inability to perform tasks due to technical issues.",
+    "mentions_count": 29,
+    "priority_score": 22,
+    "average_rating": 2.48,
+    "confidence_score": 0.7
+  }
+]

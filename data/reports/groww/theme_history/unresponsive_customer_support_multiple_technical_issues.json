@@ -16,5 +16,14 @@
     "priority_score": 45,
     "average_rating": 1.46,
     "confidence_score": 0.79
+  },
+  {
+    "iso_week": "2026-W27",
+    "name": "[Negative] Poor Customer Support",
+    "description": "Users are frustrated with the lack of effectiveness and responsiveness of the customer support service, leading to unaddressed issues and unresolved problems.",
+    "mentions_count": 40,
+    "priority_score": 34,
+    "average_rating": 1.45,
+    "confidence_score": 0.72
   }
 ]

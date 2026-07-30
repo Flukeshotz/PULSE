@@ -1,0 +1,322 @@
+{
+  "product": "Stable Money",
+  "iso_week": "2026-W27",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-07-30T14:26:36.839504",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Crashes & Poor Customer Support",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "I'm trying to unlink my fd with the card but the app goes crashed everytime no matter how much you try, and I've tried in many devices still the same problem.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "the customer support is pathetic, I urgently need to break my fd and this app is showing technical error and no customer support executive is available to pick the call",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "why is it happening the have no idea... Please solve this problem as soon as possible.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Pathetic after sale service,keep on procrastinating instead of resolution.I have created FD got my physical card still not getting activated its been more than 7 days.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Worst app- I made an investment with this app in bonds. Amount was deducted from my bank but app reported that transaction has failed.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are experiencing technical issues with the app, including crashes, and struggling to receive assistance from customer support, with some reports of unresponsive or unhelpful support personnel.",
+      "business_impact": "Delayed customer resolutions, negative word-of-mouth, potential loss of customers, and reputational damage.",
+      "root_cause_hypothesis": "Inadequate testing, inefficient incident management processes, or insufficient training for customer support representatives might contribute to these issues.",
+      "action_plan": "\u2022 Investigate and resolve critical technical issues reported by users, re-evaluate and improve incident management processes, and provide additional training for customer support representatives.",
+      "teams_impacted": [
+        "Android Eng",
+        "Core Product",
+        "Customer Support"
+      ],
+      "mentions_count": 326,
+      "rating_distribution": {
+        "1": 112,
+        "2": 12,
+        "3": 17,
+        "4": 15,
+        "5": 170
+      },
+      "average_rating": 3.37,
+      "confidence_score": 0.9,
+      "confidence_components": {
+        "volume": 0.84,
+        "quote_validation": 1.0
+      },
+      "priority_score": 31,
+      "theme_id": "app_crashes_poor_customer_support",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 31,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W27",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Positive] Excellent User Experience",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "ye bhut Bdiya hu i Love you",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "bahut badhiya5",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "bahoot acha hai ye aap",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "stable app bahut Achcha hai",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "best hai yr",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "bahut achcha hai aapse",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "ye app kafi kamal ka hai",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "ye app bahot acaa hai our use full hai our life full hai",
+          "source": "play_store",
+          "rating": 5.0
+        }
+      ],
+      "description": "Users are extremely satisfied with the app's performance and functionality, citing a seamless user experience, helpful interface, and impressive features.",
+      "business_impact": "This positive sentiment increases user engagement, encourages user loyalty, and reinforces brand reputation.",
+      "root_cause_hypothesis": "The app's strong UX likely stems from its well-designed interface, intuitive navigation, and responsive UI/UX design.",
+      "action_plan": "\u2022 Enhance UX research to understand user behaviors and preferences\n\u2022 Conduct A/B testing to validate and refine UI/UX design\n\u2022 Collaborate with Android Eng and UX Design teams to implement design improvements and iterate on UX research findings",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design"
+      ],
+      "mentions_count": 31,
+      "rating_distribution": {
+        "1": 4,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 25
+      },
+      "average_rating": 4.42,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.5,
+        "quote_validation": 1.0
+      },
+      "priority_score": 5,
+      "theme_id": "smooth_experience",
+      "trend": {
+        "status": "improving",
+        "mentions_wow_pct": -92.2,
+        "priority_wow_delta": -24,
+        "rating_wow_delta": 0.9,
+        "first_seen": "2026-W26",
+        "age_weeks": 1
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Positive] Good App Reviews",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "good app",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "vary vary nice working this card",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "effective app",
+          "source": "play_store",
+          "rating": 5.0
+        }
+      ],
+      "description": "Users universally praised the app, citing its good or fine quality, with some even using phrases like 'vary nice' or 'good apps'.",
+      "business_impact": "Customer retention and acquisition may be positively impacted due to the overwhelmingly positive sentiment around the app's quality.",
+      "root_cause_hypothesis": "It is likely that users associate the app with high quality due to its simplicity, ease of use, or a successful onboarding process.",
+      "action_plan": "\u2022 Develop and emphasize the app's core value proposition through targeted marketing campaigns, improve the onboarding process to reduce the barrier to entry, or add new features to further enhance user experience\n\u2022 Perform customer interviews or surveys to identify specific factors contributing to the app's perceived quality.",
+      "teams_impacted": [
+        "Marketing",
+        "Product Design",
+        "User Experience"
+      ],
+      "mentions_count": 34,
+      "rating_distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 4,
+        "5": 30
+      },
+      "average_rating": 4.88,
+      "confidence_score": 0.71,
+      "confidence_components": {
+        "volume": 0.51,
+        "quote_validation": 1.0
+      },
+      "priority_score": 1,
+      "theme_id": "good_app_reviews",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 1,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W27",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.16666666666666666,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 708,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 182,
+    "filtered_short_positive": 175,
+    "filtered_short_negative": 4,
+    "filtered_short_neutral": 3
+  },
+  "source_counts": {
+    "app_store": 41,
+    "play_store": 857
+  },
+  "rating_distribution": {
+    "1": 123,
+    "2": 15,
+    "3": 21,
+    "4": 38,
+    "5": 511
+  },
+  "average_rating": 4.128531073446328,
+  "top_escalations": [],
+  "top_improvements": [
+    {
+      "name": "[Positive] Excellent User Experience",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "ye bhut Bdiya hu i Love you",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "bahut badhiya5",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "bahoot acha hai ye aap",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "stable app bahut Achcha hai",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "best hai yr",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "bahut achcha hai aapse",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "ye app kafi kamal ka hai",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "ye app bahot acaa hai our use full hai our life full hai",
+          "source": "play_store",
+          "rating": 5.0
+        }
+      ],
+      "description": "Users are extremely satisfied with the app's performance and functionality, citing a seamless user experience, helpful interface, and impressive features.",
+      "business_impact": "This positive sentiment increases user engagement, encourages user loyalty, and reinforces brand reputation.",
+      "root_cause_hypothesis": "The app's strong UX likely stems from its well-designed interface, intuitive navigation, and responsive UI/UX design.",
+      "action_plan": "\u2022 Enhance UX research to understand user behaviors and preferences\n\u2022 Conduct A/B testing to validate and refine UI/UX design\n\u2022 Collaborate with Android Eng and UX Design teams to implement design improvements and iterate on UX research findings",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design"
+      ],
+      "mentions_count": 31,
+      "rating_distribution": {
+        "1": 4,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 25
+      },
+      "average_rating": 4.42,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.5,
+        "quote_validation": 1.0
+      },
+      "priority_score": 5,
+      "theme_id": "smooth_experience",
+      "trend": {
+        "status": "improving",
+        "mentions_wow_pct": -92.2,
+        "priority_wow_delta": -24,
+        "rating_wow_delta": 0.9,
+        "first_seen": "2026-W26",
+        "age_weeks": 1
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ]
+}

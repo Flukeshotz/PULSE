@@ -1,0 +1,263 @@
+{
+  "product": "INDMoney",
+  "iso_week": "2026-W27",
+  "period_label": "Last 8 weeks",
+  "generated_at": "2026-07-30T14:18:08.378994",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Poor Customer Experience and Data Privacy",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "What right do you have to share my personal data with third parties without my consent?",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Be careful they will decrease your credit score, very fraud application.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I would not visit this website at all. I got a message saying that loan was disimbursed but 1st emi is due.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "This is a very poor app. No one should download it because when it\u2019s time to withdraw our own money, they create a lot of problems.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Customers have reported receiving unsolicited calls from investment service companies, having their credit scores negatively impacted, experiencing difficulties with withdrawals, and being misled by marketing promotions. They also feel that their personal data is not being handled securely and are frustrated with the lack of support from the customer care team.",
+      "business_impact": "Customers are experiencing a high level of dissatisfaction and frustration with the app, leading to potential harm to their credit scores, financial losses, and damage to the company's reputation.",
+      "root_cause_hypothesis": "The root cause of these issues may be attributed to inadequate data protection measures, poor communication strategies, and insufficient training for customer support teams.",
+      "action_plan": "\u2022 Improve data protection measures\n\u2022 Enhance communication with customers about data sharing practices\n\u2022 Provide clear and transparent information about marketing promotions and incentives\n\u2022 Increase support staff training and increase responsiveness towards customer inquiries\n\u2022 Revisit and revise data sharing agreements with third-party vendors.",
+      "teams_impacted": [
+        "Customer Support",
+        "Data Protection",
+        "Marketing",
+        "Core Product"
+      ],
+      "mentions_count": 24,
+      "rating_distribution": {
+        "1": 24,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.0,
+      "confidence_score": 0.68,
+      "confidence_components": {
+        "volume": 0.47,
+        "quote_validation": 1.0
+      },
+      "priority_score": 32,
+      "theme_id": "poor_customer_experience_and_data_privacy",
+      "trend": {
+        "status": "new",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 32,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W27",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Unable to Use Cashback Rewards",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "recently from last two weeks trying for paying bills of electricity or recharge bill and gas bill cashback reward weren't used for them why this things happen i need resolution for this problem ASAP",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Worst update ever! Previously, the cashback could be easily used for bill recharges. Now they have changed the conditions and force us to use the reward balance only for claiming stocks. This is highly unfair to regular users.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "now cashback is not using in recharge and bill payment, so I am uninstalled this app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "they give cashback...but cashback not used in recharge",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Cashback use nehi ho raha ..... please do something.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "the most third class app , cannot use cashback on any bill payment . shame on them",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I diverted most of my bills and Upi payments to this app for cashback, now all of a sudden the cashback amount cannot be used to pay for recharges or other bill payments anymore and it can only be used for US Stocks and in order to use the cashback I have to open a us stocks account add 5K and then use the cashback to buy stocks, how useless can a person be to think of this.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "They provide cashback as a trap...one day sudden I'm unable to use cashback... Fraud people are they....",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are unable to use their cashback rewards for bill payments and recharges, and are instead forced to use them for US stock purchases without their consent.",
+      "business_impact": "Loss of customer trust and revenue due to the inability to utilize cashback rewards, leading to increased churn and decreased customer satisfaction.",
+      "root_cause_hypothesis": "The recent update changed the cashback reward redemption policy without clear communication to users, causing confusion and frustration.",
+      "action_plan": "\u2022 Provide clear communication to users about the new redemption policy, offer alternative redemption options for bill payments and recharges, and ensure that users' existing cashback balances can be redeemed as previously intended. Review and revise the rewards program to ensure it aligns with user expectations and provides adequate value.",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product"
+      ],
+      "mentions_count": 19,
+      "rating_distribution": {
+        "1": 18,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.11,
+      "confidence_score": 0.66,
+      "confidence_components": {
+        "volume": 0.43,
+        "quote_validation": 1.0
+      },
+      "priority_score": 28,
+      "theme_id": "unable_to_use_cashback_rewards",
+      "trend": {
+        "status": "new",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 28,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W27",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.6666666666666666,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] App Issues with Recent Updates",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "Recent Release cluttered the interface",
+          "source": "app_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Missing the profit and loss views on the main page portfolio page",
+          "source": "app_store",
+          "rating": 3.0
+        },
+        {
+          "text": "DO NOT TRUST THE ANALYST RATINGS OR BUY/HOLD/SELL Recommendations from the app.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Please roll back your latest updates.",
+          "source": "app_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Why is the UI getting worse with each update?",
+          "source": "app_store",
+          "rating": 3.0
+        },
+        {
+          "text": "The tool is good only for tracking, But major concern, is that transactions on this platform are unreliable due to their payment gateway issues",
+          "source": "app_store",
+          "rating": 3.0
+        },
+        {
+          "text": "After the latest update, all the stocks in my watchlist disappeared.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Chart value is wrong, Pathetic.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Recent updates have caused several issues with the app, including cluttered interface, missing features, and broken functionality, which has led to frustration and disappointment among users.",
+      "business_impact": "High churn risk due to dissatisfied users and potential loss of revenue.",
+      "root_cause_hypothesis": "The root cause of these issues is likely due to aggressive feature updates or lack of thorough testing, which has disrupted the user experience.",
+      "action_plan": "\u2022 Conduct thorough quality assurance on upcoming updates, roll back recent updates to previous stable versions, and involve stakeholders in the testing process to prevent similar issues in the future.",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product"
+      ],
+      "mentions_count": 57,
+      "rating_distribution": {
+        "1": 9,
+        "2": 8,
+        "3": 16,
+        "4": 15,
+        "5": 9
+      },
+      "average_rating": 3.12,
+      "confidence_score": 0.75,
+      "confidence_components": {
+        "volume": 0.59,
+        "quote_validation": 1.0
+      },
+      "priority_score": 21,
+      "theme_id": "app_issues_with_recent_updates",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 21,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W27",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 739,
+    "unauthentic_quotes_dropped": 1,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 272,
+    "filtered_short_positive": 249,
+    "filtered_short_negative": 12,
+    "filtered_short_neutral": 11
+  },
+  "source_counts": {
+    "app_store": 159,
+    "play_store": 861
+  },
+  "rating_distribution": {
+    "1": 189,
+    "2": 29,
+    "3": 47,
+    "4": 105,
+    "5": 369
+  },
+  "average_rating": 3.5899864682002707,
+  "top_escalations": [],
+  "top_improvements": []
+}
