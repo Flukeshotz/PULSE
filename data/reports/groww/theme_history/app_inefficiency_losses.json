@@ -25,5 +25,14 @@
     "priority_score": 39,
     "average_rating": 1.56,
     "confidence_score": 0.76
+  },
+  {
+    "iso_week": "2026-W30",
+    "name": "[Negative] App Crashes, Lags, and Glitches",
+    "description": "App crashes, lags, and glitches are common issues experienced by users while trading on the platform. These problems lead to loss of money, difficulty in executing trades, and frustration with the overall experience.",
+    "mentions_count": 99,
+    "priority_score": 52,
+    "average_rating": 1.11,
+    "confidence_score": 0.8
   }
 ]

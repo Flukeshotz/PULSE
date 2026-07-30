@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W30",
+    "name": "[Negative] Unresponsive Customer Service",
+    "description": "Users are experiencing a significant delay in resolving their issues due to unresponsive customer service. Several customers have reported waiting for extended periods (up to 20 days) for their issues to be addressed, with some being disconnected from customer support team or receiving generic responses without a call back.",
+    "mentions_count": 14,
+    "priority_score": 25,
+    "average_rating": 1.0,
+    "confidence_score": 0.64
+  }
+]

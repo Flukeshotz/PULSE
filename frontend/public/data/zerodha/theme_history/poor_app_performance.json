@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W30",
+    "name": "[Negative] Poor App Performance",
+    "description": "Users are experiencing frequent crashes, lags, and technical glitches while using the Zerodha app, which affects their ability to execute trades and manage their investments.",
+    "mentions_count": 50,
+    "priority_score": 35,
+    "average_rating": 1.68,
+    "confidence_score": 0.74
+  }
+]

@@ -1,0 +1,242 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W30",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-07-30T15:04:56.208555",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Poor App Performance",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "I have noticed a few issues with order execution on Kite.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "This was unexpected and needs clarification.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Similarily, I placed a stop-loss at \u20b9140.00, but it was triggered when the price was around \u20b9140.20.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "This behavior can be confusing for traders.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Always says \u201cconnection timeout. retry\u201d.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Lags in stoploss modification and new order placement, pathetic support from team, tickets remaining open status for clarification near to 1 month,",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "It's better to go with other very good cooperative brokers.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "They are hiding some of my stocks in portfolio where as they are being traded in market.",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "Not working properly application, price hang in F &O",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "cmr green ipo today list but not showing your kite app and poor services",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The algorithm behind this app is very fictitious.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "stock not showing my portfolio iam complaining but customer care take 24 hours for investigation.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app is struck..not refresh stock price.. worst experience",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "BSE and MCX stock futures and options doesn't show.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "facing issue while fetching chart , very high amc closing account soon",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are experiencing frequent crashes, lags, and technical glitches while using the Zerodha app, which affects their ability to execute trades and manage their investments.",
+      "business_impact": "High risk of order execution errors, missed trade opportunities, and potential financial losses due to technical issues.",
+      "root_cause_hypothesis": "Insufficient infrastructure, inadequate testing, and poor coding practices are contributing to the app's poor performance.",
+      "action_plan": "\u2022 Address app performance issues by optimizing infrastructure\n\u2022 Improve testing and QA processes\n\u2022 Fix bugs and errors in the app code\n\u2022 Implement load balancing to handle high user traffic\n\u2022 Provide timely updates and patches to resolve technical issues",
+      "teams_impacted": [
+        "Android Eng",
+        "Backend Eng",
+        "Core Product",
+        "Quality Assurance"
+      ],
+      "mentions_count": 50,
+      "rating_distribution": {
+        "1": 33,
+        "2": 8,
+        "3": 3,
+        "4": 4,
+        "5": 2
+      },
+      "average_rating": 1.68,
+      "confidence_score": 0.74,
+      "confidence_components": {
+        "volume": 0.57,
+        "quote_validation": 1.0
+      },
+      "priority_score": 35,
+      "theme_id": "poor_app_performance",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 35,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W30",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.875,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Chart Display Issues",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "can't open charts after the latest update",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "zerodha view chart tab is not working",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Live chart is not showing last 3 days kindly check and resolve",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "screen orientation changes after viewing chart.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "hanging and error while saving charts...",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "chart opens very slowly",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "chart not open",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Error Saving Chart Preferences Issue in Kite Mobile App",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Unable to view charts sometimes",
+          "source": "app_store",
+          "rating": 4.0
+        }
+      ],
+      "description": "Users are unable to view charts or experience frequent crashes when trying to open them, which is affecting their ability to make informed investment decisions.",
+      "business_impact": "Loss of user trust, decreased user engagement due to frustration with the app, potential revenue loss from missed investment opportunities.",
+      "root_cause_hypothesis": "The root cause of this issue may be related to a bug in the chart rendering engine, causing it to crash or not display properly, or an issue with the app's storage or data retrieval mechanics.",
+      "action_plan": "\u2022 Investigate and fix the chart rendering engine bug\n\u2022 Conduct thorough testing on various devices and chart types to identify the cause\n\u2022 Implement a data integrity check to prevent data corruption\n\u2022 Consider implementing a fallback display mode for charts in case of errors.",
+      "teams_impacted": [
+        "Android Eng",
+        "Core Product",
+        "UX Design"
+      ],
+      "mentions_count": 38,
+      "rating_distribution": {
+        "1": 13,
+        "2": 8,
+        "3": 5,
+        "4": 4,
+        "5": 8
+      },
+      "average_rating": 2.63,
+      "confidence_score": 0.72,
+      "confidence_components": {
+        "volume": 0.53,
+        "quote_validation": 1.0
+      },
+      "priority_score": 23,
+      "theme_id": "chart_display_issues_1",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 23,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W30",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.9,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 984,
+    "unauthentic_quotes_dropped": 1,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 229,
+    "filtered_short_positive": 221,
+    "filtered_short_negative": 3,
+    "filtered_short_neutral": 5
+  },
+  "source_counts": {
+    "app_store": 39,
+    "play_store": 1181
+  },
+  "rating_distribution": {
+    "1": 224,
+    "2": 54,
+    "3": 58,
+    "4": 108,
+    "5": 540
+  },
+  "average_rating": 3.6971544715447155,
+  "top_escalations": [],
+  "top_improvements": []
+}

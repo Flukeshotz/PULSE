@@ -1,0 +1,207 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W30",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-07-30T15:03:05.082347",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Crashes, Lags, and Glitches",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "'the app lags too much ,they charge High but app and it's customer support is pathetic..this app is not for traders you will lose your money if right time entry and exit will not work with app function'",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "'too much hanging problem during the trade.its really pathetic. i have lost many time thousands of rupees'",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "'the charts don't load on time order get placed at different price in sumup the application got too many users and now the working team is not able to control the traffic better to use sahi app'",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "'in commodity is always hang and I lost money only because of stop loss there sale my silver mini stock zero because there not sell right time also when I set target also not working properly'",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "very poor service today in terms of help of customer care",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Worst customer support ever. You guys should close this app if you are not able to provide any support.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "the customer service is worst they do not understand what we are Telling and they disconnect the call in between and do not even call back.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Customer support is the worst. Does not help",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Your customer service is hopeless. Even after waiting for 20 mins no reply.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "App crashes, lags, and glitches are common issues experienced by users while trading on the platform. These problems lead to loss of money, difficulty in executing trades, and frustration with the overall experience.",
+      "business_impact": "High risk of financial loss for users, damage to brand reputation, and potential loss of customers.",
+      "root_cause_hypothesis": "Insufficient infrastructure, inadequate testing, or neglect of critical performance issues are possible root causes of these problems.",
+      "action_plan": "\u2022 Improve server capacity, increase testing frequency, and re-prioritize performance optimization to fix these issues. Identify and address specific technical debt, and develop a contingency plan for outages and system failures.",
+      "teams_impacted": [
+        "Android Eng",
+        "Core Product",
+        "Quality Assurance"
+      ],
+      "mentions_count": 99,
+      "rating_distribution": {
+        "1": 90,
+        "2": 7,
+        "3": 2,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.11,
+      "confidence_score": 0.8,
+      "confidence_components": {
+        "volume": 0.67,
+        "quote_validation": 1.0
+      },
+      "priority_score": 52,
+      "theme_id": "app_inefficiency_losses",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 57.1,
+        "priority_wow_delta": 13,
+        "rating_wow_delta": -0.4,
+        "first_seen": "2026-W24",
+        "age_weeks": 6
+      },
+      "evidence_score": 0.5,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] High Brokerage Charges & Scam Fears",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "\"bekar h har cheez ka broker charger lagta h\"",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "\"ipu fil karte time\"",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "\"20 rupiya profit hoga toh dalali charge 18 rupiya 20-18=2 apke hat me dalali charge bohat jiyada hai ap sikhte sikhte 400-500 ullu banake udake leke jayega\"",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "\"bahut kharab hai app ha es per mat karna future and options mera 2 trede ma 89 rupees tax pad gya loss par so mere samjh app log mat karo es par\"",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "\"Bhai groww app mera paisa kha rh h\"",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "\"Fraud hai,per lot rs50 brokerage charge buy rs50 sell rs50 total rs100\"",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "\"Itani ghatiya sarvice koi aur broker company nhi deti hogi jitna ye company deti hai maine 20 se jyda call Kiya sirf stock ko transfer karwane ke liye\"",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "\"Charge jyada lag rha hai\"",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Customers are frustrated with excessive brokerage charges, feeling scammed by Groww's transaction fees, and experiencing issues with account accessibility. They criticize the app for lack of understanding and high commissions, suggesting it's a scam. Some reviewers appreciate Groww for its user-friendly interface and ease of investment but criticize the fees.",
+      "business_impact": "Significant revenue loss due to customer churn and loss of brand reputation if not addressed promptly.",
+      "root_cause_hypothesis": "The excessive brokerage charges and inconsistent commission fees may be overwhelming to new customers, causing confusion and mistrust. This may be due to unclear communication about fees, lack of transparency in billing, or aggressive promotions that mislead customers.",
+      "action_plan": "\u2022 Revisit the pricing strategy to offer more competitive rates and transparent fee structures, providing clear and concise information about the costs of trading. Offer tiered pricing for frequent traders or introduce promotional campaigns that address the root cause of these issues.",
+      "teams_impacted": [
+        "Product",
+        "Marketing",
+        "Operations"
+      ],
+      "mentions_count": 90,
+      "rating_distribution": {
+        "1": 38,
+        "2": 3,
+        "3": 3,
+        "4": 5,
+        "5": 41
+      },
+      "average_rating": 3.09,
+      "confidence_score": 0.79,
+      "confidence_components": {
+        "volume": 0.65,
+        "quote_validation": 1.0
+      },
+      "priority_score": 25,
+      "theme_id": "high_brokerage_charges_scam_fears",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 25,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W30",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 6169,
+    "unauthentic_quotes_dropped": 4,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 3983,
+    "filtered_short_positive": 3834,
+    "filtered_short_negative": 89,
+    "filtered_short_neutral": 60
+  },
+  "source_counts": {
+    "app_store": 500,
+    "play_store": 9868
+  },
+  "rating_distribution": {
+    "1": 920,
+    "2": 142,
+    "3": 180,
+    "4": 453,
+    "5": 4474
+  },
+  "average_rating": 4.202626033392771,
+  "top_escalations": [],
+  "top_improvements": []
+}

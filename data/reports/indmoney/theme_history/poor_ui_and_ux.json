@@ -16,5 +16,14 @@
     "priority_score": 31,
     "average_rating": 1.12,
     "confidence_score": 0.68
+  },
+  {
+    "iso_week": "2026-W30",
+    "name": "[Negative] Poor Customer Support",
+    "description": "Users are consistently complaining about the lack of effective customer support, with some expressing frustration at not being able to resolve issues with the app, and others suggesting that the chatbots are not helpful.",
+    "mentions_count": 19,
+    "priority_score": 24,
+    "average_rating": 1.63,
+    "confidence_score": 0.66
   }
 ]

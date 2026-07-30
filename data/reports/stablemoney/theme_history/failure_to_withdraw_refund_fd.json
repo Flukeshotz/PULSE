@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W30",
+    "name": "[Negative] Failure to Withdraw/Refund FD",
+    "description": "Users have experienced difficulties in withdrawing or getting refunds for their fixed deposits (FDs), with some reporting complete losses of their funds.",
+    "mentions_count": 15,
+    "priority_score": 23,
+    "average_rating": 1.4,
+    "confidence_score": 0.64
+  }
+]
