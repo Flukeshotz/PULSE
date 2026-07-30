@@ -1,0 +1,295 @@
+{
+  "product": "INDMoney",
+  "iso_week": "2026-W26",
+  "period_label": "Last 8 weeks",
+  "generated_at": "2026-07-30T14:02:15.633664",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Experience Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "horrible experience after the last update.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app I ever used",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "one of the worst apps I ever used",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Do not download",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "account hacked after i intstall this app my account got hacked",
+          "source": "app_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users reported a wide range of issues, including app crashes, poor UI/UX, difficulty installing, account hacking, and lack of customer support.",
+      "business_impact": "High probability of app uninstalls due to a perceived broken experience, leading to lost customers and damaged brand reputation.",
+      "root_cause_hypothesis": "Inadequate testing and validation of the app's features, leading to bugs and usability issues.",
+      "action_plan": "\u2022 Conduct thorough testing\n\u2022 Update the UI/UX to be more intuitive and user-friendly\n\u2022 Implement proper customer support\n\u2022 Address app crashes and other bugs through iterative code releases.",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product",
+        "Customer Support"
+      ],
+      "mentions_count": 24,
+      "rating_distribution": {
+        "1": 22,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.12,
+      "confidence_score": 0.68,
+      "confidence_components": {
+        "volume": 0.47,
+        "quote_validation": 1.0
+      },
+      "priority_score": 31,
+      "theme_id": "poor_ui_and_ux",
+      "trend": {
+        "status": "improving",
+        "mentions_wow_pct": -92.0,
+        "priority_wow_delta": -18,
+        "rating_wow_delta": -1.3,
+        "first_seen": "2026-W24",
+        "age_weeks": 2
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Missing Customer Support",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "No Customer Care Service",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "It fails at support. Everything is fine until you encounter any issue. Then it'll take everything in your life to get fixed.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "3rd class customer Service, no call or support, no reply\u2019s for any complain.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Nobody is responding on mail and after some days they inbox me that I am not responding.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "wrost support system they are like ghost no response from your side",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "They have almost non existent human customer care support. All they have is AI chatbot which is good for nothing and keeps you repeating same thing till you get exhausted..",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Third Class Customer Resolution Service . After Raising the ticket they didn't bother to solve the issue . Only They transfer the matter to another department.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Zero customer service If ever u get an issue with ur money then you will realise their real face.  Just try connecting to someone and there is no option anywhere. Only a chatbot . Haven\u2019t seen any company with such low customer centricity. I am stuck and waiting to withdraw all money once In positive.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Dealing with your platform has become a financial nightmare.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "You have completely replaced real customer service with useless, looping AI agents and automated bots that are entirely incapable of resolving actual user issues.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Need to update their customer calling center if you want wealthy clients to stay",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I was repeatedly promised callbacks within \u201c15\u201360 minutes,\u201d but nobody followed up properly, and the issue remained unresolved for hours.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "They put an AI bot which will keep answering same mugged up content and would not create a ticket for me.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I stopped investing through indmoney due to bad support..",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "They are not letting me withdraw my money.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I added money on 9th june and now its 15th and these guys stopped pocking up the call.",
+          "source": "app_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Customers are experiencing difficulty in getting help from the app due to unresponsive or non-existent customer care services. They are unable to resolve issues via automated chat services or human support, which leads to frustration and a poor overall experience.",
+      "business_impact": "High risk of customer churn and loss of revenue due to a lack of effective support channels.",
+      "root_cause_hypothesis": "Our customer support infrastructure is under-resourced or inefficient, leading to inadequate support for critical issues.",
+      "action_plan": "\u2022 Update customer support infrastructure to include multiple support channels (e.g. phone, email, live chat) with adequate staffing and resources to handle high volume of requests. Implement AI-driven chatbots to route complex issues to human support agents and enhance user experience.",
+      "teams_impacted": [
+        "Customer Support",
+        "Product Management",
+        "UX Design"
+      ],
+      "mentions_count": 31,
+      "rating_distribution": {
+        "1": 22,
+        "2": 2,
+        "3": 0,
+        "4": 2,
+        "5": 5
+      },
+      "average_rating": 1.9,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.5,
+        "quote_validation": 1.0
+      },
+      "priority_score": 27,
+      "theme_id": "missing_customer_support",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 27,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W26",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.8888888888888888,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 686,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 241,
+    "filtered_short_positive": 224,
+    "filtered_short_negative": 8,
+    "filtered_short_neutral": 9
+  },
+  "source_counts": {
+    "app_store": 170,
+    "play_store": 763
+  },
+  "rating_distribution": {
+    "1": 174,
+    "2": 31,
+    "3": 44,
+    "4": 104,
+    "5": 333
+  },
+  "average_rating": 3.5699708454810497,
+  "top_escalations": [],
+  "top_improvements": [
+    {
+      "name": "[Negative] App Experience Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "horrible experience after the last update.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app I ever used",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "one of the worst apps I ever used",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Do not download",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "account hacked after i intstall this app my account got hacked",
+          "source": "app_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users reported a wide range of issues, including app crashes, poor UI/UX, difficulty installing, account hacking, and lack of customer support.",
+      "business_impact": "High probability of app uninstalls due to a perceived broken experience, leading to lost customers and damaged brand reputation.",
+      "root_cause_hypothesis": "Inadequate testing and validation of the app's features, leading to bugs and usability issues.",
+      "action_plan": "\u2022 Conduct thorough testing\n\u2022 Update the UI/UX to be more intuitive and user-friendly\n\u2022 Implement proper customer support\n\u2022 Address app crashes and other bugs through iterative code releases.",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product",
+        "Customer Support"
+      ],
+      "mentions_count": 24,
+      "rating_distribution": {
+        "1": 22,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.12,
+      "confidence_score": 0.68,
+      "confidence_components": {
+        "volume": 0.47,
+        "quote_validation": 1.0
+      },
+      "priority_score": 31,
+      "theme_id": "poor_ui_and_ux",
+      "trend": {
+        "status": "improving",
+        "mentions_wow_pct": -92.0,
+        "priority_wow_delta": -18,
+        "rating_wow_delta": -1.3,
+        "first_seen": "2026-W24",
+        "age_weeks": 2
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ]
+}

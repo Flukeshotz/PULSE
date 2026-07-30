@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W26",
+    "name": "[Negative] Chart Display Issues",
+    "description": "Users are experiencing difficulties viewing charts, with symptoms including slow loading times, blank screens, and inability to view charts.",
+    "mentions_count": 55,
+    "priority_score": 30,
+    "average_rating": 2.27,
+    "confidence_score": 0.75
+  }
+]

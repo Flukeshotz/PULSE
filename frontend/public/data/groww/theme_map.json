@@ -1,9 +1,13 @@
 {
-  "Poor App Quality": "Poor App Quality",
-  "App Freezes and Crashes": "Poor App Quality",
-  "Inconsistent and Cluttered Interface": "Poor App Quality",
+  "App Glitches and Errors": "App Glitches and Errors",
+  "Inconsistent and Cluttered Interface": "App Glitches and Errors",
   "Poor Customer Service": "Poor Customer Service",
-  "App Glitches and Errors": "Poor App Quality",
-  "App Inefficiency & Losses": "Poor App Quality",
-  "Excessive Brokerage Costs": "Excessive Brokerage Costs"
+  "App Crashes and Bugs": "App Glitches and Errors",
+  "Excessive Brokerage Costs": "Excessive Brokerage Costs",
+  "App Freezes and Crashes": "App Glitches and Errors",
+  "App Crashes, Freezes and Glitches": "App Glitches and Errors",
+  "App Inefficiency & Losses": "App Glitches and Errors",
+  "Inconsistent Order Execution and System Manipulation": "Inconsistent Order Execution and System Manipulation",
+  "Poor App Quality": "App Glitches and Errors",
+  "Brochure Fees are High": "Excessive Brokerage Costs"
 }

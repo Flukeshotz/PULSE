@@ -1,0 +1,236 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W26",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-07-30T14:05:26.591752",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Crashes, Freezes and Glitches",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "they keep showing bugs like invested amount to 0",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Too much bugs... not getting g opened... SL always hit 20-40 points up... useless",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "App are good but i can't add monney due to technical issue",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "New update is so pathetic Mobile terminal view got downgraded and cant use the Tools to analyse",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "this app hang Not smooth ",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "`not able to install`\n      \"beech market me app stop working...it's loading it's more than 15min",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "sometimes i am getting something went wrong (Data fetching minious into an error) on screen.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "why this app need daily update I'm not satisfied with this thing",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "vry vry bad experience.All stocks watching u in Groww app n withdrawal times he not get up. After withdrawal he is sudden up what is this.I watching this many times. do plz do not cheat the people.what is this?????",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Much time technical problem and many order failed from groww ends and loss taken by customer.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Loss Safety or Protect Profit, doesn't work.. I have lost my capital due to sudden reverse movement.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "every day call from different number and said ur broking company send ur profile. Can u buy our trading tips? Why Groww sell our data, name and mobile num to such trading tip company?",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "I am very disappointed with Groww. The platform charges high fees on almost every transaction, whether the investment amount is small or large.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "very poor experience with Groww. During market hours, I was unable to exit my position manually even before 3:20 PM as the app was unresponsive.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "don't use this grow app ,,profit ka 60-70% brokerage kat tah hein ,,,I am a stock trader since 3 yr I switched to grow and total fraud app with extremely high brokerage,,,,,never use this app anyone",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I was using groww from past maybe 2 year ... but now I am going to delete it. they are taking too much charges maybe this app is good for investing not for trading at all",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are experiencing frequent crashes, freezes, and glitches within the app, rendering it unusable. Common symptoms include slow performance, failed logins, and data fetching errors.",
+      "business_impact": "High risk of customer dissatisfaction, potential churn, and reputational damage if issues persist and are not addressed promptly.",
+      "root_cause_hypothesis": "The underlying cause might be related to poor code quality, inadequate testing, or insufficient resources allocated to maintenance and support.",
+      "action_plan": "\u2022 Improve app stability\n\u2022 Conduct thorough bug testing and analysis\n\u2022 Enhance maintenance and support processes\n\u2022 Communicate status updates and fixes to customers.",
+      "teams_impacted": [
+        "Core Product",
+        "Android Eng"
+      ],
+      "mentions_count": 131,
+      "rating_distribution": {
+        "1": 85,
+        "2": 13,
+        "3": 17,
+        "4": 7,
+        "5": 9
+      },
+      "average_rating": 1.79,
+      "confidence_score": 0.82,
+      "confidence_components": {
+        "volume": 0.71,
+        "quote_validation": 1.0
+      },
+      "priority_score": 47,
+      "theme_id": "app_crashes_freezes_and_glitches",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 47,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W26",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Inconsistent Order Execution and System Manipulation",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "Sometimes there system automatically place buy order then sell it , just for brokerage gain",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Limit order execution is not proper. Not able to sell all quantity at a time at a predefined price, it sells quantity partially & brokerage charges exceed more than profit",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "You set the sell target at 100 with profit and it will automatically execute it at 95 and bear loss",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "This is a stupid app. It is better to invest in Forex market and make good profits. Brokers treat it as if they will get profits worth lakhs.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I have always have bad experience they.thought the share closes at profit , they show loss",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Orders auto triggered even when price is near but not engaged with your limit price and no clear answers from support",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Thief app worst app, always auto square off , when customer get more loss.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "The app's order execution system is plagued with issues such as automatic sale of shares at low prices, manipulation of profit and loss, and inconsistent execution of buy and sell orders. Users also express discontent with the system's ability to manipulate prices and automatically place and sell orders for brokerage gains.",
+      "business_impact": "Potential losses for users, damage to brand reputation, and erosion of customer trust.",
+      "root_cause_hypothesis": "The app's algorithms and system design may be flawed, leading to inconsistent order execution and manipulation of user trades.",
+      "action_plan": "\u2022 Review and refactor the order execution system to ensure transparency and consistency in order execution. Implement user controls to prevent automatic sale of shares and other manipulative behaviors. Provide clear and transparent explanations of system trades to users.",
+      "teams_impacted": [
+        "Engineering",
+        "Product Management",
+        "Customer Support"
+      ],
+      "mentions_count": 32,
+      "rating_distribution": {
+        "1": 31,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.03,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.51,
+        "quote_validation": 1.0
+      },
+      "priority_score": 35,
+      "theme_id": "inconsistent_order_execution_and_system_manipulation",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 35,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W26",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.875,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 5245,
+    "unauthentic_quotes_dropped": 1,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 2922,
+    "filtered_short_positive": 2775,
+    "filtered_short_negative": 91,
+    "filtered_short_neutral": 56
+  },
+  "source_counts": {
+    "app_store": 500,
+    "play_store": 7861
+  },
+  "rating_distribution": {
+    "1": 921,
+    "2": 129,
+    "3": 153,
+    "4": 405,
+    "5": 3637
+  },
+  "average_rating": 4.0882745471877975,
+  "top_escalations": [],
+  "top_improvements": []
+}

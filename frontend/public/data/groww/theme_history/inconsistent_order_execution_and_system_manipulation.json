@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W26",
+    "name": "[Negative] Inconsistent Order Execution and System Manipulation",
+    "description": "The app's order execution system is plagued with issues such as automatic sale of shares at low prices, manipulation of profit and loss, and inconsistent execution of buy and sell orders. Users also express discontent with the system's ability to manipulate prices and automatically place and sell orders for brokerage gains.",
+    "mentions_count": 32,
+    "priority_score": 35,
+    "average_rating": 1.03,
+    "confidence_score": 0.7
+  }
+]

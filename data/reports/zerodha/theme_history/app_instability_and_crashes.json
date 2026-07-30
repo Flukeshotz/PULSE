@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W26",
+    "name": "[Negative] App Instability and Crashes",
+    "description": "Users experienced frequent app crashes, failed installations, and login issues due to various causes such as authorization problems, one-time password (OTP) verification failures, and poor app responsiveness.",
+    "mentions_count": 50,
+    "priority_score": 37,
+    "average_rating": 1.52,
+    "confidence_score": 0.74
+  }
+]

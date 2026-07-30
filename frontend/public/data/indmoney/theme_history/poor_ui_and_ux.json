@@ -7,5 +7,14 @@
     "priority_score": 49,
     "average_rating": 2.38,
     "confidence_score": 0.9
+  },
+  {
+    "iso_week": "2026-W26",
+    "name": "[Negative] App Experience Issues",
+    "description": "Users reported a wide range of issues, including app crashes, poor UI/UX, difficulty installing, account hacking, and lack of customer support.",
+    "mentions_count": 24,
+    "priority_score": 31,
+    "average_rating": 1.12,
+    "confidence_score": 0.68
   }
 ]

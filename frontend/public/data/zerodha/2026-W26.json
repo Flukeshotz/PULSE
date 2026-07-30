@@ -1,0 +1,276 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W26",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-07-30T14:07:15.344657",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Instability and Crashes",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "can't open the app in first time .. always get an error sync exchange instrument",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I did sign up many times and paid starting fee 1 rupees but again it says network error and telling to sign in from starting",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Authorisation issue Many time authorisation doesn\u2019t happen when I enter opt it keeps buffering and again and again I have try ",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Unable to install on Mi pad 6. installation stuck [HANDLE]% and I'm getting frustrated having to login again and again",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "Too Many Bugs On each update it\u2019s has too many bugs, Like no Sound on Order/ Trigger, Kill Switch not working",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "sloo many times I tried to login but not open this app. verification is not easy it's very irritating. that's why I skip this app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Not updated in ios. I try many times but not updated",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "instant withdrawal option of amount is not working...",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I given pledged request at 09.15 AM and received message from CDSL & spoken to Miss swati, Mr Ganesh but all in vain.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "zerodha is not clearly showing why the redemption payment are failing",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "I faced 3lakhs margin short fall on expiry. This is my worst experience which I faced with zerodha.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "platform is really trying hard to not let any new user join in.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users experienced frequent app crashes, failed installations, and login issues due to various causes such as authorization problems, one-time password (OTP) verification failures, and poor app responsiveness.",
+      "business_impact": "Repeats of the same issues may lead to loss of user trust, negatively impacting the app's reputation and affecting its overall performance metrics like user acquisition and retention.",
+      "root_cause_hypothesis": "The inconsistent user experience might be attributed to technical debt, inadequate testing, or inefficient error handling mechanisms within the app.",
+      "action_plan": "\u2022 Develop and integrate more robust error-handling mechanisms, enhance app testing frameworks, and improve user feedback channels\n\u2022 Engage with the quality assurance team to ensure timely and efficient bug fixes, Implement user authentication redesign to prevent authorization issues\n\u2022 Regularly monitor app performance metrics and user feedback to gauge app stability and make data-driven decisions",
+      "teams_impacted": [
+        "Android Eng",
+        "Core Product",
+        "Quality Assurance"
+      ],
+      "mentions_count": 50,
+      "rating_distribution": {
+        "1": 38,
+        "2": 4,
+        "3": 4,
+        "4": 2,
+        "5": 2
+      },
+      "average_rating": 1.52,
+      "confidence_score": 0.74,
+      "confidence_components": {
+        "volume": 0.57,
+        "quote_validation": 1.0
+      },
+      "priority_score": 37,
+      "theme_id": "app_instability_and_crashes",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 37,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W26",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Chart Display Issues",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "slow, glitch",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "works slow and many times the alert does not give notification",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "when ever I am searching indicator moving average exponential not showing in indicator list please fix that bug",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "pls check pc view total struck very very worst app why this lag I can't expect point not correctly update",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "most of app not working",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "evn after restarting many times charts are not at all opening. I'm facing this issue since many months.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "new update takes alot of time to open chart",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "In Tablet Landscap viewv watchlist shows very small like mobile phone size then what is the use of tablet big screen. Check the watch list in tablet in landscape mode so you can find the problem",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The chart does not load the last saved chart setup. Everytime you have to redo the charts.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "can't open charts after the latest update",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "charts are not representing true values for eg : precision wire charts shows 109 price and actually it is of 426 huge major difference",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Live data is not correct.not match with real data",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "there is a glitch in applying indicators to the app chart. after some time or if we reopen another chart , the indicators or lines marked vanish out. i have to again deploy the same parameters.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Latest version updated but chart formation was very slow. Now it's working fine...thank you Team Kite",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "I am not getting the chart sometimes",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Market chart doesn't work sometimes.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "vwap indicator is not working Nifty & sensex charts I am very disappointed",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "when I try to draw Trend lines, the chart is freezing and it's not sliding, worst app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Live chart is not showing last 3 days kindly check and resolve",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are experiencing difficulties viewing charts, with symptoms including slow loading times, blank screens, and inability to view charts.",
+      "business_impact": "Cart display issues may lead to decreased user satisfaction, increased churn rate, and a negative impact on the platform's reputation.",
+      "root_cause_hypothesis": "The root cause of this issue is likely related to inefficient code or insufficient resources allocated to chart rendering.",
+      "action_plan": "\u2022 Review and optimize chart rendering code\n\u2022 Increase resources allocated to chart rendering\n\u2022 Implement caching mechanisms to improve loading times\n\u2022 Conduct user testing to identify areas for improvement",
+      "teams_impacted": [
+        "Android Eng",
+        "Core Product",
+        "Product Management"
+      ],
+      "mentions_count": 55,
+      "rating_distribution": {
+        "1": 25,
+        "2": 7,
+        "3": 13,
+        "4": 3,
+        "5": 7
+      },
+      "average_rating": 2.27,
+      "confidence_score": 0.75,
+      "confidence_components": {
+        "volume": 0.58,
+        "quote_validation": 1.0
+      },
+      "priority_score": 30,
+      "theme_id": "chart_display_issues",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 30,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W26",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 985,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 232,
+    "filtered_short_positive": 223,
+    "filtered_short_negative": 2,
+    "filtered_short_neutral": 7
+  },
+  "source_counts": {
+    "app_store": 63,
+    "play_store": 1163
+  },
+  "rating_distribution": {
+    "1": 239,
+    "2": 48,
+    "3": 57,
+    "4": 102,
+    "5": 539
+  },
+  "average_rating": 3.663959390862944,
+  "top_escalations": [],
+  "top_improvements": []
+}

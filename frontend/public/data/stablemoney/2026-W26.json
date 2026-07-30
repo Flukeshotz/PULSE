@@ -1,0 +1,174 @@
+{
+  "product": "Stable Money",
+  "iso_week": "2026-W26",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-07-30T14:09:18.549982",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Positive] Smooth Experience",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "best app for fixed income product",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "best card and middle class people use the credit card",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "All the investment made is systematically classified giving details of all payouts in case of bonds and FDs on the app.",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "Becomes very easy to monitor.",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "started in Jan 2026 and as of now i am very happy with the services provided by Stable Money.",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "EXCELLENT FOR FDs. I am really impress by stable money serivces!! Good for hassle free FDs.. I am using for past few months.. very happy..",
+          "source": "app_store",
+          "rating": 5.0
+        },
+        {
+          "text": "best platform for fd & RD",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "best hai yr ",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "bahut achha app hai best app",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "bahot acha hai ye aap",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Bahut behtar hai yeh app",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "nice app",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "nice good ideas",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "Nice platform",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "I like you app",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "good experience with the platform",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "Fantastic Platform ,all from the comfort of a Home",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "great platform",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "nice apps",
+          "source": "play_store",
+          "rating": 5.0
+        }
+      ],
+      "description": "Users report a positive experience with the app's features such as Fixed Deposit and credit card features.",
+      "business_impact": "High satisfaction rates and positive word-of-mouth can lead to increased user acquisition and retention.",
+      "root_cause_hypothesis": "The development team's efforts to improve the app's UI and user experience have positively impacted users.",
+      "action_plan": "\u2022 Continue to refine the app's UI and user experience, and regularly gather user feedback to identify areas for improvement.",
+      "teams_impacted": [
+        "UX Design",
+        "Core Product"
+      ],
+      "mentions_count": 398,
+      "rating_distribution": {
+        "1": 116,
+        "2": 14,
+        "3": 21,
+        "4": 23,
+        "5": 224
+      },
+      "average_rating": 3.56,
+      "confidence_score": 0.92,
+      "confidence_components": {
+        "volume": 0.87,
+        "quote_validation": 1.0
+      },
+      "priority_score": 29,
+      "theme_id": "smooth_experience",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 29,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W26",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 657,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 175,
+    "filtered_short_positive": 168,
+    "filtered_short_negative": 4,
+    "filtered_short_neutral": 3
+  },
+  "source_counts": {
+    "app_store": 44,
+    "play_store": 797
+  },
+  "rating_distribution": {
+    "1": 118,
+    "2": 15,
+    "3": 22,
+    "4": 40,
+    "5": 462
+  },
+  "average_rating": 4.08523592085236,
+  "top_escalations": [],
+  "top_improvements": []
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W26",
+    "name": "[Negative] Missing Customer Support",
+    "description": "Customers are experiencing difficulty in getting help from the app due to unresponsive or non-existent customer care services. They are unable to resolve issues via automated chat services or human support, which leads to frustration and a poor overall experience.",
+    "mentions_count": 31,
+    "priority_score": 27,
+    "average_rating": 1.9,
+    "confidence_score": 0.7
+  }
+]

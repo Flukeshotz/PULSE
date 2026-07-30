@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W26",
+    "name": "[Negative] App Crashes, Freezes and Glitches",
+    "description": "Users are experiencing frequent crashes, freezes, and glitches within the app, rendering it unusable. Common symptoms include slow performance, failed logins, and data fetching errors.",
+    "mentions_count": 131,
+    "priority_score": 47,
+    "average_rating": 1.79,
+    "confidence_score": 0.82
+  }
+]

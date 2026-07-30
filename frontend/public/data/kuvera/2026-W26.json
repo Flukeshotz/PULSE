@@ -1,0 +1,39 @@
+{
+  "product": "Kuvera",
+  "iso_week": "2026-W26",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-07-30T14:10:35.536537",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [],
+  "counts": {
+    "reviews": 0,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 0,
+    "filtered_short_positive": 0,
+    "filtered_short_negative": 0,
+    "filtered_short_neutral": 0
+  },
+  "source_counts": {
+    "app_store": 0,
+    "play_store": 0
+  },
+  "rating_distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "average_rating": 0.0,
+  "top_escalations": [],
+  "top_improvements": []
+}
