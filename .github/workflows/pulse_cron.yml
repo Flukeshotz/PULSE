@@ -29,19 +29,19 @@ jobs:
 
       - name: Run Pulse for Groww
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API: ${{ secrets.GROQ_API_KEY }}
         run: |
           python pulse.py run --product groww
           
       - name: Run Pulse for INDmoney
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API: ${{ secrets.GROQ_API_KEY }}
         run: |
           python pulse.py run --product indmoney
           
       - name: Run Pulse for Zerodha
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API: ${{ secrets.GROQ_API_KEY }}
         run: |
           python pulse.py run --product zerodha
 

@@ -37,7 +37,7 @@ jobs:
           
       - name: Run Pulse Pipeline
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API: ${{ secrets.GROQ_API_KEY }}
         run: |
           PRODUCT="${{ github.event.inputs.product || 'all' }}"
           WEEK_ARG=""
