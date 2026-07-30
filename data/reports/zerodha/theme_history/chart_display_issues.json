@@ -16,5 +16,14 @@
     "priority_score": 23,
     "average_rating": 2.59,
     "confidence_score": 0.72
+  },
+  {
+    "iso_week": "2026-W29",
+    "name": "[Negative] Chart Loading Issues",
+    "description": "Users are experiencing frequent issues with loading charts, resulting in a blank screen, incorrect data, or complete chart failure. This issue is affecting various features and devices, including iPhone and different chart types.",
+    "mentions_count": 35,
+    "priority_score": 23,
+    "average_rating": 2.49,
+    "confidence_score": 0.71
   }
 ]

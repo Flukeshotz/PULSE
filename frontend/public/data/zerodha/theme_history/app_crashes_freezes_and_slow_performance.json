@@ -7,5 +7,14 @@
     "priority_score": 27,
     "average_rating": 1.69,
     "confidence_score": 0.69
+  },
+  {
+    "iso_week": "2026-W29",
+    "name": "[Negative] Frequent Errors & Crashes",
+    "description": "Users experience frequent bugs, crashes, and errors when using the app, including difficulty in saving charts, zooming issues, and app freezing.",
+    "mentions_count": 26,
+    "priority_score": 22,
+    "average_rating": 2.38,
+    "confidence_score": 0.69
   }
 ]

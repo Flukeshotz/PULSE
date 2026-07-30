@@ -1,0 +1,253 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W29",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-07-30T14:51:19.213621",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Payment and KYC Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "bad experience with kyc matter",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "secondary to primary security tranfer not happening",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "payment issue support email address is incorrect",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "deposit amount not received",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "payment withdrawal is keep failing",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "after the last update, I'm facing an issue with the withdrawal request feature",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "funds will be stuck",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I initiated a withdrawal of 424 on the 26th, which has not yet been credited to my bank account",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are experiencing payment transfer failures, lengthy KYC processes, and difficulty in closing their accounts.",
+      "business_impact": "High risk of customer churn due to delayed or failed payments, and lengthy KYC processes.",
+      "root_cause_hypothesis": "Inconsistent and unreliable payment and KYC processes are causing frustration and mistrust among users.",
+      "action_plan": "\u2022 Review and optimize the payment processing system, implement more efficient KYC processes, and improve communication with users regarding account status and potential issues.",
+      "teams_impacted": [
+        "Payments Team",
+        "KYC Team",
+        "Customer Support"
+      ],
+      "mentions_count": 21,
+      "rating_distribution": {
+        "1": 16,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 1
+      },
+      "average_rating": 1.62,
+      "confidence_score": 0.67,
+      "confidence_components": {
+        "volume": 0.45,
+        "quote_validation": 1.0
+      },
+      "priority_score": 25,
+      "theme_id": "unfair_charges_and_account_management_issues",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 5.0,
+        "priority_wow_delta": -2,
+        "rating_wow_delta": 0.3,
+        "first_seen": "2026-W28",
+        "age_weeks": 1
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Chart Loading Issues",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "Chart not loading! This is a recurrent problem of late guess since the new update, I click View Chart but a blank screen loads up",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "live data is not correct.not match with real data",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "chart view not open on time",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "chart loading problem previous chart open",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "graph not open in my app",
+          "source": "play_store",
+          "rating": 5.0
+        }
+      ],
+      "description": "Users are experiencing frequent issues with loading charts, resulting in a blank screen, incorrect data, or complete chart failure. This issue is affecting various features and devices, including iPhone and different chart types.",
+      "business_impact": "Failed chart loading can lead to loss of confidence in the app's accuracy and reliability, potentially driving customers away and impacting overall user engagement.",
+      "root_cause_hypothesis": "The possible root causes of this issue could be related to server-side problems, app configuration, or technical bugs within the charting system.",
+      "action_plan": "\u2022 Fix chart loading problems and provide accurate data\n\u2022 Enhance error handling and reporting\n\u2022 Ensure smooth chart transitions and refreshments\n\u2022 Review and optimize chart rendering code",
+      "teams_impacted": [
+        "Android Eng",
+        "Core Product",
+        "Backend Engineering"
+      ],
+      "mentions_count": 35,
+      "rating_distribution": {
+        "1": 14,
+        "2": 5,
+        "3": 7,
+        "4": 3,
+        "5": 6
+      },
+      "average_rating": 2.49,
+      "confidence_score": 0.71,
+      "confidence_components": {
+        "volume": 0.52,
+        "quote_validation": 1.0
+      },
+      "priority_score": 23,
+      "theme_id": "chart_display_issues",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -14.6,
+        "priority_wow_delta": 0,
+        "rating_wow_delta": -0.1,
+        "first_seen": "2026-W26",
+        "age_weeks": 3
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Frequent Errors & Crashes",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "koi bhi chart khul raha ",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "chart preference limit reached yry remove any existing templates/ Drawings to save new preference ",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "bar bar 300 sec bta rha h. login hi nhi krne de rha. 1 hour ho gya. kya ghatiya app h ",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "very bad profit ka paisa nahi add karta hai zerodha ",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "chart pe buy aur sell options kab dega ",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users experience frequent bugs, crashes, and errors when using the app, including difficulty in saving charts, zooming issues, and app freezing.",
+      "business_impact": "Frequent crashes and bugs lead to frustrating user experiences, negatively impacting customer retention and driving users towards competitors.",
+      "root_cause_hypothesis": "Insufficient testing, outdated technology stack, or poor integration between components may be contributing factors.",
+      "action_plan": "\u2022 Review and refactor the app's architecture, conduct thorough testing, and upgrade to the latest framework or libraries. Investigate and address underlying issues such as memory leaks and performance bottlenecks\n\u2022 Work closely with the Android and iOS teams to identify and resolve specific platform-related issues\n\u2022 Provide clear communication to users about known issues and upcoming fixes.",
+      "teams_impacted": [
+        "Android Eng",
+        "iOS Eng",
+        "UX Design",
+        "Core Product"
+      ],
+      "mentions_count": 26,
+      "rating_distribution": {
+        "1": 13,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 4
+      },
+      "average_rating": 2.38,
+      "confidence_score": 0.69,
+      "confidence_components": {
+        "volume": 0.48,
+        "quote_validation": 1.0
+      },
+      "priority_score": 22,
+      "theme_id": "app_crashes_freezes_and_slow_performance",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 0.0,
+        "priority_wow_delta": -5,
+        "rating_wow_delta": 0.7,
+        "first_seen": "2026-W28",
+        "age_weeks": 1
+      },
+      "evidence_score": 0.8333333333333334,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 971,
+    "unauthentic_quotes_dropped": 1,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 235,
+    "filtered_short_positive": 227,
+    "filtered_short_negative": 3,
+    "filtered_short_neutral": 5
+  },
+  "source_counts": {
+    "app_store": 48,
+    "play_store": 1165
+  },
+  "rating_distribution": {
+    "1": 221,
+    "2": 51,
+    "3": 60,
+    "4": 101,
+    "5": 538
+  },
+  "average_rating": 3.70442842430484,
+  "top_escalations": [],
+  "top_improvements": []
+}

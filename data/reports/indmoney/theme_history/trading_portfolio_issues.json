@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W29",
+    "name": "[Critical] Trading & Portfolio Issues",
+    "description": "Users experience severe problems with stock trades, portfolio tracking, and analysis features. Issues include failed transactions, inaccurate or missing data, and usability problems with the interface.",
+    "mentions_count": 38,
+    "priority_score": 19,
+    "average_rating": 3.0,
+    "confidence_score": 0.72
+  }
+]

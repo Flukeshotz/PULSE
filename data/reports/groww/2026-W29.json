@@ -1,0 +1,254 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W29",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-07-30T14:49:52.575497",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Poor Customer Support",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "very poor customer care service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "no support",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "coustomer care team is very very rude and irritated",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "only hindi & english are available in customer care other language is not",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "3rd class service service service service was not available",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst customer service",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are consistently experiencing frustration and disappointment with the company's customer support service, citing long wait times, unhelpful representatives, and poor communication.",
+      "business_impact": "High customer dissatisfaction, potential loss of revenue due to unmet customer needs, damage to brand reputation.",
+      "root_cause_hypothesis": "Insufficient training or inadequate resources for customer support representatives, inefficient process or inadequate technology for handling customer inquiries.",
+      "action_plan": "\u2022 Improve customer support process and staffing, provide regular training and support for customer support representatives\n\u2022 Develop and implement a clear and efficient process for handling customer inquiries\n\u2022 Expand language support to cater to diverse customer base\n\u2022 Utilize technology to enhance customer support experience, such as automation and AI-powered chatbots.",
+      "teams_impacted": [
+        "Customer Support",
+        "Customer Service",
+        "Operations"
+      ],
+      "mentions_count": 39,
+      "rating_distribution": {
+        "1": 31,
+        "2": 4,
+        "3": 3,
+        "4": 0,
+        "5": 1
+      },
+      "average_rating": 1.36,
+      "confidence_score": 0.72,
+      "confidence_components": {
+        "volume": 0.53,
+        "quote_validation": 1.0
+      },
+      "priority_score": 35,
+      "theme_id": "unresponsive_customer_support_multiple_technical_issues",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -2.5,
+        "priority_wow_delta": 1,
+        "rating_wow_delta": -0.1,
+        "first_seen": "2026-W23",
+        "age_weeks": 6
+      },
+      "evidence_score": 0.75,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] High Brokerage & Poor UI",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "What kind of broker dealing with Crores and Crores, but can't provide a human agent to resolve issues.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "High brokerage & bad UI",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "exorbitantly hi brokerage charges for stock trading. they are so high that i have stopped using the app. won't recommend anyone",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "brokerage are very high don't use this app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app high brokerage charges don't use they charge 50+ ruppe of amount",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are extremely dissatisfied with the high brokerage charges and poor user interface. They find it difficult to navigate and perform transactions without any hiccups. Many users expressed frustration over the hidden charges, high brokerage fees, and lack of transparency in the fees structure.",
+      "business_impact": "High brokerage fees may result in significant revenue loss due to user churn, as users are actively seeking alternative platforms with better fees and user experience. The poor UI will also negatively impact user experience, potentially leading to increased support requests and lower engagement.",
+      "root_cause_hypothesis": "Insufficient research and testing on user experience and fees structure have led to a subpar platform. Lack of competitive pricing and transparency has driven users away, resulting in significant revenue loss. Inadequate design and development of the user interface has failed to provide a seamless experience for users, leading to frustration and user dissatisfaction.",
+      "action_plan": "\u2022 Conduct user research to re-design the UI for a seamless experience Improve transparency on fees structure by clearly displaying all charges Reduce brokerage fees to industry standards or lower Develop a more competitive pricing strategy to attract and retain users",
+      "teams_impacted": [
+        "Product Management",
+        "Design",
+        "Engineering",
+        "Customer Support"
+      ],
+      "mentions_count": 41,
+      "rating_distribution": {
+        "1": 32,
+        "2": 4,
+        "3": 1,
+        "4": 1,
+        "5": 3
+      },
+      "average_rating": 1.51,
+      "confidence_score": 0.72,
+      "confidence_components": {
+        "volume": 0.54,
+        "quote_validation": 1.0
+      },
+      "priority_score": 34,
+      "theme_id": "high_brokerage_charges",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -68.5,
+        "priority_wow_delta": -5,
+        "rating_wow_delta": -0.8,
+        "first_seen": "2026-W24",
+        "age_weeks": 5
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] App Bugs, Hidden Charges, and Poor User Experience",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "mar jana per grow aap mai trading maat karna ye aap mai dikta kuch aur hai aur hota kuch aur hai late response profit mai close karoge toh lose mai close hota hai ek dam faltu aap hai...",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "har 2 din me update upar se interface bhi bekar aur brokerage charge bhi bahut jyada \ud83d\ude15",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Hidden charges bhut hai jitna profit hota hai half se jyada to ye charges kat lete hai 0000000Rating Dikhate kuch or hai kr kuch or hi rhe hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "bahut kharab hai app ha es per mat karna future and options mera 2 trede ma 89 rupees tax pad gya loss par so mere samjh app log mat karo es per \ud83d\ude02\ud83e\udd23",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "charges bahut jyada hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "itani ghatiya sarvice koi aur broker company nhi deti hogi jitna ye company deti hai maine 20 se jyda call Kiya sirf stock ko transfer karwane ke liye lekin abhi tak ye nhi pucha ki huwa ya nhi ya ye bhi nhi ki chalo mai madad kar deta hun ye bus rating badhane ke ye baat karte hai. baki tum bhand mei jao. \ud83d\ude21\ud83d\ude21",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "20 rupiya profit hoga toh dalali charge 18 rupiya 20-18=2 apke hat me dalali charge bohat jiyada hai ap sikhte sikhte 400-500 ullu banake udake leke jayega",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users reported several app-related issues, including bugs, hidden charges, and poor user experience. The problems are widespread and occur frequently, affecting new and existing customers.",
+      "business_impact": "Substantial revenue loss due to app crashes, user churn, and negative word-of-mouth",
+      "root_cause_hypothesis": "Inconsistent development practices across teams, inadequate testing, and unclear guidelines for user experience enhancements.",
+      "action_plan": "\u2022 Review development methodologies for consistency, implement more comprehensive testing frameworks, and update UX guidelines for a unified user experience. Conduct thorough customer support training to handle bugs and hidden charges complaints effectively. Introduce regular feature updates with detailed changelogs to keep users informed about improvements.",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product"
+      ],
+      "mentions_count": 65,
+      "rating_distribution": {
+        "1": 32,
+        "2": 1,
+        "3": 3,
+        "4": 4,
+        "5": 25
+      },
+      "average_rating": 2.83,
+      "confidence_score": 0.76,
+      "confidence_components": {
+        "volume": 0.61,
+        "quote_validation": 1.0
+      },
+      "priority_score": 25,
+      "theme_id": "app_bugs_hidden_charges_and_poor_user_experience",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 25,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W29",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.875,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 5945,
+    "unauthentic_quotes_dropped": 1,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 3725,
+    "filtered_short_positive": 3579,
+    "filtered_short_negative": 87,
+    "filtered_short_neutral": 59
+  },
+  "source_counts": {
+    "app_store": 500,
+    "play_store": 9383
+  },
+  "rating_distribution": {
+    "1": 901,
+    "2": 142,
+    "3": 171,
+    "4": 443,
+    "5": 4288
+  },
+  "average_rating": 4.190075693860387,
+  "top_escalations": [],
+  "top_improvements": []
+}

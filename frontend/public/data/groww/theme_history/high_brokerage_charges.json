@@ -34,5 +34,14 @@
     "priority_score": 39,
     "average_rating": 2.33,
     "confidence_score": 0.82
+  },
+  {
+    "iso_week": "2026-W29",
+    "name": "[Negative] High Brokerage & Poor UI",
+    "description": "Users are extremely dissatisfied with the high brokerage charges and poor user interface. They find it difficult to navigate and perform transactions without any hiccups. Many users expressed frustration over the hidden charges, high brokerage fees, and lack of transparency in the fees structure.",
+    "mentions_count": 41,
+    "priority_score": 34,
+    "average_rating": 1.51,
+    "confidence_score": 0.72
   }
 ]

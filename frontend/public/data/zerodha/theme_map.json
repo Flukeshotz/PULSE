@@ -1,10 +1,13 @@
 {
   "Withdrawal and Customer Support Issues": "Withdrawal and Customer Support Issues",
-  "Technical Issues and Poor Customer Support": "Withdrawal and Customer Support Issues",
-  "App Instability and Crashes": "Withdrawal and Customer Support Issues",
-  "App Crashes & Technical Issues": "Withdrawal and Customer Support Issues",
-  "App Crashes, Freezes, and Slow Performance": "App Crashes, Freezes, and Slow Performance",
   "Chart Functionality Issues": "Chart Functionality Issues",
+  "App Instability and Crashes": "Withdrawal and Customer Support Issues",
+  "Chart Loading Issues": "Chart Functionality Issues",
+  "Payment and KYC Issues": "Withdrawal and Customer Support Issues",
   "Unfair Charges and Account Management Issues": "Withdrawal and Customer Support Issues",
-  "Chart Display Issues": "Chart Functionality Issues"
+  "Frequent Errors & Crashes": "Withdrawal and Customer Support Issues",
+  "Chart Display Issues": "Chart Functionality Issues",
+  "App Crashes, Freezes, and Slow Performance": "App Crashes, Freezes, and Slow Performance",
+  "App Crashes & Technical Issues": "App Crashes, Freezes, and Slow Performance",
+  "Technical Issues and Poor Customer Support": "Withdrawal and Customer Support Issues"
 }

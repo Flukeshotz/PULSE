@@ -1,0 +1,264 @@
+{
+  "product": "INDMoney",
+  "iso_week": "2026-W29",
+  "period_label": "Last 8 weeks",
+  "generated_at": "2026-07-30T14:46:49.635688",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Cashback Policy Update",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "taken away accumulated cashback, this is bad",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "if you need cashback you should trade there with 5000 rupees such an bad deal",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "shame on them",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "They remove the option to use cashback as bill payment.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Cannot Use Rewarded Cash Back while Bill Pay. Now Suddenly Cash Back Zero. What a Meaningless Cash Back Reward System!",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "cashback only used to buy US stocks. not applying on Bill payments.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are finding that the cashback policy has been updated, limiting the use of accumulated cashback rewards to only US stocks, effectively rendering them unusable for bill payments or recharges.",
+      "business_impact": "Churn risk and negative word-of-mouth due to perceived unfairness of policy update, potential loss of revenue from affected users.",
+      "root_cause_hypothesis": "The policy update was implemented without proper communication to users, leading to a sense of betrayal and mistrust.",
+      "action_plan": "\u2022 1. Communicate the policy update clearly and transparently to all users, explaining the reasons behind the change. \n\u2022 2. Introduce a new notification mechanism to alert users when their cashback rewards are about to expire or become unusable. \n\u2022 3. Consider adding a 'use it or lose it' option for accumulated cashback rewards. \n\u2022 4. Analyze user feedback and adjust the policy accordingly, prioritizing user needs and satisfaction.",
+      "teams_impacted": [
+        "Product Management",
+        "Customer Support",
+        "Marketing"
+      ],
+      "mentions_count": 34,
+      "rating_distribution": {
+        "1": 30,
+        "2": 2,
+        "3": 2,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.18,
+      "confidence_score": 0.71,
+      "confidence_components": {
+        "volume": 0.51,
+        "quote_validation": 1.0
+      },
+      "priority_score": 35,
+      "theme_id": "unable_to_use_cashback_rewards",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 30.8,
+        "priority_wow_delta": 3,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W27",
+        "age_weeks": 2
+      },
+      "evidence_score": 0.8571428571428571,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] App Crashes, Freezes and is Unresponsive",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "unable to install app after doing all options",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The app is not opening at all whenever I open the app it keep exiting on its own",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "very slow app with poor internet buffering",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "it's data drainer ",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Fake app with fake reward",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app to trade on, it hangs",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users experienced frequent app crashes, freezes, and unresponsiveness, preventing them from using the app for trading.",
+      "business_impact": "High loss of potential trades, revenue, and customers due to app instability and lack of usability.",
+      "root_cause_hypothesis": "The app's instability and lack of usability are likely caused by poor coding practices, inadequate testing, and insufficient resources allocated to the development team.",
+      "action_plan": "\u2022 Investigate and fix the underlying causes of app crashes and freezes, implement robust testing strategies, allocate additional resources to the development team, and conduct thorough user acceptance testing.",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product"
+      ],
+      "mentions_count": 27,
+      "rating_distribution": {
+        "1": 24,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 1
+      },
+      "average_rating": 1.26,
+      "confidence_score": 0.69,
+      "confidence_components": {
+        "volume": 0.48,
+        "quote_validation": 1.0
+      },
+      "priority_score": 31,
+      "theme_id": "app_crashes_freezes_and_is_unresponsive",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 31,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W29",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.8571428571428571,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Critical] Trading & Portfolio Issues",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "Stock trade executed notification (push notifications) not working at all.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "US stock deposit process fails most of the time.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Interface of portfolio and trading needs to improve a lot.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app is not good platform so far for option traders loads of gliches during option trading almost during whenever your trade is on peak as a result you get big loss",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Does not show previous day market price like vested. How stupid you have to be to just show after market gains in dashboard.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "average app not good platform so far for option traders lots of gliches during option trading",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "There are so many stocks not there in this app and also there are price changes in stocks.Instead use TRADINGVIEW app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "UI/UX are confusing. The terminology around Indian stocks, specifically INDstock versus IND Stocks is unclear.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users experience severe problems with stock trades, portfolio tracking, and analysis features. Issues include failed transactions, inaccurate or missing data, and usability problems with the interface.",
+      "business_impact": "Losses from failed trades, decreased user trust, and potential churn due to frustration with fundamental app features.",
+      "root_cause_hypothesis": "Insufficient testing and QA of critical trade and portfolio features, inadequate UX refinement, and outdated data analytics infrastructure.",
+      "action_plan": "\u2022 Perform thorough UX design revamp with user feedback\n\u2022 Enhance data analytics infrastructure\n\u2022 Introduce extensive automated testing for critical features",
+      "teams_impacted": [
+        "Core Product",
+        "UX Design",
+        "Android Eng",
+        "Backend Eng",
+        "QA"
+      ],
+      "mentions_count": 38,
+      "rating_distribution": {
+        "1": 11,
+        "2": 3,
+        "3": 5,
+        "4": 13,
+        "5": 6
+      },
+      "average_rating": 3.0,
+      "confidence_score": 0.72,
+      "confidence_components": {
+        "volume": 0.53,
+        "quote_validation": 1.0
+      },
+      "priority_score": 19,
+      "theme_id": "trading_portfolio_issues",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 19,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W29",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 797,
+    "unauthentic_quotes_dropped": 2,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 295,
+    "filtered_short_positive": 270,
+    "filtered_short_negative": 12,
+    "filtered_short_neutral": 13
+  },
+  "source_counts": {
+    "app_store": 131,
+    "play_store": 971
+  },
+  "rating_distribution": {
+    "1": 220,
+    "2": 33,
+    "3": 43,
+    "4": 108,
+    "5": 393
+  },
+  "average_rating": 3.5282308657465498,
+  "top_escalations": [],
+  "top_improvements": []
+}

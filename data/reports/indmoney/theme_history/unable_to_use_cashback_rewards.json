@@ -16,5 +16,14 @@
     "priority_score": 32,
     "average_rating": 1.15,
     "confidence_score": 0.69
+  },
+  {
+    "iso_week": "2026-W29",
+    "name": "[Negative] Cashback Policy Update",
+    "description": "Users are finding that the cashback policy has been updated, limiting the use of accumulated cashback rewards to only US stocks, effectively rendering them unusable for bill payments or recharges.",
+    "mentions_count": 34,
+    "priority_score": 35,
+    "average_rating": 1.18,
+    "confidence_score": 0.71
   }
 ]

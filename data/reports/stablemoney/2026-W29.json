@@ -1,0 +1,206 @@
+{
+  "product": "Stable Money",
+  "iso_week": "2026-W29",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-07-30T14:53:04.895100",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Crashes and Glitches",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "App is not working properly, always showing blank page. even though I cleared cache and reinstalled again.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "App is crushed and hang many time",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "I tried 4-5 times to verify my number but I did not receive OTP",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "I am not able to withdraw money from fd",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "I had a really bad experience with this app, the Customer Agent doesn't pick up the call, nor attend the KYC video call. No response. very irresponsible.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "The app is prone to crashing, freezing, and experiencing technical issues, resulting in frustrating experiences for users. This theme highlights several critical complaints regarding the stability and usability of the app.",
+      "business_impact": "High churn risk due to increased user frustration and abandonment of the app, potentially leading to revenue loss.",
+      "root_cause_hypothesis": "Insufficient testing, inadequate backend infrastructure, and poor optimization of resources may be contributing to the app's instability.",
+      "action_plan": "\u2022 Thoroughly test and debug the app's codebase\n\u2022 Implement proper error handling and crash reporting tools\n\u2022 Invest in upgrading backend infrastructure and optimizing resource allocation.",
+      "teams_impacted": [
+        "Android Eng",
+        "Core Product",
+        "UX Design"
+      ],
+      "mentions_count": 347,
+      "rating_distribution": {
+        "1": 126,
+        "2": 12,
+        "3": 16,
+        "4": 15,
+        "5": 178
+      },
+      "average_rating": 3.31,
+      "confidence_score": 0.91,
+      "confidence_components": {
+        "volume": 0.85,
+        "quote_validation": 1.0
+      },
+      "priority_score": 33,
+      "theme_id": "app_crashes_and_glitches",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 33,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W29",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Positive] Excellent App Performance and Features",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "bahut badhiya hai",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "best app hai",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "Danish Ali aapse bat karke bahut accha laga apne hamre sabhi prashno ko achchi tarike se suljhaya . Thank you Danish sir.",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "bahut acche application",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "ye bahut achha app hai",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "Bhai is app ke reson Mera cibil 600 se 789 ho gaya",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "investment krne ke liye accha app hai",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "good app",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "effective app",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "good appppppppppp",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "fine app",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "good apps",
+          "source": "play_store",
+          "rating": 5.0
+        }
+      ],
+      "description": "Users are praising the app's performance, features, and overall user experience.",
+      "business_impact": "High customer satisfaction, increased retention and positive word-of-mouth.",
+      "root_cause_hypothesis": "The app's performance and features are well-suited to meet user needs, resulting in high user satisfaction.",
+      "action_plan": "\u2022 Continuously collect and incorporate user feedback to further enhance and innovate the app, ensuring it remains feature-rich and user-friendly.",
+      "teams_impacted": [
+        "Product Management",
+        "Engineering",
+        "User Experience"
+      ],
+      "mentions_count": 80,
+      "rating_distribution": {
+        "1": 6,
+        "2": 1,
+        "3": 0,
+        "4": 5,
+        "5": 68
+      },
+      "average_rating": 4.6,
+      "confidence_score": 0.78,
+      "confidence_components": {
+        "volume": 0.64,
+        "quote_validation": 1.0
+      },
+      "priority_score": 5,
+      "theme_id": "smooth_experience",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 158.1,
+        "priority_wow_delta": 0,
+        "rating_wow_delta": 0.2,
+        "first_seen": "2026-W26",
+        "age_weeks": 3
+      },
+      "evidence_score": 0.875,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 770,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 199,
+    "filtered_short_positive": 194,
+    "filtered_short_negative": 1,
+    "filtered_short_neutral": 4
+  },
+  "source_counts": {
+    "app_store": 40,
+    "play_store": 939
+  },
+  "rating_distribution": {
+    "1": 135,
+    "2": 15,
+    "3": 21,
+    "4": 39,
+    "5": 560
+  },
+  "average_rating": 4.135064935064935,
+  "top_escalations": [],
+  "top_improvements": []
+}
