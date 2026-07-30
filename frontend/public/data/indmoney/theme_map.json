@@ -1,13 +1,16 @@
 {
-  "App Not User-friendly": "App Not User-friendly",
-  "App Experience Issues": "App Not User-friendly",
   "Poor Customer Experience and Data Privacy": "Poor Customer Experience and Data Privacy",
+  "App Crashes and Performance Issues": "App Crashes and Performance Issues",
+  "Poor Customer Service": "Poor Customer Experience and Data Privacy",
+  "App Experience Issues": "App Crashes and Performance Issues",
+  "App Issues with Recent Updates": "App Crashes and Performance Issues",
+  "App Performance and Reliability Concerns": "App Crashes and Performance Issues",
   "Easy US Stock Market Access": "Easy US Stock Market Access",
-  "App Issues with Recent Updates": "App Not User-friendly",
+  "App Not User-friendly": "App Crashes and Performance Issues",
+  "Unable to Use Cashback Rewards": "Unable to Use Cashback Rewards",
   "Excellent Investment Platform": "Easy US Stock Market Access",
   "App Issues, Security Concerns, and Poor User Experience": "Poor Customer Experience and Data Privacy",
-  "Poor UI and UX": "App Not User-friendly",
-  "Missing Customer Support": "Missing Customer Support",
-  "App Performance and Reliability Concerns": "App Not User-friendly",
-  "Unable to Use Cashback Rewards": "Unable to Use Cashback Rewards"
+  "Broken Cashback System": "Unable to Use Cashback Rewards",
+  "Poor UI and UX": "App Crashes and Performance Issues",
+  "Missing Customer Support": "Missing Customer Support"
 }

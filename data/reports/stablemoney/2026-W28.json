@@ -1,0 +1,262 @@
+{
+  "product": "Stable Money",
+  "iso_week": "2026-W28",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-07-30T14:39:07.613712",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] FD Booking Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "My referral has made a fd of 50000 for 1Y 6m 2D at the date 29 April 2026 And you have promised to give me 1% of bond ammount within 10 to 15 days It has been 15 days and I didn't receive any cashback.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "The maturity date is no longer visible after new update. please bring that back.",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "This was done around 5am 29th May. Only after payment was I informed that the higher rate required VKYC, available only the next day(30th May).",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Team your reports are not at all useful.. holding reports shud have start date, maturity date and interest rate information, frequency.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I like it less and less these days. Earlier, there was an option on what to do when an FD matures... reinvest or redeem. Currently, there is no way to choose redemption.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "I will use this app less often moving forward as i don't think it's safe to use. While Booking my FDs, I selected the option to refund upon maturity, however all my FDs were reinvested without my permission,",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are complaining about various issues with booking FDs, including missing or misleading information, incorrect calculations, and inability to reinvest or redeem FDs. Some users also report being misled by promotions and offers. Additionally, there are issues with VKYC approval, delayed crediting of FDs, and unresponsive customer support.",
+      "business_impact": "Delayed crediting of FDs results in loss of interest, missed opportunities for reinvestment, and a negative customer experience. Incorrect calculations and misleading information can lead to financial losses and mistrust of the platform.",
+      "root_cause_hypothesis": "The root cause of these issues is likely due to a lack of clear communication, inadequate design and testing of user flows, and insufficient training of customer support staff.",
+      "action_plan": "\u2022 Improve clarity and accuracy of FD booking information, enhance VKYC approval process, and provide clear and transparent communication about FD maturity and redemption. Train customer support staff to respond promptly and effectively to customer inquiries, and implement a robust system for handling technical issues.",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product",
+        "Customer Support"
+      ],
+      "mentions_count": 25,
+      "rating_distribution": {
+        "1": 19,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 3
+      },
+      "average_rating": 1.72,
+      "confidence_score": 0.68,
+      "confidence_components": {
+        "volume": 0.47,
+        "quote_validation": 1.0
+      },
+      "priority_score": 26,
+      "theme_id": "fd_booking_issues",
+      "trend": {
+        "status": "new",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 26,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W28",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Inadequate Customer Support",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "While the product/service is decent, the customer support is unacceptable.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Agents repeatedly dropped calls when they couldn't resolve the issue instead of providing clear information or escalating the matter.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "very bad service...I hvnt recvd amt d matured FD amt back to my acnt...",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "very bad Escalation Team and Customer support Success is very low.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worse customer care services... even after clearly explaining the issue over call and email still got the same response which did not resolve my issue.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The service is very poor. No one is responding to calls or WhatsApp messages.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "so fraud app no proper customer support",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "virtually no customer service. waited 12 minutes post installation but no answer from a human",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report struggling to get assistance from customer support, with issues not being resolved, long wait times, and difficulty in connecting with representatives.",
+      "business_impact": "Customers are wasting significant time and have unmet expectations, which can lead to a negative brand image and potential loss of business.",
+      "root_cause_hypothesis": "Inefficient support process, inadequate training, or insufficient staffing levels might be contributing to the poor customer support experience.",
+      "action_plan": "\u2022 Implement a more efficient support process, provide comprehensive training to support staff, and increase staffing levels to ensure timely assistance and issue resolution.",
+      "teams_impacted": [
+        "Customer Support",
+        "Support Operations"
+      ],
+      "mentions_count": 14,
+      "rating_distribution": {
+        "1": 13,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "average_rating": 1.21,
+      "confidence_score": 0.64,
+      "confidence_components": {
+        "volume": 0.39,
+        "quote_validation": 1.0
+      },
+      "priority_score": 24,
+      "theme_id": "app_crashes_poor_customer_support",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -95.7,
+        "priority_wow_delta": -7,
+        "rating_wow_delta": -2.2,
+        "first_seen": "2026-W27",
+        "age_weeks": 1
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Withholding of Funds",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "I lost nearly \u20b91 lakh after making a payment through UPI.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The amount was debited from my bank account, but the app showed that the transaction had failed.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Customer support has been unresponsive, making the situation even more frustrating.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I need my money in an emergency but it stuck in this worst app.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "They promised me a date on which refund should have been credited. but did not received money for days",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "my 4 lakh rupees stuck in this fraud app. don't invest your money in this app",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users experience difficulty in withdrawing their money, with some even reporting loss of funds due to technical glitches and poor customer support.",
+      "business_impact": "High financial risk of losing users' money, damaging brand reputation, and potential lawsuits.",
+      "root_cause_hypothesis": "Inadequate or non-existent system checks for accurate transaction processing, coupled with lack of effective customer support.",
+      "action_plan": "\u2022 Implement additional system checks for accurate transaction processing, enhance customer support with dedicated teams for resolving fund withdrawal issues, and provide clear communication to users regarding their account status and any issues.",
+      "teams_impacted": [
+        "Customer Support",
+        "Engineering",
+        "Product"
+      ],
+      "mentions_count": 14,
+      "rating_distribution": {
+        "1": 13,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "average_rating": 1.29,
+      "confidence_score": 0.64,
+      "confidence_components": {
+        "volume": 0.39,
+        "quote_validation": 1.0
+      },
+      "priority_score": 23,
+      "theme_id": "withholding_of_funds",
+      "trend": {
+        "status": "new",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 23,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W28",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 747,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 196,
+    "filtered_short_positive": 191,
+    "filtered_short_negative": 2,
+    "filtered_short_neutral": 3
+  },
+  "source_counts": {
+    "app_store": 40,
+    "play_store": 913
+  },
+  "rating_distribution": {
+    "1": 127,
+    "2": 15,
+    "3": 21,
+    "4": 40,
+    "5": 544
+  },
+  "average_rating": 4.149933065595716,
+  "top_escalations": [],
+  "top_improvements": []
+}

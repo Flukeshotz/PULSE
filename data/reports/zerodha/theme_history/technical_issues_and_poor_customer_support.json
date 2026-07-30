@@ -7,5 +7,14 @@
     "priority_score": 23,
     "average_rating": 1.8,
     "confidence_score": 0.66
+  },
+  {
+    "iso_week": "2026-W28",
+    "name": "[Negative] Withdrawal and Customer Support Issues",
+    "description": "Users experienced problems with slow withdrawal of funds, lack of assistance with account-related issues, and difficulties in resolving problems with customer support. Some users reported being on the phone or calling customer support for extended periods without a resolution.",
+    "mentions_count": 22,
+    "priority_score": 26,
+    "average_rating": 1.64,
+    "confidence_score": 0.67
   }
 ]

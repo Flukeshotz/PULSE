@@ -25,5 +25,14 @@
     "priority_score": 25,
     "average_rating": 2.93,
     "confidence_score": 0.77
+  },
+  {
+    "iso_week": "2026-W28",
+    "name": "[Negative] High Brokerage Charges",
+    "description": "Users are complaining about high brokerage charges, hidden fees, and lack of transparency in charges. They feel that the app is overcharging them, making it difficult to make profits. Some users even feel cheated due to the high charges.",
+    "mentions_count": 130,
+    "priority_score": 39,
+    "average_rating": 2.33,
+    "confidence_score": 0.82
   }
 ]

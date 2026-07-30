@@ -1,0 +1,212 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W28",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-07-30T14:36:20.234740",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] High Brokerage Charges",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "very high brokerage charges... my advice is don't waste your valuable money, time & don't spoil your mental health too.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "why do you need 20 rupees of brokerage in intraday? even 5 rupees will be enough for your profits, you are greedy, how will we do intraday when your brokerage is even higher than what we can earn by intraday",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Charged high brokarege & external charges also CDSL DP charges & charged Brokers dp charges on each trade trasanction daily.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "They are charging high brokerage and they will charge brokerage in such a way you won't tell that you have lost money.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I have used 3 other demat accounts but have never faced such difficulty to ascertain Taxable gains.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Too many hidden charges..per trade they charge around 100+ rupees",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "brokerage are very high don't use this app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "broker charge bahut jayada ho gya ha ab groww app ko delete kar ka dusra treading app use karna hoga",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Bahut jyada brokerage charge leta hai pura fayda yahi le jata hai chhote traders mat install karna 5000 se kam wale ke liye nahi hai ye aap aur mujhe lagta hai price ye khud hi kam jyada karta hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Brokerage charges jada hai kam karo unlimited one day charges kya hai lagavo or kuchha new karo charges ke liye thanks for teams groww...",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "sell karne me time jada leta hai.3-4 ber tuch karne ke bad sell hota hai. utne me profit kam ho jata hai. trad me charge jada leta hai.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "grow mai fraud krne lga hai mera kal profit add nhi Kiya aur bol rhe ki brockrage charges lga hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Bahut kharab hai app ha es per mat karna future and options mera 2 trede ma 89 rupees tax pad gya loss par so mere samjh app log mat karo es par",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are complaining about high brokerage charges, hidden fees, and lack of transparency in charges. They feel that the app is overcharging them, making it difficult to make profits. Some users even feel cheated due to the high charges.",
+      "business_impact": "High brokerage charges and lack of transparency in fees are leading to customer dissatisfaction, high churn risk, and potential revenue loss.",
+      "root_cause_hypothesis": "The app's pricing strategy and fee structure may be flawed, leading to overcharging and lack of transparency.",
+      "action_plan": "\u2022 Review and revise the pricing strategy to ensure competitiveness, introduce transparent fee structures, and educate customers about charges.\n\u2022 Develop a tool to clearly display all applicable fees and charges.\n\u2022 Establish a feedback mechanism for customers to report any suspicious charges.",
+      "teams_impacted": [
+        "Product",
+        "Finance",
+        "Customer Support"
+      ],
+      "mentions_count": 130,
+      "rating_distribution": {
+        "1": 79,
+        "2": 4,
+        "3": 5,
+        "4": 9,
+        "5": 33
+      },
+      "average_rating": 2.33,
+      "confidence_score": 0.82,
+      "confidence_components": {
+        "volume": 0.71,
+        "quote_validation": 1.0
+      },
+      "priority_score": 39,
+      "theme_id": "high_brokerage_charges",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 83.1,
+        "priority_wow_delta": 14,
+        "rating_wow_delta": -0.6,
+        "first_seen": "2026-W24",
+        "age_weeks": 4
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Unreliable Transactions and Withdrawals",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "groww is using money of public lying with demat offering loans unable to withdraw money it's a fraud company",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "it's the worst, I was investing for like 13 months in two SIP's and cancelled one of them today but after doing this my dashboard is showing less than 50% of my invested amount",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I have sold one of stock in my holdings namely Azad engineering on 6th May 2026 at 3.28 PM. The price shown by Groww app was 2294 but when I checked my orders they made it sold at 2282",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "My withdraw pending before 3 days today reject withdraw today my emi last date that reason 1200 panelty charges added my emi bounce charges but groww have so much excuses her customer team speak totally lie only make fool us",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Groww app is fake because if I apply for an IPO through any other app I get it. I don't get it through GrowUp",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Groww app's users experienced issues with transaction discrepancies, withdrawals pending for a long time, and incorrect balances, causing financial loss and frustration.",
+      "business_impact": "Groww suffered from loss of user trust and reputation damage due to unfulfilled transactions, delayed withdrawals, and incorrect balances.",
+      "root_cause_hypothesis": "Groww's technical issues and lack of transparent communication may be causing these problems, which could be due to over-reliance on automated systems or inadequate testing.",
+      "action_plan": "\u2022 Conduct thorough testing to identify and fix the root causes of transaction discrepancies and withdrawal issues\n\u2022 Improve communication channels with users to provide clear updates on transaction status\n\u2022 Develop a more robust system to handle failed transactions and provide better support for users experiencing technical issues.",
+      "teams_impacted": [
+        "Engineering",
+        "Customer Support",
+        "Product"
+      ],
+      "mentions_count": 46,
+      "rating_distribution": {
+        "1": 37,
+        "2": 4,
+        "3": 1,
+        "4": 1,
+        "5": 3
+      },
+      "average_rating": 1.46,
+      "confidence_score": 0.73,
+      "confidence_components": {
+        "volume": 0.56,
+        "quote_validation": 1.0
+      },
+      "priority_score": 36,
+      "theme_id": "app_experiences_woes",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -16.4,
+        "priority_wow_delta": -2,
+        "rating_wow_delta": -0.1,
+        "first_seen": "2026-W24",
+        "age_weeks": 4
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 5529,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 3338,
+    "filtered_short_positive": 3198,
+    "filtered_short_negative": 84,
+    "filtered_short_neutral": 56
+  },
+  "source_counts": {
+    "app_store": 500,
+    "play_store": 8562
+  },
+  "rating_distribution": {
+    "1": 894,
+    "2": 136,
+    "3": 166,
+    "4": 418,
+    "5": 3915
+  },
+  "average_rating": 4.143787303309821,
+  "top_escalations": [],
+  "top_improvements": []
+}

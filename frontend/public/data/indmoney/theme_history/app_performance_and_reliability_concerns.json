@@ -7,5 +7,14 @@
     "priority_score": 51,
     "average_rating": 2.18,
     "confidence_score": 0.89
+  },
+  {
+    "iso_week": "2026-W28",
+    "name": "[Negative] App Crashes and Performance Issues",
+    "description": "Users are experiencing frequent app crashes, slow app performance, and issues with internet buffering, leading to frustrating user experience. Some users also experienced difficulties with adding money to the app, further highlighting system instability.",
+    "mentions_count": 22,
+    "priority_score": 27,
+    "average_rating": 1.45,
+    "confidence_score": 0.67
   }
 ]

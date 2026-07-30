@@ -1,0 +1,277 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W28",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-07-30T14:37:46.020673",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Crashes, Freezes, and Slow Performance",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "Often I see connection time out message.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "The app lags too much...I have already cleared the cache and every time when open the chart it is taking too much time.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "works slow and many times the alert does not give notification.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "now use this app than anything chart not opening than app is very slow.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "It's very bad app they change app working continuously which is unfavourable for daily users.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app cannot open please help.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "chats are not getting loaded often",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users experience frequent app crashes, freezing, and slow performance issues, preventing them from using the app effectively.",
+      "business_impact": "This theme contributes to a high user turnover rate, as dissatisfied customers are more likely to uninstall and switch to alternative apps.",
+      "root_cause_hypothesis": "The root cause of this issue may be related to outdated or buggy code, insufficient optimization for various device configurations, or poor memory management.",
+      "action_plan": "\u2022 Optimize app code to reduce memory consumption\n\u2022 Update app to the latest version\n\u2022 Improve device compatibility by adding more device-specific optimizations\n\u2022 Monitor app performance using analytics tools to identify and address potential issues.",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product"
+      ],
+      "mentions_count": 26,
+      "rating_distribution": {
+        "1": 16,
+        "2": 3,
+        "3": 6,
+        "4": 1,
+        "5": 0
+      },
+      "average_rating": 1.69,
+      "confidence_score": 0.69,
+      "confidence_components": {
+        "volume": 0.48,
+        "quote_validation": 1.0
+      },
+      "priority_score": 27,
+      "theme_id": "app_crashes_freezes_and_slow_performance",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 27,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W28",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.875,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Unfair Charges and Account Management Issues",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "they take charges for buying and selling also and they take extra charges in our profit also",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "i come here to trade, learn, slightly earn but i lost my 50% money instead of gain due to their charges",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "hidden charges are very high & now this app make a fraud lot of profit of intraday & delevery iam not received",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "I have to wait for a very long period of time and close the window but then also the added amount does not reflect in the funds",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Always crashes and most of the time it's down. It feels like a fraud illegal app than the proper trading/investment platform",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I didn't like the app and funds are not showing properly even in the View statement section",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "i trying bse fno activation from last month every time I call they said wait 48 hrs and no response",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are complaining about hidden fees, high charges, and account management issues such as failed transactions, missing funds, and difficulty closing accounts.",
+      "business_impact": "These issues may lead to customer dissatisfaction, high churn rates, and a negative brand reputation.",
+      "root_cause_hypothesis": "The primary root cause of these issues may be inadequate accounting systems, poor quality assurance, or a lack of effective customer support processes.",
+      "action_plan": "\u2022 Improve accounting systems to reduce errors and hidden fees\n\u2022 Develop and implement effective customer support processes to address account management issues\n\u2022 Enhance quality assurance to catch bugs and system failures before deployment.",
+      "teams_impacted": [
+        "Accounting and Finance",
+        "Customer Support",
+        "Quality Assurance"
+      ],
+      "mentions_count": 20,
+      "rating_distribution": {
+        "1": 17,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 0
+      },
+      "average_rating": 1.3,
+      "confidence_score": 0.66,
+      "confidence_components": {
+        "volume": 0.44,
+        "quote_validation": 1.0
+      },
+      "priority_score": 27,
+      "theme_id": "unfair_charges_and_account_management_issues",
+      "trend": {
+        "status": "new",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 27,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W28",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Withdrawal and Customer Support Issues",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "withdrawal very very very slow angle vs zerodha app zerodha very very veryslow withdrawal angle one the best withdrawal",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Please never use zerodha kite application. there support is zero for any query",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I given pledged request at 09.15 AM and received message from CDSL & spoken to Miss swati, Mr Ganesh but all in vain. zerodha application getting problem on daily basis. I think now it's time to shift from Zerodha.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "ANYTIME GLITCH AND APP NOT WORKINGS i Lost 5.70 Lacs Rs in single position due to Zerodha kite glitch problem in Commodity Crude oil option position ",
+          "source": "app_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Poor Customer care support I added funds via upi method and they are claiming as they add instant fund to your demat account but after 30 minutes i have not received my funds in my demat account or not also received back to my back account it is likely stuck between,",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "instant withdrawal option of amount is not working...zerodha intentionally not allowing the withdrawal of the amount instantly and interface is also now poor in context of working and execution",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I faced 3lakhs margin short fall on expiry. This is my worst experience which I faced with zerodha.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "zerodha is not clearly showing wy the redemption payment are failing",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "very bad I withdraw money from zerodha but did not get in my account and customer care didn't help me so I closed my account.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users experienced problems with slow withdrawal of funds, lack of assistance with account-related issues, and difficulties in resolving problems with customer support. Some users reported being on the phone or calling customer support for extended periods without a resolution.",
+      "business_impact": "Poor customer experience, high likelihood of churn, and potential revenue loss due to unresolved issues and delayed withdrawals.",
+      "root_cause_hypothesis": "The root cause of these issues may be linked to inadequate staffing or inadequate training of customer support agents, as well as potential technical difficulties with the withdrawal process.",
+      "action_plan": "\u2022 Implement a quality control process to assess customer support calls and resolve issues promptly,\n\u2022 Provide additional training to customer support agents on effective issue resolution,\n\u2022 Identify and address any technical issues with the withdrawal process, |\n and\n\u2022 Develop a contingency plan to handle high-volume withdrawal requests.",
+      "teams_impacted": [
+        "Customer Support",
+        "Technical Engineering",
+        "Customer Experience"
+      ],
+      "mentions_count": 22,
+      "rating_distribution": {
+        "1": 16,
+        "2": 2,
+        "3": 2,
+        "4": 0,
+        "5": 2
+      },
+      "average_rating": 1.64,
+      "confidence_score": 0.67,
+      "confidence_components": {
+        "volume": 0.45,
+        "quote_validation": 1.0
+      },
+      "priority_score": 26,
+      "theme_id": "technical_issues_and_poor_customer_support",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 10.0,
+        "priority_wow_delta": 3,
+        "rating_wow_delta": -0.2,
+        "first_seen": "2026-W27",
+        "age_weeks": 1
+      },
+      "evidence_score": 0.9,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 947,
+    "unauthentic_quotes_dropped": 2,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 230,
+    "filtered_short_positive": 221,
+    "filtered_short_negative": 3,
+    "filtered_short_neutral": 6
+  },
+  "source_counts": {
+    "app_store": 51,
+    "play_store": 1133
+  },
+  "rating_distribution": {
+    "1": 221,
+    "2": 54,
+    "3": 56,
+    "4": 96,
+    "5": 520
+  },
+  "average_rating": 3.675818373812038,
+  "top_escalations": [],
+  "top_improvements": []
+}

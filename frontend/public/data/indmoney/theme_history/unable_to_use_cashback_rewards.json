@@ -7,5 +7,14 @@
     "priority_score": 28,
     "average_rating": 1.11,
     "confidence_score": 0.66
+  },
+  {
+    "iso_week": "2026-W28",
+    "name": "[Negative] Broken Cashback System",
+    "description": "Users are unable to use their earned cashback points to recharge or pay bills, and can only use it for stock purchases, leading to frustration and disappointment.",
+    "mentions_count": 26,
+    "priority_score": 32,
+    "average_rating": 1.15,
+    "confidence_score": 0.69
   }
 ]

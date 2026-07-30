@@ -16,5 +16,14 @@
     "priority_score": 38,
     "average_rating": 1.51,
     "confidence_score": 0.75
+  },
+  {
+    "iso_week": "2026-W28",
+    "name": "[Negative] Unreliable Transactions and Withdrawals",
+    "description": "Groww app's users experienced issues with transaction discrepancies, withdrawals pending for a long time, and incorrect balances, causing financial loss and frustration.",
+    "mentions_count": 46,
+    "priority_score": 36,
+    "average_rating": 1.46,
+    "confidence_score": 0.73
   }
 ]

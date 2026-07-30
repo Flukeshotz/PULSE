@@ -7,5 +7,14 @@
     "priority_score": 31,
     "average_rating": 3.37,
     "confidence_score": 0.9
+  },
+  {
+    "iso_week": "2026-W28",
+    "name": "[Negative] Inadequate Customer Support",
+    "description": "Users report struggling to get assistance from customer support, with issues not being resolved, long wait times, and difficulty in connecting with representatives.",
+    "mentions_count": 14,
+    "priority_score": 24,
+    "average_rating": 1.21,
+    "confidence_score": 0.64
   }
 ]
