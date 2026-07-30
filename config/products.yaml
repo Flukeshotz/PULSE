@@ -35,6 +35,42 @@ products:
     window_weeks: 10
     recipients: ["stakeholders@example.com"]
 
+  zerodha:
+    display_name: "Zerodha Kite"
+    doc_title: "Weekly Review Pulse — Zerodha Kite"
+    sources:
+      app_store:
+        enabled: true
+        app_id: "1449453802"
+        countries: ["in"]
+      play_store:
+        enabled: true
+        package: "com.zerodha.kite3"
+      reddit:
+        enabled: false
+        queries: ["Zerodha", "Zerodha Kite"]
+        subreddits: ["IndiaInvestments", "personalfinanceindia", "zerodhaonlinetrading"]
+    window_weeks: 10
+    recipients: ["stakeholders@example.com"]
+
+  stablemoney:
+    display_name: "Stable Money"
+    doc_title: "Weekly Review Pulse — Stable Money"
+    sources:
+      app_store:
+        enabled: true
+        app_id: "1663244497"
+        countries: ["in"]
+      play_store:
+        enabled: true
+        package: "in.stablemoney.app"
+      reddit:
+        enabled: false
+        queries: ["Stable Money", "StableMoney app"]
+        subreddits: ["IndiaInvestments", "personalfinanceindia"]
+    window_weeks: 10
+    recipients: ["stakeholders@example.com"]
+
   powerup_money:
     display_name: "PowerUp Money"
     doc_title: "Weekly Review Pulse — PowerUp Money"
