@@ -71,60 +71,6 @@ products:
     window_weeks: 10
     recipients: ["stakeholders@example.com"]
 
-  powerup_money:
-    display_name: "PowerUp Money"
-    doc_title: "Weekly Review Pulse — PowerUp Money"
-    sources:
-      app_store:
-        enabled: true
-        app_id: "0000000001"
-        countries: ["in"]
-      play_store:
-        enabled: true
-        package: "com.powerup.money"
-      reddit:
-        enabled: true
-        queries: ["PowerUp Money"]
-        subreddits: ["IndiaInvestments", "personalfinanceindia"]
-    window_weeks: 10
-    recipients: ["stakeholders@example.com"]
-
-  wealth_monitor:
-    display_name: "Wealth Monitor"
-    doc_title: "Weekly Review Pulse — Wealth Monitor"
-    sources:
-      app_store:
-        enabled: true
-        app_id: "0000000002"
-        countries: ["in"]
-      play_store:
-        enabled: true
-        package: "com.wealth.monitor"
-      reddit:
-        enabled: true
-        queries: ["Wealth Monitor"]
-        subreddits: ["IndiaInvestments"]
-    window_weeks: 10
-    recipients: ["stakeholders@example.com"]
-
-  kuvera:
-    display_name: "Kuvera"
-    doc_title: "Weekly Review Pulse — Kuvera"
-    sources:
-      app_store:
-        enabled: true
-        app_id: "1336040851"
-        countries: ["in"]
-      play_store:
-        enabled: true
-        package: "com.kuvera.android"
-      reddit:
-        enabled: true
-        queries: ["Kuvera"]
-        subreddits: ["IndiaInvestments", "personalfinanceindia", "kuvera"]
-    window_weeks: 10
-    recipients: ["stakeholders@example.com"]
-
 run:
   send_email: false
   max_tokens_per_run: 60000
