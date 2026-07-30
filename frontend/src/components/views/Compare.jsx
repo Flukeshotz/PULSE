@@ -1,10 +1,10 @@
 import { useState, useMemo } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { Star, MessageSquareWarning, Calendar, TrendingUp, TrendingDown, Sparkles, Users2 } from 'lucide-react';
+import { Star, MessageSquareWarning, Calendar, TrendingUp, TrendingDown, Sparkles, Users2, AlertTriangle, ShieldCheck, History } from 'lucide-react';
 import { useCompareData } from '../../hooks/useCompareData';
 import { parseThemeName } from '../../utils/format';
 import { getRatingColor } from '../../utils/colors';
-import { categorizeTheme, CATEGORY_ORDER } from '../../utils/themeCategory';
+import { categorizeTheme } from '../../utils/themeCategory';
 
 const PRODUCT_COLORS = ['#6366F1', '#EC4899', '#0EA5E9', '#F59E0B', '#10B981', '#F97316'];
 
@@ -30,6 +30,19 @@ function sourceSplit(report) {
     .sort((a, b) => b.pct - a.pct);
 }
 
+// Data quality: how much of this app's raw signal survived anti-hallucination
+// filtering, and how well-evidenced its themes are on average.
+function dataQuality(report) {
+  const counts = report?.counts || {};
+  const reviews = counts.reviews || 0;
+  const dropped = (counts.unauthentic_quotes_dropped || 0) + (counts.irrelevant_quotes_dropped || 0);
+  const droppedPct = reviews > 0 ? (dropped / reviews) * 100 : 0;
+  const evidenceScores = (report?.themes || []).map(t => t.evidence_score).filter(v => v != null);
+  const avgEvidence = evidenceScores.length ? evidenceScores.reduce((a, b) => a + b, 0) / evidenceScores.length : null;
+  const missing = (report?.expected_sources || []).filter(s => !(report?.sources_covered || []).includes(s));
+  return { droppedPct, avgEvidence, missing };
+}
+
 function TrendBadge({ trend }) {
   if (!trend) return null;
   if (trend.status === 'new' || trend.age_weeks === 0) {
@@ -40,15 +53,23 @@ function TrendBadge({ trend }) {
     );
   }
   const pct = trend.mentions_wow_pct;
-  if (pct == null) return null;
   const worsening = pct > 0;
   return (
-    <span className={`inline-flex items-center gap-1 text-xs font-semibold px-2 py-0.5 rounded-full ${
-      worsening ? 'bg-[var(--negative-soft)] text-[var(--negative)]' : 'bg-[var(--positive-soft)] text-[var(--positive)]'
-    }`}>
-      {worsening ? <TrendingUp className="w-3 h-3" /> : <TrendingDown className="w-3 h-3" />}
-      {Math.abs(pct).toFixed(0)}% WoW
-    </span>
+    <div className="flex flex-wrap items-center gap-1.5">
+      {pct != null && (
+        <span className={`inline-flex items-center gap-1 text-xs font-semibold px-2 py-0.5 rounded-full ${
+          worsening ? 'bg-[var(--negative-soft)] text-[var(--negative)]' : 'bg-[var(--positive-soft)] text-[var(--positive)]'
+        }`}>
+          {worsening ? <TrendingUp className="w-3 h-3" /> : <TrendingDown className="w-3 h-3" />}
+          {Math.abs(pct).toFixed(0)}% WoW
+        </span>
+      )}
+      {trend.age_weeks > 0 && (
+        <span className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded-full bg-[var(--bg-elevated)] text-[var(--text-secondary)]">
+          <History className="w-3 h-3" /> {trend.age_weeks}wk{trend.age_weeks > 1 ? 's' : ''} unresolved
+        </span>
+      )}
+    </div>
   );
 }
 
@@ -64,6 +85,7 @@ export function Compare({ manifest }) {
         const report = data[product]?.[activeWeek];
         if (!report) return null;
         const complaint = topComplaintTheme(report);
+        const quality = dataQuality(report);
         return {
           product,
           displayName: manifest.products[product]?.display_name || product,
@@ -72,14 +94,21 @@ export function Compare({ manifest }) {
           reviews: report.counts?.reviews || 0,
           onestar: onestarPct(report),
           sources: sourceSplit(report),
-          complaint: complaint ? { name: parseThemeName(complaint.name).name, mentions: complaint.quotes?.length || complaint.mentions_count || 0, priority: complaint.priority_score, trend: complaint.trend } : null,
+          quality,
+          complaint: complaint ? {
+            name: parseThemeName(complaint.name).name,
+            mentions: complaint.quotes?.length || complaint.mentions_count || 0,
+            priority: complaint.priority_score,
+            trend: complaint.trend,
+            businessImpact: complaint.business_impact,
+          } : null,
         };
       })
       .filter(Boolean)
       .sort((a, b) => b.rating - a.rating);
   }, [data, products, activeWeek, manifest]);
 
-  const trendData = useMemo(() => {
+  const ratingTrendData = useMemo(() => {
     if (!data || commonWeeks.length === 0) return [];
     return commonWeeks.map(w => {
       const point = { week: w.split('-')[1] };
@@ -91,11 +120,21 @@ export function Compare({ manifest }) {
     });
   }, [data, products, commonWeeks]);
 
-  // Shared pain points: bucket every NEGATIVE theme, this week, across all
-  // products, into cross-app categories — answers "who else has this problem?"
+  const volumeTrendData = useMemo(() => {
+    if (!data || commonWeeks.length === 0) return [];
+    return commonWeeks.map(w => {
+      const point = { week: w.split('-')[1] };
+      products.forEach(product => {
+        const r = data[product]?.[w];
+        if (r?.counts?.reviews != null) point[product] = r.counts.reviews;
+      });
+      return point;
+    });
+  }, [data, products, commonWeeks]);
+
   const painMatrix = useMemo(() => {
-    if (!data || !activeWeek) return { rows: [], appsWithData: [] };
-    const grid = {}; // categoryId -> product -> { mentions, priority }
+    if (!data || !activeWeek) return { rows: [] };
+    const grid = {};
     products.forEach(product => {
       const report = data[product]?.[activeWeek];
       (report?.themes || []).forEach(theme => {
@@ -112,12 +151,11 @@ export function Compare({ manifest }) {
     });
     const rows = Object.entries(grid)
       .map(([id, v]) => ({ id, ...v, appCount: Object.keys(v.apps).length }))
-      .filter(r => r.appCount >= 2) // only genuinely shared pain points
+      .filter(r => r.appCount >= 2)
       .sort((a, b) => b.appCount - a.appCount);
     return { rows };
   }, [data, products, activeWeek]);
 
-  // Which teams are under the most complaint pressure across every app, this week
   const teamPressure = useMemo(() => {
     if (!data || !activeWeek) return [];
     const tally = {};
@@ -183,7 +221,15 @@ export function Compare({ manifest }) {
               <span className="text-xs font-bold uppercase tracking-wider text-[var(--text-tertiary)]">#{i + 1}</span>
               <span className="text-xs font-medium text-[var(--text-secondary)]">{c.reviews.toLocaleString()} reviews</span>
             </div>
-            <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{c.displayName}</h3>
+            <div className="flex items-center gap-2 mb-2">
+              <h3 className="text-lg font-semibold text-[var(--text-primary)]">{c.displayName}</h3>
+              {c.quality.missing.length > 0 && (
+                <span title={`Missing source(s) this week: ${c.quality.missing.join(', ')}`}
+                  className="inline-flex items-center gap-1 text-[10px] font-semibold px-1.5 py-0.5 rounded-full bg-[var(--neutral-soft)] text-[var(--neutral-sentiment)]">
+                  <AlertTriangle className="w-3 h-3" /> Partial
+                </span>
+              )}
+            </div>
             <div className="flex items-center gap-1.5 mb-1">
               <span className="text-3xl font-bold" style={{ color: getRatingColor(c.rating) }}>{c.rating.toFixed(2)}</span>
               <Star className="w-5 h-5 mt-1" fill={getRatingColor(c.rating)} stroke={getRatingColor(c.rating)} />
@@ -210,40 +256,73 @@ export function Compare({ manifest }) {
                     <div className="text-xs text-[var(--text-secondary)] mb-1.5">
                       {c.complaint.mentions} mentions{c.complaint.priority != null && ` · priority ${c.complaint.priority}`}
                     </div>
-                    <TrendBadge trend={c.complaint.trend} />
+                    <div className="mb-2"><TrendBadge trend={c.complaint.trend} /></div>
+                    {c.complaint.businessImpact && (
+                      <p className="text-xs text-[var(--text-secondary)] italic leading-relaxed line-clamp-3">
+                        {c.complaint.businessImpact}
+                      </p>
+                    )}
                   </div>
                 </div>
+              </div>
+            )}
+            {(c.quality.avgEvidence != null || c.quality.droppedPct > 0) && (
+              <div className="pt-2.5 mt-2.5 border-t border-[var(--border-subtle)] flex items-center gap-1.5 text-[10px] text-[var(--text-tertiary)]">
+                <ShieldCheck className="w-3 h-3 shrink-0" />
+                {c.quality.avgEvidence != null && <span>{(c.quality.avgEvidence * 100).toFixed(0)}% evidence score</span>}
+                {c.quality.droppedPct > 0 && <span>· {c.quality.droppedPct.toFixed(1)}% filtered as noise</span>}
               </div>
             )}
           </div>
         ))}
       </div>
 
-      {/* Rating trend */}
-      <div className="bg-[var(--bg-card)] rounded-[var(--radius-md)] p-6 shadow-[var(--shadow-sm)]">
-        <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-1">Rating trend</h3>
-        <p className="text-sm text-[var(--text-secondary)] mb-6">Average rating across the weeks all four apps share.</p>
-        <div className="h-[280px] md:h-[340px]">
-          <ResponsiveContainer width="100%" height="100%">
-            <LineChart data={trendData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
-              <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border-subtle)" />
-              <XAxis dataKey="week" axisLine={false} tickLine={false} tick={{ fill: 'var(--text-secondary)', fontSize: 12 }} dy={10} />
-              <YAxis domain={['auto', 'auto']} axisLine={false} tickLine={false} tick={{ fill: 'var(--text-secondary)', fontSize: 12 }} tickFormatter={v => v.toFixed(1)} />
-              <Tooltip
-                contentStyle={{ background: 'var(--bg-card)', border: '1px solid var(--border-subtle)', borderRadius: 'var(--radius-sm)' }}
-                formatter={(value, name) => [value?.toFixed(2), manifest.products[name]?.display_name || name]}
-              />
-              <Legend formatter={name => manifest.products[name]?.display_name || name} wrapperStyle={{ fontSize: 13 }} />
-              {products.map((product, i) => (
-                <Line key={product} type="monotone" dataKey={product} stroke={PRODUCT_COLORS[i % PRODUCT_COLORS.length]} strokeWidth={2.5}
-                  dot={{ r: 3, strokeWidth: 2, fill: 'var(--bg-card)' }} activeDot={{ r: 5, strokeWidth: 0 }} connectNulls />
-              ))}
-            </LineChart>
-          </ResponsiveContainer>
+      {/* Rating + volume trend, side by side */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="bg-[var(--bg-card)] rounded-[var(--radius-md)] p-6 shadow-[var(--shadow-sm)]">
+          <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-1">Rating trend</h3>
+          <p className="text-sm text-[var(--text-secondary)] mb-6">Average rating across shared weeks.</p>
+          <div className="h-[280px]">
+            <ResponsiveContainer width="100%" height="100%">
+              <LineChart data={ratingTrendData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border-subtle)" />
+                <XAxis dataKey="week" axisLine={false} tickLine={false} tick={{ fill: 'var(--text-secondary)', fontSize: 12 }} dy={10} />
+                <YAxis domain={['auto', 'auto']} axisLine={false} tickLine={false} tick={{ fill: 'var(--text-secondary)', fontSize: 12 }} tickFormatter={v => v.toFixed(1)} />
+                <Tooltip contentStyle={{ background: 'var(--bg-card)', border: '1px solid var(--border-subtle)', borderRadius: 'var(--radius-sm)' }}
+                  formatter={(value, name) => [value?.toFixed(2), manifest.products[name]?.display_name || name]} />
+                <Legend formatter={name => manifest.products[name]?.display_name || name} wrapperStyle={{ fontSize: 12 }} />
+                {products.map((product, i) => (
+                  <Line key={product} type="monotone" dataKey={product} stroke={PRODUCT_COLORS[i % PRODUCT_COLORS.length]} strokeWidth={2.5}
+                    dot={{ r: 3, strokeWidth: 2, fill: 'var(--bg-card)' }} activeDot={{ r: 5, strokeWidth: 0 }} connectNulls />
+                ))}
+              </LineChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+
+        <div className="bg-[var(--bg-card)] rounded-[var(--radius-md)] p-6 shadow-[var(--shadow-sm)]">
+          <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-1">Review volume trend</h3>
+          <p className="text-sm text-[var(--text-secondary)] mb-6">A rating dip alongside a volume spike reads differently than a slow decay.</p>
+          <div className="h-[280px]">
+            <ResponsiveContainer width="100%" height="100%">
+              <LineChart data={volumeTrendData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border-subtle)" />
+                <XAxis dataKey="week" axisLine={false} tickLine={false} tick={{ fill: 'var(--text-secondary)', fontSize: 12 }} dy={10} />
+                <YAxis axisLine={false} tickLine={false} tick={{ fill: 'var(--text-secondary)', fontSize: 12 }} />
+                <Tooltip contentStyle={{ background: 'var(--bg-card)', border: '1px solid var(--border-subtle)', borderRadius: 'var(--radius-sm)' }}
+                  formatter={(value, name) => [value?.toLocaleString(), manifest.products[name]?.display_name || name]} />
+                <Legend formatter={name => manifest.products[name]?.display_name || name} wrapperStyle={{ fontSize: 12 }} />
+                {products.map((product, i) => (
+                  <Line key={product} type="monotone" dataKey={product} stroke={PRODUCT_COLORS[i % PRODUCT_COLORS.length]} strokeWidth={2.5}
+                    dot={{ r: 3, strokeWidth: 2, fill: 'var(--bg-card)' }} activeDot={{ r: 5, strokeWidth: 0 }} connectNulls />
+                ))}
+              </LineChart>
+            </ResponsiveContainer>
+          </div>
         </div>
       </div>
 
-      {/* Shared pain points — the cross-app market insight */}
+      {/* Shared pain points */}
       <div className="bg-[var(--bg-card)] rounded-[var(--radius-md)] p-6 shadow-[var(--shadow-sm)]">
         <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-1">Shared pain points this week</h3>
         <p className="text-sm text-[var(--text-secondary)] mb-6">
