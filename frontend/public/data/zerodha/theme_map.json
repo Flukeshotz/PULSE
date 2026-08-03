@@ -1,14 +1,16 @@
 {
-  "Poor App Performance": "Poor App Performance",
-  "Payment and KYC Issues": "Payment and KYC Issues",
+  "App Crashes, Freezes, and Slow Performance": "App Crashes, Freezes, and Slow Performance",
+  "Technical Issues and Poor Customer Support": "App Crashes, Freezes, and Slow Performance",
+  "Frequent Errors & Crashes": "App Crashes, Freezes, and Slow Performance",
+  "App Crashes & Technical Issues": "App Crashes, Freezes, and Slow Performance",
+  "Poor App Performance": "App Crashes, Freezes, and Slow Performance",
   "Chart Functionality Issues": "Chart Functionality Issues",
-  "App Instability and Crashes": "Poor App Performance",
+  "Payment and KYC Issues": "Payment and KYC Issues",
+  "Application Functionality Issues": "Chart Functionality Issues",
+  "App Performance Issues": "App Crashes, Freezes, and Slow Performance",
+  "App Instability and Crashes": "App Crashes, Freezes, and Slow Performance",
   "Chart Loading Issues": "Chart Functionality Issues",
-  "Chart Display Issues": "Chart Functionality Issues",
-  "Technical Issues and Poor Customer Support": "Payment and KYC Issues",
-  "Frequent Errors & Crashes": "Poor App Performance",
   "Unfair Charges and Account Management Issues": "Payment and KYC Issues",
-  "Withdrawal and Customer Support Issues": "Payment and KYC Issues",
-  "App Crashes, Freezes, and Slow Performance": "Poor App Performance",
-  "App Crashes & Technical Issues": "Poor App Performance"
+  "Chart Display Issues": "Chart Functionality Issues",
+  "Withdrawal and Customer Support Issues": "Payment and KYC Issues"
 }

@@ -25,5 +25,14 @@
     "priority_score": 24,
     "average_rating": 1.63,
     "confidence_score": 0.66
+  },
+  {
+    "iso_week": "2026-W32",
+    "name": "[Negative] Poor Customer Service and Support",
+    "description": "Users are facing severe difficulties in getting their issues resolved, with unresponsive support teams, automated bots, and looped AI agents that cannot resolve actual user problems. Many users are forced to write reviews due to frustration with not being able to get help.",
+    "mentions_count": 58,
+    "priority_score": 40,
+    "average_rating": 1.43,
+    "confidence_score": 0.75
   }
 ]

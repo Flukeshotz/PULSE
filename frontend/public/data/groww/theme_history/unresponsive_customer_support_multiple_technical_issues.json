@@ -34,5 +34,14 @@
     "priority_score": 35,
     "average_rating": 1.36,
     "confidence_score": 0.72
+  },
+  {
+    "iso_week": "2026-W32",
+    "name": "[Negative] Poor Customer Support",
+    "description": "Users report frequent issues with customer support, citing slow responses, unhelpful representatives, and difficulties with resolving issues.",
+    "mentions_count": 36,
+    "priority_score": 35,
+    "average_rating": 1.25,
+    "confidence_score": 0.71
   }
 ]

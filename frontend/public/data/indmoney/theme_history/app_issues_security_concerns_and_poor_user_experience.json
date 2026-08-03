@@ -7,5 +7,14 @@
     "priority_score": 40,
     "average_rating": 2.25,
     "confidence_score": 0.82
+  },
+  {
+    "iso_week": "2026-W32",
+    "name": "[Negative] Cashback Issues",
+    "description": "Users are experiencing issues with their cashback, including being unable to use it on bill payments or having it automatically used for US stocks without their knowledge. This is resulting in a negative user experience and trust issues with the application.",
+    "mentions_count": 14,
+    "priority_score": 25,
+    "average_rating": 1.07,
+    "confidence_score": 0.64
   }
 ]

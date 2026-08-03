@@ -1,0 +1,262 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W32",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-08-03T02:46:06.400718",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Application Functionality Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "worst experience with Zerodha,cant add and withdraw money smoothly.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I cannot install Zerodha App",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "unable to download the tax pl report getting error please fix asap",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "lags in stoploss modification and new order placement, pathetic support from team",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "what a terrible experience from zerodha, platform is really trying hard to not let any new user join in . First their stupidly slow verification",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are frustrated with various application functionality issues such as slow downloads, errors, connection timeouts, and failed transactions. They are unable to perform basic operations like adding funds, withdrawing money, and purchasing stocks. This is affecting their trading experience and overall trust in the application.",
+      "business_impact": "High failure rates in critical transactions may lead to revenue loss and damage to brand reputation.",
+      "root_cause_hypothesis": "The root cause may be a combination of technical issues such as outdated code, poor maintenance, and inefficient testing processes.",
+      "action_plan": "\u2022 Implement thorough root cause analysis and implement technical debt repayment. Enhance testing processes, automate testing and deployment, and engage with the community to gather input.",
+      "teams_impacted": [
+        "Android Eng",
+        "Core Product",
+        "Quality Assurance"
+      ],
+      "mentions_count": 27,
+      "rating_distribution": {
+        "1": 22,
+        "2": 2,
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "average_rating": 1.41,
+      "confidence_score": 0.69,
+      "confidence_components": {
+        "volume": 0.48,
+        "quote_validation": 1.0
+      },
+      "priority_score": 30,
+      "theme_id": "application_functionality_issues",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 30,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W32",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Critical] Chart Loading Issues",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "chart not opening most of time.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "can't open charts after the latest update",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "chart loading problem previous chart open",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "unable to view chart",
+          "source": "app_store",
+          "rating": 4.0
+        },
+        {
+          "text": "chart not open",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "chart stops loading whenever they want.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "graph not open in my app",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "charts are not representing true values for eg : precision wire charts shows 109 price and actually it is of 426 huge major difference",
+          "source": "play_store",
+          "rating": 3.0
+        }
+      ],
+      "description": "Users are unable to load charts or view data due to various issues such as charts not opening, loading slowly, or displaying incorrect data. This leads to frustration and difficulty in trading or making investment decisions.",
+      "business_impact": "This issue affects the user's ability to make informed trading decisions, which may lead to losses or missed opportunities. It also impacts the overall user experience and may result in a negative review of the product.",
+      "root_cause_hypothesis": "A potential root cause could be a bug in the chart rendering engine or an issue with the data retrieval process. This might be due to a recent update or change in the underlying system.",
+      "action_plan": "\u2022 Investigate and identify the root cause of the chart loading issue.\n\u2022 Collaborate with the Android Eng and Core Product teams to resolve the issue.\n\u2022 Develop and implement a fix to prevent chart data from loading correctly.",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product"
+      ],
+      "mentions_count": 47,
+      "rating_distribution": {
+        "1": 21,
+        "2": 7,
+        "3": 8,
+        "4": 5,
+        "5": 6
+      },
+      "average_rating": 2.32,
+      "confidence_score": 0.74,
+      "confidence_components": {
+        "volume": 0.56,
+        "quote_validation": 1.0
+      },
+      "priority_score": 28,
+      "theme_id": "chart_display_issues_1",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 23.7,
+        "priority_wow_delta": 5,
+        "rating_wow_delta": -0.3,
+        "first_seen": "2026-W30",
+        "age_weeks": 2
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] App Performance Issues",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "pls check pc view total struck very very worst app why this lag",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "nowadays apps run very slow",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Very bad loading. Most of the time charts get break. Auth takes so much of time.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "The app lags too much...I have already cleared the cache and every time when open the chart it is taking too much time",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Not suitable very lagging app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "works slow and many times the alert does not give notification",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "new update is not allowing proper zoom. moving chart is not happening with two fingers.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are experiencing performance issues with the app, including lags, freezes, and slow loading times, affecting their overall experience.",
+      "business_impact": "Highly frequent crashes and poor performance could lead to loss of user trust, churn, and negative word-of-mouth, ultimately impacting user acquisition and retention.",
+      "root_cause_hypothesis": "Insufficient optimization of the app's architecture and resource management may be contributing to the performance issues.",
+      "action_plan": "\u2022 Optimize app architecture and resource management, conduct thorough code reviews to identify any bottlenecks, and implement memory caching to improve performance\n\u2022 Identify and address any compatibility issues with newer hardware or software\n\u2022 Conduct usability testing to ensure smoothness and responsiveness",
+      "teams_impacted": [
+        "Android Eng",
+        "Core Product",
+        "UX Design"
+      ],
+      "mentions_count": 24,
+      "rating_distribution": {
+        "1": 11,
+        "2": 3,
+        "3": 5,
+        "4": 3,
+        "5": 2
+      },
+      "average_rating": 2.25,
+      "confidence_score": 0.68,
+      "confidence_components": {
+        "volume": 0.47,
+        "quote_validation": 1.0
+      },
+      "priority_score": 22,
+      "theme_id": "app_performance_issues",
+      "trend": {
+        "status": "new",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 22,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W32",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 985,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 218,
+    "filtered_short_positive": 211,
+    "filtered_short_negative": 2,
+    "filtered_short_neutral": 5
+  },
+  "source_counts": {
+    "app_store": 36,
+    "play_store": 1172
+  },
+  "rating_distribution": {
+    "1": 226,
+    "2": 57,
+    "3": 57,
+    "4": 107,
+    "5": 538
+  },
+  "average_rating": 3.684263959390863,
+  "top_escalations": [],
+  "top_improvements": []
+}

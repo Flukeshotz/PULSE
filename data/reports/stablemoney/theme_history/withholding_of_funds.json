@@ -7,5 +7,14 @@
     "priority_score": 23,
     "average_rating": 1.29,
     "confidence_score": 0.64
+  },
+  {
+    "iso_week": "2026-W32",
+    "name": "[Negative] App Crashes and Withholds Funds",
+    "description": "Users experienced issues with withdrawing funds, with some transactions being debited but not credited, and customer support failing to address the issue. App crashes also occurred when attempting to withdraw funds.",
+    "mentions_count": 32,
+    "priority_score": 32,
+    "average_rating": 1.38,
+    "confidence_score": 0.7
   }
 ]

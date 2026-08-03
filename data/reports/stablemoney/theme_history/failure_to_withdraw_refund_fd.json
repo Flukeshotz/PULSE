@@ -7,5 +7,14 @@
     "priority_score": 23,
     "average_rating": 1.4,
     "confidence_score": 0.64
+  },
+  {
+    "iso_week": "2026-W32",
+    "name": "[Negative] Bond and FD Issues",
+    "description": "Users report various issues with bonds and fixed deposits (FDs) on the app, including lack of available bond options, incorrect interest rates, and problems with investing and withdrawing funds. They also express dissatisfaction with the customer support team.",
+    "mentions_count": 17,
+    "priority_score": 25,
+    "average_rating": 1.35,
+    "confidence_score": 0.65
   }
 ]

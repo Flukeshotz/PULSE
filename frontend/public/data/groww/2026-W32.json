@@ -1,0 +1,272 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W32",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-08-03T02:44:32.522399",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] UI Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "In the Groww mutual fund app, the 'Prime' icon and the search icon are touching each other, which has spoiled the UI experience.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "The only downside is the charges. Charges for equity delivery are too high for a discount broker.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Those Smaller Lines Do Damage Your Overall Interface, Also I Again Request You Guys To Increase The Size Of Blocks Of Indexes On Equities Section, Because Those ",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "constituents not available,it would be easy to trade in large caps.",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "The basket mode only supports multiple options for one expiry date. Baskets should support multiple expiry dates.",
+          "source": "play_store",
+          "rating": 4.0
+        }
+      ],
+      "description": "Users have reported several UI-related issues, including overlapping icons on the search and 'Prime' icon, small block sizes in the Equity section, and a cluttered interface.",
+      "business_impact": "UI issues may lead to increased frustration and decreased user satisfaction, potentially resulting in negative word-of-mouth and a loss of customers.",
+      "root_cause_hypothesis": "Insufficient UI testing and a lack of design consistency may have led to these UI issues.",
+      "action_plan": "\u2022 Conduct a thorough UI audit to identify and fix design inconsistencies\n\u2022 Update the 'Prime' icon and search icon to prevent overlapping\n\u2022 Increase the size of blocks in the Equity section to match those in the FNO section.",
+      "teams_impacted": [
+        "Design",
+        "Engineering"
+      ],
+      "mentions_count": 187,
+      "rating_distribution": {
+        "1": 117,
+        "2": 11,
+        "3": 18,
+        "4": 16,
+        "5": 25
+      },
+      "average_rating": 2.04,
+      "confidence_score": 0.85,
+      "confidence_components": {
+        "volume": 0.76,
+        "quote_validation": 1.0
+      },
+      "priority_score": 48,
+      "theme_id": "ui_issues",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 48,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W32",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Poor Customer Support",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "worst customer support very bad ,really very bad they don't communicate they do not respond just waste your time and energy",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Your customer service is hopeless. Even after waiting for 20 mins no reply.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "very poor service today in terms of help of customer care",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Boot App 0% Best Customer Support Service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "customer support is worst after waiting 30 min no answer",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "poor customer support",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "pathetic customer service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Customer support is the worst. Does not help",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst customer service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "customer care team is very very rude and irritated to update any things",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Worst support team I've ever seen. Replying too late and flood of response once reply then suddenly close the ticket. No one is listening to customers properly.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report frequent issues with customer support, citing slow responses, unhelpful representatives, and difficulties with resolving issues.",
+      "business_impact": "Poor customer support may lead to increased frustration, decreased customer satisfaction, and potentially, negative word-of-mouth and loss of business.",
+      "root_cause_hypothesis": "Inadequate training for customer support staff or insufficient resources may contribute to the poor quality of support.",
+      "action_plan": "\u2022 Provide additional training for customer support staff, ensure sufficient resources are allocated, and implement clear communication protocols to improve response times.",
+      "teams_impacted": [
+        "Customer Support",
+        "Customer Success",
+        "Product"
+      ],
+      "mentions_count": 36,
+      "rating_distribution": {
+        "1": 29,
+        "2": 5,
+        "3": 2,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.25,
+      "confidence_score": 0.71,
+      "confidence_components": {
+        "volume": 0.52,
+        "quote_validation": 1.0
+      },
+      "priority_score": 35,
+      "theme_id": "unresponsive_customer_support_multiple_technical_issues",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -7.7,
+        "priority_wow_delta": 0,
+        "rating_wow_delta": -0.1,
+        "first_seen": "2026-W23",
+        "age_weeks": 9
+      },
+      "evidence_score": 0.9166666666666666,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] High Brokerage Fees",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "brokerage charges over high in beginner trader ",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "this broker is heavy charge",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "communications Gap is high, brokerage charges must reduce it down",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "brokerage charges too much height",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "high brokerage charge",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "taking too much higher Tex than his peer competitors",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are expressing frustration with the high brokerage fees charged by the platform, citing it as a major drawback for trading.",
+      "business_impact": "High brokerage fees are resulting in reduced profitability for users and potentially driving them away from the platform.",
+      "root_cause_hypothesis": "The high brokerage fees are likely due to the business model or profit margins of the platform.",
+      "action_plan": "\u2022 Review and optimize the business model to reduce profit margins\n\u2022 Introduce tiered pricing or discounts for frequent traders\n\u2022 Provide clear transparency on brokerage fees and associated costs.",
+      "teams_impacted": [
+        "Product",
+        "Finance",
+        "Marketing"
+      ],
+      "mentions_count": 46,
+      "rating_distribution": {
+        "1": 19,
+        "2": 5,
+        "3": 11,
+        "4": 4,
+        "5": 7
+      },
+      "average_rating": 2.46,
+      "confidence_score": 0.73,
+      "confidence_components": {
+        "volume": 0.56,
+        "quote_validation": 1.0
+      },
+      "priority_score": 26,
+      "theme_id": "high_brokerage_charges",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 12.2,
+        "priority_wow_delta": -8,
+        "rating_wow_delta": 0.9,
+        "first_seen": "2026-W24",
+        "age_weeks": 8
+      },
+      "evidence_score": 0.75,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 6037,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 4052,
+    "filtered_short_positive": 3915,
+    "filtered_short_negative": 84,
+    "filtered_short_neutral": 53
+  },
+  "source_counts": {
+    "app_store": 500,
+    "play_store": 9792
+  },
+  "rating_distribution": {
+    "1": 904,
+    "2": 142,
+    "3": 187,
+    "4": 437,
+    "5": 4367
+  },
+  "average_rating": 4.19612390260063,
+  "top_escalations": [],
+  "top_improvements": []
+}

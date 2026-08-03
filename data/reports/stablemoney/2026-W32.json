@@ -1,0 +1,232 @@
+{
+  "product": "Stable Money",
+  "iso_week": "2026-W32",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-08-03T02:47:37.325212",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Crashes and Withholds Funds",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "Just read some of the reviews and decided to stay away from the app, specially the ones where users complained about problems in withdrawing money and poor customer service.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Highly unethical and unprofessional. Easy to make a deposit, you have to keep jumping hoops to withdraw.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "the app is very bad got deducted with 100000 rupee but not invested in the bank where I tried.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I lost nearly \u20b91 lakh after making a payment through UPI. The amount was debited from my bank account, but the app showed that the transaction had failed.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Worst app. Beware of scams. I lost nearly \u20b91 lakh after making a payment through UPI.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Don't believe this fraud type of App. They cheat us. I creat an fd of Rs 10000 but when I break my fd My money is not received in my account.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I'm very disappointed with this app.my money stucked almost 20 days.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "the app is crushed and hang many time",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "app is crushing",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "your app has lots of bugs, the loader loads infinitely and never shows any information.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app is crashing",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "the app expression in very choppy",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users experienced issues with withdrawing funds, with some transactions being debited but not credited, and customer support failing to address the issue. App crashes also occurred when attempting to withdraw funds.",
+      "business_impact": "Significant reputational damage and loss of user trust, potential long-term revenue impact due to decreased user engagement and investment in other services.",
+      "root_cause_hypothesis": "The app's architecture and system integration may be flawed, leading to transaction errors and inability to process withdrawals.",
+      "action_plan": "\u2022 Re-engineer withdrawal process to ensure seamless transactions, Implement robust customer support mechanisms to address transaction errors, Conduct thorough testing to prevent app crashes, Collaborate with system integrators to resolve underlying technical issues.",
+      "teams_impacted": [
+        "Android Eng",
+        "Technical Operations",
+        "UX Design"
+      ],
+      "mentions_count": 32,
+      "rating_distribution": {
+        "1": 25,
+        "2": 3,
+        "3": 3,
+        "4": 1,
+        "5": 0
+      },
+      "average_rating": 1.38,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.51,
+        "quote_validation": 1.0
+      },
+      "priority_score": 32,
+      "theme_id": "withholding_of_funds",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 128.6,
+        "priority_wow_delta": 9,
+        "rating_wow_delta": 0.1,
+        "first_seen": "2026-W28",
+        "age_weeks": 4
+      },
+      "evidence_score": 0.875,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Bond and FD Issues",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "Unable to get bonds related reports for ITR.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Apps not updating sell transactions specially Bond, even their agents are not able to answer it properly.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "bekar pls don't trust and don't bye any bond and FD otherwise aapke paise lekar aapko kuch nahi dengi.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Lack of knowledge Your customer support team doesn't have proper knowledge of bonds, different ratings, RBI regulated vs PTC.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "it's nice ..but there is not every bond listed which I saw in grow, Paytm money.. is there any agreement which you can list few only?",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "customer support is very poor. I am unable to sell my bonds. because they are not showing in my grow account. but the customer support team of Stable money is not helping me at all.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst experience with referral link and amt fds are made in auto renewal mode so be careful I request you to go for other reliable bond application you can find on google play store and decide for your self check customer support in reviews",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "there is no linked phone number change request option.. I have been calling them for the past two days... no one responds...",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "they are advertising like virtual silver and gold anytime, but we can buy any time but nav reflect of next day, and when we sell in case of emergency fond takes atleast a week or more.. they are just fooling the people nothing else",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Almost for every bond there is difference in YTM by 0.4% to 1%. Every bond has accrued interest which reduces return on investment.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report various issues with bonds and fixed deposits (FDs) on the app, including lack of available bond options, incorrect interest rates, and problems with investing and withdrawing funds. They also express dissatisfaction with the customer support team.",
+      "business_impact": "Loss of customer trust, high risk of negative reviews and word-of-mouth, and potential negative impact on overall app reputation.",
+      "root_cause_hypothesis": "The underlying cause of this issue is a combination of technical problems, inadequate customer support, and a lack of transparency in bond and FD offerings.",
+      "action_plan": "\u2022 Investigate and fix technical issues related to bond and FD investing and withdrawing, improve customer support knowledge and response times, and provide clear and accurate information about bond and FD options and interest rates\n\u2022 Develop a plan to increase transparency and provide users with more control over their investments\n\u2022 Create a system for users to report and track issues with bonds and FDs",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Customer Support",
+        "Core Product"
+      ],
+      "mentions_count": 17,
+      "rating_distribution": {
+        "1": 14,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "average_rating": 1.35,
+      "confidence_score": 0.65,
+      "confidence_components": {
+        "volume": 0.42,
+        "quote_validation": 1.0
+      },
+      "priority_score": 25,
+      "theme_id": "failure_to_withdraw_refund_fd",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 13.3,
+        "priority_wow_delta": 2,
+        "rating_wow_delta": -0.0,
+        "first_seen": "2026-W30",
+        "age_weeks": 2
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 773,
+    "unauthentic_quotes_dropped": 1,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 195,
+    "filtered_short_positive": 190,
+    "filtered_short_negative": 1,
+    "filtered_short_neutral": 4
+  },
+  "source_counts": {
+    "app_store": 37,
+    "play_store": 941
+  },
+  "rating_distribution": {
+    "1": 133,
+    "2": 14,
+    "3": 24,
+    "4": 33,
+    "5": 569
+  },
+  "average_rating": 4.1526520051746445,
+  "top_escalations": [],
+  "top_improvements": []
+}

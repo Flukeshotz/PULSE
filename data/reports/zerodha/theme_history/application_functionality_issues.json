@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W32",
+    "name": "[Negative] Application Functionality Issues",
+    "description": "Users are frustrated with various application functionality issues such as slow downloads, errors, connection timeouts, and failed transactions. They are unable to perform basic operations like adding funds, withdrawing money, and purchasing stocks. This is affecting their trading experience and overall trust in the application.",
+    "mentions_count": 27,
+    "priority_score": 30,
+    "average_rating": 1.41,
+    "confidence_score": 0.69
+  }
+]

@@ -43,5 +43,14 @@
     "priority_score": 34,
     "average_rating": 1.51,
     "confidence_score": 0.72
+  },
+  {
+    "iso_week": "2026-W32",
+    "name": "[Negative] High Brokerage Fees",
+    "description": "Users are expressing frustration with the high brokerage fees charged by the platform, citing it as a major drawback for trading.",
+    "mentions_count": 46,
+    "priority_score": 26,
+    "average_rating": 2.46,
+    "confidence_score": 0.73
   }
 ]

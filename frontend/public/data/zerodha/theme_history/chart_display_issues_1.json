@@ -7,5 +7,14 @@
     "priority_score": 23,
     "average_rating": 2.63,
     "confidence_score": 0.72
+  },
+  {
+    "iso_week": "2026-W32",
+    "name": "[Critical] Chart Loading Issues",
+    "description": "Users are unable to load charts or view data due to various issues such as charts not opening, loading slowly, or displaying incorrect data. This leads to frustration and difficulty in trading or making investment decisions.",
+    "mentions_count": 47,
+    "priority_score": 28,
+    "average_rating": 2.32,
+    "confidence_score": 0.74
   }
 ]
