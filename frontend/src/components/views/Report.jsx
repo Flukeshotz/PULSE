@@ -28,7 +28,7 @@ export function Report({ report }) {
           Window: {report.period_label} | {totalReviews} reviews analyzed | {sources.length} sources
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-3 md:gap-4 print:hidden">
+        <div className="no-print flex flex-col sm:flex-row gap-3 md:gap-4">
           <button 
             className="w-full sm:w-auto flex items-center justify-center gap-2 px-4 py-2.5 md:py-2 bg-[var(--bg-elevated)] text-[var(--text-primary)] rounded-md text-sm font-medium hover:bg-[var(--border-subtle)] transition-colors"
             onClick={() => window.open(`https://docs.google.com/document/d/fake-doc-id`, '_blank')} // We don't have the real doc ID here unfortunately, we can fallback
@@ -74,13 +74,13 @@ export function Report({ report }) {
                 {theme.description}
               </p>
 
-              <div className="bg-[var(--bg-elevated)] border-l-4 border-[var(--accent)] p-4 mb-4 rounded-r-md">
+              <div className="print-tint bg-[var(--bg-elevated)] border-l-4 border-[var(--accent)] p-4 mb-4 rounded-r-md">
                 <h3 className="text-sm font-bold text-[var(--text-primary)] uppercase tracking-wide mb-2">Business Impact</h3>
                 <p className="text-sm text-[var(--text-primary)]">{theme.business_impact}</p>
               </div>
 
               {theme.root_cause_hypothesis && (
-                <div className="bg-[var(--bg-elevated)] border-l-4 border-indigo-500 p-4 mb-6 rounded-r-md">
+                <div className="print-tint bg-[var(--bg-elevated)] border-l-4 border-indigo-500 p-4 mb-6 rounded-r-md">
                   <h3 className="text-sm font-bold text-[var(--text-primary)] uppercase tracking-wide mb-2">Root Cause Hypothesis</h3>
                   <p className="text-sm text-[var(--text-primary)]">{theme.root_cause_hypothesis}</p>
                 </div>

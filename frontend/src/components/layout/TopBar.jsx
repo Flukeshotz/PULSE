@@ -9,7 +9,7 @@ export function TopBar({ manifest, selectedProduct, setSelectedProduct, selected
   const weeks = currentProductData?.weeks || [];
 
   return (
-    <div className="sticky top-0 z-50 min-h-16 py-3 bg-[var(--bg-card)] border-b border-[var(--border-subtle)] px-4 md:px-6 flex flex-wrap items-center justify-between gap-3">
+    <div className="no-print sticky top-0 z-50 min-h-16 py-3 bg-[var(--bg-card)] border-b border-[var(--border-subtle)] px-4 md:px-6 flex flex-wrap items-center justify-between gap-3">
       <div className="flex flex-wrap items-center gap-4 md:gap-8 w-full md:w-auto">
         <div className="flex items-center justify-between w-full md:w-auto">
           <h1 className="text-xl font-bold text-[var(--accent)] tracking-tight">Review Pulse</h1>

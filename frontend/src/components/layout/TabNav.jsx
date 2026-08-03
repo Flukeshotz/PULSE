@@ -8,7 +8,7 @@ export function TabNav({ activeTab, setActiveTab }) {
   ];
 
   return (
-    <div className="sticky top-[104px] md:top-16 z-40 bg-[var(--bg-primary)] border-b border-[var(--border-subtle)] -mx-4 md:mx-0 px-4 md:px-0">
+    <div className="no-print sticky top-[104px] md:top-16 z-40 bg-[var(--bg-primary)] border-b border-[var(--border-subtle)] -mx-4 md:mx-0 px-4 md:px-0">
       <div className="max-w-[1200px] mx-auto md:px-6">
         <nav className="flex space-x-8 overflow-x-auto no-scrollbar snap-x snap-mandatory" aria-label="Tabs">
           {tabs.map((tab) => {

@@ -123,3 +123,49 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ============================================================
+   PRINT / "EXPORT PDF" (Report tab uses window.print())
+   Browsers don't paint background colors by default when printing,
+   so dark-mode text (near-white) was rendering on the paper's white
+   background — effectively invisible. Force light-theme colors for
+   print regardless of the app's current dark-mode state, and hide
+   the app chrome (nav bar, tabs) that has no business being on the
+   printed report.
+   ============================================================ */
+@media print {
+  :root, .dark {
+    --bg-primary: #FFFFFF;
+    --bg-card: #FFFFFF;
+    --bg-elevated: #F3F4F6;
+    --border-subtle: #D1D5DB;
+    --text-primary: #111827;
+    --text-secondary: #4B5563;
+    --text-tertiary: #6B7280;
+    --shadow-sm: none;
+    --shadow-md: none;
+    --shadow-lg: none;
+    --accent-soft: #EEF2FF;
+  }
+
+  * {
+    transition: none !important;
+    animation: none !important;
+    box-shadow: none !important;
+  }
+
+  body {
+    background: #FFFFFF !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  /* Elevated/accent boxes (Business Impact, Root Cause) need their tint
+     to actually print, since browsers otherwise strip background-color. */
+  .print-tint {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
