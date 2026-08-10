@@ -34,5 +34,14 @@
     "priority_score": 40,
     "average_rating": 1.43,
     "confidence_score": 0.75
+  },
+  {
+    "iso_week": "2026-W33",
+    "name": "[Negative] Poor Customer Support",
+    "description": "Users are frustrated with the slow and ineffective customer support, causing them to experience difficulties in resolving their issues.",
+    "mentions_count": 19,
+    "priority_score": 24,
+    "average_rating": 1.63,
+    "confidence_score": 0.66
   }
 ]

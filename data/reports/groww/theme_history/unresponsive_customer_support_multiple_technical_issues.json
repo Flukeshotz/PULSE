@@ -43,5 +43,14 @@
     "priority_score": 35,
     "average_rating": 1.25,
     "confidence_score": 0.71
+  },
+  {
+    "iso_week": "2026-W33",
+    "name": "[Negative] Poor Customer Support",
+    "description": "Users are frustrated with the unresponsive and unhelpful customer support team, which fails to address their concerns in a timely and effective manner.",
+    "mentions_count": 42,
+    "priority_score": 38,
+    "average_rating": 1.21,
+    "confidence_score": 0.73
   }
 ]

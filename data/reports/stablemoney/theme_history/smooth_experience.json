@@ -25,5 +25,14 @@
     "priority_score": 5,
     "average_rating": 4.6,
     "confidence_score": 0.78
+  },
+  {
+    "iso_week": "2026-W33",
+    "name": "[Positive] Good App Experience",
+    "description": "Users are generally satisfied with the app's overall performance and design.",
+    "mentions_count": 53,
+    "priority_score": 1,
+    "average_rating": 4.92,
+    "confidence_score": 0.75
   }
 ]

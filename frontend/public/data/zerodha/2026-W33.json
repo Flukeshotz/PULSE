@@ -1,0 +1,175 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W33",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-08-10T01:46:43.105064",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Poor Customer Support and Experience",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "Poor Customer care support",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Customer service of Zerodha is very pathetic",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I added funds via upi method and they are claiming as they add instant fund to your demat account but after 30 minutes i have not received my funds in my demat account or not also received back to my back account",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I requested for call back, they do not call back and you keep on waiting and waiting and waiting",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "After the last update, I'm facing an issue with the withdrawal request feature.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Whenever I submit a payment withdrawal request, the app initially shows an error saying the request could not be processed.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I'm not receiving UPI mandate for IPO.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Unable to create new account using Google pay. Even though the joining rs 1 transaction is successful, the website shows payment failed and am unable to create my account.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Add funds not working giving unexpected error occurred.",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "The account is not being activated even after writing repeatedly and submitting KYC documents.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "deposit amount not received.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Payment Issue",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "zerodha kite claude ke saath connect nahi ho raha hai. jo aapne video me bataya vahi kiya fir bhi nahi ho raha hai error aa rahi hai Claude esa bol raha hai . 'please log in first' ya 'session not found' error aata hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "aajkal chart IQ per koi bhi line draw karna",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "kite app me multiple chart lagane ka option hi nhi hai , chart sabse acha DHAN ka hai, please usme multiple chart lagane ka option laiye jaldi",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Zerodha bilkul hi bkwas hai. Dusre broker apne account ko ek sath multiple jgh handling krne deta hai. yhan bus ek hi system pr rho. Stop loss aur order lgana to 'So.. horrible' hai. itna janjat bkwas matha pschchi hai ki kya btayen. time pr entry exit stoploss nhi lga pate. 000000 zero hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "bar bar 300 sec bta rha h. login hi nhi krne de rha. 1 hour ho gya. kya ghatiya app h",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "aare bhai apps to instal hee nahi ho raha hai yaar",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "\u0906\u092a\u0915\u0947 app chart \u092e\u0947\u0902 \u0939\u0930 \u092c\u093e\u0930 trendlines \u0917\u093e\u092f\u092c \u0939\u094b \u091c\u093e\u0924\u0940 \u0939\u0948\u0902 \u0964 \u092c\u093e\u0930 \u092c\u093e\u0930 draw \u0915\u0930\u0928\u093e \u092a\u0921\u093c \u0930\u0939\u093e , \u092e\u093e\u0930\u094d\u0915\u0947\u091f \u092c\u0902\u0926 \u0939\u094b\u0928\u0947 \u0915\u0947 \u092c\u093e\u0926 chart \u0938\u0939\u0940 \u0938\u0947 \u0932\u094b\u0921 \u0928\u0939\u0940\u0902 \u0939\u094b\u0924\u093e zero zero ho \u091c\u093e\u0924\u093e \u0939\u0948 \u0964 scalper mood \u092d\u0940 \u0926\u0947\u0928\u093e \u091a\u093e\u0939\u093f\u090f \u0915\u094d\u092f\u094b\u0902\u0915\u093f options \u092e\u0947\u0902 Jada \u091f\u094d\u0930\u0947\u0921 \u0939\u094b\u0924\u093e \u0939\u0948\u0964, \u0907\u0902\u091f\u0930\u092b\u0947\u0938 \u0905\u091a\u094d\u091b\u093e \u0939\u0948 \u0938\u093f\u0902\u092a\u0932 \u0939\u0948 \u0964 \u092e\u094b\u092c\u093e\u0907\u0932 phone \u0938\u0947 trade \u0915\u0930\u0928\u093e \u092c\u094b\u0939\u094b\u0924 \u092e\u0941\u0936\u094d\u0915\u093f\u0932 \u0939\u0948 \u0928\u0939\u0940\u0902 \u0915\u0930 \u0938\u0915\u0924\u0947 chart \u0915\u0947 \u0932\u093f\u090f \u0926\u0942\u0938\u0930\u093e application \u0926\u0947\u0916\u0928\u093e \u092a\u0921\u093c\u0947\u0917\u093e\u0964 Zerodha please solve this issues.",
+          "source": "play_store",
+          "rating": 2.0
+        }
+      ],
+      "description": "Users expressed extreme frustration with various aspects of customer support, including lack of responsiveness, long waiting times, unhelpfulness, and inadequate contact information.",
+      "business_impact": "This theme could lead to a significant loss of customer trust and, ultimately, a decline in customer retention and revenue.",
+      "root_cause_hypothesis": "The root cause of this issue appears to be a lack of investment in support infrastructure, staffing, and training, leading to high employee turnover and inadequate customer service.",
+      "action_plan": "\u2022 Invest in the support team, including training and hiring more staff\n\u2022 Improve communication channels, such as live chat\n\u2022 Implement a more robust ticketing system\n\u2022 Establish clear contact information and response times",
+      "teams_impacted": [
+        "Customer Support Team",
+        "UX Design Team",
+        "Core Product"
+      ],
+      "mentions_count": 73,
+      "rating_distribution": {
+        "1": 50,
+        "2": 4,
+        "3": 5,
+        "4": 8,
+        "5": 6
+      },
+      "average_rating": 1.85,
+      "confidence_score": 0.77,
+      "confidence_components": {
+        "volume": 0.62,
+        "quote_validation": 1.0
+      },
+      "priority_score": 38,
+      "theme_id": "poor_customer_support_and_experience",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 38,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W33",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 1021,
+    "unauthentic_quotes_dropped": 1,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 225,
+    "filtered_short_positive": 219,
+    "filtered_short_negative": 2,
+    "filtered_short_neutral": 4
+  },
+  "source_counts": {
+    "app_store": 43,
+    "play_store": 1209
+  },
+  "rating_distribution": {
+    "1": 236,
+    "2": 61,
+    "3": 61,
+    "4": 116,
+    "5": 547
+  },
+  "average_rating": 3.66307541625857,
+  "top_escalations": [],
+  "top_improvements": []
+}

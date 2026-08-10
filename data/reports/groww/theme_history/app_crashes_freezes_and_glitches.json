@@ -7,5 +7,14 @@
     "priority_score": 47,
     "average_rating": 1.79,
     "confidence_score": 0.82
+  },
+  {
+    "iso_week": "2026-W33",
+    "name": "[Negative] App Crash and Failure to Function",
+    "description": "Users are experiencing frequent app crashes and the inability to open or use the app, leading to frustration and dissatisfaction.",
+    "mentions_count": 46,
+    "priority_score": 32,
+    "average_rating": 1.85,
+    "confidence_score": 0.73
   }
 ]

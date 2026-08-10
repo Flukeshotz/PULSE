@@ -1,0 +1,667 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W33",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-08-10T01:45:14.614280",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Poor Customer Support",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "Terrible support from the support team.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "no costumer support I have called more than 10 times but no reply from their side",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "customer care service is still poor",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "No proper service and no accountability with team.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Worst support team I've ever seen",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Your customer service is hopeless",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "customer care team is very very rude and irritated to update any things",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "poor coustomer support",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst customer support very bad ,really very bad they don't communicate they do not respond just waste your time and energy",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "pathetic customer service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst service plateforrm...",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "bad customer service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst customer service.. always says busy...and didn't call back again....very very poor service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Boot App 0% Best Customer Support Service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "customer support is worst after waiting 30 min no answer",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "support team is worst",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "customer care services sucks, zero value of our time .",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "There is no customer support really very worst",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Pathetic customer support. UI full.of bugs.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Customer Support is pathetic. Experiencing technical glitches but no reliable support. The support team gives generic replies which is quite frustrating.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "your worst service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "the customer service is worst they do not understand what we are Telling and they disconnect the call in between and do not even call back. worst service.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "very poor customer care service",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Showing wrong OHLC data. No proper Customer Support.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "why the customer service is so poor?in an emergency , if I call the agent don't answer for hours, of i choose to chat, they took more 15 to 30 minutes for average reply! please do something regarding this.",
+          "source": "play_store",
+          "rating": 2.0
+        }
+      ],
+      "description": "Users are frustrated with the unresponsive and unhelpful customer support team, which fails to address their concerns in a timely and effective manner.",
+      "business_impact": "This theme likely contributes to a decrease in customer trust, loyalty, and retention, ultimately affecting the company's revenue and growth.",
+      "root_cause_hypothesis": "Insufficient training and inadequate staffing for the customer support team, leading to a high volume of unresolved issues.",
+      "action_plan": "\u2022 | Conduct a thorough review of the customer support team's structure and staffing levels\n\u2022 Develop and implement a comprehensive training program to enhance support agents' problem-solving skills and product knowledge\n\u2022 Implement a robust ticketing system to ensure timely and efficient issue resolution\n\u2022 Introduce a customer support chatbot to provide immediate assistance and alleviate the volume of inquiries\n\u2022 Enhance the website's help center and FAQs section to reduce support requests |",
+      "teams_impacted": [
+        "Customer Support Team",
+        "Customer Success Team",
+        "Product Management Team"
+      ],
+      "mentions_count": 42,
+      "rating_distribution": {
+        "1": 35,
+        "2": 5,
+        "3": 2,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.21,
+      "confidence_score": 0.73,
+      "confidence_components": {
+        "volume": 0.54,
+        "quote_validation": 1.0
+      },
+      "priority_score": 38,
+      "theme_id": "unresponsive_customer_support_multiple_technical_issues",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 16.7,
+        "priority_wow_delta": 3,
+        "rating_wow_delta": -0.0,
+        "first_seen": "2026-W23",
+        "age_weeks": 10
+      },
+      "evidence_score": 0.78125,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] App Crash and Failure to Function",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "this app is not gud for FNO",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "App not updating realtime error..",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "but didn't opening",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "when ever I try to open a app but app is not working or not opening",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app is not worked",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "whitdral process let and application was very lack interface",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I can't download fromplay store in my new mobile vivo X200t. please resolve the issue.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "faltu app showing error in app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "is not open the app",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "every time I open app first it's loading then i have to refresh it in full network",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "app stuck during making account",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "after this current update, app is restarting again and again.... pls solve this issue",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "not work",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "When u click UPI, getting message \"UPI is not available on your device\"",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "not working properly",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "Segment activation failed though at time of opening it was showing OK",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "In the recent updates, the app is not working in the Android (Oppo Reno6 5G)",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "neither stoploss working nor target and so much glitch in app while opening",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "UPI request already approved but status not updated in App poor service app lot's of bug",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "not getting OTPs. App is getting stuck.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app is not working got error, disgusting",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "The app is not working at morning time , we are unable to place an order",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "just downloaded it it's not even working uninstalling this app right away",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "There is a problem with the app, upi is not working. When I click on upi, it says \"UPI is not available on your device To continue securely, disconnect the USB connection to proceed.\" even though there is no usb connected. Restart, reinstall, clear data & checked developer options",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I will not get upi mendate every time why this happened?",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "it make me loss but iam very with this app",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "not installing in my new oneplus tab",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "unable to login. the web interface is good, app stopped working, uninstalled and reinstalled but now can't login.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "i Can't open in Samsung A04e mobile .App stuck in intial permission screen",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "no download",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "not able to install",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are experiencing frequent app crashes and the inability to open or use the app, leading to frustration and dissatisfaction.",
+      "business_impact": "High likelihood of decreased user engagement, increased churn rate, and revenue loss due to users abandoning the app due to its instability.",
+      "root_cause_hypothesis": "The root cause of the issue may be related to an underlying technical problem, such as a bug or compatibility issue with newer Android versions.",
+      "action_plan": "\u2022 Review and debug the app's code to identify and fix any bugs or compatibility issues. Collaborate with Android Eng and UX Design teams to address any design-related problems.",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product"
+      ],
+      "mentions_count": 46,
+      "rating_distribution": {
+        "1": 30,
+        "2": 4,
+        "3": 4,
+        "4": 5,
+        "5": 3
+      },
+      "average_rating": 1.85,
+      "confidence_score": 0.73,
+      "confidence_components": {
+        "volume": 0.56,
+        "quote_validation": 1.0
+      },
+      "priority_score": 32,
+      "theme_id": "app_crashes_freezes_and_glitches",
+      "trend": {
+        "status": "improving",
+        "mentions_wow_pct": -64.9,
+        "priority_wow_delta": -15,
+        "rating_wow_delta": 0.1,
+        "first_seen": "2026-W26",
+        "age_weeks": 7
+      },
+      "evidence_score": 0.8611111111111112,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Withdrawal Issues",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "worst experience in withdrawal, AI chatbox and contact number both not responding..",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "blocking funds for a longer period of time than T+1 days. WTH.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "why can't you let us withdraw money from wallet on same day like at least till 2 lacs like how zerodha offering. what are you doing with the money in our wallet's.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "withdrawal failed, they are not sustaining money withdrawal from trading. poor uptime app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "many time money withdrawal errors not able to withdraw my money customer care number is not available not working properly",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users across all ratings have reported numerous issues with withdrawing funds from the application. The primary symptoms include delayed or failed withdrawals, inability to withdraw funds, and slow withdrawal processes. Multiple users have experienced these problems on multiple occasions, pointing to a systemic issue.",
+      "business_impact": "Delayed or failed withdrawals can lead to financial losses for customers, damage to the brand's reputation, and potentially even regulatory issues if not addressed promptly.",
+      "root_cause_hypothesis": "The root cause of these issues may be attributed to the underlying technical architecture of the application's withdrawal system, potentially due to inadequate capacity, poor performance, or integration issues with payment gateways.",
+      "action_plan": "\u2022 Investigate and upgrade the withdrawal system's capacity and performance. Improve error handling and feedback mechanisms to users. Introduce a priority system for withdrawals and escalate urgent cases to a dedicated support team. Monitor and analyze system logs to identify and address integration issues with payment gateways.",
+      "teams_impacted": [
+        "Android Eng",
+        "Web Eng",
+        "DevOps",
+        "Core Product",
+        "Support"
+      ],
+      "mentions_count": 35,
+      "rating_distribution": {
+        "1": 22,
+        "2": 4,
+        "3": 2,
+        "4": 2,
+        "5": 5
+      },
+      "average_rating": 1.97,
+      "confidence_score": 0.71,
+      "confidence_components": {
+        "volume": 0.52,
+        "quote_validation": 1.0
+      },
+      "priority_score": 28,
+      "theme_id": "withdrawal_issues",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 28,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W33",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 6208,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 4246,
+    "filtered_short_positive": 4100,
+    "filtered_short_negative": 86,
+    "filtered_short_neutral": 60
+  },
+  "source_counts": {
+    "app_store": 500,
+    "play_store": 10157
+  },
+  "rating_distribution": {
+    "1": 917,
+    "2": 146,
+    "3": 198,
+    "4": 446,
+    "5": 4501
+  },
+  "average_rating": 4.202963917525773,
+  "top_escalations": [],
+  "top_improvements": [
+    {
+      "name": "[Negative] App Crash and Failure to Function",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "this app is not gud for FNO",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "App not updating realtime error..",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "but didn't opening",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "when ever I try to open a app but app is not working or not opening",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app is not worked",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "whitdral process let and application was very lack interface",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I can't download fromplay store in my new mobile vivo X200t. please resolve the issue.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "faltu app showing error in app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "is not open the app",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "every time I open app first it's loading then i have to refresh it in full network",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "app stuck during making account",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "after this current update, app is restarting again and again.... pls solve this issue",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "not work",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "When u click UPI, getting message \"UPI is not available on your device\"",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "not working properly",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "Segment activation failed though at time of opening it was showing OK",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "In the recent updates, the app is not working in the Android (Oppo Reno6 5G)",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "neither stoploss working nor target and so much glitch in app while opening",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "UPI request already approved but status not updated in App poor service app lot's of bug",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "not getting OTPs. App is getting stuck.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app is not working got error, disgusting",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "The app is not working at morning time , we are unable to place an order",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "just downloaded it it's not even working uninstalling this app right away",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "There is a problem with the app, upi is not working. When I click on upi, it says \"UPI is not available on your device To continue securely, disconnect the USB connection to proceed.\" even though there is no usb connected. Restart, reinstall, clear data & checked developer options",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I will not get upi mendate every time why this happened?",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "it make me loss but iam very with this app",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "not installing in my new oneplus tab",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "unable to login. the web interface is good, app stopped working, uninstalled and reinstalled but now can't login.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "i Can't open in Samsung A04e mobile .App stuck in intial permission screen",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "no download",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "not able to install",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are experiencing frequent app crashes and the inability to open or use the app, leading to frustration and dissatisfaction.",
+      "business_impact": "High likelihood of decreased user engagement, increased churn rate, and revenue loss due to users abandoning the app due to its instability.",
+      "root_cause_hypothesis": "The root cause of the issue may be related to an underlying technical problem, such as a bug or compatibility issue with newer Android versions.",
+      "action_plan": "\u2022 Review and debug the app's code to identify and fix any bugs or compatibility issues. Collaborate with Android Eng and UX Design teams to address any design-related problems.",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product"
+      ],
+      "mentions_count": 46,
+      "rating_distribution": {
+        "1": 30,
+        "2": 4,
+        "3": 4,
+        "4": 5,
+        "5": 3
+      },
+      "average_rating": 1.85,
+      "confidence_score": 0.73,
+      "confidence_components": {
+        "volume": 0.56,
+        "quote_validation": 1.0
+      },
+      "priority_score": 32,
+      "theme_id": "app_crashes_freezes_and_glitches",
+      "trend": {
+        "status": "improving",
+        "mentions_wow_pct": -64.9,
+        "priority_wow_delta": -15,
+        "rating_wow_delta": 0.1,
+        "first_seen": "2026-W26",
+        "age_weeks": 7
+      },
+      "evidence_score": 0.8611111111111112,
+      "summary_validation": "Supported"
+    }
+  ]
+}

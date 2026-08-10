@@ -7,5 +7,14 @@
     "priority_score": 33,
     "average_rating": 3.31,
     "confidence_score": 0.91
+  },
+  {
+    "iso_week": "2026-W33",
+    "name": "[Negative] Application Instability",
+    "description": "Users consistently report experiencing crashes, freezes, or slowness within the application's UI, resulting in frustrating and often lengthy waits for resolution.",
+    "mentions_count": 222,
+    "priority_score": 52,
+    "average_rating": 1.96,
+    "confidence_score": 0.87
   }
 ]
