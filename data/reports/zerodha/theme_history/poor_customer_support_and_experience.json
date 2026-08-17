@@ -7,5 +7,14 @@
     "priority_score": 38,
     "average_rating": 1.85,
     "confidence_score": 0.77
+  },
+  {
+    "iso_week": "2026-W34",
+    "name": "[Negative] Poor Customer Support",
+    "description": "Users are experiencing frustrating issues with customer support, including poor responsiveness, long wait times, and unhelpful support agents.",
+    "mentions_count": 31,
+    "priority_score": 32,
+    "average_rating": 1.35,
+    "confidence_score": 0.7
   }
 ]

@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W34",
+    "name": "[Negative] Critical Trading Errors and Data Display Issues",
+    "description": "Users are experiencing multiple critical errors while trading, including network issues, incorrect order execution, incomplete trade data, and misdisplayed portfolio values. Reviewers also report inconsistent behavior, such as feature removals and UI changes, which cause frustration and mistrust.",
+    "mentions_count": 32,
+    "priority_score": 26,
+    "average_rating": 2.03,
+    "confidence_score": 0.7
+  }
+]

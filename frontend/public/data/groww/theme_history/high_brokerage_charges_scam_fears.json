@@ -7,5 +7,14 @@
     "priority_score": 25,
     "average_rating": 3.09,
     "confidence_score": 0.79
+  },
+  {
+    "iso_week": "2026-W34",
+    "name": "[Negative] High Brokerage Charges",
+    "description": "Users are complaining about the high brokerage charges imposed by Groww, which is affecting their trading experience. The charges are perceived as high, especially for low-investment and short-term traders.",
+    "mentions_count": 33,
+    "priority_score": 33,
+    "average_rating": 1.33,
+    "confidence_score": 0.71
   }
 ]

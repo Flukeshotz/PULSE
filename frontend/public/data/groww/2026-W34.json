@@ -1,0 +1,264 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W34",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-08-17T01:14:49.231773",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] High Brokerage Charges",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "groww is not good for trading in f&o because external charge and brokerage charge is very bad",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Highly misleading fees. Groww's marketing implies 'zero brokerage,' but that\u2019s false for active traders.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "it\u2019s free and it takes low brokerage",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "for f and o they say only \u20b920 for buy and sell. total \u20b940 for trade. but iam charged \u20b969 and \u20b979 per trade.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "the brokerage on intraday trades is quite high, and in many cases it turns profitable trades into losses.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are complaining about the high brokerage charges imposed by Groww, which is affecting their trading experience. The charges are perceived as high, especially for low-investment and short-term traders.",
+      "business_impact": "High brokerage charges may lead to a significant reduction in user profits, resulting in low engagement and potential churn.",
+      "root_cause_hypothesis": "The pricing model of Groww's high brokerage charges is not transparent, leading to user dissatisfaction and potential mistrust.",
+      "action_plan": "\u2022 Revise the pricing model to provide clear and competitive brokerage charges\n\u2022 Introduce a more affordable pricing plan for low-investment traders\n\u2022 Provide detailed breakdown of charges to users before they initiate a trade.",
+      "teams_impacted": [
+        "Product Management",
+        "Finance Team",
+        "Customer Success"
+      ],
+      "mentions_count": 33,
+      "rating_distribution": {
+        "1": 29,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 2
+      },
+      "average_rating": 1.33,
+      "confidence_score": 0.71,
+      "confidence_components": {
+        "volume": 0.51,
+        "quote_validation": 1.0
+      },
+      "priority_score": 33,
+      "theme_id": "high_brokerage_charges_scam_fears",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -63.3,
+        "priority_wow_delta": 8,
+        "rating_wow_delta": -1.8,
+        "first_seen": "2026-W30",
+        "age_weeks": 4
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Critical App Functionality and Stability Issues",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "just downloaded it it's not even working uninstalling this app right away",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Neither stoploss working nor target and so much glitch in app while opening",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "When u click UPI, getting message 'UPI is not available on your device' was working fine before app update, kindly fix.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "unable to login. after allowing permission it's taking ages but not moving to next page",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "App not updating realtime error..",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The app is not gud for FNO",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "the app is getting slower and slower day by day. just making the experience painful. time to switch.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Last few months this app is unusable. every time page fail to load page fail to load even when there is good internet connection",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users reported widespread failure of the app to initiate, login, load pages, place orders, and update data, causing frustration and loss of trust in the platform.",
+      "business_impact": "This theme impacts app adoption, user retention, and overall customer satisfaction, potentially leading to revenue decline and long-term reputation damage.",
+      "root_cause_hypothesis": "The frequent app crashes, login issues, and inability to load pages might be caused by poor quality control during the development and testing phases, highlighting a need for more rigorous testing and validation processes.",
+      "action_plan": "\u2022 Rigorously test the app for functionality and stability across various devices and versions\n\u2022 Update the app's architecture to address scalability and performance issues\n\u2022 Implement automated testing and quality control measures\n\u2022 Provide clear, timely communication to users regarding issues and resolution plans.",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product",
+        "Quality Assurance"
+      ],
+      "mentions_count": 41,
+      "rating_distribution": {
+        "1": 29,
+        "2": 4,
+        "3": 2,
+        "4": 4,
+        "5": 2
+      },
+      "average_rating": 1.68,
+      "confidence_score": 0.72,
+      "confidence_components": {
+        "volume": 0.54,
+        "quote_validation": 1.0
+      },
+      "priority_score": 32,
+      "theme_id": "app_crashes_freezes_and_glitches",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -10.9,
+        "priority_wow_delta": 0,
+        "rating_wow_delta": -0.2,
+        "first_seen": "2026-W26",
+        "age_weeks": 8
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Critical Trading Errors and Data Display Issues",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "When selling stocks, a network issue appears even after entering the OTP, and the shares do not get sold.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "option price is 20 and lot size is 550 20\u00d7550 = 11000 but app showing 61025?",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "order not delivered although the stock hitted the price.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I had placed my order at 120 and after my order got executed, it disappeared from the chart and I was not able to find it in positions section or order sections.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "shareholding pattern mutual fund not showing.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The app is having lots of issues. now the mutual fund current values in my portfolio is not showing",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I sold stock at 214 but yesterday's balance was 183 and now I have only 153 and I don't have any negative balance",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are experiencing multiple critical errors while trading, including network issues, incorrect order execution, incomplete trade data, and misdisplayed portfolio values. Reviewers also report inconsistent behavior, such as feature removals and UI changes, which cause frustration and mistrust.",
+      "business_impact": "Potential loss of customers due to distrust and frustration with the product's ability to perform basic trading functions and display accurate data.",
+      "root_cause_hypothesis": "Technical debt accumulated over multiple updates has led to integration and UI issues, causing critical errors and display inconsistencies.",
+      "action_plan": "\u2022 Review and refactor critical trading code to correct integration issues\n\u2022 Identify and restore removed features, ensuring data consistency and user experience\n\u2022 Conduct thorough testing and user feedback gathering to prevent future regressions\n\u2022 Implement clear communication channels for users and developers to address urgent issues",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product"
+      ],
+      "mentions_count": 32,
+      "rating_distribution": {
+        "1": 15,
+        "2": 5,
+        "3": 9,
+        "4": 2,
+        "5": 1
+      },
+      "average_rating": 2.03,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.51,
+        "quote_validation": 1.0
+      },
+      "priority_score": 26,
+      "theme_id": "critical_trading_errors_and_data_display_issues",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 26,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W34",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 5828,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 4430,
+    "filtered_short_positive": 4280,
+    "filtered_short_negative": 86,
+    "filtered_short_neutral": 64
+  },
+  "source_counts": {
+    "app_store": 0,
+    "play_store": 10465
+  },
+  "rating_distribution": {
+    "1": 912,
+    "2": 147,
+    "3": 197,
+    "4": 429,
+    "5": 4143
+  },
+  "average_rating": 4.157172271791352,
+  "top_escalations": [],
+  "top_improvements": []
+}

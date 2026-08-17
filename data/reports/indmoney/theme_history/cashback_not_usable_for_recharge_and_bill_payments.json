@@ -7,5 +7,14 @@
     "priority_score": 30,
     "average_rating": 1.2,
     "confidence_score": 0.68
+  },
+  {
+    "iso_week": "2026-W34",
+    "name": "[Negative] Cashback Redemption Issues",
+    "description": "Multiple users reported difficulties in redeeming cashback rewards, which were often rendered unusable for bill payments or recharge, citing opaque or misleading cashback systems.",
+    "mentions_count": 29,
+    "priority_score": 33,
+    "average_rating": 1.17,
+    "confidence_score": 0.7
   }
 ]

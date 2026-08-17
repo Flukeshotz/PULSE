@@ -16,5 +16,14 @@
     "priority_score": 28,
     "average_rating": 2.32,
     "confidence_score": 0.74
+  },
+  {
+    "iso_week": "2026-W34",
+    "name": "[Critical] Chart Loading Issues",
+    "description": "Users are facing issues with chart loading, including charts not opening, taking a long time to load, showing a blank screen, failing to update in real-time, and not displaying reliable data. This is observed in both mobile and Android applications, with some users experiencing this issue since the new update.",
+    "mentions_count": 37,
+    "priority_score": 28,
+    "average_rating": 2.08,
+    "confidence_score": 0.72
   }
 ]

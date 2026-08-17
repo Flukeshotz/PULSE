@@ -1,0 +1,265 @@
+{
+  "product": "INDMoney",
+  "iso_week": "2026-W34",
+  "period_label": "Last 8 weeks",
+  "generated_at": "2026-08-17T01:11:59.777568",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Crashes, Not User-Friendly, and Security Concerns",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "it's an useless app. Recommend to not use or install the app for usage",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app to trade on, it hangs",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "when I try to send money it shows potentially harmful apps detected on device... I don't know which app can u explain me which is this",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "this app is not good for money transaction",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst Service! Opened SBM zero balance a/c via INDmoney. They ended tie-up without calling or sending SMS. Hiding critical charge updates in emails, they forced a \u20b9352 penalty on me",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Lost money I lost my money. Plz don't use this app for us stocks",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app ,not support customer problem only assistant ai available",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "The app has numerous issues including crashing, unresponsiveness, confusing interface, and security concerns. Users report experiencing difficulties in navigating the app, transactions failing, and data being compromised or manipulated.",
+      "business_impact": "This theme indicates a significant erosion of customer trust, a loss of business due to high churn rates, and potential financial losses from transaction failures and data theft.",
+      "root_cause_hypothesis": "The root cause of these issues may be a combination of subpar design, poor quality control, and inadequate testing, leading to a fragmented and unreliable user experience.",
+      "action_plan": "\u2022 | Fix the app stability issues by addressing frequent crashes and slow performance\n\u2022 Improve communication with users regarding app updates, transactions, and changes to their accounts\n\u2022 Add clear and concise instructions for navigating the app\n\u2022 Introduce a separate pin system for app access and tighten data security\n\u2022 Enhance support for users, including AI assistance and clear ticket resolution processes",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product",
+        "Quality Assurance"
+      ],
+      "mentions_count": 31,
+      "rating_distribution": {
+        "1": 29,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 1
+      },
+      "average_rating": 1.19,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.5,
+        "quote_validation": 1.0
+      },
+      "priority_score": 33,
+      "theme_id": "app_performance_and_reliability_concerns",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 40.9,
+        "priority_wow_delta": 6,
+        "rating_wow_delta": -0.3,
+        "first_seen": "2026-W25",
+        "age_weeks": 9
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Cashback Redemption Issues",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "not possible to withdraw earned reward i am going to uninstall it",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Cashback balance cannot be used.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Received cashback but it shows as used but i never done transaction for that time.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Cannot Use Rewarded Cash Back while Bill Pay.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "They remove the option to use cashback as bill payment.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I installed this app to get a credit card bill payment cashback. But please don't use this app.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "cashback section is now showing in app!  // Not a complaint, but context",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "suddenly it activated the demat account by forcing some kyc process. also cashback award stopped for reuse in any bill.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Multiple users reported difficulties in redeeming cashback rewards, which were often rendered unusable for bill payments or recharge, citing opaque or misleading cashback systems.",
+      "business_impact": "Loss of customer trust, potential revenue decline due to reduced cashback redemptions, and increased churn risk as dissatisfied customers uninstall the app.",
+      "root_cause_hypothesis": "The app's cashback system may be too complex, misleading, or restrictive, causing user frustration and mistrust. This might be due to unclear or dynamic redemption rules, or an overly narrow scope of eligible transactions.",
+      "action_plan": "\u2022 Revamp the cashback system for clarity, transparency, and broader usability. Implement user-friendly redemption processes, provide clear communication on cashback eligibility and usage, and introduce flexible redemption options.",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product",
+        "Revenue Growth",
+        "Customer Success"
+      ],
+      "mentions_count": 29,
+      "rating_distribution": {
+        "1": 26,
+        "2": 1,
+        "3": 2,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.17,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.49,
+        "quote_validation": 1.0
+      },
+      "priority_score": 33,
+      "theme_id": "cashback_not_usable_for_recharge_and_bill_payments",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 16.0,
+        "priority_wow_delta": 3,
+        "rating_wow_delta": -0.0,
+        "first_seen": "2026-W30",
+        "age_weeks": 4
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Issues with Account Creation and Management",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "not working Link bank account",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "the process to create & verify Account I find it difficult.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I am not able to add extra amount in mutual fund which I have.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "my account is not linked in indmoney from some technical issue please resolve them",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "refer and aur earn the amount is not showy in the app",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are having trouble with creating and managing their accounts on the app. Common issues include failure to add funds, difficulties with linking bank accounts, and problems with account verification processes.",
+      "business_impact": "Delays and frustration with account management can lead to a decrease in user engagement and ultimately affect overall app adoption and customer retention.",
+      "root_cause_hypothesis": "The root cause of these issues may be linked to problems in integrating and synchronizing with external banks and financial institutions, as well as potential shortcomings in the app's account management and verification processes.",
+      "action_plan": "\u2022 Conduct a thorough review of external bank integrations to identify potential errors or incompatibilities\n\u2022 Improve and streamline account management processes to reduce complexity and user friction\n\u2022 Develop more comprehensive support resources and clear instructions for users to address common issues and concerns",
+      "teams_impacted": [
+        "Android Eng",
+        "Backend Development",
+        "Support Team"
+      ],
+      "mentions_count": 18,
+      "rating_distribution": {
+        "1": 11,
+        "2": 2,
+        "3": 4,
+        "4": 1,
+        "5": 0
+      },
+      "average_rating": 1.72,
+      "confidence_score": 0.66,
+      "confidence_components": {
+        "volume": 0.43,
+        "quote_validation": 1.0
+      },
+      "priority_score": 23,
+      "theme_id": "issues_with_account_creation_and_management",
+      "trend": {
+        "status": "new",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 23,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W34",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 722,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 270,
+    "filtered_short_positive": 246,
+    "filtered_short_negative": 9,
+    "filtered_short_neutral": 15
+  },
+  "source_counts": {
+    "app_store": 91,
+    "play_store": 911
+  },
+  "rating_distribution": {
+    "1": 197,
+    "2": 34,
+    "3": 40,
+    "4": 81,
+    "5": 370
+  },
+  "average_rating": 3.544321329639889,
+  "top_escalations": [],
+  "top_improvements": []
+}

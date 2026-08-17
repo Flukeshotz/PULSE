@@ -16,5 +16,14 @@
     "priority_score": 27,
     "average_rating": 1.45,
     "confidence_score": 0.67
+  },
+  {
+    "iso_week": "2026-W34",
+    "name": "[Negative] App Crashes, Not User-Friendly, and Security Concerns",
+    "description": "The app has numerous issues including crashing, unresponsiveness, confusing interface, and security concerns. Users report experiencing difficulties in navigating the app, transactions failing, and data being compromised or manipulated.",
+    "mentions_count": 31,
+    "priority_score": 33,
+    "average_rating": 1.19,
+    "confidence_score": 0.7
   }
 ]

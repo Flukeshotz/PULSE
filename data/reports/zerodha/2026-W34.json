@@ -1,0 +1,266 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W34",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-08-17T01:16:39.136425",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Poor Customer Support",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "ticket number: 63142 you can check another from this number do nt respond to our complaint when we raise the complaint they only send email your complaint has been resolve without talking to us.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Customer service of Zerodha is very pathetic. Even after repeated requests for call back, they do not call back and you keep on waiting and waiting and waiting.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Worst support when you need it the most. Today, I added funds to my account. The amount was debited from my bank account but was not credited to my Zerodha account.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Poor Customer care support I added funds via upi method and they are claiming as they add instant fund to your demat account but after 30 minutes i have not received my funds in my demat account or not also received back to my back account",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Zerodha does not provide proper customer support. If there is any clarification needed regarding the app, there is no point of contact to handle it. They have shared multiple contact numbers, but none of them are reachable.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are experiencing frustrating issues with customer support, including poor responsiveness, long wait times, and unhelpful support agents.",
+      "business_impact": "Delayed responses to critical issues, such as account access problems or trade execution errors, can lead to significant financial losses and reputational damage.",
+      "root_cause_hypothesis": "Insufficient training or resources for support agents, outdated support infrastructure, or inadequate escalation procedures may be contributing to the poor support experience.",
+      "action_plan": "\u2022 Provide comprehensive training for support agents\n\u2022 Update the support infrastructure to improve response times and quality\n\u2022 Establish clear escalation procedures to address critical issues.",
+      "teams_impacted": [
+        "Customer Support",
+        "Support Engineering"
+      ],
+      "mentions_count": 31,
+      "rating_distribution": {
+        "1": 26,
+        "2": 2,
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "average_rating": 1.35,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.5,
+        "quote_validation": 1.0
+      },
+      "priority_score": 32,
+      "theme_id": "poor_customer_support_and_experience",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -57.5,
+        "priority_wow_delta": -6,
+        "rating_wow_delta": -0.5,
+        "first_seen": "2026-W33",
+        "age_weeks": 1
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Critical] Chart Loading Issues",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "Graphs are not loading.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "charts stop loading whenever they want.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "chart not open.... very disappointed.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "charting tools are so difficult.",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "Charts have stopped displaying reliably. Why!",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "Chart not loading! This is a recurrent problem of late guess since the new update, I click View Chart but a blank screen loads up",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "charts are not loading properly. YTD,! month, 1 year charts for every stock",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "After the latest update, accessibility mode keeps getting switched on again and again. Also, chartIQ charts are not loading.",
+          "source": "play_store",
+          "rating": 2.0
+        }
+      ],
+      "description": "Users are facing issues with chart loading, including charts not opening, taking a long time to load, showing a blank screen, failing to update in real-time, and not displaying reliable data. This is observed in both mobile and Android applications, with some users experiencing this issue since the new update.",
+      "business_impact": "Delayed or failed chart loading can lead to missed trading opportunities, increased frustration with the application, and potential losses due to delayed or incorrect data.",
+      "root_cause_hypothesis": "The possible root cause of this issue could be a problem with data synchronization, network connectivity issues, or potential bugs within the charting engine. However, detailed investigation and debugging would be required to confirm the root cause.",
+      "action_plan": "\u2022 Investigate data synchronization and network connectivity issues,\n\u2022 Conduct a thorough debugging of the charting engine,\n\u2022 Collaborate with the UX design team to enhance user feedback and error messaging,\n\u2022 Enhance app stability and performance,\n\u2022 Conduct A/B testing to identify potential UI and UX optimizations.",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "Core Product"
+      ],
+      "mentions_count": 37,
+      "rating_distribution": {
+        "1": 19,
+        "2": 8,
+        "3": 2,
+        "4": 4,
+        "5": 4
+      },
+      "average_rating": 2.08,
+      "confidence_score": 0.72,
+      "confidence_components": {
+        "volume": 0.53,
+        "quote_validation": 1.0
+      },
+      "priority_score": 28,
+      "theme_id": "chart_display_issues_1",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -21.3,
+        "priority_wow_delta": 0,
+        "rating_wow_delta": -0.2,
+        "first_seen": "2026-W30",
+        "age_weeks": 4
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Positive] Feature Requests Overwhelm",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "Please attention, I want to see fresh PNL everytime for my trade when I recreate a fresh position in the same strike price i traded earlier.",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "Please consider adding drag-and-drop TP and SL directly on the chart.",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "It would have been of a great help if you could have added a SL and TP drag option in the chart.",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "Can you please upgrade watchlist 250 stock to 500",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Please add stock screener in the app to filter out and explore stocks.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Why dont you simplify like upstox in every aspect.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Pls add dragable, on chart - take profit and stoploss.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Work on Option chain like upstox all greeks and values in one cllick.",
+          "source": "play_store",
+          "rating": 5.0
+        }
+      ],
+      "description": "Users are requesting various features to enhance user experience and improve functionality of the platform. The main concern is that the platform lacks some essential features compared to its competitors.",
+      "business_impact": "Loss of competitive advantage, potential loss of users to competitors that offer more features, and decreased user satisfaction.",
+      "root_cause_hypothesis": "The platform's feature set is not as comprehensive as its competitors, leading to user dissatisfaction and requests for new features.",
+      "action_plan": "\u2022 Review the feature set of competitors and identify areas for improvement. Prioritize feature development based on user request frequency and business impact. Implement new features that address the most critical user needs and gaps in the current feature set.",
+      "teams_impacted": [
+        "Product Team",
+        "Engineering Team",
+        "UX Design Team"
+      ],
+      "mentions_count": 60,
+      "rating_distribution": {
+        "1": 8,
+        "2": 9,
+        "3": 9,
+        "4": 16,
+        "5": 18
+      },
+      "average_rating": 3.45,
+      "confidence_score": 0.76,
+      "confidence_components": {
+        "volume": 0.6,
+        "quote_validation": 1.0
+      },
+      "priority_score": 18,
+      "theme_id": "feature_requests_overwhelm",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 18,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W34",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 1014,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 218,
+    "filtered_short_positive": 211,
+    "filtered_short_negative": 3,
+    "filtered_short_neutral": 4
+  },
+  "source_counts": {
+    "app_store": 44,
+    "play_store": 1196
+  },
+  "rating_distribution": {
+    "1": 234,
+    "2": 59,
+    "3": 60,
+    "4": 108,
+    "5": 553
+  },
+  "average_rating": 3.6775147928994083,
+  "top_escalations": [],
+  "top_improvements": []
+}

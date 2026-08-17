@@ -1,0 +1,180 @@
+{
+  "product": "Stable Money",
+  "iso_week": "2026-W34",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-08-17T01:18:23.733570",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Crashes and Refund Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "This is a Fraud app to grab customers Money Don't buy from here keep your money safe in gold Don't invest in any fd bonds or other govt scheme",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "the app is very bad got deducted with 100000 rupee but not invested in the bank where I tried. all my bank details pan addhar are upto date but there platform is showing mismatch. frustrated with stable money app.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Pathetic after sale service keep on procrastinating instead of resolution.I have created FD got my physical card still not getting activated its been more than 7 days.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "They are advertising like virtual silver and gold anytime, but we can buy any time but nav reflect of next day, and when we sell in case of emergency fond takes atleast a week or more.. they are just fooling the people nothing else",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Misleading Interest Rate Numbers",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "A really horrible experience with refund of FD amount where your system is asking for my bank account statement to confirm that the money has been debited from my account. When your system has acknowledged the credit of funds, why do you ask for the bank statement? I will give it anyway, since I need the money. But this is not the way to treat customers.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Their FD fails while booking and they take lots of time for issuing a refund and they will dout you whether payment has been made or not..they ask statement for verification they really don't have a reliable system on app.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Fraud .. paid reviews .. Not recommended at all",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I think this app has bought paid reviews because this app can't be 4.6 stars as after sales service is pathetic , they steal your money , once you invest money... your money is stuck for whole life and you will never be able to withdraw it, repay option never works so you money will stuck for life time",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I had a really bad experience with this app, the Customer Agent doesn't pick up the call, nor attend the KYC video call. No response. very irresponsible.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Their customer support team is shockingly irresponsible, negligent, and dismissive when handling critical financial queries",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "It's been five days, and I still haven't received my refund. Customer support has been unresponsive, making the situation even more frustrating.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "App has extremely poor performance. Everytime I try to manage my fd based stable money credit card it gets freezed and abruptly crashes.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "This is the worst app in the entire universe.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The Stable Money app is extremely buggy. Paying credit card bills is a nightmare \u2014 custom amounts trigger endless buffering loops without opening the payment gateway.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "one of the slowest and useless apps I have ever used in my life.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "When you go to the credit card page and try to see details of the transaction or want to pay the app behavior seems like it's fps drops significantly and the app becomes unresponsive even through phone processor and the ram is fully capable of handling it.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "payment is not working",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The app freezes while using the fd based card section.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The app freezes ,Whenever we see the statement of a credit card , the app will not respond most of the time",
+          "source": "play_store",
+          "rating": 3.0
+        }
+      ],
+      "description": "Users report frequent app crashes, delays in FD processing, and difficulties with refunds, resulting in frustration and mistrust of the platform. The majority of users experience these issues while trying to withdraw their money.",
+      "business_impact": "High refund processing times, significant reputational damage, lost trust among customers, potential loss of revenue due to failed FDs.",
+      "root_cause_hypothesis": "Lack of robust backend infrastructure, inadequate testing, and insufficient quality assurance processes may contribute to app crashes and refund issues.",
+      "action_plan": "\u2022 Conduct thorough root cause analysis, enhance backend infrastructure, implement robust testing and QA processes, establish a clear refund policy and improve customer support.",
+      "teams_impacted": [
+        "Android Eng",
+        "Quality Assurance",
+        "Customer Support"
+      ],
+      "mentions_count": 86,
+      "rating_distribution": {
+        "1": 71,
+        "2": 4,
+        "3": 5,
+        "4": 3,
+        "5": 3
+      },
+      "average_rating": 1.41,
+      "confidence_score": 0.79,
+      "confidence_components": {
+        "volume": 0.65,
+        "quote_validation": 1.0
+      },
+      "priority_score": 46,
+      "theme_id": "withholding_of_funds",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 168.8,
+        "priority_wow_delta": 14,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W28",
+        "age_weeks": 6
+      },
+      "evidence_score": 0.875,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 801,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 198,
+    "filtered_short_positive": 193,
+    "filtered_short_negative": 1,
+    "filtered_short_neutral": 4
+  },
+  "source_counts": {
+    "app_store": 40,
+    "play_store": 967
+  },
+  "rating_distribution": {
+    "1": 156,
+    "2": 15,
+    "3": 29,
+    "4": 38,
+    "5": 563
+  },
+  "average_rating": 4.044943820224719,
+  "top_escalations": [],
+  "top_improvements": []
+}

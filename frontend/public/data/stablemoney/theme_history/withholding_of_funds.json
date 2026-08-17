@@ -16,5 +16,14 @@
     "priority_score": 32,
     "average_rating": 1.38,
     "confidence_score": 0.7
+  },
+  {
+    "iso_week": "2026-W34",
+    "name": "[Negative] App Crashes and Refund Issues",
+    "description": "Users report frequent app crashes, delays in FD processing, and difficulties with refunds, resulting in frustration and mistrust of the platform. The majority of users experience these issues while trying to withdraw their money.",
+    "mentions_count": 86,
+    "priority_score": 46,
+    "average_rating": 1.41,
+    "confidence_score": 0.79
   }
 ]

@@ -16,5 +16,14 @@
     "priority_score": 32,
     "average_rating": 1.85,
     "confidence_score": 0.73
+  },
+  {
+    "iso_week": "2026-W34",
+    "name": "[Negative] Critical App Functionality and Stability Issues",
+    "description": "Users reported widespread failure of the app to initiate, login, load pages, place orders, and update data, causing frustration and loss of trust in the platform.",
+    "mentions_count": 41,
+    "priority_score": 32,
+    "average_rating": 1.68,
+    "confidence_score": 0.72
   }
 ]
