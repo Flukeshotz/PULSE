@@ -1,0 +1,38 @@
+{
+  "product": "Stable Money",
+  "iso_week": "2026-W35",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-08-24T01:29:02.904285",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [],
+  "counts": {
+    "reviews": 766,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 190,
+    "filtered_short_positive": 184,
+    "filtered_short_negative": 2,
+    "filtered_short_neutral": 4
+  },
+  "source_counts": {
+    "app_store": 33,
+    "play_store": 930
+  },
+  "rating_distribution": {
+    "1": 160,
+    "2": 17,
+    "3": 27,
+    "4": 39,
+    "5": 523
+  },
+  "average_rating": 3.976501305483029,
+  "top_escalations": [],
+  "top_improvements": []
+}

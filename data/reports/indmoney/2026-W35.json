@@ -1,0 +1,38 @@
+{
+  "product": "INDMoney",
+  "iso_week": "2026-W35",
+  "period_label": "Last 8 weeks",
+  "generated_at": "2026-08-24T01:15:45.502163",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [],
+  "counts": {
+    "reviews": 677,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 268,
+    "filtered_short_positive": 248,
+    "filtered_short_negative": 6,
+    "filtered_short_neutral": 14
+  },
+  "source_counts": {
+    "app_store": 88,
+    "play_store": 863
+  },
+  "rating_distribution": {
+    "1": 178,
+    "2": 31,
+    "3": 34,
+    "4": 82,
+    "5": 352
+  },
+  "average_rating": 3.5893648449039883,
+  "top_escalations": [],
+  "top_improvements": []
+}

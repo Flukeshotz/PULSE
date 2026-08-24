@@ -1,0 +1,38 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W35",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-08-24T01:25:02.470083",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [],
+  "counts": {
+    "reviews": 1031,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 213,
+    "filtered_short_positive": 205,
+    "filtered_short_negative": 4,
+    "filtered_short_neutral": 4
+  },
+  "source_counts": {
+    "app_store": 44,
+    "play_store": 1206
+  },
+  "rating_distribution": {
+    "1": 244,
+    "2": 60,
+    "3": 60,
+    "4": 110,
+    "5": 557
+  },
+  "average_rating": 3.655674102812803,
+  "top_escalations": [],
+  "top_improvements": []
+}
