@@ -76,7 +76,7 @@ run:
   max_tokens_per_run: 60000
   max_cost_usd_per_run: 1.50
   embedding_model: "models/embedding-001"
-  llm_model: "gemini-1.5-pro"
+  llm_model: "openai/gpt-oss-20b"
   umap_random_state: 42
   top_themes: 3
   delivery_target: "real"

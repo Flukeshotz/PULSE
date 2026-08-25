@@ -48,7 +48,7 @@ class Summarizer:
         if not self.api_key:
             raise ValueError("GROQ_API environment variable not set")
             
-        self.model = "llama-3.1-8b-instant"
+        self.model = "openai/gpt-oss-20b"
         self.client = httpx.Client(timeout=45.0)
         self.limiter = GroqRateLimiter()
 
