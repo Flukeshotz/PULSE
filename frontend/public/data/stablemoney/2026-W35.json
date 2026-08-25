@@ -2,7 +2,7 @@
   "product": "Stable Money",
   "iso_week": "2026-W35",
   "period_label": "Last 10 weeks",
-  "generated_at": "2026-08-24T01:29:02.904285",
+  "generated_at": "2026-08-25T12:08:20.515986",
   "sources_covered": [
     "app_store",
     "play_store"
@@ -11,28 +11,122 @@
     "app_store",
     "play_store"
   ],
-  "themes": [],
+  "themes": [
+    {
+      "name": "[Negative] App Performance Issues in Credit Card Section",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "When you go to the credit card page and try to see details of the transaction or want to pay the app behavior seems like it's fps drops significantly and the app becomes unresponsive even through phone processor and the ram is fully capable of handling it.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "App has extremely poor performance. Everytime I try to manage my fd based stable money credit card it gets freezed and abruptly crashes.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The app freezes while using the fd based card section.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "too slow, not able to open Credit card option taking too much time...",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Credit card section doesn't works most of the time and doesn't loads the transactions so couldn't verify the transactions on time and also not able to verify the refunds.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "The app is a little sluggish.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "THE APPS NEEDS SERIOUS UPDATES. ITS VERY VERY SLOW",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app is very slow and user experience is bad, tax form filling is also very cumbersome",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "This app is very slow while working.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I am using this app this app UI very slow and laggie.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report that accessing, viewing, managing, and paying for credit cards causes severe lag, freezes, crashes, and long loading times across the FD credit card section.",
+      "business_impact": "High transaction abandonment and missed payments lead to customer dissatisfaction, eroding trust in the platform\u2019s financial services and increasing churn risk.",
+      "root_cause_hypothesis": "The credit card module likely suffers from memory leaks or inefficient rendering (e.g., unoptimized list adapters), excessive network requests, and lack of proper error handling, causing frame\u2011rate drops and crashes on many devices.",
+      "action_plan": "\u2022 Profile memory and network usage in the credit card module\n\u2022 Refactor UI to use efficient list rendering (e.g., RecyclerView with view holders)\n\u2022 Implement batched, paginated data fetching and caching\n\u2022 Add robust error handling and graceful fallbacks for network failures\n\u2022 Instrument crash reporting to capture stack traces\n\u2022 Deploy incremental updates with monitoring of crash rates\n\u2022 Conduct QA testing on low\u2011end and high\u2011end devices\n\u2022 Update support docs with troubleshooting steps for credit card issues",
+      "teams_impacted": [
+        "Android Eng",
+        "UX Design",
+        "QA",
+        "Customer Support",
+        "Product Management"
+      ],
+      "mentions_count": 45,
+      "rating_distribution": {
+        "1": 22,
+        "2": 8,
+        "3": 8,
+        "4": 5,
+        "5": 2
+      },
+      "average_rating": 2.05,
+      "confidence_score": 0.73,
+      "confidence_components": {
+        "volume": 0.55,
+        "quote_validation": 1.0
+      },
+      "priority_score": 30,
+      "theme_id": "app_performance_issues_in_credit_card_section",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 30,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W35",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
   "counts": {
-    "reviews": 766,
+    "reviews": 786,
     "unauthentic_quotes_dropped": 0,
     "irrelevant_quotes_dropped": 0,
-    "filtered_short": 190,
-    "filtered_short_positive": 184,
+    "filtered_short": 192,
+    "filtered_short_positive": 186,
     "filtered_short_negative": 2,
     "filtered_short_neutral": 4
   },
   "source_counts": {
-    "app_store": 33,
-    "play_store": 930
+    "app_store": 35,
+    "play_store": 950
   },
   "rating_distribution": {
-    "1": 160,
+    "1": 162,
     "2": 17,
-    "3": 27,
-    "4": 39,
-    "5": 523
+    "3": 29,
+    "4": 41,
+    "5": 537
   },
-  "average_rating": 3.976501305483029,
+  "average_rating": 3.984732824427481,
   "top_escalations": [],
   "top_improvements": []
 }

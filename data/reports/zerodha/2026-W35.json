@@ -2,7 +2,7 @@
   "product": "Zerodha Kite",
   "iso_week": "2026-W35",
   "period_label": "Last 10 weeks",
-  "generated_at": "2026-08-24T01:25:02.470083",
+  "generated_at": "2026-08-25T12:05:08.776045",
   "sources_covered": [
     "app_store",
     "play_store"
@@ -11,28 +11,141 @@
     "app_store",
     "play_store"
   ],
-  "themes": [],
+  "themes": [
+    {
+      "name": "[Negative] Customer Support Failure",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "now , zerodha service is degrading , as Stop loss getting hit without price come at that point , customer care support is also pathetic.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Customer service of Zerodha is very pathetic. Even after repeated requests for call back, they do not call back and you keep on waiting and waiting and waiting.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "ticket number: 63142 you can check another from this number do nt respond to our complaint when we raise the complaint they only send email your complaint has been resolve without talking to us.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Please never use zerodha kite application. there support is zero for any query",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Worst support when you need it the most. Today, I added funds to my account. The amount was debited from my bank account but was not credited to my Zerodha account. To make matters worse, every customer support number I tried either disconnected after one ring or remained constantly busy.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app is not working after 3:10 p.m. to 3:25 p.m. Apple stuck be careful with kite app it will happen only in kite app be careful",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Kite only works on network and not WiFi connection.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "in the mobile application kite the 1 minute nifty option candle chart is legging so badly like hell.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "The login process is very poor. Every time I try to log in, \u20b91 gets debited from my account, but the login still fails.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Not able to connect to WiFi.. 3 Accounts closed ..last remaining which I will close once holding sold",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst application, instant withdrawals don't work properly, outdated software.. worst user interface.. I made loss due to its worst Interface..",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app..basket order never gets executed at one due to which I have a loss.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app ever.... didn't execute the order properly...agar 0 star me ye comment post kar pata to 1 star bhi nahi deta is app ko",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app I've ever seen. too much laggy, can't even open option premium charts. I don't know what the developer are doing, they don't even care.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report that Zerodha\u2019s customer support is largely unavailable or ineffective across all channels, leading to unresolved complaints, delayed fund transfers, and frustration when urgent issues arise.",
+      "business_impact": "The lack of timely and reliable support is causing immediate financial loss (e.g., missed trades, uncredited deposits), driving negative word\u2011of\u2011mouth that threatens to increase churn, reduce new sign\u2011ups, and ultimately erode revenue growth.",
+      "root_cause_hypothesis": "Zerodha\u2019s support infrastructure relies on a single, under\u2011staffed phone line with no redundant or alternative channels, coupled with a fragmented ticketing system that lacks clear SLAs and knowledge management, resulting in repeated failure to resolve issues.",
+      "action_plan": "\u2022 Audit existing support processes and staffing levels\n\u2022 Expand support channels to include email, WhatsApp, in\u2011app chat, and 24/7 phone line\n\u2022 Define and enforce SLA targets for first response and resolution\n\u2022 Deploy a unified ticketing system with tagging and escalation rules\n\u2022 Build a searchable knowledge base and FAQ to reduce ticket volume\n\u2022 Monitor support KPIs and collect customer feedback post\u2011resolution",
+      "teams_impacted": [
+        "Customer Support Operations",
+        "Product Management",
+        "Engineering (API & Ticketing)",
+        "UX Design (Self\u2011service)"
+      ],
+      "mentions_count": 76,
+      "rating_distribution": {
+        "1": 43,
+        "2": 9,
+        "3": 4,
+        "4": 4,
+        "5": 16
+      },
+      "average_rating": 2.23,
+      "confidence_score": 0.78,
+      "confidence_components": {
+        "volume": 0.63,
+        "quote_validation": 1.0
+      },
+      "priority_score": 34,
+      "theme_id": "customer_support_failure",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 34,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W35",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
   "counts": {
-    "reviews": 1031,
+    "reviews": 1049,
     "unauthentic_quotes_dropped": 0,
-    "irrelevant_quotes_dropped": 0,
-    "filtered_short": 213,
-    "filtered_short_positive": 205,
-    "filtered_short_negative": 4,
+    "irrelevant_quotes_dropped": 1,
+    "filtered_short": 217,
+    "filtered_short_positive": 208,
+    "filtered_short_negative": 5,
     "filtered_short_neutral": 4
   },
   "source_counts": {
-    "app_store": 44,
-    "play_store": 1206
+    "app_store": 45,
+    "play_store": 1227
   },
   "rating_distribution": {
-    "1": 244,
+    "1": 245,
     "2": 60,
-    "3": 60,
-    "4": 110,
-    "5": 557
+    "3": 62,
+    "4": 111,
+    "5": 571
   },
-  "average_rating": 3.655674102812803,
+  "average_rating": 3.6701620591039084,
   "top_escalations": [],
   "top_improvements": []
 }

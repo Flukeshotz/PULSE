@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W35",
+    "name": "[Negative] App Performance Issues in Credit Card Section",
+    "description": "Users report that accessing, viewing, managing, and paying for credit cards causes severe lag, freezes, crashes, and long loading times across the FD credit card section.",
+    "mentions_count": 45,
+    "priority_score": 30,
+    "average_rating": 2.05,
+    "confidence_score": 0.73
+  }
+]

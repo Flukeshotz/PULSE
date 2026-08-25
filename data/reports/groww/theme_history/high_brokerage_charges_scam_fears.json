@@ -16,5 +16,14 @@
     "priority_score": 33,
     "average_rating": 1.33,
     "confidence_score": 0.71
+  },
+  {
+    "iso_week": "2026-W35",
+    "name": "[Negative] Excessive and misleading brokerage fees",
+    "description": "Users report that Groww\u2019s brokerage charges are higher than advertised, often exceeding the cost of the trade itself, leading to losses and eroding trust in the platform.",
+    "mentions_count": 36,
+    "priority_score": 36,
+    "average_rating": 1.08,
+    "confidence_score": 0.71
   }
 ]

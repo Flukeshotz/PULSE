@@ -2,7 +2,7 @@
   "product": "INDMoney",
   "iso_week": "2026-W35",
   "period_label": "Last 8 weeks",
-  "generated_at": "2026-08-24T01:15:45.502163",
+  "generated_at": "2026-08-25T11:59:50.380330",
   "sources_covered": [
     "app_store",
     "play_store"
@@ -11,28 +11,195 @@
     "app_store",
     "play_store"
   ],
-  "themes": [],
+  "themes": [
+    {
+      "name": "[Negative] Poor Customer Support and Escalation",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "Terrible support, there's a stupid bot who doesn't understand the issue and doesn't escape.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app ,not support customer problem only assistant ai available",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "email and chat bot support is useless",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Customer service is a joke\u2014they don't reply to emails or pick up calls.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Recently, I sold my equity and requested a withdrawal, but my withdrawal claim was cancelled and my account balance is now showing zero. My money is stuck",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "my 80k is stuck in for last 18 days, also there is no support from the organisation",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "my money is stuck since 3 days after redeem which is 5600 rs",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "2-3 day Delay in Withdraw Wrost App",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "payment is under process last 2 month",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Settlement won't be done properly, deducting money without any proper explanation",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users consistently report that the app's customer service relies solely on an unhelpful chatbot or provides no response, leaving technical and financial issues unresolved.",
+      "business_impact": "Customers are abandoning trades, filing regulatory complaints, and generating negative reviews, which erodes brand trust and increases churn risk directly affecting revenue streams.",
+      "root_cause_hypothesis": "The support system lacks a robust ticketing workflow and human escalation path, relies on a limited chatbot, and has insufficient staffing/knowledge base to handle complex financial queries.",
+      "action_plan": "\u2022 Implement a ticketing system with SLA tracking\n\u2022 Add trained human agents for critical issues\n\u2022 Integrate multi\u2011channel support (email, live chat, phone)\n\u2022 Develop a comprehensive knowledge base and FAQ\n\u2022 Monitor response metrics and iterate based on feedback",
+      "teams_impacted": [
+        "Customer Support",
+        "Product Ops",
+        "Engineering \u2013 Backend & Infrastructure",
+        "UX Design (Support Flow)",
+        "Compliance & Risk"
+      ],
+      "mentions_count": 45,
+      "rating_distribution": {
+        "1": 42,
+        "2": 1,
+        "3": 2,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.11,
+      "confidence_score": 0.73,
+      "confidence_components": {
+        "volume": 0.55,
+        "quote_validation": 1.0
+      },
+      "priority_score": 39,
+      "theme_id": "poor_ui_and_ux",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 136.8,
+        "priority_wow_delta": 15,
+        "rating_wow_delta": -0.5,
+        "first_seen": "2026-W24",
+        "age_weeks": 11
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] High Fees & Poor Exchange Rates",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "Management decided to change MTF rate overnight without customer consent Without consent they increased ROI on MTF by 2.5%.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Very High Charges 20rs per transaction while buying and again 20 while selling.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app is superb. but their forex mark up charges are too high.",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "App works very well, only issue is the exchange rates, if you deposit money to wallet, you have to pay \u20b997 per dollar plus 245 gst, when you withdraw money you will get only \u20b994.41 per dollar plus gst, so indmoney is earning morethan traders",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "When Dollar to INR is 96, they provide 94 for $1.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Too much broker fees 200rs per trade niri loot call me give help center number",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report excessive transaction fees, high margin on MTF rates, and unfavorable forex exchange rates, causing dissatisfaction and perceived exploitation.",
+      "business_impact": "Directly erodes user profit margins on trades and transfers, leading to decreased user trust, lower trading volume, and increased churn risk among cost-sensitive traders.",
+      "root_cause_hypothesis": "The platform\u2019s fee structure is aggressive and lacks transparent disclosure, driven by a high-markup strategy on MTF rates and forex conversion, possibly to compensate for operational costs or to maximize revenue from a limited fee base.",
+      "action_plan": "\u2022 1) Conduct a comprehensive audit of all fee components and compare against industry benchmarks. 2) Reduce MTF rate markup and introduce tiered pricing based on trade volume. 3) Remove or lower forex conversion markups and clearly display real-time rates with transparent GST breakdown. 4) Update the UI to prominently show fee and rate details before trade confirmation. 5) Communicate changes via in-app notifications and email to restore confidence.",
+      "teams_impacted": [
+        "Pricing & Finance",
+        "Product Management",
+        "UX Design",
+        "Engineering (Frontend & Backend)",
+        "Customer Support"
+      ],
+      "mentions_count": 20,
+      "rating_distribution": {
+        "1": 12,
+        "2": 1,
+        "3": 1,
+        "4": 3,
+        "5": 3
+      },
+      "average_rating": 2.2,
+      "confidence_score": 0.66,
+      "confidence_components": {
+        "volume": 0.44,
+        "quote_validation": 1.0
+      },
+      "priority_score": 20,
+      "theme_id": "high_fees_poor_exchange_rates",
+      "trend": {
+        "status": "new",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 20,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W35",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
   "counts": {
-    "reviews": 677,
+    "reviews": 688,
     "unauthentic_quotes_dropped": 0,
-    "irrelevant_quotes_dropped": 0,
-    "filtered_short": 268,
-    "filtered_short_positive": 248,
+    "irrelevant_quotes_dropped": 1,
+    "filtered_short": 269,
+    "filtered_short_positive": 249,
     "filtered_short_negative": 6,
     "filtered_short_neutral": 14
   },
   "source_counts": {
-    "app_store": 88,
-    "play_store": 863
+    "app_store": 89,
+    "play_store": 875
   },
   "rating_distribution": {
     "1": 178,
-    "2": 31,
-    "3": 34,
-    "4": 82,
-    "5": 352
+    "2": 30,
+    "3": 35,
+    "4": 87,
+    "5": 358
   },
-  "average_rating": 3.5893648449039883,
+  "average_rating": 3.6061046511627906,
   "top_escalations": [],
   "top_improvements": []
 }

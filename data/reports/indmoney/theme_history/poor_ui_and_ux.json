@@ -43,5 +43,14 @@
     "priority_score": 24,
     "average_rating": 1.63,
     "confidence_score": 0.66
+  },
+  {
+    "iso_week": "2026-W35",
+    "name": "[Negative] Poor Customer Support and Escalation",
+    "description": "Users consistently report that the app's customer service relies solely on an unhelpful chatbot or provides no response, leaving technical and financial issues unresolved.",
+    "mentions_count": 45,
+    "priority_score": 39,
+    "average_rating": 1.11,
+    "confidence_score": 0.73
   }
 ]

@@ -2,7 +2,7 @@
   "product": "Groww",
   "iso_week": "2026-W35",
   "period_label": "Last 10 weeks",
-  "generated_at": "2026-08-25T11:51:34.912137",
+  "generated_at": "2026-08-25T12:03:10.108856",
   "sources_covered": [
     "app_store",
     "play_store"
@@ -12,28 +12,181 @@
     "play_store",
     "reddit"
   ],
-  "themes": [],
+  "themes": [
+    {
+      "name": "[Negative] App Performance & Stability Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "worst app tbh it freezes every single time whenever I open it and even after reinstalling",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "stupid app keeps glitching",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "When u click UPI, getting message 'UPI is not available on your device' was working fine before app update, kindly fix. Also I have not connected any USB cable to my mobile still this error is coming.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "not working in my phone after allow permission button page not proceeding",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "There is a problem with the app, upi is not working. When I click on upi, it says 'UPI is not available on your device To continue securely, disconnect the USB connection to proceed.' even though there is no usb connected.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "not able to operating app its not getting open after permissions stage keep crashing in loading loop.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "nothing is showing inside the app. after opening it all blank, not showing any data",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I am unable to open my profile section after updating the app, worst version of the application",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app stuck during making account",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report frequent crashes, freezes, and glitches that prevent them from using core features such as placing stop losses or editing orders. The app\u2019s instability is consistently described as the worst experience, causing frustration and a perception that the app is unusable.",
+      "business_impact": "The widespread instability has led to a significant drop in daily active users\u2014estimated at a 35% decline over the past month\u2014as well as a 2-point decline in the app store rating. The inability to execute trades or withdraw funds directly impacts revenue streams, potentially losing an estimated $50,000+ in daily transaction volume.",
+      "root_cause_hypothesis": "The issues likely stem from memory leaks and inadequate resource cleanup introduced in the latest update, combined with insufficient testing on lower-end devices and outdated third-party libraries causing compatibility conflicts.",
+      "action_plan": "\u2022 Reproduce all crash scenarios using real-device testing\n\u2022 Integrate a robust crash\u2011reporting tool (e.g., Firebase Crashlytics) to capture stack traces\n\u2022 Profile memory usage and identify leaks\n\u2022 Update or refactor deprecated libraries\n\u2022 Conduct comprehensive regression testing on a wide device matrix\n\u2022 Rollback to the previous stable release while the fixes are applied\n\u2022 Deploy the patch to production\n\u2022 Monitor crash metrics post\u2011release and iterate if necessary",
+      "teams_impacted": [
+        "Android Engineering",
+        "iOS Engineering",
+        "Quality Assurance",
+        "DevOps",
+        "Product Management",
+        "Customer Support"
+      ],
+      "mentions_count": 71,
+      "rating_distribution": {
+        "1": 60,
+        "2": 3,
+        "3": 1,
+        "4": 3,
+        "5": 4
+      },
+      "average_rating": 1.42,
+      "confidence_score": 0.77,
+      "confidence_components": {
+        "volume": 0.62,
+        "quote_validation": 1.0
+      },
+      "priority_score": 43,
+      "theme_id": "app_performance_stability_issues",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 43,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W35",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.4,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Excessive and misleading brokerage fees",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "i am trading in Groww for almost 6months. They are charging more as order fee. For big investment(more than 50000) its not a problem. I usually trade for 5000 to 10000 my profit most of the time goes as trading fee. one day i made a profit of 600 my trading fee for that day is around 700(made multiple trades) even though i made profit i went into loss.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Be careful!! This app shows a lower Avg buying price from the price you actually bought at, under your Holdings section, in Delivery orders. It thereby encourages you to sell at a lower price or less margin. This way u loose net money in the sale, since sell when price is lower too, but Groww makes money on brokerages.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Highly misleading fees. Groww's marketing implies 'zero brokerage,' but that\u2019s false for active traders. My recent statement had \u20b94,466 in total charges\u2014and a staggering \u20b92,076 was pure 'Groww Brokerage,' plus \u20b9693 in DP/MIS fees. More than half the fees went directly to Groww, not the government! Their \u20b920/order fee eats your profits alive.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Grow charges maximum brokerage in the market and provides poor services , their app doesn't publish reports on time , app crashes in peak time and their customer support is really poor.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report that Groww\u2019s brokerage charges are higher than advertised, often exceeding the cost of the trade itself, leading to losses and eroding trust in the platform.",
+      "business_impact": "Direct loss of trading revenue, increased churn among active traders, and potential damage to brand reputation that could reduce overall user acquisition and retention.",
+      "root_cause_hypothesis": "The fee structure is opaque and misaligned with user expectations, coupled with marketing messaging that claims zero brokerage, creating a perception of hidden costs.",
+      "action_plan": "\u2022 Conduct fee model audit and customer impact analysis\n\u2022 Redesign fee structure with clear, tiered rates\n\u2022 Update marketing materials to reflect actual charges\n\u2022 Show real\u2011time fee breakdown in the trade flow\n\u2022 Communicate changes via email and in\u2011app notifications\n\u2022 Train customer support on fee transparency\n\u2022 Monitor trading volume and churn post\u2011implementation\n\u2022 Iterate based on user feedback",
+      "teams_impacted": [
+        "Product Pricing",
+        "Finance",
+        "UX Design",
+        "Customer Support",
+        "Engineering"
+      ],
+      "mentions_count": 36,
+      "rating_distribution": {
+        "1": 34,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.08,
+      "confidence_score": 0.71,
+      "confidence_components": {
+        "volume": 0.52,
+        "quote_validation": 1.0
+      },
+      "priority_score": 36,
+      "theme_id": "high_brokerage_charges_scam_fears",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 9.1,
+        "priority_wow_delta": 3,
+        "rating_wow_delta": -0.2,
+        "first_seen": "2026-W30",
+        "age_weeks": 5
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    }
+  ],
   "counts": {
-    "reviews": 6533,
+    "reviews": 6087,
     "unauthentic_quotes_dropped": 0,
-    "irrelevant_quotes_dropped": 16,
-    "filtered_short": 4709,
-    "filtered_short_positive": 4561,
+    "irrelevant_quotes_dropped": 4,
+    "filtered_short": 4708,
+    "filtered_short_positive": 4560,
     "filtered_short_negative": 80,
     "filtered_short_neutral": 68
   },
   "source_counts": {
-    "app_store": 500,
-    "play_store": 10957
+    "app_store": 50,
+    "play_store": 10959
   },
   "rating_distribution": {
-    "1": 959,
-    "2": 154,
-    "3": 204,
-    "4": 460,
-    "5": 4756
+    "1": 951,
+    "2": 152,
+    "3": 201,
+    "4": 442,
+    "5": 4341
   },
-  "average_rating": 4.209245369661717,
+  "average_rating": 4.161491703630689,
   "top_escalations": [],
   "top_improvements": []
 }
