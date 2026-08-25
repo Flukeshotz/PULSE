@@ -102,10 +102,10 @@ Return ONLY the index, a colon, and the score.
                 model=self.model,
                 temperature=0.0,
                 messages=[{"role": "user", "content": prompt}],
-                max_tokens=100
+                max_tokens=600
             )
             result = response.choices[0].message.content.strip()
-            
+
             # Parse result
             valid_quotes = []
             lines = [line.strip() for line in result.split('\n') if line.strip()]
@@ -161,7 +161,7 @@ Return ONLY the label.
                 model=self.model,
                 temperature=0.0,
                 messages=[{"role": "user", "content": prompt}],
-                max_tokens=20
+                max_tokens=200
             )
             result = response.choices[0].message.content.strip()
             if "Partially Supported" in result:
