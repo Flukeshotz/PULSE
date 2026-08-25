@@ -2,7 +2,7 @@
   "product": "Groww",
   "iso_week": "2026-W35",
   "period_label": "Last 10 weeks",
-  "generated_at": "2026-08-24T01:20:55.532166",
+  "generated_at": "2026-08-25T11:51:34.912137",
   "sources_covered": [
     "app_store",
     "play_store"
@@ -14,26 +14,26 @@
   ],
   "themes": [],
   "counts": {
-    "reviews": 6413,
+    "reviews": 6533,
     "unauthentic_quotes_dropped": 0,
-    "irrelevant_quotes_dropped": 0,
-    "filtered_short": 4618,
-    "filtered_short_positive": 4472,
+    "irrelevant_quotes_dropped": 16,
+    "filtered_short": 4709,
+    "filtered_short_positive": 4561,
     "filtered_short_negative": 80,
-    "filtered_short_neutral": 66
+    "filtered_short_neutral": 68
   },
   "source_counts": {
     "app_store": 500,
-    "play_store": 10741
+    "play_store": 10957
   },
   "rating_distribution": {
-    "1": 935,
-    "2": 152,
-    "3": 200,
-    "4": 450,
-    "5": 4676
+    "1": 959,
+    "2": 154,
+    "3": 204,
+    "4": 460,
+    "5": 4756
   },
-  "average_rating": 4.213160767191642,
+  "average_rating": 4.209245369661717,
   "top_escalations": [],
   "top_improvements": []
 }
