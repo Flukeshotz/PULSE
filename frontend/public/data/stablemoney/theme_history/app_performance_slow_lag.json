@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W36",
+    "name": "[Negative] App Performance (Slow & Lag)",
+    "description": "Users consistently report that the application hangs, lags, and runs extremely slowly, leading to frequent freezes and crashes. The sluggishness occurs across multiple devices and usage scenarios, affecting core functionalities such as login, navigation, and data entry.",
+    "mentions_count": 29,
+    "priority_score": 30,
+    "average_rating": 1.52,
+    "confidence_score": 0.7
+  }
+]

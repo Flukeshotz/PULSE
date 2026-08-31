@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W36",
+    "name": "[Negative] Payment & Account Activation Failures",
+    "description": "Users repeatedly report that adding funds, withdrawing money, or activating their trading account fails or remains pending, causing frustration.",
+    "mentions_count": 42,
+    "priority_score": 36,
+    "average_rating": 1.4,
+    "confidence_score": 0.73
+  }
+]

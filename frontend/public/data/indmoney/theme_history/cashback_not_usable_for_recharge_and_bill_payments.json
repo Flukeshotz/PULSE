@@ -16,5 +16,14 @@
     "priority_score": 33,
     "average_rating": 1.17,
     "confidence_score": 0.7
+  },
+  {
+    "iso_week": "2026-W36",
+    "name": "[Negative] Cashback Not Usable for Bill Payments",
+    "description": "Users are unable to apply the cashback they earn from bill payments or recharges to future bill or recharge transactions, as the app now restricts redemption exclusively to US stock purchases and has removed the option altogether.",
+    "mentions_count": 16,
+    "priority_score": 26,
+    "average_rating": 1.06,
+    "confidence_score": 0.65
   }
 ]

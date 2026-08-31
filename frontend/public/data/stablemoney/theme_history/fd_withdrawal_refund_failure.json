@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W36",
+    "name": "[Negative] FD Withdrawal & Refund Failure",
+    "description": "Customers report that their Fixed Deposit (FD) withdrawals or maturity refunds are not credited to their bank accounts, even though the app indicates successful completion. Several users also complain that withdrawals occur without consent, and app records are inaccurate.",
+    "mentions_count": 18,
+    "priority_score": 25,
+    "average_rating": 1.39,
+    "confidence_score": 0.66
+  }
+]

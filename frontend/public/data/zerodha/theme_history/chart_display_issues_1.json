@@ -25,5 +25,14 @@
     "priority_score": 28,
     "average_rating": 2.08,
     "confidence_score": 0.72
+  },
+  {
+    "iso_week": "2026-W36",
+    "name": "[Negative] Chart Rendering Failures",
+    "description": "Users consistently report that charts fail to load, freeze, or display errors across the app, causing delayed or missing market data when opening or refreshing charts.",
+    "mentions_count": 47,
+    "priority_score": 30,
+    "average_rating": 2.15,
+    "confidence_score": 0.74
   }
 ]

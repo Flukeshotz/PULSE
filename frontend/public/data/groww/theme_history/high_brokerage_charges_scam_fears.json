@@ -25,5 +25,14 @@
     "priority_score": 36,
     "average_rating": 1.08,
     "confidence_score": 0.71
+  },
+  {
+    "iso_week": "2026-W36",
+    "name": "[Negative] Excessive Brokerage Fees",
+    "description": "Users report that Groww\u2019s per\u2011order brokerage and related charges are unexpectedly high, leading to significant loss of profits, especially for small\u2011value trades. The company\u2019s marketing promises zero brokerage for active traders, but statements reveal thousands of rupees in brokerage fees per transaction.",
+    "mentions_count": 29,
+    "priority_score": 34,
+    "average_rating": 1.03,
+    "confidence_score": 0.7
   }
 ]

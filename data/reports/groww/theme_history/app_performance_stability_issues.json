@@ -7,5 +7,14 @@
     "priority_score": 43,
     "average_rating": 1.42,
     "confidence_score": 0.77
+  },
+  {
+    "iso_week": "2026-W36",
+    "name": "[Negative] App Stability & Functionality Issues",
+    "description": "Users report that the app is consistently unresponsive, crashes, freezes, and provides no useful functionality, leading to frustration and abandonment.",
+    "mentions_count": 65,
+    "priority_score": 44,
+    "average_rating": 1.21,
+    "confidence_score": 0.76
   }
 ]

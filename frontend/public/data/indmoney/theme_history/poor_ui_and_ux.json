@@ -52,5 +52,14 @@
     "priority_score": 39,
     "average_rating": 1.11,
     "confidence_score": 0.73
+  },
+  {
+    "iso_week": "2026-W36",
+    "name": "[Negative] Poor Customer Support",
+    "description": "Users repeatedly report that customer support is unresponsive, rude, and unavailable through any direct channel, leading to unresolved issues and frustration.",
+    "mentions_count": 22,
+    "priority_score": 25,
+    "average_rating": 1.68,
+    "confidence_score": 0.67
   }
 ]

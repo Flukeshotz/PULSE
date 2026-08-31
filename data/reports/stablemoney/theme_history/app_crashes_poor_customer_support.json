@@ -16,5 +16,14 @@
     "priority_score": 24,
     "average_rating": 1.21,
     "confidence_score": 0.64
+  },
+  {
+    "iso_week": "2026-W36",
+    "name": "[Negative] Poor Customer Support",
+    "description": "Users report repeated failures to resolve issues, long wait times, lack of response, and unhelpful interactions, leading to a perception that the support team is ineffective and untrustworthy.",
+    "mentions_count": 16,
+    "priority_score": 26,
+    "average_rating": 1.06,
+    "confidence_score": 0.65
   }
 ]

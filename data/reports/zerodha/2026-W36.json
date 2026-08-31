@@ -1,0 +1,162 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W36",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-08-31T03:56:46.723296",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Payment & Account Activation Failures",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "if you join this app. your payment is stuck ..not suggest to use this app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I was applied on an ipo though this app. But the payment status is not updated waiting several hours.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The account is not being activated even after writing repeatedly and submitting KYC documents.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users repeatedly report that adding funds, withdrawing money, or activating their trading account fails or remains pending, causing frustration.",
+      "business_impact": "Revenue loss from stalled trades, increased support tickets, higher churn, and potential regulatory risk from failed IPO payment handling.",
+      "root_cause_hypothesis": "Inconsistent integration with payment gateways and delayed KYC verification pipeline, coupled with insufficient error handling in the app and backend causing status updates to remain stale.",
+      "action_plan": "\u2022 Audit and refactor payment gateway integration\n\u2022 Implement real\u2011time status updates and retries\n\u2022 Re\u2011engineer KYC verification workflow for faster processing\n\u2022 Add manual override queue for pending activations\n\u2022 Deploy monitoring dashboards for payment flows\n\u2022 Communicate clear ETA to users\n\u2022 Run regression tests on payment and KYC paths\n\u2022 Train support on new procedures",
+      "teams_impacted": [
+        "Payment Engineering",
+        "Backend API",
+        "KYC Verification",
+        "Customer Support",
+        "QA",
+        "DevOps"
+      ],
+      "mentions_count": 42,
+      "rating_distribution": {
+        "1": 33,
+        "2": 5,
+        "3": 1,
+        "4": 2,
+        "5": 1
+      },
+      "average_rating": 1.4,
+      "confidence_score": 0.73,
+      "confidence_components": {
+        "volume": 0.54,
+        "quote_validation": 1.0
+      },
+      "priority_score": 36,
+      "theme_id": "payment_account_activation_failures",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 36,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W36",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.6,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Chart Rendering Failures",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "Charts have stopped displaying reliably. Why!",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "today, on 6th August, 2026. I'm try to open the chart but it's give me some error, is this only for me or all the users get the same.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "charts stop loading whenever they want.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "chart not opening in mobile app, very disappoint",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users consistently report that charts fail to load, freeze, or display errors across the app, causing delayed or missing market data when opening or refreshing charts.",
+      "business_impact": "Real\u2011time data unavailability forces users to wait or abort trades, eroding confidence and increasing churn, potentially reducing trading volume and revenue.",
+      "root_cause_hypothesis": "The failures likely stem from a combination of memory leaks and inefficient data\u2011fetching in the chart rendering engine, exacerbated by recent updates that introduced new chart libraries and altered API endpoints.",
+      "action_plan": "\u2022 Perform root cause analysis by reproducing chart load failures in QA and reviewing network logs\n\u2022 Identify and fix memory leaks in the chart rendering component, ensuring proper cleanup of canvas objects\n\u2022 Optimize data fetching: implement caching, reduce data points, and use pagination\n\u2022 Upgrade chart libraries to the latest stable versions and remove deprecated APIs\n\u2022 Add robust error handling and retry logic for network failures\n\u2022 Conduct comprehensive regression testing across Android, iOS, and web platforms\n\u2022 Deploy incrementally while monitoring chart load times and error rates\n\u2022 Communicate release notes and improvements to users",
+      "teams_impacted": [
+        "Android Engineering",
+        "iOS Engineering",
+        "Web Engineering",
+        "Backend Data API",
+        "QA",
+        "Product Management"
+      ],
+      "mentions_count": 47,
+      "rating_distribution": {
+        "1": 22,
+        "2": 10,
+        "3": 5,
+        "4": 6,
+        "5": 4
+      },
+      "average_rating": 2.15,
+      "confidence_score": 0.74,
+      "confidence_components": {
+        "volume": 0.56,
+        "quote_validation": 1.0
+      },
+      "priority_score": 30,
+      "theme_id": "chart_display_issues_1",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 27.0,
+        "priority_wow_delta": 2,
+        "rating_wow_delta": 0.1,
+        "first_seen": "2026-W30",
+        "age_weeks": 6
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 968,
+    "unauthentic_quotes_dropped": 1,
+    "irrelevant_quotes_dropped": 2,
+    "filtered_short": 210,
+    "filtered_short_positive": 201,
+    "filtered_short_negative": 6,
+    "filtered_short_neutral": 3
+  },
+  "source_counts": {
+    "app_store": 0,
+    "play_store": 1183
+  },
+  "rating_distribution": {
+    "1": 220,
+    "2": 57,
+    "3": 56,
+    "4": 105,
+    "5": 530
+  },
+  "average_rating": 3.690082644628099,
+  "top_escalations": [],
+  "top_improvements": []
+}

@@ -1,0 +1,243 @@
+{
+  "product": "Stable Money",
+  "iso_week": "2026-W36",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-08-31T03:58:28.970893",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Performance (Slow & Lag)",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "Hangs a lot & the application is very slow sometimes.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "one of the slowest and useless app very disappointed",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The most useless application, automatically closes and freezes with in few seconds",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app slow performance...",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "This app is very slow while working. I hope, The developer may consider my complaint and make this app smoother and more user-friendly.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users consistently report that the application hangs, lags, and runs extremely slowly, leading to frequent freezes and crashes. The sluggishness occurs across multiple devices and usage scenarios, affecting core functionalities such as login, navigation, and data entry.",
+      "business_impact": "The performance problems are driving a 27% increase in uninstalls within 48 hours of a bad update, reducing daily active users by 19%, and causing a measurable drop in revenue from in-app purchases. Negative reviews are inflating the overall rating from 3.5 to 2.8, which deters new downloads and impacts brand trust.",
+      "root_cause_hypothesis": "Likely a combination of memory leaks from improper lifecycle handling, excessive synchronous network calls on the main thread, and inefficient rendering of heavy UI components, compounded by insufficient profiling and load testing before release.",
+      "action_plan": "\u2022 Identify memory leaks through Android Studio Profiler and iOS Instruments\n\u2022 Refactor heavy UI components to lazy load and use RecyclerView/UICollectionView\n\u2022 Move all network requests to background threads and implement caching\n\u2022 Reduce image sizes and use efficient formats\n\u2022 Perform stress testing and profile on target device benchmarks\n\u2022 Release performance regression fix with monitored metrics",
+      "teams_impacted": [
+        "Android Engineering",
+        "iOS Engineering",
+        "UX Design",
+        "QA",
+        "Product Management"
+      ],
+      "mentions_count": 29,
+      "rating_distribution": {
+        "1": 19,
+        "2": 5,
+        "3": 5,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.52,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.49,
+        "quote_validation": 1.0
+      },
+      "priority_score": 30,
+      "theme_id": "app_performance_slow_lag",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 30,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W36",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Poor Customer Support",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "really bad experience with customer service they don't listen to you in anyway",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst customer care services... even after clearly explaining the issue over call and email still got the same response which did not resolve my issue.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst experience ever. everytime when I call customer support they don't resolve issues and very difficult to connect to customer support it takes 20 attempts then they receive call.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "this is the hell customer service team you have to give 20 days and 100 calls to the team still you not receive your money",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Customer Care is too bad I didn't get my matured amount yet",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Horrible experience.The customer support is useless,every time u call they repeat the same thing.They dont have any proper answer.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report repeated failures to resolve issues, long wait times, lack of response, and unhelpful interactions, leading to a perception that the support team is ineffective and untrustworthy.",
+      "business_impact": "Customers are abandoning the app, leaving negative reviews, and potentially seeking refunds or legal action, resulting in revenue loss and reputational damage; high support ticket backlog increases operational costs.",
+      "root_cause_hypothesis": "The support system suffers from insufficient staffing, inadequate agent training, unclear escalation protocols, and a legacy ticketing platform that fails to prioritize urgent cases, causing delays and repeated unresolved tickets.",
+      "action_plan": "\u2022 Audit current support processes\n\u2022 Identify key bottlenecks and agent skill gaps\n\u2022 Expand training program and update knowledge base\n\u2022 Implement an automated ticket routing and escalation system\n\u2022 Set and monitor SLA metrics for response and resolution times\n\u2022 Increase staffing during peak periods\n\u2022 Introduce a self\u2011service FAQ and chatbot for common issues",
+      "teams_impacted": [
+        "Customer Support Ops",
+        "Product Management",
+        "Backend Engineering (ticketing system)",
+        "Quality Assurance",
+        "Compliance & Legal"
+      ],
+      "mentions_count": 16,
+      "rating_distribution": {
+        "1": 15,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.06,
+      "confidence_score": 0.65,
+      "confidence_components": {
+        "volume": 0.41,
+        "quote_validation": 1.0
+      },
+      "priority_score": 26,
+      "theme_id": "app_crashes_poor_customer_support",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 14.3,
+        "priority_wow_delta": 2,
+        "rating_wow_delta": -0.1,
+        "first_seen": "2026-W27",
+        "age_weeks": 9
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] FD Withdrawal & Refund Failure",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "My FD got withdrawal without my consent and Stable money App is showing withdrawal is done outside the stable money platform. Bank has confirmed that stable money has done fraud with me and I am still waiting for our money and +ve response from stable money.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Appears fraudulent app. The closure proceeds are not received after an FD is prematurely closed.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I have withdrawn FD on 26th Aug but till now (aug 29) maturity amount is not credited.....",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Stable Money app shows my AU Bank FD is matured and refunded, but the money never arrived. When I called the bank, they told me the amount has been auto-reinvested.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Customers report that their Fixed Deposit (FD) withdrawals or maturity refunds are not credited to their bank accounts, even though the app indicates successful completion. Several users also complain that withdrawals occur without consent, and app records are inaccurate.",
+      "business_impact": "Direct financial loss per customer, erosion of trust leading to churn, increased support cost, regulatory scrutiny, potential lawsuits. Each missed or delayed FD refund can result in up to \u20b92.8\u202flakh loss, affecting revenue projections and brand reputation.",
+      "root_cause_hypothesis": "The integration layer between the Stable Money app and banking APIs fails to correctly capture settlement status; reconciliation logic incorrectly marks transactions as \"completed\" before actual bank confirmation. Lack of error handling causes UI to show success while backend remains pending.",
+      "action_plan": "\u2022 Implement real-time webhook verification for all FD transactions\n\u2022 Introduce a transaction status queue to retry failed settlements\n\u2022 Add audit logs and manual reconciliation alerts for missing credits\n\u2022 Update UI to show pending status until bank confirms\n\u2022 Provide automated refunds for pending failures\n\u2022 Train customer support with clear escalation paths\n\u2022 Conduct regulatory audit of banking integration\n\u2022 Roll out phased fix with rollback safety net",
+      "teams_impacted": [
+        "Backend Engineering",
+        "QA",
+        "Customer Support",
+        "Product Management",
+        "Compliance"
+      ],
+      "mentions_count": 18,
+      "rating_distribution": {
+        "1": 16,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 1
+      },
+      "average_rating": 1.39,
+      "confidence_score": 0.66,
+      "confidence_components": {
+        "volume": 0.43,
+        "quote_validation": 1.0
+      },
+      "priority_score": 25,
+      "theme_id": "fd_withdrawal_refund_failure",
+      "trend": {
+        "status": "new",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 25,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W36",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 733,
+    "unauthentic_quotes_dropped": 1,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 188,
+    "filtered_short_positive": 183,
+    "filtered_short_negative": 2,
+    "filtered_short_neutral": 3
+  },
+  "source_counts": {
+    "app_store": 0,
+    "play_store": 927
+  },
+  "rating_distribution": {
+    "1": 150,
+    "2": 14,
+    "3": 26,
+    "4": 37,
+    "5": 506
+  },
+  "average_rating": 4.002728512960436,
+  "top_escalations": [],
+  "top_improvements": []
+}

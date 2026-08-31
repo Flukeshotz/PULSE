@@ -7,5 +7,14 @@
     "priority_score": 24,
     "average_rating": 2.17,
     "confidence_score": 0.7
+  },
+  {
+    "iso_week": "2026-W36",
+    "name": "[Negative] US Market Bank Account Restrictions",
+    "description": "Users report that the app only supports a limited set of private\u2011sector banks for US market investing, excludes PSU banks, and has raised the minimum investment amount for certain banks. These constraints prevent many customers from opening or funding US stock positions, causing frustration and loss of investment opportunities.",
+    "mentions_count": 37,
+    "priority_score": 15,
+    "average_rating": 3.43,
+    "confidence_score": 0.72
   }
 ]

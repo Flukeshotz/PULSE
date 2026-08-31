@@ -1,0 +1,376 @@
+{
+  "product": "INDMoney",
+  "iso_week": "2026-W36",
+  "period_label": "Last 8 weeks",
+  "generated_at": "2026-08-31T03:48:39.067313",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Cashback Not Usable for Bill Payments",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "no use of cashback forcefully asking to create a us stock account which is terrible...before we used to claim cashback for recharge",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "unable to use cashback for credit card bill payment. they suddenly limited usage of cashback for us stocks purchase which is not the use case for all users. now no use of this app at all.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "no able to use cashback and not able to earn any cashback during bill payment, very complex app to use cashback, already lost money in bill payments but not got any cashback",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Cheater company you cannot Utilise your Cashback reward for payment of your Bills or Recharge",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "They remove the option to use cashback as bill payment.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users are unable to apply the cashback they earn from bill payments or recharges to future bill or recharge transactions, as the app now restricts redemption exclusively to US stock purchases and has removed the option altogether.",
+      "business_impact": "Users lose expected savings on bill payments, leading to frustration and decreased engagement with the bill\u2011payment feature; potential churn and negative word\u2011of\u2011mouth damage to the brand\u2019s reputation for transparent rewards.",
+      "root_cause_hypothesis": "A recent policy shift or regulatory requirement has confined cashback redemption to US stock investments, coupled with a UI bug that removed the redemption option from bill payment screens, causing users to be unable to use earned rewards.",
+      "action_plan": "\u2022 1) Reassess the cashback redemption policy and restore flexibility for bill and recharge payments; 2) Update backend to allow cashback use across all eligible transactions; 3) Fix the UI to reinstate the redemption toggle in bill payment flows; 4) Communicate the policy change clearly via in\u2011app banner, email, and FAQ; 5) Offer compensatory credit to affected users and monitor redemption metrics; 6) Coordinate with legal to ensure compliance with any regulatory constraints; 7) Release a patch and notify users of the fix.",
+      "teams_impacted": [
+        "Product Management",
+        "Engineering",
+        "UX Design",
+        "Legal/Compliance",
+        "Customer Support"
+      ],
+      "mentions_count": 16,
+      "rating_distribution": {
+        "1": 15,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.06,
+      "confidence_score": 0.65,
+      "confidence_components": {
+        "volume": 0.41,
+        "quote_validation": 1.0
+      },
+      "priority_score": 26,
+      "theme_id": "cashback_not_usable_for_recharge_and_bill_payments",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -44.8,
+        "priority_wow_delta": -7,
+        "rating_wow_delta": -0.1,
+        "first_seen": "2026-W30",
+        "age_weeks": 6
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Poor Customer Support",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "Customer support lady was so rude and disrespectful, she didn't even mention sorry for the inconvenience",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "they will not talk ,cut the call...only chat give",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "There is no proper customer care support. If a transaction issue occurs, your complaint may not be heard or resolved.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Chat bot is not up to the mark, it's of no use, not able to raise ticket with it.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "you don't have a customer care number and even not able to speak.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users repeatedly report that customer support is unresponsive, rude, and unavailable through any direct channel, leading to unresolved issues and frustration.",
+      "business_impact": "Delayed resolution of trade, withdrawal, and support tickets directly reduces user trust, increases churn, and risks regulatory scrutiny for non\u2011compliance with investor protection norms.",
+      "root_cause_hypothesis": "Limited support staffing combined with an overreliance on a generic chatbot and lack of a clear escalation path causes delays and negative interactions.",
+      "action_plan": "\u2022 Hire dedicated support agents and define SLA targets\n\u2022 Implement a multi\u2011channel support portal with ticketing and live chat\n\u2022 Train agents on empathy, SOP, and product knowledge\n\u2022 Integrate a phone line with real\u2011time callback option\n\u2022 Monitor CSAT and iterate on workflows\n\u2022 Deploy chatbot only for FAQs and route complex queries to agents\n\u2022 Conduct quarterly review of support metrics",
+      "teams_impacted": [
+        "Support Operations",
+        "Product Support",
+        "Engineering (Backend)",
+        "UX Design"
+      ],
+      "mentions_count": 22,
+      "rating_distribution": {
+        "1": 14,
+        "2": 4,
+        "3": 1,
+        "4": 3,
+        "5": 0
+      },
+      "average_rating": 1.68,
+      "confidence_score": 0.67,
+      "confidence_components": {
+        "volume": 0.45,
+        "quote_validation": 1.0
+      },
+      "priority_score": 25,
+      "theme_id": "poor_ui_and_ux",
+      "trend": {
+        "status": "improving",
+        "mentions_wow_pct": -51.1,
+        "priority_wow_delta": -14,
+        "rating_wow_delta": 0.6,
+        "first_seen": "2026-W24",
+        "age_weeks": 12
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] US Market Bank Account Restrictions",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "This app does not allow all types of bank accounts for investing.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "plz add sbi bank account for us Market, everyone waiting for that ,thank you, nice application",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "It\u2019s disappointing to see that the minimum amount for US stock investments through HDFC Bank has increased from \u20b95,000 to \u20b99,000.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I have recently open an account for investment in the US market when I tried to add fund it showing that there are four private sector banks available to add fund no any PSB banks appearing to add fund that means investors should have bank account in private sector bank if anybody have account in PSB banks .they can't add fund to invest in us market. there should be an option for psu banks also so that investors can add fund for the same.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Kindly Add UPI or more bank to add fund in US stocks buy",
+          "source": "play_store",
+          "rating": 4.0
+        }
+      ],
+      "description": "Users report that the app only supports a limited set of private\u2011sector banks for US market investing, excludes PSU banks, and has raised the minimum investment amount for certain banks. These constraints prevent many customers from opening or funding US stock positions, causing frustration and loss of investment opportunities.",
+      "business_impact": "A restricted bank\u2011account network for US trading directly reduces the app\u2019s revenue potential from US market commissions, increases churn among users who seek broader bank options, and erodes trust in the platform\u2019s claim of being a comprehensive investing solution.",
+      "root_cause_hypothesis": "The app\u2019s US\u2011market module currently interfaces with a narrow set of bank APIs approved by the brokerage partner; recent regulatory or partner\u2011policy changes have tightened account eligibility and minimum balances, and the backend has not been updated to include PSU banks or lower thresholds.",
+      "action_plan": "\u2022 1. Conduct a partner audit to list all banks eligible for US investing; 2. Negotiate inclusion of PSU banks and lower minimums with brokerage and banking partners; 3. Update the backend API to accept these new bank accounts and validate balances; 4. Update the UI to clearly display supported banks and any minimum requirements; 5. Perform end\u2011to\u2011end testing for each new bank; 6. Launch a targeted communication campaign explaining the added banks and changes; 7. Monitor support tickets for remaining bank\u2011related complaints and iterate.",
+      "teams_impacted": [
+        "Partner Integration",
+        "Backend Engineering",
+        "UX Design",
+        "Compliance"
+      ],
+      "mentions_count": 37,
+      "rating_distribution": {
+        "1": 6,
+        "2": 3,
+        "3": 6,
+        "4": 13,
+        "5": 9
+      },
+      "average_rating": 3.43,
+      "confidence_score": 0.72,
+      "confidence_components": {
+        "volume": 0.53,
+        "quote_validation": 1.0
+      },
+      "priority_score": 15,
+      "theme_id": "banking_option_limitations",
+      "trend": {
+        "status": "improving",
+        "mentions_wow_pct": 27.6,
+        "priority_wow_delta": -9,
+        "rating_wow_delta": 1.3,
+        "first_seen": "2026-W30",
+        "age_weeks": 6
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 542,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 246,
+    "filtered_short_positive": 226,
+    "filtered_short_negative": 6,
+    "filtered_short_neutral": 14
+  },
+  "source_counts": {
+    "app_store": 0,
+    "play_store": 796
+  },
+  "rating_distribution": {
+    "1": 125,
+    "2": 26,
+    "3": 28,
+    "4": 73,
+    "5": 290
+  },
+  "average_rating": 3.695571955719557,
+  "top_escalations": [],
+  "top_improvements": [
+    {
+      "name": "[Negative] Poor Customer Support",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "Customer support lady was so rude and disrespectful, she didn't even mention sorry for the inconvenience",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "they will not talk ,cut the call...only chat give",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "There is no proper customer care support. If a transaction issue occurs, your complaint may not be heard or resolved.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Chat bot is not up to the mark, it's of no use, not able to raise ticket with it.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "you don't have a customer care number and even not able to speak.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users repeatedly report that customer support is unresponsive, rude, and unavailable through any direct channel, leading to unresolved issues and frustration.",
+      "business_impact": "Delayed resolution of trade, withdrawal, and support tickets directly reduces user trust, increases churn, and risks regulatory scrutiny for non\u2011compliance with investor protection norms.",
+      "root_cause_hypothesis": "Limited support staffing combined with an overreliance on a generic chatbot and lack of a clear escalation path causes delays and negative interactions.",
+      "action_plan": "\u2022 Hire dedicated support agents and define SLA targets\n\u2022 Implement a multi\u2011channel support portal with ticketing and live chat\n\u2022 Train agents on empathy, SOP, and product knowledge\n\u2022 Integrate a phone line with real\u2011time callback option\n\u2022 Monitor CSAT and iterate on workflows\n\u2022 Deploy chatbot only for FAQs and route complex queries to agents\n\u2022 Conduct quarterly review of support metrics",
+      "teams_impacted": [
+        "Support Operations",
+        "Product Support",
+        "Engineering (Backend)",
+        "UX Design"
+      ],
+      "mentions_count": 22,
+      "rating_distribution": {
+        "1": 14,
+        "2": 4,
+        "3": 1,
+        "4": 3,
+        "5": 0
+      },
+      "average_rating": 1.68,
+      "confidence_score": 0.67,
+      "confidence_components": {
+        "volume": 0.45,
+        "quote_validation": 1.0
+      },
+      "priority_score": 25,
+      "theme_id": "poor_ui_and_ux",
+      "trend": {
+        "status": "improving",
+        "mentions_wow_pct": -51.1,
+        "priority_wow_delta": -14,
+        "rating_wow_delta": 0.6,
+        "first_seen": "2026-W24",
+        "age_weeks": 12
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] US Market Bank Account Restrictions",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "This app does not allow all types of bank accounts for investing.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "plz add sbi bank account for us Market, everyone waiting for that ,thank you, nice application",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "It\u2019s disappointing to see that the minimum amount for US stock investments through HDFC Bank has increased from \u20b95,000 to \u20b99,000.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I have recently open an account for investment in the US market when I tried to add fund it showing that there are four private sector banks available to add fund no any PSB banks appearing to add fund that means investors should have bank account in private sector bank if anybody have account in PSB banks .they can't add fund to invest in us market. there should be an option for psu banks also so that investors can add fund for the same.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Kindly Add UPI or more bank to add fund in US stocks buy",
+          "source": "play_store",
+          "rating": 4.0
+        }
+      ],
+      "description": "Users report that the app only supports a limited set of private\u2011sector banks for US market investing, excludes PSU banks, and has raised the minimum investment amount for certain banks. These constraints prevent many customers from opening or funding US stock positions, causing frustration and loss of investment opportunities.",
+      "business_impact": "A restricted bank\u2011account network for US trading directly reduces the app\u2019s revenue potential from US market commissions, increases churn among users who seek broader bank options, and erodes trust in the platform\u2019s claim of being a comprehensive investing solution.",
+      "root_cause_hypothesis": "The app\u2019s US\u2011market module currently interfaces with a narrow set of bank APIs approved by the brokerage partner; recent regulatory or partner\u2011policy changes have tightened account eligibility and minimum balances, and the backend has not been updated to include PSU banks or lower thresholds.",
+      "action_plan": "\u2022 1. Conduct a partner audit to list all banks eligible for US investing; 2. Negotiate inclusion of PSU banks and lower minimums with brokerage and banking partners; 3. Update the backend API to accept these new bank accounts and validate balances; 4. Update the UI to clearly display supported banks and any minimum requirements; 5. Perform end\u2011to\u2011end testing for each new bank; 6. Launch a targeted communication campaign explaining the added banks and changes; 7. Monitor support tickets for remaining bank\u2011related complaints and iterate.",
+      "teams_impacted": [
+        "Partner Integration",
+        "Backend Engineering",
+        "UX Design",
+        "Compliance"
+      ],
+      "mentions_count": 37,
+      "rating_distribution": {
+        "1": 6,
+        "2": 3,
+        "3": 6,
+        "4": 13,
+        "5": 9
+      },
+      "average_rating": 3.43,
+      "confidence_score": 0.72,
+      "confidence_components": {
+        "volume": 0.53,
+        "quote_validation": 1.0
+      },
+      "priority_score": 15,
+      "theme_id": "banking_option_limitations",
+      "trend": {
+        "status": "improving",
+        "mentions_wow_pct": 27.6,
+        "priority_wow_delta": -9,
+        "rating_wow_delta": 1.3,
+        "first_seen": "2026-W30",
+        "age_weeks": 6
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ]
+}
