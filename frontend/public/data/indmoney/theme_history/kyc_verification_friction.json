@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W37",
+    "name": "[Negative] KYC Verification Friction",
+    "description": "Users experience repeated, confusing, or failed eKYC verification, requiring multiple uploads, inconsistent matching, and lack of clear resolution, leading to frustration and abandonment.",
+    "mentions_count": 20,
+    "priority_score": 23,
+    "average_rating": 1.9,
+    "confidence_score": 0.66
+  }
+]

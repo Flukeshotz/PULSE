@@ -7,5 +7,14 @@
     "priority_score": 34,
     "average_rating": 2.23,
     "confidence_score": 0.78
+  },
+  {
+    "iso_week": "2026-W37",
+    "name": "[Negative] Poor Customer Support and Response",
+    "description": "Users consistently report that Zerodha\u2019s customer support is unavailable, slow, and unresponsive across multiple channels, causing unresolved issues such as delayed fund credits and missed trades.",
+    "mentions_count": 21,
+    "priority_score": 26,
+    "average_rating": 1.57,
+    "confidence_score": 0.67
   }
 ]

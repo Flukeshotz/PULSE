@@ -25,5 +25,14 @@
     "priority_score": 26,
     "average_rating": 1.06,
     "confidence_score": 0.65
+  },
+  {
+    "iso_week": "2026-W37",
+    "name": "[Negative] Poor Customer Support",
+    "description": "Users consistently report that customer support is unresponsive, unhelpful, and sometimes non-existent, leading to frustration over unresolved issues and delays in refunds or withdrawals.",
+    "mentions_count": 53,
+    "priority_score": 42,
+    "average_rating": 1.1,
+    "confidence_score": 0.75
   }
 ]

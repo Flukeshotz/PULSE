@@ -25,5 +25,14 @@
     "priority_score": 26,
     "average_rating": 1.06,
     "confidence_score": 0.65
+  },
+  {
+    "iso_week": "2026-W37",
+    "name": "[Negative] Cashback Not Usable for Bill Payments",
+    "description": "Users consistently report that cashback earned from bill payments is not redeemable for bill payments or recharges, instead it is redirected to US stocks investments or locked in a separate rewards account. This misalignment between promised cashback utility and actual redemption options causes confusion, dissatisfaction, and perceived fraud.",
+    "mentions_count": 17,
+    "priority_score": 25,
+    "average_rating": 1.35,
+    "confidence_score": 0.65
   }
 ]

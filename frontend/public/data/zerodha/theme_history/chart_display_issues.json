@@ -25,5 +25,14 @@
     "priority_score": 23,
     "average_rating": 2.49,
     "confidence_score": 0.71
+  },
+  {
+    "iso_week": "2026-W37",
+    "name": "[Negative] Charts Not Loading",
+    "description": "Users report that stock charts either never load, load blank, or load extremely slowly, often requiring multiple attempts or app restarts before appearing correctly. This issue spans multiple recent updates and affects all chart types (e.g., YTD, monthly, yearly).",
+    "mentions_count": 27,
+    "priority_score": 23,
+    "average_rating": 2.22,
+    "confidence_score": 0.69
   }
 ]

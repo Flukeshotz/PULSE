@@ -7,5 +7,14 @@
     "priority_score": 35,
     "average_rating": 1.68,
     "confidence_score": 0.74
+  },
+  {
+    "iso_week": "2026-W37",
+    "name": "[Negative] App Performance & Stability",
+    "description": "Users repeatedly report that the trading app is sluggish, freezes, and sometimes fails to open or load content, indicating significant performance and stability issues.",
+    "mentions_count": 20,
+    "priority_score": 26,
+    "average_rating": 1.45,
+    "confidence_score": 0.66
   }
 ]

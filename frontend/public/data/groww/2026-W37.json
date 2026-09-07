@@ -1,0 +1,317 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W37",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-09-07T03:05:19.261330",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Instability & Crashes",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "please don't installation this application, application crashed many time",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "This app is getting worst day by day... Can't even place my SL now",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "stupid app keeps glitching",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app tbh it freezes every single time whenever I open it and even after reinstalling",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users repeatedly report that the app crashes, freezes, and glitches, making it unusable for trading tasks such as placing stop\u2011loss orders and accessing features.",
+      "business_impact": "High probability of user churn, loss of daily trading volume, reputational damage in the brokerage market, and potential financial losses for users due to missed trades.",
+      "root_cause_hypothesis": "Inadequate error handling, memory leaks, and unstable third\u2011party library integrations lead to frequent crashes and freezes during launch and operation.",
+      "action_plan": "\u2022 Conduct crash analytics review and identify top crash logs\n\u2022 Rebuild critical modules with robust exception handling and memory optimization\n\u2022 Implement automated testing for crash scenarios\n\u2022 Roll out incremental OTA updates; monitor crash rates\n\u2022 Communicate transparently with users, offering temporary workarounds",
+      "teams_impacted": [
+        "Android Eng",
+        "iOS Eng",
+        "QA",
+        "DevOps",
+        "UX Design",
+        "Product Management"
+      ],
+      "mentions_count": 29,
+      "rating_distribution": {
+        "1": 26,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 1
+      },
+      "average_rating": 1.28,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.49,
+        "quote_validation": 1.0
+      },
+      "priority_score": 32,
+      "theme_id": "app_inefficiency_losses",
+      "trend": {
+        "status": "improving",
+        "mentions_wow_pct": -70.7,
+        "priority_wow_delta": -20,
+        "rating_wow_delta": 0.2,
+        "first_seen": "2026-W24",
+        "age_weeks": 13
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] High Brokerage Charges",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "high commission taking",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "brokerage charges very high \ud83d\ude41\ud83d\udc4e",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Too much brokerage,but it's good",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "brokerage charges very high in beginner trader \ud83e\udd0c\ud83d\udcb8",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "High brokerage, average app experience",
+          "source": "app_store",
+          "rating": 3.0
+        },
+        {
+          "text": "brokerage charges are more than net profits earned",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Very High brokerage charges 1 F&O ORDER Pe \u20b971, 20+20+31 not recommended",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "this aap has lot of charges they charged me 120rs for only one trade",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users consistently report that the brokerage fees are excessively high compared to competitors, leading to dissatisfaction and loss of trust.",
+      "business_impact": "Customers are switching to cheaper brokers (e.g., Zerodha), resulting in reduced trading volume, lower transaction revenue, and increased churn for high\u2011frequency traders.",
+      "root_cause_hypothesis": "The current fee structure is not aligned with market rates and may include hidden or excessive per\u2011transaction charges, leading to a perception of unfairness and lack of transparency.",
+      "action_plan": "\u2022 Benchmark current fees against top competitors\n\u2022 Redesign fee schedule to offer tiered or volume\u2011based discounts\n\u2022 Remove or reduce hidden fees (e.g., external charges)\n\u2022 Communicate fee changes clearly through in\u2011app messaging and support docs\n\u2022 Pilot new pricing with a subset of users and measure impact on trade activity and churn\n\u2022 Roll out across all users and monitor key metrics",
+      "teams_impacted": [
+        "Pricing & Revenue",
+        "Product Management",
+        "Engineering (Backend & APIs)",
+        "Customer Support",
+        "Finance",
+        "Marketing"
+      ],
+      "mentions_count": 72,
+      "rating_distribution": {
+        "1": 29,
+        "2": 9,
+        "3": 13,
+        "4": 8,
+        "5": 13
+      },
+      "average_rating": 2.54,
+      "confidence_score": 0.77,
+      "confidence_components": {
+        "volume": 0.62,
+        "quote_validation": 1.0
+      },
+      "priority_score": 29,
+      "theme_id": "high_brokerage_charges",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 56.5,
+        "priority_wow_delta": 3,
+        "rating_wow_delta": 0.1,
+        "first_seen": "2026-W24",
+        "age_weeks": 13
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Partially Supported"
+    },
+    {
+      "name": "[Negative] Chart Performance & Load Time Issues",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "chart is not working smoothly",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "chart delay",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "serious lagging issues nowadays...chart not refreshing \ud83d\ude15",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "charts are not opening properly",
+          "source": "play_store",
+          "rating": 2.0
+        }
+      ],
+      "description": "Users repeatedly report that charts fail to load, become laggy, or do not refresh, especially on mobile devices during live market hours.",
+      "business_impact": "Critical trading users experience delayed price information, which can lead to missed opportunities, reduced trade volume, and higher churn among professional traders who rely on real-time data.",
+      "root_cause_hypothesis": "The charting stack is overfetching complete datasets and rendering them with a non-virtualized JavaScript chart library, causing high memory usage and slow DOM updates; backend APIs may lack pagination or compression, and network latency is not mitigated by CDN caching.",
+      "action_plan": "\u2022 Profile client-side rendering to identify heavy components\n\u2022 Optimize data fetching by paginating or incremental updates\n\u2022 Implement WebSocket or SSE for live updates\n\u2022 Reduce payload size through compression and field pruning\n\u2022 Enable aggressive caching with proper cache headers\n\u2022 Refactor chart rendering to use a GPU-accelerated native or canvas library\n\u2022 Add performance thresholds and alerting\n\u2022 Perform A/B testing before full rollout",
+      "teams_impacted": [
+        "Android Engineering",
+        "iOS Engineering",
+        "Backend/API Engineering",
+        "UX Design",
+        "Product Management",
+        "QA"
+      ],
+      "mentions_count": 43,
+      "rating_distribution": {
+        "1": 20,
+        "2": 6,
+        "3": 6,
+        "4": 5,
+        "5": 6
+      },
+      "average_rating": 2.33,
+      "confidence_score": 0.73,
+      "confidence_components": {
+        "volume": 0.55,
+        "quote_validation": 1.0
+      },
+      "priority_score": 27,
+      "theme_id": "chart_performance_load_time_issues",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 27,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W37",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Partially Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 6926,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 2,
+    "filtered_short": 4929,
+    "filtered_short_positive": 4765,
+    "filtered_short_negative": 90,
+    "filtered_short_neutral": 74
+  },
+  "source_counts": {
+    "app_store": 450,
+    "play_store": 11633
+  },
+  "rating_distribution": {
+    "1": 1074,
+    "2": 171,
+    "3": 235,
+    "4": 499,
+    "5": 4947
+  },
+  "average_rating": 4.1657522379439795,
+  "top_escalations": [],
+  "top_improvements": [
+    {
+      "name": "[Negative] App Instability & Crashes",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "please don't installation this application, application crashed many time",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "This app is getting worst day by day... Can't even place my SL now",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "stupid app keeps glitching",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app tbh it freezes every single time whenever I open it and even after reinstalling",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users repeatedly report that the app crashes, freezes, and glitches, making it unusable for trading tasks such as placing stop\u2011loss orders and accessing features.",
+      "business_impact": "High probability of user churn, loss of daily trading volume, reputational damage in the brokerage market, and potential financial losses for users due to missed trades.",
+      "root_cause_hypothesis": "Inadequate error handling, memory leaks, and unstable third\u2011party library integrations lead to frequent crashes and freezes during launch and operation.",
+      "action_plan": "\u2022 Conduct crash analytics review and identify top crash logs\n\u2022 Rebuild critical modules with robust exception handling and memory optimization\n\u2022 Implement automated testing for crash scenarios\n\u2022 Roll out incremental OTA updates; monitor crash rates\n\u2022 Communicate transparently with users, offering temporary workarounds",
+      "teams_impacted": [
+        "Android Eng",
+        "iOS Eng",
+        "QA",
+        "DevOps",
+        "UX Design",
+        "Product Management"
+      ],
+      "mentions_count": 29,
+      "rating_distribution": {
+        "1": 26,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 1
+      },
+      "average_rating": 1.28,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.49,
+        "quote_validation": 1.0
+      },
+      "priority_score": 32,
+      "theme_id": "app_inefficiency_losses",
+      "trend": {
+        "status": "improving",
+        "mentions_wow_pct": -70.7,
+        "priority_wow_delta": -20,
+        "rating_wow_delta": 0.2,
+        "first_seen": "2026-W24",
+        "age_weeks": 13
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    }
+  ]
+}

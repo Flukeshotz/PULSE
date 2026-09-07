@@ -1,0 +1,243 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W37",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-09-07T03:07:08.947955",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Poor Customer Support and Response",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "Worst support when you need it the most. Today, I added funds to my account. The amount was debited from my bank account but was not credited to my Zerodha account.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Poor Customer care support. I added funds via upi method and they are claiming as they add instant fund to your demat account but after 30 minutes i have not received my funds in my demat account or not also received back to my back account it is likely stuck between, i am called to zerodha customer care but that is not connecting and i missed my good trade due to their poor fund adding service",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Customer service of Zerodha is very pathetic. Even after repeated requests for call back, they do not call back and you keep on waiting and waiting and waiting.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Zerodha has to improve its customer support if it has to grow. - No Email support, No WhatsApp support, no in app chat support or in website chat support. - No 24/7 call support. Just limited hours phone call support. - Ticket based support has delayed response, not helpful, highly inefficient.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Totally fraudulent app. The customer team has no knowledge of anything; everyone answers differently. They are just passing time. Even after 24 hours of ticket creation, they don't know what to do to solve the ticket.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users consistently report that Zerodha\u2019s customer support is unavailable, slow, and unresponsive across multiple channels, causing unresolved issues such as delayed fund credits and missed trades.",
+      "business_impact": "Loss of revenue from missed trades, increased churn due to frustration, negative brand perception, and potential regulatory scrutiny for inadequate dispute resolution.",
+      "root_cause_hypothesis": "The support infrastructure is overburdened and under\u2011staffed, lacking real\u2011time chat, email, and WhatsApp options, with no clear SLA, escalation, or automated ticket routing, leading to prolonged response times.",
+      "action_plan": "\u2022 Expand support staffing and define clear SLAs for response and resolution\n\u2022 Implement 24/7 live chat with an integrated knowledge base\n\u2022 Enable multi\u2011channel contacts (email, WhatsApp, in\u2011app chat)\n\u2022 Automate ticket routing and escalation workflows\n\u2022 Monitor support KPIs and conduct regular reviews\n\u2022 Provide comprehensive training on product and conflict resolution\n\u2022 Introduce a callback request system for high\u2011priority cases",
+      "teams_impacted": [
+        "Customer Support Operations",
+        "Engineering (Ticketing & Chat)",
+        "Product Management",
+        "Customer Success",
+        "Compliance"
+      ],
+      "mentions_count": 21,
+      "rating_distribution": {
+        "1": 16,
+        "2": 1,
+        "3": 2,
+        "4": 1,
+        "5": 1
+      },
+      "average_rating": 1.57,
+      "confidence_score": 0.67,
+      "confidence_components": {
+        "volume": 0.45,
+        "quote_validation": 1.0
+      },
+      "priority_score": 26,
+      "theme_id": "customer_support_failure",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -72.4,
+        "priority_wow_delta": -8,
+        "rating_wow_delta": -0.7,
+        "first_seen": "2026-W35",
+        "age_weeks": 2
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] App Performance & Stability",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "i have faces very bugs like slowling app in these days",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "redmi tap 2 pro 5g app not opening for 1st time",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "lag in the app,",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Not suitable very lagging app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Not working kindly fix it very very poor service app is not working",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users repeatedly report that the trading app is sluggish, freezes, and sometimes fails to open or load content, indicating significant performance and stability issues.",
+      "business_impact": "The app\u2019s instability is driving users to abandon the platform, leading to higher churn, a surge in support tickets, and a measurable drop in active trading volume on the app.",
+      "root_cause_hypothesis": "The symptoms point to inefficient rendering and memory handling\u2014potentially due to heavy DOM updates, unoptimized image loading, and background tasks that consume resources, coupled with slow or unreliable network requests on older device models.",
+      "action_plan": "\u2022 Profile and benchmark the app on target devices\n\u2022 Identify and refactor heavy UI rendering loops\n\u2022 Implement lazy loading and efficient image handling\n\u2022 Optimize network request patterns and add exponential back\u2011off for retries\n\u2022 Address identified memory leaks and reduce background service load\n\u2022 Conduct regression testing and user acceptance testing before release",
+      "teams_impacted": [
+        "Android Engineering",
+        "iOS Engineering",
+        "Backend/API",
+        "QA",
+        "Support"
+      ],
+      "mentions_count": 20,
+      "rating_distribution": {
+        "1": 16,
+        "2": 1,
+        "3": 2,
+        "4": 0,
+        "5": 1
+      },
+      "average_rating": 1.45,
+      "confidence_score": 0.66,
+      "confidence_components": {
+        "volume": 0.44,
+        "quote_validation": 1.0
+      },
+      "priority_score": 26,
+      "theme_id": "poor_app_performance",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -60.0,
+        "priority_wow_delta": -9,
+        "rating_wow_delta": -0.2,
+        "first_seen": "2026-W30",
+        "age_weeks": 7
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Charts Not Loading",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "always delaying in fetching charts and they show blank charts for sme stocks still the same",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Since few days I am opening the chart in the app but it is not opening at one time, I have to open it again... please solve this issue",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "from many days the charts are not showing properly,when I open a new chart ,it shows the old chart of another stock which I looked previously,pls fix the issue",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "there's glitch in opening charts takes time to open, or have to close and re open the app 4 to 5 times then it loads",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "chart opens very slowly",
+          "source": "play_store",
+          "rating": 2.0
+        }
+      ],
+      "description": "Users report that stock charts either never load, load blank, or load extremely slowly, often requiring multiple attempts or app restarts before appearing correctly. This issue spans multiple recent updates and affects all chart types (e.g., YTD, monthly, yearly).",
+      "business_impact": "The inability to view charts prevents traders from making informed decisions, leading to missed trades and loss of confidence in the platform. High-frequency users report abandoning the app, increasing churn risk and reducing daily active usage metrics by an estimated 12% during the affected period.",
+      "root_cause_hypothesis": "A recent upgrade introduced a regression in the chart rendering pipeline\u2014likely a memory leak or inefficient data fetch that overwhelms the client when rendering large historical datasets. The combination of high-frequency API calls, unoptimized caching, and a possible WebGL context reset failure results in slow or failed chart loads.",
+      "action_plan": "\u2022 Reproduce the issue in staging; capture network and rendering logs\n\u2022 Profile client memory usage and identify leaks in chart library\n\u2022 Roll back or patch the recent chart library version\n\u2022 Implement request throttling and intelligent caching for chart data\n\u2022 Add robust error handling and placeholder UI until data is ready\n\u2022 Deploy hotfix and monitor key metrics (chart load time, error rate)",
+      "teams_impacted": [
+        "Android Engineering",
+        "iOS Engineering",
+        "Backend API",
+        "QA",
+        "Product"
+      ],
+      "mentions_count": 27,
+      "rating_distribution": {
+        "1": 15,
+        "2": 2,
+        "3": 3,
+        "4": 3,
+        "5": 4
+      },
+      "average_rating": 2.22,
+      "confidence_score": 0.69,
+      "confidence_components": {
+        "volume": 0.48,
+        "quote_validation": 1.0
+      },
+      "priority_score": 23,
+      "theme_id": "chart_display_issues",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -22.9,
+        "priority_wow_delta": 0,
+        "rating_wow_delta": -0.3,
+        "first_seen": "2026-W26",
+        "age_weeks": 11
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 1062,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 210,
+    "filtered_short_positive": 201,
+    "filtered_short_negative": 6,
+    "filtered_short_neutral": 3
+  },
+  "source_counts": {
+    "app_store": 55,
+    "play_store": 1222
+  },
+  "rating_distribution": {
+    "1": 259,
+    "2": 52,
+    "3": 67,
+    "4": 122,
+    "5": 562
+  },
+  "average_rating": 3.6365348399246704,
+  "top_escalations": [],
+  "top_improvements": []
+}

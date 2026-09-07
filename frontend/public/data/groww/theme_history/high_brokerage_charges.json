@@ -52,5 +52,14 @@
     "priority_score": 26,
     "average_rating": 2.46,
     "confidence_score": 0.73
+  },
+  {
+    "iso_week": "2026-W37",
+    "name": "[Negative] High Brokerage Charges",
+    "description": "Users consistently report that the brokerage fees are excessively high compared to competitors, leading to dissatisfaction and loss of trust.",
+    "mentions_count": 72,
+    "priority_score": 29,
+    "average_rating": 2.54,
+    "confidence_score": 0.77
   }
 ]

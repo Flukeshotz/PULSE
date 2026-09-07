@@ -34,5 +34,14 @@
     "priority_score": 52,
     "average_rating": 1.11,
     "confidence_score": 0.8
+  },
+  {
+    "iso_week": "2026-W37",
+    "name": "[Negative] App Instability & Crashes",
+    "description": "Users repeatedly report that the app crashes, freezes, and glitches, making it unusable for trading tasks such as placing stop\u2011loss orders and accessing features.",
+    "mentions_count": 29,
+    "priority_score": 32,
+    "average_rating": 1.28,
+    "confidence_score": 0.7
   }
 ]

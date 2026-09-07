@@ -1,0 +1,263 @@
+{
+  "product": "INDMoney",
+  "iso_week": "2026-W37",
+  "period_label": "Last 8 weeks",
+  "generated_at": "2026-09-07T03:01:52.003907",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Cashback Not Usable for Bill Payments",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "they changed their reward redemption immediately, ylearlier you could pay cc bills but all of a sudden you can only invest them in us stocks",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "suddenly it activated the demat account by forcing some kyc process. also cashback award stopped for reuse in any bill",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I installed this app to get a credit card bill payment cashback. But please don't use this app. First the cashback itself is very less and that cashback can only be used for US stocks portal for investment or something",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I paid my postpaid bill and got cashback in hs stocks lol. I am not buying any of us stocks! And while paying the bill it didn't mention that where exactly you will get the cashback",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "I am earned 25/- Cashback through Credit card bill Payment but without my permission that amount was added to us Reward account why , Iam unable to use that cashback for paying Credit card bill Payments and iam receive referral cashback 150/- also that amount was also added to US Reward pot Account",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "fraud in the name of cashback they gave me cashback but only redeemable if I add 5000 in us stocks",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "You have to mandatorily create us stocks account and buy 5000 in us stocks to claim the cashback earned in bill payments or upi payments",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users consistently report that cashback earned from bill payments is not redeemable for bill payments or recharges, instead it is redirected to US stocks investments or locked in a separate rewards account. This misalignment between promised cashback utility and actual redemption options causes confusion, dissatisfaction, and perceived fraud.",
+      "business_impact": "The inability to use cashback for its intended purpose directly leads to customer churn, negative reviews, and loss of trust, potentially reducing monthly active users by up to 15% and lowering overall transaction volume on the platform.",
+      "root_cause_hypothesis": "The platform's reward engine currently redirects all cashback into a US\u2011stock investment account due to a legacy incentive program aimed at boosting stock trading volume. UI/UX fail to expose this rule, leading to user misinterpretation, while policy documentation is outdated.",
+      "action_plan": "\u2022 Clarify cashback terms in the onboarding flow\n\u2022 Update reward engine to allow direct redemption for bill payments\n\u2022 Redesign cashback UI to display real-time redemption options\n\u2022 Publish a transparent FAQ and policy update\n\u2022 Roll out phased communication campaign\n\u2022 Monitor redemption metrics and adjust policy as needed",
+      "teams_impacted": [
+        "Product Management",
+        "UX Design",
+        "Android/iOS Engineering",
+        "Backend Rewards Engine",
+        "Customer Support",
+        "Compliance"
+      ],
+      "mentions_count": 17,
+      "rating_distribution": {
+        "1": 13,
+        "2": 3,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "average_rating": 1.35,
+      "confidence_score": 0.65,
+      "confidence_components": {
+        "volume": 0.42,
+        "quote_validation": 1.0
+      },
+      "priority_score": 25,
+      "theme_id": "cashback_not_usable_for_recharge_and_bill_payments",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 6.2,
+        "priority_wow_delta": -1,
+        "rating_wow_delta": 0.3,
+        "first_seen": "2026-W30",
+        "age_weeks": 7
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] KYC Verification Friction",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "Abysmal ekyc verification process. You get interrogated like you're a criminal on video call, which they record and ask very personal details, and then you get told that their system can't match your face with the pan card. This is not how you get investors to invest.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "all is good at application level but kyc failed at video call verification, due to my area mobile network slowdown so unable to proceed further with Federal Bank account opening.",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "I don't have an issue with the app, but with the process. It's a waste of time. They captured all ID proofs from me, yet they still ask for another proof one by one. I can't believe anyone is onboarded through this app. I tried 5+ times to complete KYC, but I think due to an app bug or process failure, they keep on asking for different ID proofs. They don't even consider the proof they accepted during video verification. I'm fed up and left them.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "horrible service, unprofessional support team, KYC is pending from 2 weeks and every time I reach out they send a link to fill the same kyc again and close the ticket",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users experience repeated, confusing, or failed eKYC verification, requiring multiple uploads, inconsistent matching, and lack of clear resolution, leading to frustration and abandonment.",
+      "business_impact": "High abandonment rate during onboarding, increased support tickets, delayed account activation, loss of potential customers, and negative brand perception, measurable through onboarding completion rates, support ticket volume, and churn within the first 30 days.",
+      "root_cause_hypothesis": "The eKYC system relies on a third\u2011party biometric matching service with insufficient error handling, combined with inconsistent internal logic that re\u2011requests documents after a failed match, and limited fallback for poor network conditions, causing repeated failures and user confusion.",
+      "action_plan": "\u2022 Review third\u2011party eKYC integration and error handling\n\u2022 Implement smoother fallback flow for low\u2011bandwidth users\n\u2022 Consolidate required documents to a single upload\n\u2022 Provide real\u2011time feedback on match status\n\u2022 Enhance support ticket routing to dedicated KYC team\n\u2022 Conduct user testing with diverse network scenarios\n\u2022 Publish clear onboarding guide and FAQ",
+      "teams_impacted": [
+        "KYC Team",
+        "Engineering - Backend",
+        "UX Design",
+        "Support Operations"
+      ],
+      "mentions_count": 20,
+      "rating_distribution": {
+        "1": 13,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 1
+      },
+      "average_rating": 1.9,
+      "confidence_score": 0.66,
+      "confidence_components": {
+        "volume": 0.44,
+        "quote_validation": 1.0
+      },
+      "priority_score": 23,
+      "theme_id": "kyc_verification_friction",
+      "trend": {
+        "status": "new",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 23,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W37",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Poor Customer Support",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "There is no proper customer care support. If a transaction issue occurs, your complaint may not be heard or resolved.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "deleted dmat account within one week bcz wrost service, customer care not relove issues,not frindly......",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "not helpful customer Service i invested money in us market but not able to withdraw money when i needed not email team is supporting nor chat",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Worst customer support experience. Whenever you raise an issue, each support ticket takes 2\u20133 months, and even then, there's no resolution.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "There customer support sucks, they have created some random chatbot which neither gives correct answer nor raise it to real people, it's going in a loop, very frustrating",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "very poor support system they call and when not able to resolve then drop the call and no response for hours.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I had a very simple query regarding nre Vs nro account and have been waiting for the reply from IND Money CSR from past 10 days.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "you don't have a customer care number and even not able to speak.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users consistently report that their inquiries are not being heard or resolved, relying on ineffective chatbots, long wait times, and a lack of a direct phone number, leading to frustration and account closures.",
+      "business_impact": "Immediate churn of users who cannot execute trades or withdraw funds, reputational damage through negative reviews, potential regulatory investigation for inadequate support, and loss of cross\u2011sell opportunities.",
+      "root_cause_hypothesis": "The support infrastructure is understaffed and heavily dependent on an under\u2011developed chatbot, with no clear escalation or SLA process, causing delayed or no responses to high\u2011volume requests.",
+      "action_plan": "\u2022 Define a 2\u2011hour SLA for initial response\n\u2022 Expand live\u2011agent roster to cover business hours\n\u2022 Implement a ticket prioritization system based on severity\n\u2022 Add a dedicated phone line for urgent queries\n\u2022 Upgrade chatbot with accurate knowledge base and escalation triggers\n\u2022 Continuously monitor response metrics and customer sentiment",
+      "teams_impacted": [
+        "Customer Support Ops",
+        "Product Management",
+        "Engineering (Backend)",
+        "UX Design",
+        "Compliance"
+      ],
+      "mentions_count": 16,
+      "rating_distribution": {
+        "1": 10,
+        "2": 4,
+        "3": 0,
+        "4": 2,
+        "5": 0
+      },
+      "average_rating": 1.62,
+      "confidence_score": 0.65,
+      "confidence_components": {
+        "volume": 0.41,
+        "quote_validation": 1.0
+      },
+      "priority_score": 23,
+      "theme_id": "poor_ui_and_ux",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -27.3,
+        "priority_wow_delta": -2,
+        "rating_wow_delta": -0.1,
+        "first_seen": "2026-W24",
+        "age_weeks": 13
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 519,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 1,
+    "filtered_short": 248,
+    "filtered_short_positive": 230,
+    "filtered_short_negative": 5,
+    "filtered_short_neutral": 13
+  },
+  "source_counts": {
+    "app_store": 0,
+    "play_store": 775
+  },
+  "rating_distribution": {
+    "1": 108,
+    "2": 22,
+    "3": 25,
+    "4": 76,
+    "5": 288
+  },
+  "average_rating": 3.7976878612716765,
+  "top_escalations": [],
+  "top_improvements": []
+}

@@ -61,5 +61,14 @@
     "priority_score": 25,
     "average_rating": 1.68,
     "confidence_score": 0.67
+  },
+  {
+    "iso_week": "2026-W37",
+    "name": "[Negative] Poor Customer Support",
+    "description": "Users consistently report that their inquiries are not being heard or resolved, relying on ineffective chatbots, long wait times, and a lack of a direct phone number, leading to frustration and account closures.",
+    "mentions_count": 16,
+    "priority_score": 23,
+    "average_rating": 1.62,
+    "confidence_score": 0.65
   }
 ]
