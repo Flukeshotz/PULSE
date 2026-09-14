@@ -7,5 +7,14 @@
     "priority_score": 25,
     "average_rating": 1.39,
     "confidence_score": 0.66
+  },
+  {
+    "iso_week": "2026-W38",
+    "name": "[Negative] FD Withdrawal Issues",
+    "description": "Users consistently report that Fixed Deposit withdrawals are either delayed, incomplete, or never credited to their bank accounts, resulting in financial loss and frustration.",
+    "mentions_count": 18,
+    "priority_score": 25,
+    "average_rating": 1.44,
+    "confidence_score": 0.66
   }
 ]

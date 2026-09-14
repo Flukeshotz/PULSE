@@ -70,5 +70,14 @@
     "priority_score": 23,
     "average_rating": 1.62,
     "confidence_score": 0.65
+  },
+  {
+    "iso_week": "2026-W38",
+    "name": "[Negative] Poor Customer Support Experience",
+    "description": "Users repeatedly report that support tickets take months, offer no resolution, and that there is no accessible phone support or effective chatbot. These frustrations result in missed trades, account deletions, and a perception of the platform as unreliable.",
+    "mentions_count": 17,
+    "priority_score": 22,
+    "average_rating": 1.71,
+    "confidence_score": 0.65
   }
 ]

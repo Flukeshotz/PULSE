@@ -1,0 +1,222 @@
+{
+  "product": "INDMoney",
+  "iso_week": "2026-W38",
+  "period_label": "Last 8 weeks",
+  "generated_at": "2026-09-14T03:30:30.247274",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Data Privacy & Fraud Concerns",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "I think indmoney is leaking consumer data to third parties when ever I installed this app and login I get 2 to 3 call from fraudsters when ever I uninstall this app i will not get any call from any app. don't use this app they are leaking data of their consumer",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "deleted this app after i checked that all customer care numbers even the top escalation phones are alllll fake...waste of time don't trust also it will track your bank data not just store the details ..it uses your data..very fraudulent",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report that the app is leaking personal and banking data, enabling fraud calls, sharing contact details with third parties, and using data without consent, leading to distrust and perceived fraudulent behavior.",
+      "business_impact": "Loss of user trust, increased uninstall rates, potential regulatory fines, and damage to brand reputation; could lead to legal liabilities and loss of partnership opportunities.",
+      "root_cause_hypothesis": "The app\u2019s data handling and consent management may be insufficiently secured or compliant, allowing third\u2011party access; possibly insufficient encryption, weak privacy policy enforcement, and inadequate monitoring of data sharing.",
+      "action_plan": "\u2022 Audit and strengthen data handling & privacy policies; implement end\u2011to\u2011end encryption for sensitive data\n\u2022 Review third\u2011party integrations to ensure no unauthorized data sharing\n\u2022 Enhance consent flow with clear opt\u2011in/out and granular permissions\n\u2022 Conduct security penetration testing & fix vulnerabilities\n\u2022 Update privacy policy and communicate changes transparently\n\u2022 Set up dedicated fraud monitoring & incident response team\n\u2022 Provide transparent customer support with verified contacts\n\u2022 Train staff on privacy compliance",
+      "teams_impacted": [
+        "Security Engineering",
+        "Data Governance",
+        "Privacy & Compliance",
+        "Customer Support",
+        "Legal"
+      ],
+      "mentions_count": 15,
+      "rating_distribution": {
+        "1": 15,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.0,
+      "confidence_score": 0.64,
+      "confidence_components": {
+        "volume": 0.4,
+        "quote_validation": 1.0
+      },
+      "priority_score": 26,
+      "theme_id": "data_privacy_fraud_concerns",
+      "trend": {
+        "status": "new",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 26,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W38",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.4,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Order Execution and Pricing Errors",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "Terrible update. Not even able to place Limit Sell orders properly. Suffered a loss while putting a GTT bid due to the changes made because of the recent update. Do not fix something that's not broken. I think it's time to switch brokers now.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Such a silly app. cant even show basic portfolio right. I am chasing them from two days to correct my US Stocks value. but they keep showing a day before trades already done at current value. totally distorted my P&L. Unable to assess the right value. No way to call them.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Slow When i set target price it always sells at very lower price which is loss",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "latest changes in UI is having a critical bug. I placed order at 1065 limit price. But it was executed at 1072. Same with the other company shares which was sold at a price lower than target price. Please revert back to the UI which was on 29-August-2026",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "this app is showing wrong conversion rate in us stocks and last 2 week it's shows wrong value. very worst app.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report that limit and GTT orders are being executed at incorrect prices, or orders are being filled at prices below their target. They also complain about delayed or inaccurate portfolio valuations and misleading conversion rates, leading to financial losses.",
+      "business_impact": "Direct monetary loss for traders, erosion of trust in the trading platform, increased support tickets and potential churn among high\u2011frequency users who rely on precise order execution.",
+      "root_cause_hypothesis": "Recent UI and backend refactoring introduced a mismatch between the order\u2011creation parameters and the routing engine, causing price thresholds to be ignored or misinterpreted. Additionally, the price\u2011feed integration for US stocks was altered without adequate regression testing, leading to stale or incorrect pricing data.",
+      "action_plan": "\u2022 1. Revert UI changes to the previous stable release to restore correct order parameter handling\n\u2022 2. Implement a comprehensive test suite for order routing, covering limit and GTT orders with edge\u2011case prices\n\u2022 3. Deploy a monitoring alert for discrepancies between intended and executed order prices\n\u2022 4. Roll out a data\u2011validation layer that checks real\u2011time price feeds against the order price before execution\n\u2022 5. Communicate a clear apology and immediate refund policy for affected users\n\u2022 6. Schedule a post\u2011deployment audit of conversion rate APIs and fix any drift in rates",
+      "teams_impacted": [
+        "Backend Engineering",
+        "Frontend Engineering",
+        "Quality Assurance",
+        "Operations",
+        "Product Management"
+      ],
+      "mentions_count": 14,
+      "rating_distribution": {
+        "1": 13,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.07,
+      "confidence_score": 0.64,
+      "confidence_components": {
+        "volume": 0.39,
+        "quote_validation": 1.0
+      },
+      "priority_score": 25,
+      "theme_id": "order_execution_and_pricing_errors",
+      "trend": {
+        "status": "new",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 25,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W38",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.8333333333333334,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Poor Customer Support Experience",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "Worst customer support experience. Whenever you raise an issue, each support ticket takes 2\u20133 months, and even then, there's no resolution.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "castomar care has not any ind money they has a number only computeris talk nobody present parsone help desk meny problem issue present but not to be solve or guide tickit only like fake masseges there no any solving",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "very poor support system they call and when not able to resolve then drop the call and no response for hours. And because of that we miss trades. very poor support",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "There is no any customer care support number. Chatbot is not showing my issue. it's pathetic.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users repeatedly report that support tickets take months, offer no resolution, and that there is no accessible phone support or effective chatbot. These frustrations result in missed trades, account deletions, and a perception of the platform as unreliable.",
+      "business_impact": "Account churn spikes as users delete accounts; missed trading opportunities directly reduce revenue; brand reputation suffers from negative word\u2011of\u2011mouth, leading to slower user acquisition and higher acquisition costs.",
+      "root_cause_hypothesis": "The support system is understaffed and lacks defined escalation paths; current ticketing workflow is manual and slow, while the chatbot is unconfigured and provides generic responses. NRI KYC support is particularly deficient due to specialized knowledge requirements that are not met.",
+      "action_plan": "\u2022 Build a dedicated support queue with assigned agents\n\u2022 Implement SLA metrics for response and resolution times\n\u2022 Provide a toll\u2011free phone line and schedule live chat hours\n\u2022 Train support staff on NRI KYC procedures and common issues\n\u2022 Integrate knowledge base into chatbot for accurate answers\n\u2022 Deploy a ticketing dashboard for monitoring and reporting\n\u2022 Conduct quarterly reviews of support metrics and user feedback\n\u2022 Release incremental improvements to chatbot logic",
+      "teams_impacted": [
+        "Customer Support Ops",
+        "Backend Engineering",
+        "Product Management",
+        "UX Design"
+      ],
+      "mentions_count": 17,
+      "rating_distribution": {
+        "1": 10,
+        "2": 4,
+        "3": 1,
+        "4": 2,
+        "5": 0
+      },
+      "average_rating": 1.71,
+      "confidence_score": 0.65,
+      "confidence_components": {
+        "volume": 0.42,
+        "quote_validation": 1.0
+      },
+      "priority_score": 22,
+      "theme_id": "poor_ui_and_ux",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 6.2,
+        "priority_wow_delta": -1,
+        "rating_wow_delta": 0.1,
+        "first_seen": "2026-W24",
+        "age_weeks": 14
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 582,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 5,
+    "filtered_short": 241,
+    "filtered_short_positive": 223,
+    "filtered_short_negative": 6,
+    "filtered_short_neutral": 12
+  },
+  "source_counts": {
+    "app_store": 79,
+    "play_store": 752
+  },
+  "rating_distribution": {
+    "1": 124,
+    "2": 29,
+    "3": 26,
+    "4": 84,
+    "5": 319
+  },
+  "average_rating": 3.7646048109965635,
+  "top_escalations": [],
+  "top_improvements": []
+}

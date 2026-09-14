@@ -34,5 +34,14 @@
     "priority_score": 42,
     "average_rating": 1.1,
     "confidence_score": 0.75
+  },
+  {
+    "iso_week": "2026-W38",
+    "name": "[Negative] Poor Customer Support",
+    "description": "Users consistently report that the customer support team is unresponsive, slow, or provides inadequate answers, leading to frustration and unmet expectations for assistance with financial matters and privacy concerns.",
+    "mentions_count": 21,
+    "priority_score": 27,
+    "average_rating": 1.43,
+    "confidence_score": 0.67
   }
 ]

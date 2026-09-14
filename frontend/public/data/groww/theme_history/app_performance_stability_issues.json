@@ -16,5 +16,14 @@
     "priority_score": 44,
     "average_rating": 1.21,
     "confidence_score": 0.76
+  },
+  {
+    "iso_week": "2026-W38",
+    "name": "[Negative] App Performance & Reliability Issues",
+    "description": "Users report that the app frequently fails to launch, crashes during use, and suffers from sluggish performance, causing delays in key actions such as account opening and withdrawals.",
+    "mentions_count": 72,
+    "priority_score": 32,
+    "average_rating": 2.32,
+    "confidence_score": 0.77
   }
 ]

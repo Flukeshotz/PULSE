@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W38",
+    "name": "[Negative] Charting Issues",
+    "description": "Users repeatedly report that the Kite app fails to load, fetch, or display charts correctly. Errors such as \"Error Fetching Data\" surface, loading indicators persist indefinitely, and essential chart features (layout persistence, drawing tools, dividend icons) are missing or obstructed. These problems prevent traders from performing technical analysis and placing informed trades.",
+    "mentions_count": 86,
+    "priority_score": 37,
+    "average_rating": 2.1,
+    "confidence_score": 0.79
+  }
+]

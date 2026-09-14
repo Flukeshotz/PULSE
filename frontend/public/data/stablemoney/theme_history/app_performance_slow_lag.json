@@ -7,5 +7,14 @@
     "priority_score": 30,
     "average_rating": 1.52,
     "confidence_score": 0.7
+  },
+  {
+    "iso_week": "2026-W38",
+    "name": "[Negative] App Performance and Stability",
+    "description": "Users consistently report the application as sluggish, frequently lagging, and sometimes crashing or failing to load. The app\u2019s responsiveness is severely impacted, leading to a poor user experience.",
+    "mentions_count": 21,
+    "priority_score": 25,
+    "average_rating": 1.67,
+    "confidence_score": 0.67
   }
 ]

@@ -1,0 +1,162 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W38",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-09-14T03:36:20.303583",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Charting Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "Every time I login and try to open a chart on Kite Android app, an error occurs saying \"Error Fetching Data\".",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "I have been using the Kite app for the last 8 years, it was good but from the last 2 weeks, I am unable to open charts of many stocks it just shows the loading icon and unable to select the time frame 1 day, 5 mins etc..",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "worst charting experience through trading view in kite, lack of even basic features charts layout doesn't save automatically(drawing delete automatically)",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Day by day it is becoming very difficult to check the chart of a stock in kite app on mobile. There is no control for hiding the dividend icon, which makes it difficult to check volume bar. Now added buy sale feature on the chart itself and this agin covering part of chart and price tag on chart make it difficult to navigate on chart and it can create accidental square off.",
+          "source": "app_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Customer service of Zerodha is very pathetic. Even after repeated requests for call back, they do not call back and you keep on waiting and waiting and waiting.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Useless customer support team The customer support team at zerodha is completely unresponsive. I have raised a ticket three days ago,and it\u2019s still not resolved.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "ticket number: 63142 you can check another from this number do nt respond to our complaint when we raise the complaint they only send email your complaint has been resolve without talking to us.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Worst support when you need it the most. Today, I added funds to my account. The amount was debited from my bank account but was not credited to my Zerodha account. To make matters worse, every customer support number I tried either disconnected after one ring or remained constantly busy.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Zerodha does not provide proper customer support. If there is any clarification needed regarding the app, there is no point of contact to handle it. They have shared multiple contact numbers, but none of them are reachable.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "lag in the app,",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "lately the app is lagging",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app is very slow, real time chart is not working properly",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "both App and web applications freeze and need to refresh often",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "the app shows a blank screen in my Redmi Pad",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "poor application, shows connection timeout always",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "not suitable very lagging app",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users repeatedly report that the Kite app fails to load, fetch, or display charts correctly. Errors such as \"Error Fetching Data\" surface, loading indicators persist indefinitely, and essential chart features (layout persistence, drawing tools, dividend icons) are missing or obstructed. These problems prevent traders from performing technical analysis and placing informed trades.",
+      "business_impact": "The inability to view or interact with charts directly in the mobile app forces users to rely on slower web interfaces or alternative platforms, increasing friction, reducing trading frequency, and potentially causing missed trading opportunities and revenue loss. High churn risk among active traders.",
+      "root_cause_hypothesis": "The chart rendering layer (likely a TradingView widget wrapper) is not handling network failures gracefully, leading to unhandled exceptions. Additionally, the integration between the backend data feed and the frontend charting API may be outdated, causing data inconsistencies and time\u2011frame selection failures. The UI layer also lacks proper state management, causing chart components to remain in a loading state indefinitely.",
+      "action_plan": "\u2022 Update charting SDK to the latest version and replace deprecated APIs\n\u2022 Implement robust error handling for data fetch failures, displaying user\u2011friendly retry prompts\n\u2022 Cache chart data locally to allow offline access and faster rendering\n\u2022 Revise UI to ensure dividend icons and buy/sell overlays are optional and non\u2011obstructive\n\u2022 Conduct regression testing on all supported devices and network conditions\n\u2022 Release incremental patches and monitor crash logs for residual issues",
+      "teams_impacted": [
+        "Android Engineering",
+        "iOS Engineering",
+        "Backend API",
+        "UX Design",
+        "QA"
+      ],
+      "mentions_count": 86,
+      "rating_distribution": {
+        "1": 48,
+        "2": 10,
+        "3": 8,
+        "4": 11,
+        "5": 9
+      },
+      "average_rating": 2.1,
+      "confidence_score": 0.79,
+      "confidence_components": {
+        "volume": 0.65,
+        "quote_validation": 1.0
+      },
+      "priority_score": 37,
+      "theme_id": "charting_issues",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 37,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W38",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 1089,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 1,
+    "filtered_short": 199,
+    "filtered_short_positive": 190,
+    "filtered_short_negative": 6,
+    "filtered_short_neutral": 3
+  },
+  "source_counts": {
+    "app_store": 63,
+    "play_store": 1230
+  },
+  "rating_distribution": {
+    "1": 270,
+    "2": 52,
+    "3": 64,
+    "4": 119,
+    "5": 584
+  },
+  "average_rating": 3.638200183654729,
+  "top_escalations": [],
+  "top_improvements": []
+}

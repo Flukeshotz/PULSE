@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W38",
+    "name": "[Negative] Order Execution and Pricing Errors",
+    "description": "Users report that limit and GTT orders are being executed at incorrect prices, or orders are being filled at prices below their target. They also complain about delayed or inaccurate portfolio valuations and misleading conversion rates, leading to financial losses.",
+    "mentions_count": 14,
+    "priority_score": 25,
+    "average_rating": 1.07,
+    "confidence_score": 0.64
+  }
+]

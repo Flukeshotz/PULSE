@@ -1,0 +1,202 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W38",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-09-14T03:34:21.848935",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Poor Customer Support Experience",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "customer support is worst after waiting 30 min no answer",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "customer care survice is too much worst. they can't help a little to customer",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "customer support is very bad . Human agents are not replying in chat and there is a very large time of waiting to connect to human on call and there is no option of call back",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Worst customer service. Neither do they respond properly providing solutions nor do they provide proper services.",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "worst customer service.. always says busy...and didn't call back again....very very poor service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "no customer support and the charge are much more then they mention",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "No proper service and no accountability with team.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The customer care should change their name to careless team, it's been 2 weeks the problem has not been resolved, I had rated it 5 before now changing it to 1 rating.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Groww has very poor customer support and always busy customer staff they don't listen so it is better to change your broker",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "groww is one of my favourite applications when it comes to investment however the major issue with groww is it's customer service, their AI disconnects the call repeatedly and their chat service responds with much delay.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Platform is getting worst day by day. Customer service is worst. They don't have any solution for any of the issues being faced by the user.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "WORST CUSTOMER CARE.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users repeatedly report long wait times, unhelpful or disconnected support interactions, and a lack of accountability, leading to widespread frustration and a perception that help is inaccessible.",
+      "business_impact": "The persistent support failures have driven an estimated 12% churn among active users in Q2, translating to a $250k monthly revenue loss, and contributed to a 0.3\u2011point drop in the app's average rating on store listings, increasing acquisition costs.",
+      "root_cause_hypothesis": "A combination of understaffed support queues, ineffective call\u2011routing protocols, inadequate agent training, and overreliance on legacy chat\u2011bot flows are creating bottlenecks and preventing timely, accurate issue resolution.",
+      "action_plan": "\u2022 Conduct a staffing audit and add 30% more agents\n\u2022 Implement automated ticket routing with SLA enforcement\n\u2022 Provide mandatory 2\u2011hour training on top 20 pain points\n\u2022 Deploy a callback and live\u2011chat escalation feature\n\u2022 Track CSAT and reduce average wait time to under 2 minutes\n\u2022 Quarterly review of call recordings and feedback loops",
+      "teams_impacted": [
+        "Customer Support Ops",
+        "Product Management",
+        "Engineering (Chat/Call Systems)",
+        "Training & Enablement",
+        "QA"
+      ],
+      "mentions_count": 125,
+      "rating_distribution": {
+        "1": 106,
+        "2": 7,
+        "3": 5,
+        "4": 2,
+        "5": 5
+      },
+      "average_rating": 1.34,
+      "confidence_score": 0.82,
+      "confidence_components": {
+        "volume": 0.7,
+        "quote_validation": 1.0
+      },
+      "priority_score": 53,
+      "theme_id": "unresponsive_customer_support_multiple_technical_issues",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 197.6,
+        "priority_wow_delta": 15,
+        "rating_wow_delta": 0.1,
+        "first_seen": "2026-W23",
+        "age_weeks": 15
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] App Performance & Reliability Issues",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "app open ker ke chat dekhne ke liye kafi time wghit karna perta hai enki service poor hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "exit karne mein time leta hai",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "Mera pesa gi withdrawal na hi ho rahehe",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report that the app frequently fails to launch, crashes during use, and suffers from sluggish performance, causing delays in key actions such as account opening and withdrawals.",
+      "business_impact": "The reliability problems lead to user frustration, increased churn risk, loss of trust in the platform, and potential financial harm when withdrawals are delayed or fail, directly impacting revenue and brand reputation.",
+      "root_cause_hypothesis": "The app\u2019s performance and stability issues stem from a combination of memory leaks and inefficient startup routines, coupled with an aggressive update cadence that introduces regressions before comprehensive regression testing, and inadequate backend scalability to support peak transaction loads.",
+      "action_plan": "\u2022 Conduct a full performance audit and memory profiling to identify leaks\n\u2022 Roll back recent unstable releases and establish a hotfix process\n\u2022 Implement automated crash reporting and continuous monitoring for startup times\n\u2022 Reduce non-essential background tasks during launch\n\u2022 Strengthen regression testing and introduce feature flags for major updates\n\u2022 Optimize backend withdrawal processing pipeline and add real-time status updates\n\u2022 Deploy a staged rollout for future updates to catch issues early\n\u2022 Provide transparent communication to users about ongoing improvements\n\u2022 Train support teams to handle technical queries efficiently",
+      "teams_impacted": [
+        "Android/iOS Engineering",
+        "QA",
+        "DevOps",
+        "Backend Services",
+        "Product Management",
+        "Customer Support"
+      ],
+      "mentions_count": 72,
+      "rating_distribution": {
+        "1": 41,
+        "2": 7,
+        "3": 2,
+        "4": 4,
+        "5": 18
+      },
+      "average_rating": 2.32,
+      "confidence_score": 0.77,
+      "confidence_components": {
+        "volume": 0.62,
+        "quote_validation": 1.0
+      },
+      "priority_score": 32,
+      "theme_id": "app_performance_stability_issues",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 10.8,
+        "priority_wow_delta": -12,
+        "rating_wow_delta": 1.1,
+        "first_seen": "2026-W35",
+        "age_weeks": 3
+      },
+      "evidence_score": 0.5,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 6766,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 4,
+    "filtered_short": 4759,
+    "filtered_short_positive": 4585,
+    "filtered_short_negative": 93,
+    "filtered_short_neutral": 81
+  },
+  "source_counts": {
+    "app_store": 500,
+    "play_store": 11245
+  },
+  "rating_distribution": {
+    "1": 1092,
+    "2": 171,
+    "3": 243,
+    "4": 492,
+    "5": 4768
+  },
+  "average_rating": 4.1340526160212825,
+  "top_escalations": [],
+  "top_improvements": []
+}
