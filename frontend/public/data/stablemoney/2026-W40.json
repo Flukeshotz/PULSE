@@ -1,0 +1,196 @@
+{
+  "product": "Stable Money",
+  "iso_week": "2026-W40",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-09-28T03:57:19.009841",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Credit Card & Referral Management Failures",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "My friend referred me via WhatsApp, and I signed up using the referral link, but I still didn\u2019t receive any referral benefits.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The app freezes while using the fd based card section. Customer support isn't good when it comes to fd based cc of suryodaya bank.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Terrible experience. I tried to pay my credit card bill and the payment failed due to constant glitches. To make matters worse, customer support is useless\u2014it\u2019s just an automated robot saying all agents are busy, and no one ever connects.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The Stable Money app is extremely buggy. Paying credit card bills is a nightmare \u2014 custom amounts trigger endless buffering loops without opening the payment gateway.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "No support for the Credit card and we can't make a ticket from the app and the customer service will ask us to raise a ticket in the app when we have the option to chat. Suryoday bank and Stable money don't respond to mails to get access for Online and to check the credit card benefits.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I made an FD for 1 year but without my consent it was taken for 30 months . immediately after noticing i requested Customer support to update to 1 year but there are saying they will be penalty and I am able to find the option to withdraw my money back . There is no proper support.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I have withdrawn FD on 26th Aug 2026 maturity amount mentioned was 60434 but only 55123 got credited on 31st Aug 2026.There is no guarantee of maturity amount Investment at your own risk.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I booked shriram finance FD in 2024. And reinvested in 2025. In 2026, without my authorisation, the money has been withdrawn. The amount was not credited to my account. Reached out to customer support, but till now no conclusion has been drawn.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Never Never book an FD via Stable Money. It's better to book directly through the Bank Website. Had the worst experience. I tried booking an AU Small Finance Bank FD for Rs. 2.8L on 12th Aug 2026 - the amount was deducted from my account but the FD was not created. Till now I haven't received the refund yet, but in their app it's showing as already refunded.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I am withdrawing my Fd yesterday of Rs 1000 but in my account amount not credit yet",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report that the app\u2019s credit card management features are buggy, slow, and frequently freeze, preventing bill payments and card applications, and the referral system fails to award benefits or show proper links, leading to frustration.",
+      "business_impact": "These failures directly impede financial transactions, causing users to miss payments, lose referral incentives, and erode trust, which can lead to churn and negative word\u2011of\u2011mouth.",
+      "root_cause_hypothesis": "Likely a combination of insufficient backend integration for credit card APIs, outdated SDKs causing UI freezes, and a referral tracking logic that is not tied to user IDs, leading to missing rewards.",
+      "action_plan": "\u2022 Conduct a root\u2011cause analysis of card transaction failures and freeze events\n\u2022 Refactor card management module to use stable SDK and implement proper error handling\n\u2022 Rebuild referral tracking with robust ID mapping and real\u2011time reward issuance\n\u2022 Deploy comprehensive regression tests for credit card flows\n\u2022 Enhance support ticketing integration and provide clear fallback\n\u2022 Roll out beta to a small cohort\n\u2022 Monitor metrics for payment success and referral redemption\n\u2022 Communicate fixes to users via app update notes and email",
+      "teams_impacted": [
+        "Android Eng",
+        "iOS Eng",
+        "Backend",
+        "QA",
+        "Support Ops",
+        "Product Management"
+      ],
+      "mentions_count": 46,
+      "rating_distribution": {
+        "1": 30,
+        "2": 6,
+        "3": 3,
+        "4": 4,
+        "5": 3
+      },
+      "average_rating": 1.78,
+      "confidence_score": 0.73,
+      "confidence_components": {
+        "volume": 0.56,
+        "quote_validation": 1.0
+      },
+      "priority_score": 33,
+      "theme_id": "credit_card_referral_management_failures",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 33,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W40",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Poor Customer Support",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "Horrible experience.The customer support is useless,every time u call they repeat the same thing.They dont have any proper answer.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Customer Care is too bad I didn't get my matured amount yet",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Horrible Customer support, not proper response from Customer care person",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst service ever....no response from customer care",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users repeatedly report that support channels are unresponsive, provide repetitive or vague answers, or fail to address their concerns, leading to frustration.",
+      "business_impact": "Customers abandon or withdraw funds, increasing churn and negative word\u2011of\u2011mouth, directly harming revenue and trust in the financial product.",
+      "root_cause_hypothesis": "The support team is either understaffed or lacks proper training and escalation protocols, compounded by a reliance on automated or delayed response channels such as WhatsApp.",
+      "action_plan": "\u2022 Increase support staffing and implement a triage system\n\u2022 Deploy dedicated escalation workflow for high\u2011value clients\n\u2022 Integrate live chat with real\u2011time monitoring and auto\u2011ticket assignment\n\u2022 Provide multilingual training for representatives\n\u2022 Measure response time KPIs and publicly report SLAs\n\u2022 Regularly audit support tickets for quality\n\u2022 Offer self\u2011service FAQ updates\n\u2022 Schedule quarterly performance reviews for the support team",
+      "teams_impacted": [
+        "Customer Support Ops",
+        "Quality Assurance",
+        "Product Management",
+        "Engineering (backend)",
+        "UX Design (support interfaces)"
+      ],
+      "mentions_count": 17,
+      "rating_distribution": {
+        "1": 16,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.06,
+      "confidence_score": 0.65,
+      "confidence_components": {
+        "volume": 0.42,
+        "quote_validation": 1.0
+      },
+      "priority_score": 27,
+      "theme_id": "app_crashes_poor_customer_support",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -19.0,
+        "priority_wow_delta": 0,
+        "rating_wow_delta": -0.4,
+        "first_seen": "2026-W27",
+        "age_weeks": 13
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 708,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 1,
+    "filtered_short": 173,
+    "filtered_short_positive": 168,
+    "filtered_short_negative": 2,
+    "filtered_short_neutral": 3
+  },
+  "source_counts": {
+    "app_store": 0,
+    "play_store": 890
+  },
+  "rating_distribution": {
+    "1": 165,
+    "2": 21,
+    "3": 29,
+    "4": 39,
+    "5": 454
+  },
+  "average_rating": 3.84180790960452,
+  "top_escalations": [],
+  "top_improvements": []
+}

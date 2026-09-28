@@ -61,5 +61,14 @@
     "priority_score": 29,
     "average_rating": 2.54,
     "confidence_score": 0.77
+  },
+  {
+    "iso_week": "2026-W40",
+    "name": "[Negative] High Brokerage Fees",
+    "description": "Users consistently complain that the brokerage and related charges are excessively high, leading to frustration and perceptions of hidden or opaque fee structures. This theme is dominated by multiple reviews highlighting the cost burden on trades, especially for options and daily service charges.",
+    "mentions_count": 104,
+    "priority_score": 30,
+    "average_rating": 2.8,
+    "confidence_score": 0.8
   }
 ]

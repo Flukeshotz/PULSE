@@ -1,0 +1,193 @@
+{
+  "product": "INDMoney",
+  "iso_week": "2026-W40",
+  "period_label": "Last 8 weeks",
+  "generated_at": "2026-09-28T03:49:09.425811",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Cashback for Bill/UPI Payments Not Credited / Forced US Stocks Investment",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "don't use this app for payments as the cashback promised doesn't credit back to you.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Cheater company you cannot Utilise your Cashback reward for payment of your Bills or Recharge",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "no use of cashback forcefully asking to create a us stock account which is terrible...before we used to claim cashback for recharge",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "You have to mandatorily create us stocks account and buy 5000 in us stocks to claim the cashback earned in bill payments or upi payments. which is ridiculous.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "no allocation breakdown (equity/debt/gold/cash), no sector or holding-wise distribution, no portfolio vs market benchmark comparison, no overlap calculator to check duplicate stocks across funds, and no way to flag off-track or underperforming (\"out of form\") funds.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "INDmoney\u2019s investment tracking needs significant improvement. It does not display XIRR for investments held for less than one year, making it difficult to accurately evaluate short-term investment performance.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "No consolidated portfolio-level view showing metrics such as XIRR and total Gain/Loss across the entire portfolio, including both Stocks and Mutual Funds.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Can't see XIRR against individual US STOCKS, it only shows the XIRR against total stock value but not against each US STOCK.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "useless...no granular analysis...it shows only urF list, invested amount and current value..which I already know",
+          "source": "play_store",
+          "rating": 2.0
+        }
+      ],
+      "description": "Users report that cashback rewards advertised for bill and UPI payments are either not credited, are unavailable, or redirect them to US stock purchase pages. The app requires creation of a US stock account and a minimum investment to claim cashback, which contradicts earlier claims that cashback could be earned on any bill payment.",
+      "business_impact": "Loss of transaction volume in the bill\u2011payment segment, erosion of customer trust leading to churn among high\u2011spend users, negative brand perception affecting acquisition, and potential regulatory or legal scrutiny over misleading reward practices.",
+      "root_cause_hypothesis": "The reward redemption flow was altered to funnel users into US stock purchases, possibly due to a partnership or compliance requirement, but the UI/UX and backend logic were not updated to reflect this change, causing redirect bugs and eligibility miscalculations.",
+      "action_plan": "\u2022 Revert to original cashback flow\n\u2022 Separate US stock account creation from cashback logic\n\u2022 Add clear eligibility criteria in UI\n\u2022 Fix redirect bug in cashback button\n\u2022 Audit and correct reward engine logic\n\u2022 Update UI/UX for transparency\n\u2022 Communicate changes to users\n\u2022 Monitor redemption and churn metrics",
+      "teams_impacted": [
+        "Product Management",
+        "UX Design",
+        "Android Engineering",
+        "iOS Engineering",
+        "Backend/API",
+        "QA",
+        "Customer Support",
+        "Legal/Compliance"
+      ],
+      "mentions_count": 36,
+      "rating_distribution": {
+        "1": 17,
+        "2": 5,
+        "3": 4,
+        "4": 7,
+        "5": 3
+      },
+      "average_rating": 2.28,
+      "confidence_score": 0.71,
+      "confidence_components": {
+        "volume": 0.52,
+        "quote_validation": 1.0
+      },
+      "priority_score": 25,
+      "theme_id": "cashback_for_bill_upi_payments_not_credited_forced_us_stocks_investment",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 25,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W40",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.5,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Customer Support Deficiency",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "There is no any customer care support number. Chatbot is not showing my issue. it's pathetic.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "castomar care has not any ind money they has a number only computeris talk nobody present parsone help desk meny problem issue present but not to be solve or guide tickit only like fake masseges there no any solving mainly catomar care services very very poor problem not tobe sove all good comments and review are paid colection",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "There is no proper customer care support. If a transaction issue occurs, your complaint may not be heard or resolved. The lack of responsive support makes it very difficult to trust the service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "you don't have a customer care number and even not able to speak. look your customer is a human being or a robot. i request you kindly don't use AI to speak with human beings use human beings to speak",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users consistently report an absence of reliable, responsive, and human\u2011centric customer support, citing lack of phone numbers, ineffective chatbots, and unhelpful ticketing, leading to unresolved issues and frustration.",
+      "business_impact": "Unresolved support escalations are causing users to miss trade opportunities, lose confidence in the platform, and ultimately churn, which directly reduces revenue and increases customer acquisition costs.",
+      "root_cause_hypothesis": "The support infrastructure is under\u2011staffed, relies on legacy chatbot systems that cannot create tickets or connect to live agents, and lacks a dedicated phone support channel, resulting in delayed or nonexistent responses.",
+      "action_plan": "\u2022 Implement a 24/7 dedicated phone support line\n\u2022 Integrate ticket creation within the chatbot and ensure tickets are routed to live agents within SLA\n\u2022 Add a live chat agent queue for real\u2011time assistance\n\u2022 Train support staff on common trading issues and escalation procedures\n\u2022 Deploy an internal SLA monitoring dashboard and automate alerts for response delays\n\u2022 Publish a knowledge base with FAQs and troubleshooting guides",
+      "teams_impacted": [
+        "Customer Support Ops",
+        "Product Management",
+        "Backend Engineering",
+        "UX Design",
+        "QA"
+      ],
+      "mentions_count": 15,
+      "rating_distribution": {
+        "1": 10,
+        "2": 2,
+        "3": 0,
+        "4": 1,
+        "5": 2
+      },
+      "average_rating": 1.87,
+      "confidence_score": 0.64,
+      "confidence_components": {
+        "volume": 0.4,
+        "quote_validation": 1.0
+      },
+      "priority_score": 20,
+      "theme_id": "missing_customer_support",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -51.6,
+        "priority_wow_delta": -7,
+        "rating_wow_delta": -0.0,
+        "first_seen": "2026-W26",
+        "age_weeks": 14
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 547,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 5,
+    "filtered_short": 225,
+    "filtered_short_positive": 209,
+    "filtered_short_negative": 7,
+    "filtered_short_neutral": 9
+  },
+  "source_counts": {
+    "app_store": 50,
+    "play_store": 731
+  },
+  "rating_distribution": {
+    "1": 113,
+    "2": 26,
+    "3": 18,
+    "4": 83,
+    "5": 307
+  },
+  "average_rating": 3.813528336380256,
+  "top_escalations": [],
+  "top_improvements": []
+}

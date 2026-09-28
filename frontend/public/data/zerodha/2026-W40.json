@@ -1,0 +1,146 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W40",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-09-28T03:54:46.326737",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Chart Loading & Availability Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "chart not opening in mobile app, very disappoint",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "charts are not opening in zerodha android app from last friday.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "chart is not open only loding",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "charting issues",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "too much issue in chart opening since last one month when I open chart from one strike price to another then it got stucked I have to restart app every time very bad",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "rubbish app .... doesn't work every time...loading loading all time loading.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "both App and web applications freeze and need to refresh often.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "i have faces very bugs like slowling app in these days",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "lately the app is lagging",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The app shows a blank screen in my Redmi Pad. Do resolve this issue please.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "after updation, app is very slow, real time chart is not working properly",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "lag in the app,",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Great experience but some time it lags in low internet",
+          "source": "play_store",
+          "rating": 4.0
+        }
+      ],
+      "description": "Users report that the app\u2019s chart screen frequently fails to load, stalls, or displays incorrect data, causing frustration and hindering trading decisions.",
+      "business_impact": "Repeated chart failures lead to missed trading opportunities, increased support tickets, and a higher likelihood of users switching to competitors, directly impacting revenue and user retention.",
+      "root_cause_hypothesis": "The recent app update likely introduced a regression in the chart rendering pipeline\u2014perhaps due to incompatible API changes, data caching logic, or insufficient handling of mobile network variability\u2014causing rendering delays and load failures.",
+      "action_plan": "\u2022 1. Replicate failure scenarios in QA and identify failing network/data paths\n\u2022 2. Roll back recent chart module changes to a known stable baseline\n\u2022 3. Apply targeted fixes (e.g., async data fetching, graceful error handling, retry logic)\n\u2022 4. Deploy a canary release to monitor crash and error metrics\n\u2022 5. Conduct a post\u2011release review and update documentation for future releases",
+      "teams_impacted": [
+        "Android Engineering",
+        "Backend/API",
+        "QA",
+        "Support"
+      ],
+      "mentions_count": 73,
+      "rating_distribution": {
+        "1": 41,
+        "2": 9,
+        "3": 8,
+        "4": 10,
+        "5": 5
+      },
+      "average_rating": 2.03,
+      "confidence_score": 0.77,
+      "confidence_components": {
+        "volume": 0.62,
+        "quote_validation": 1.0
+      },
+      "priority_score": 36,
+      "theme_id": "chart_display_issues_1",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 55.3,
+        "priority_wow_delta": 6,
+        "rating_wow_delta": -0.1,
+        "first_seen": "2026-W30",
+        "age_weeks": 10
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 972,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 185,
+    "filtered_short_positive": 175,
+    "filtered_short_negative": 7,
+    "filtered_short_neutral": 3
+  },
+  "source_counts": {
+    "app_store": 0,
+    "play_store": 1165
+  },
+  "rating_distribution": {
+    "1": 239,
+    "2": 52,
+    "3": 50,
+    "4": 98,
+    "5": 533
+  },
+  "average_rating": 3.652263374485597,
+  "top_escalations": [],
+  "top_improvements": []
+}

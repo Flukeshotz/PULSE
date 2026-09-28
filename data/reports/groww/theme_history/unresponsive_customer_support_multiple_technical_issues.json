@@ -61,5 +61,14 @@
     "priority_score": 53,
     "average_rating": 1.34,
     "confidence_score": 0.82
+  },
+  {
+    "iso_week": "2026-W40",
+    "name": "[Negative] Poor Customer Support Experience",
+    "description": "Users consistently report that the app\u2019s customer support is slow, unresponsive, and often fails to resolve issues, leading to frustration and abandoned tasks.",
+    "mentions_count": 112,
+    "priority_score": 51,
+    "average_rating": 1.32,
+    "confidence_score": 0.81
   }
 ]

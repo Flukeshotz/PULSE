@@ -43,5 +43,14 @@
     "priority_score": 32,
     "average_rating": 1.28,
     "confidence_score": 0.7
+  },
+  {
+    "iso_week": "2026-W40",
+    "name": "[Negative] App Instability & Payment Failures",
+    "description": "Users report frequent app crashes, auto\u2011closing, and failures to process payments or withdrawals, causing funds to be blocked or lost.",
+    "mentions_count": 45,
+    "priority_score": 32,
+    "average_rating": 1.49,
+    "confidence_score": 0.65
   }
 ]

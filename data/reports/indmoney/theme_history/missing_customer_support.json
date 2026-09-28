@@ -7,5 +7,14 @@
     "priority_score": 27,
     "average_rating": 1.9,
     "confidence_score": 0.7
+  },
+  {
+    "iso_week": "2026-W40",
+    "name": "[Negative] Customer Support Deficiency",
+    "description": "Users consistently report an absence of reliable, responsive, and human\u2011centric customer support, citing lack of phone numbers, ineffective chatbots, and unhelpful ticketing, leading to unresolved issues and frustration.",
+    "mentions_count": 15,
+    "priority_score": 20,
+    "average_rating": 1.87,
+    "confidence_score": 0.64
   }
 ]

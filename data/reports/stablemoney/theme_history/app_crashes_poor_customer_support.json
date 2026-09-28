@@ -43,5 +43,14 @@
     "priority_score": 27,
     "average_rating": 1.43,
     "confidence_score": 0.67
+  },
+  {
+    "iso_week": "2026-W40",
+    "name": "[Negative] Poor Customer Support",
+    "description": "Users repeatedly report that support channels are unresponsive, provide repetitive or vague answers, or fail to address their concerns, leading to frustration.",
+    "mentions_count": 17,
+    "priority_score": 27,
+    "average_rating": 1.06,
+    "confidence_score": 0.65
   }
 ]

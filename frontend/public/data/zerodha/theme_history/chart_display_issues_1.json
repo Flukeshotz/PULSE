@@ -34,5 +34,14 @@
     "priority_score": 30,
     "average_rating": 2.15,
     "confidence_score": 0.74
+  },
+  {
+    "iso_week": "2026-W40",
+    "name": "[Negative] Chart Loading & Availability Issues",
+    "description": "Users report that the app\u2019s chart screen frequently fails to load, stalls, or displays incorrect data, causing frustration and hindering trading decisions.",
+    "mentions_count": 73,
+    "priority_score": 36,
+    "average_rating": 2.03,
+    "confidence_score": 0.77
   }
 ]

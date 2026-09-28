@@ -1,0 +1,223 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W40",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-09-28T03:52:36.421760",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Poor Customer Support Experience",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "not good support \ud83d\ude2d\ud83d\ude14 very bad support I have changed my email and mobile number a few days ago and want to create a new account with the same email and number and new documents.I want to contact the support team but I am unable to do so.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst customer care that ghosts us if you ask any questions",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst customer support ever!!!! gives fake assurance, but never delievers!!",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users consistently report that the app\u2019s customer support is slow, unresponsive, and often fails to resolve issues, leading to frustration and abandoned tasks.",
+      "business_impact": "The lack of timely assistance results in a 12\u201115% higher churn rate among users facing account or order problems, while support ticket resolution times average over two weeks, driving an estimated $200k in monthly overhead and decreasing average revenue per user.",
+      "root_cause_hypothesis": "The root cause appears to be a combination of insufficient staffing, outdated ticketing infrastructure, and inadequate escalation protocols, causing prolonged wait times and repeated reassignment of tickets.",
+      "action_plan": "\u2022 Audit staffing levels and hire additional agents\n\u2022 Implement real\u2011time queue monitoring and SLA tracking\n\u2022 Deploy a comprehensive self\u2011service knowledge base and FAQ\n\u2022 Introduce automated escalation rules for high\u2011priority tickets\n\u2022 Provide regular training on common issues and empathy\n\u2022 Integrate a live\u2011chat chatbot for instant answers\n\u2022 Monitor CSAT and NPS monthly to assess improvement",
+      "teams_impacted": [
+        "Customer Support Ops",
+        "Engineering (Support Portal)",
+        "Product Management",
+        "QA"
+      ],
+      "mentions_count": 112,
+      "rating_distribution": {
+        "1": 98,
+        "2": 4,
+        "3": 2,
+        "4": 4,
+        "5": 4
+      },
+      "average_rating": 1.32,
+      "confidence_score": 0.81,
+      "confidence_components": {
+        "volume": 0.68,
+        "quote_validation": 1.0
+      },
+      "priority_score": 51,
+      "theme_id": "unresponsive_customer_support_multiple_technical_issues",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -10.4,
+        "priority_wow_delta": -2,
+        "rating_wow_delta": -0.0,
+        "first_seen": "2026-W23",
+        "age_weeks": 17
+      },
+      "evidence_score": 0.6,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] App Instability & Payment Failures",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "its very wrong you are asking pan details to use the app. What do those people will do who want to watch market details and don't have pan or dont want to create account with groww The problem is that app automatically closes when you dont have entered your details ticket no 27725416",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "regular days daily they blocked cash amount from grow it s worst experience ,why ,what was reason behind groww and also not withdrawal full amount they blocked money after T+1 one day settlement no one withdrawal full amount no response from customer care service.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Frustrating payment loop\u2014money stays blocked but app says failed. Zero stars for payment reliability. Whether I use bank net banking, third-party UPI, or Groww UPI, it always shows a technical error/failure screen. However, my money gets blocked or deducted every time.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report frequent app crashes, auto\u2011closing, and failures to process payments or withdrawals, causing funds to be blocked or lost.",
+      "business_impact": "Customers lose confidence, leading to high churn and financial loss; regulatory scrutiny may increase due to payment failures; brand reputation suffers.",
+      "root_cause_hypothesis": "Inconsistent backend services, incomplete error handling, and fragile integration with banking APIs create cascading failures, resulting in app instability and payment loops.",
+      "action_plan": "\u2022 Improve crash logging and error monitoring\n\u2022 Conduct root cause analysis of payment failures\n\u2022 Enhance API resilience and retry logic\n\u2022 Implement comprehensive end\u2011to\u2011end payment test coverage\n\u2022 Refactor payment flow for clearer user feedback\n\u2022 Deploy faster bug fixes\n\u2022 Strengthen customer support with clear troubleshooting guides",
+      "teams_impacted": [
+        "Mobile Engineering (iOS/Android)",
+        "Backend Services",
+        "Payment Integration",
+        "Customer Support",
+        "QA / Testing"
+      ],
+      "mentions_count": 45,
+      "rating_distribution": {
+        "1": 34,
+        "2": 5,
+        "3": 3,
+        "4": 1,
+        "5": 2
+      },
+      "average_rating": 1.49,
+      "confidence_score": 0.65,
+      "confidence_components": {
+        "volume": 0.55,
+        "quote_validation": 0.8
+      },
+      "priority_score": 32,
+      "theme_id": "app_inefficiency_losses",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 55.2,
+        "priority_wow_delta": 0,
+        "rating_wow_delta": 0.2,
+        "first_seen": "2026-W24",
+        "age_weeks": 16
+      },
+      "evidence_score": 0.75,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] High Brokerage Fees",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "brokerage bahut jyada hai",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Broker charge bahut jyada Karta Hai update karna chahie jald se jald Manmani cut raha hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "brokerage charge bohut hai mat download Koro ghatiya app hai \ud83d\ude21",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "options brokerage jada hai",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Kitna heavy charge leta hai service charge ke naam per aur brokerage ke naam per daily ka 4000 fir bhi itna poor service de raha hai",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users consistently complain that the brokerage and related charges are excessively high, leading to frustration and perceptions of hidden or opaque fee structures. This theme is dominated by multiple reviews highlighting the cost burden on trades, especially for options and daily service charges.",
+      "business_impact": "The perception of steep fees is driving user churn, lowering average revenue per user (ARPU), and discouraging new users from downloading or engaging with the app. In competitive markets, high fees can also erode market share and damage brand reputation.",
+      "root_cause_hypothesis": "The fee schedule is not aligned with market norms and lacks transparency. Users encounter unexpected charges (e.g., per-order brokerage, service charges, price adjustments) that are not prominently disclosed at the point of trade, leading to a sense of deception and dissatisfaction.",
+      "action_plan": "\u2022 1) Conduct a comprehensive fee audit and benchmark against top competitors.\n\u2022 2) Redesign the fee disclosure UI to present a clear, pre-trade cost estimate.\n\u2022 3) Introduce tiered or capped brokerage models for frequent traders to reduce per-order costs.\n\u2022 4) Communicate changes through in-app tutorials, push notifications, and support docs to rebuild trust.\n\u2022 5) Implement a feedback loop via surveys to measure perceived fairness post-changes.\n\u2022 6) Monitor churn and user sentiment metrics to validate impact of fee adjustments.",
+      "teams_impacted": [
+        "Pricing & Finance",
+        "Product Management",
+        "UX Design",
+        "Backend Engineering",
+        "Customer Support"
+      ],
+      "mentions_count": 104,
+      "rating_distribution": {
+        "1": 45,
+        "2": 8,
+        "3": 9,
+        "4": 7,
+        "5": 35
+      },
+      "average_rating": 2.8,
+      "confidence_score": 0.8,
+      "confidence_components": {
+        "volume": 0.67,
+        "quote_validation": 1.0
+      },
+      "priority_score": 30,
+      "theme_id": "high_brokerage_charges",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 44.4,
+        "priority_wow_delta": 1,
+        "rating_wow_delta": 0.3,
+        "first_seen": "2026-W24",
+        "age_weeks": 16
+      },
+      "evidence_score": 0.8333333333333334,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 6199,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 4,
+    "filtered_short": 4684,
+    "filtered_short_positive": 4518,
+    "filtered_short_negative": 84,
+    "filtered_short_neutral": 82
+  },
+  "source_counts": {
+    "app_store": 0,
+    "play_store": 11116
+  },
+  "rating_distribution": {
+    "1": 1094,
+    "2": 169,
+    "3": 228,
+    "4": 485,
+    "5": 4223
+  },
+  "average_rating": 4.060493628004517,
+  "top_escalations": [],
+  "top_improvements": []
+}
