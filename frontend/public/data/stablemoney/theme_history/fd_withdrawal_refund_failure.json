@@ -16,5 +16,14 @@
     "priority_score": 25,
     "average_rating": 1.44,
     "confidence_score": 0.66
+  },
+  {
+    "iso_week": "2026-W41",
+    "name": "[Negative] FD Crediting & Withdrawal Issues",
+    "description": "Users repeatedly report that Fixed Deposit (FD) transactions are not credited correctly or promptly, with delayed or missing payouts, incorrect maturity amounts, and refusal to refund money when bookings fail.",
+    "mentions_count": 40,
+    "priority_score": 33,
+    "average_rating": 1.57,
+    "confidence_score": 0.72
   }
 ]

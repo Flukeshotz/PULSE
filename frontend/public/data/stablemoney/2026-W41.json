@@ -1,0 +1,169 @@
+{
+  "product": "Stable Money",
+  "iso_week": "2026-W41",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-10-05T04:20:45.482144",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] FD Crediting & Withdrawal Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "they lie about instant withdrawal. it's 3rd day since my withdrawal request but my money still hasn't been credited to my account",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Invested in FD, but one of my FDs have not been credited even after breaking it. Severely disappointed, will break all my FDs and delete the app if this is not resolved soon.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I have withdrawn FD on 26th Aug 2026 maturity amount mentioned was 60434 but only 55123 got credited on 31st Aug 2026. There is no guarantee of maturity amount Investment at your own risk.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst experience , I paid money to book fd , fd not booked , it's been more than a week still money not refunded, they hold money and refuse to refund",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I made an FD for 1 year but without my consent it was taken for 30 months . immediately after noticing i requested Customer support to update to 1 year but there are saying they will be penalty and I am able to find the option to withdraw my money back . There is no proper support.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users repeatedly report that Fixed Deposit (FD) transactions are not credited correctly or promptly, with delayed or missing payouts, incorrect maturity amounts, and refusal to refund money when bookings fail.",
+      "business_impact": "Loss of user trust and retention, increased churn as users delete the app, and potential regulatory scrutiny due to financial mis\u2011management.",
+      "root_cause_hypothesis": "Inadequate integration with banking APIs leading to failed or delayed fund transfers, coupled with insufficient error handling and lack of clear communication protocols for refunds.",
+      "action_plan": "\u2022 Revamp FD transaction flow to include real\u2011time payment confirmation\n\u2022 Implement a robust reconciliation system with bank statements\n\u2022 Add clear escalation paths for failed withdrawals\n\u2022 Provide real\u2011time status updates in the app\n\u2022 Conduct end\u2011to\u2011end testing of FD booking and refund scenarios\n\u2022 Deploy monitoring dashboards to flag anomalies\n\u2022 Train customer support on FD processes\n\u2022 Review fee/penalty disclosures for transparency",
+      "teams_impacted": [
+        "Back\u2011end Engineering",
+        "Product Management",
+        "Customer Support",
+        "Compliance",
+        "UX Design"
+      ],
+      "mentions_count": 40,
+      "rating_distribution": {
+        "1": 29,
+        "2": 4,
+        "3": 3,
+        "4": 3,
+        "5": 1
+      },
+      "average_rating": 1.57,
+      "confidence_score": 0.72,
+      "confidence_components": {
+        "volume": 0.54,
+        "quote_validation": 1.0
+      },
+      "priority_score": 33,
+      "theme_id": "fd_withdrawal_refund_failure",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 122.2,
+        "priority_wow_delta": 8,
+        "rating_wow_delta": 0.1,
+        "first_seen": "2026-W36",
+        "age_weeks": 5
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Poor Customer Support",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "worst service ever....no response from customer care",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "no reply Even after a week of mail",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "customer care does not respond..",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "never reply on WhatsApp",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users consistently report that customer care is unresponsive, with many stating they never receive a reply via email, WhatsApp, or phone, leading to a perception of neglect and frustration.",
+      "business_impact": "The lack of timely support erodes user trust, increases churn risk among high-value customers, and damages brand reputation, ultimately reducing lifetime value and hindering growth initiatives.",
+      "root_cause_hypothesis": "Support staff are either understaffed or not properly integrated with communication channels, causing delays and missed escalations; existing ticketing and notification workflows are likely inadequate or misconfigured.",
+      "action_plan": "\u2022 Implement a unified ticketing system with automated acknowledgment\n\u2022 Hire and train dedicated support agents for high-touch response\n\u2022 Establish clear SLA for first response within 4 hours and resolution within 48 hours\n\u2022 Set up monitoring dashboards for response times and CSAT scores\n\u2022 Conduct quarterly reviews and continuous improvement cycles",
+      "teams_impacted": [
+        "Customer Support Ops",
+        "Product Management",
+        "Engineering (backend)",
+        "QA"
+      ],
+      "mentions_count": 20,
+      "rating_distribution": {
+        "1": 17,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "average_rating": 1.3,
+      "confidence_score": 0.66,
+      "confidence_components": {
+        "volume": 0.44,
+        "quote_validation": 1.0
+      },
+      "priority_score": 27,
+      "theme_id": "app_crashes_poor_customer_support",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 17.6,
+        "priority_wow_delta": 0,
+        "rating_wow_delta": 0.2,
+        "first_seen": "2026-W27",
+        "age_weeks": 14
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 729,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 1,
+    "filtered_short": 172,
+    "filtered_short_positive": 166,
+    "filtered_short_negative": 2,
+    "filtered_short_neutral": 4
+  },
+  "source_counts": {
+    "app_store": 36,
+    "play_store": 875
+  },
+  "rating_distribution": {
+    "1": 175,
+    "2": 24,
+    "3": 30,
+    "4": 44,
+    "5": 456
+  },
+  "average_rating": 3.7983539094650207,
+  "top_escalations": [],
+  "top_improvements": []
+}

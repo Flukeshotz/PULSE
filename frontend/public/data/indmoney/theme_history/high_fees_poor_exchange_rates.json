@@ -7,5 +7,14 @@
     "priority_score": 20,
     "average_rating": 2.2,
     "confidence_score": 0.66
+  },
+  {
+    "iso_week": "2026-W41",
+    "name": "[Negative] Unfair fee practices & lack of transparency",
+    "description": "Users report inconsistent and rising brokerage and MTF rates with no clear disclosure, leading to distrust and the perception of hidden fees.",
+    "mentions_count": 13,
+    "priority_score": 20,
+    "average_rating": 1.69,
+    "confidence_score": 0.63
   }
 ]

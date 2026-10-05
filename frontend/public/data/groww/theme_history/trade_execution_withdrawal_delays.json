@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W41",
+    "name": "[Negative] Trade Execution & Withdrawal Delays",
+    "description": "Users report that sell orders often get stuck in pending or fail to execute, and withdrawal and refund requests are delayed or missing, causing frustration and financial loss.",
+    "mentions_count": 84,
+    "priority_score": 30,
+    "average_rating": 2.65,
+    "confidence_score": 0.79
+  }
+]

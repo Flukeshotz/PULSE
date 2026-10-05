@@ -1,0 +1,178 @@
+{
+  "product": "INDMoney",
+  "iso_week": "2026-W41",
+  "period_label": "Last 8 weeks",
+  "generated_at": "2026-10-05T04:12:06.123921",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Misleading Cashback & US Stock Requirement",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "very poor app, misguide about his reward money back ,first shown that if u will pay your post paid bill app reward 25/ after 10 payment of postpaid bill he assured you will get 500/ extra ,but sorry to see that all payments credited in US reward amount ,when you will purchase us equity then u can get how reward amount ,also all money back transferd in us reward points ,this shows misleading to consumer ,very poor app about bill payment and UPI payment",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "You have to mandatorily create us stocks account and buy 5000 in us stocks to claim the cashback earned in bill payments or upi payments. which is ridiculous.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I paid my postpaid bill and got cashback in hs stocks lol. I am not buying any of us stocks! And while paying the bill it didn't mention that where exactly you will get the cashback.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "no use of cashback forcefully asking to create a us stock account which is terrible...before we used to claim cashback for recharge",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "There is bug in the app, when we press on cashback under UPI & bills section we jump to us stock page.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report that the app\u2019s advertised cashback for bill and UPI payments actually redirects to US stock purchases, with rewards credited as stock points instead of cash or clear rewards, and requires users to open a US\u2011stocks account and meet investment thresholds that are not disclosed upfront.",
+      "business_impact": "The misleading promise drives negative reviews, erodes user trust, increases churn, and could expose the company to regulatory scrutiny over deceptive advertising, ultimately reducing paid\u2011user acquisition and retention.",
+      "root_cause_hypothesis": "The reward engine is incorrectly wired to the US\u2011stock investment product, and the user flow fails to surface this requirement, leading to a perceived \u201ccashback\u201d that is actually a stock incentive; coupled with poor UI messaging and a broken navigation flow.",
+      "action_plan": "\u2022 Clarify reward terms in all payment flows\n\u2022 Remove mandatory US\u2011stock account requirement for cashback\n\u2022 Re\u2011implement a true cash or redeemable reward mechanism\n\u2022 Update UI to clearly label rewards as stock points if still offered\n\u2022 Fix navigation bug that sends users to US\u2011stock page from cashback button\n\u2022 Conduct audit of reward logic and policy\n\u2022 Roll out change with user education and support response\n\u2022 Monitor metrics for churn and review sentiment\n\u2022 Update legal compliance documentation",
+      "teams_impacted": [
+        "Product Management",
+        "UX Design",
+        "Android Engineering",
+        "iOS Engineering",
+        "QA",
+        "Legal",
+        "Customer Support"
+      ],
+      "mentions_count": 16,
+      "rating_distribution": {
+        "1": 10,
+        "2": 2,
+        "3": 0,
+        "4": 3,
+        "5": 1
+      },
+      "average_rating": 1.94,
+      "confidence_score": 0.65,
+      "confidence_components": {
+        "volume": 0.41,
+        "quote_validation": 1.0
+      },
+      "priority_score": 20,
+      "theme_id": "cashback_for_bill_upi_payments_not_credited_forced_us_stocks_investment",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -55.6,
+        "priority_wow_delta": -5,
+        "rating_wow_delta": -0.3,
+        "first_seen": "2026-W40",
+        "age_weeks": 1
+      },
+      "evidence_score": 0.8333333333333334,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Unfair fee practices & lack of transparency",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "f&o Charges different charges 5 \u20b9/10/\u20b9/20\u20b9to different people. not clear transparency.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "too High brokrage charges. they are taking different different brokrage charges for two users.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I moved most of my trades from upstox to Indmoney because of lower rates on MTF and now they have increased MTF rates from 7% to 10%. I will now move back to upstox.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Management decided to change MTF rate overnight without customer consent Without consent they increased ROI on MTF by 2.5%. I can't trust this platform tomorrow they can increase by 5% and customer support will mention management took the call.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Zero transparency. They hiked MTF interest rates and brokerage fees. Customer support was rude and falsely claimed these were \"promotional offers\" that were never disclosed anywhere.",
+          "source": "app_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report inconsistent and rising brokerage and MTF rates with no clear disclosure, leading to distrust and the perception of hidden fees.",
+      "business_impact": "Customers are switching to competitor brokers, resulting in measurable churn, lost revenue, brand damage, and increased risk of regulatory scrutiny over opaque fee practices.",
+      "root_cause_hypothesis": "A fragmented pricing strategy combined with reactive fee adjustments driven by market conditions, without standardized rates or transparent communication channels, is causing the perceived unfairness.",
+      "action_plan": "\u2022 1. Conduct a comprehensive audit of current fee structures to identify inconsistencies.\n\u2022 2. Standardize brokerage and MTF rates across all users.\n\u2022 3. Implement a transparent fee disclosure module in the app and website.\n\u2022 4. Create a communication rollout plan to inform users of any future changes with at least 30 days notice.\n\u2022 5. Revise customer support scripts and train agents on transparency policies.\n\u2022 6. Establish a fee change governance committee involving Finance, Product, and Legal.\n\u2022 7. Monitor post\u2011implementation feedback and adjust as needed.",
+      "teams_impacted": [
+        "Finance",
+        "Product Pricing",
+        "Legal & Compliance",
+        "Customer Support",
+        "UX Design",
+        "Backend Engineering"
+      ],
+      "mentions_count": 13,
+      "rating_distribution": {
+        "1": 10,
+        "2": 0,
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "average_rating": 1.69,
+      "confidence_score": 0.63,
+      "confidence_components": {
+        "volume": 0.38,
+        "quote_validation": 1.0
+      },
+      "priority_score": 20,
+      "theme_id": "high_fees_poor_exchange_rates",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -35.0,
+        "priority_wow_delta": 0,
+        "rating_wow_delta": -0.5,
+        "first_seen": "2026-W35",
+        "age_weeks": 6
+      },
+      "evidence_score": 0.8333333333333334,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 561,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 2,
+    "filtered_short": 208,
+    "filtered_short_positive": 193,
+    "filtered_short_negative": 6,
+    "filtered_short_neutral": 9
+  },
+  "source_counts": {
+    "app_store": 81,
+    "play_store": 696
+  },
+  "rating_distribution": {
+    "1": 126,
+    "2": 25,
+    "3": 22,
+    "4": 86,
+    "5": 302
+  },
+  "average_rating": 3.736185383244207,
+  "top_escalations": [],
+  "top_improvements": []
+}

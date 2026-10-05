@@ -1,0 +1,210 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W41",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-10-05T04:15:35.045748",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Poor Customer Support Experience",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "Very poor customer support, practically no help desk.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "bad experience with customer service no response poor service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The customer service is worst. I don't get any reply even though it say 24/7 support",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst support team ever guys please don't use this application it's so frustrating to talk with the support team",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "not responding customer care service I am waiting call in line 8mint \ud83d\ude21",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "worst customer support. never take loans from here specially LAS",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Customer service very useless fellow",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Groww has very poor customer support and always busy customer staff they don't listen so it is better to change your broker I just mailed them today to send me exit formalities I was a member from 4 years and tested it all way",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "I\u2019ve contacted Groww support multiple times, but the issue is still not resolved. Very disappointing experience.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Very disappointed with Groww's customer support. I had only 30 IPO shares, but the support team incorrectly claimed that I had sold 60 shares.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I raised a serious discrepancy in my mutual fund holdings between Groww and CAMS/MF Central. Despite repeated follow-ups since 25 September, I have not received a proper explanation or resolution.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app to invest your mutual funds, I am not getting a proper response from groww customer care regarding my 2nd SIP due date(not able to pay manually) they have created 2 ticket with same query but resolution is not provided yet it's been more than 48 hour",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users consistently report that the customer service is unresponsive, slow, and lacking in helpful assistance.",
+      "business_impact": "High customer churn due to unresolved issues, increased negative word\u2011of\u2011mouth, and loss of trust leading to revenue decline from subscription cancellations.",
+      "root_cause_hypothesis": "The support team suffers from inadequate staffing, insufficient training, and poor ticket\u2011routing processes, combined with reliance on automated AI help that is not effectively integrated.",
+      "action_plan": "\u2022 Audit current support staffing and SLA\n\u2022 Expand live agent roster to reduce wait times by 50%\n\u2022 Implement ticket escalation matrix with real\u2011time SLA monitoring\n\u2022 Create comprehensive knowledge base and train agents\n\u2022 Deploy chat monitoring to detect failures early\n\u2022 Collect quarterly customer satisfaction surveys\n\u2022 Allocate budget for support tools and analytics\n\u2022 Communicate improvements to customers and rebuild trust",
+      "teams_impacted": [
+        "Customer Support Ops",
+        "Engineering (Support Tools)",
+        "Product Management",
+        "Quality Assurance"
+      ],
+      "mentions_count": 128,
+      "rating_distribution": {
+        "1": 110,
+        "2": 6,
+        "3": 2,
+        "4": 5,
+        "5": 5
+      },
+      "average_rating": 1.35,
+      "confidence_score": 0.82,
+      "confidence_components": {
+        "volume": 0.7,
+        "quote_validation": 1.0
+      },
+      "priority_score": 53,
+      "theme_id": "unresponsive_customer_support_multiple_technical_issues",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 14.3,
+        "priority_wow_delta": 2,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W23",
+        "age_weeks": 18
+      },
+      "evidence_score": 0.875,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Trade Execution & Withdrawal Delays",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "withdraw karne ke time 2 din baad ayega paisa",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Sell karne ke time panding me chela jata hai ore sell nahi fir lose hone ke baad sell hota hai kya kare !",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "groww totally fraud app h....mene mcx option me 16 or 17 sep 2026 ko profit book kiya wo add nhi kiya or na report me show ho rha h.....or jo position active h wo bhi totally galat show kr rha h....",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Intraday traders ke liye order execution speed, real-time price updates aur chart performance ko aur improve karna chahiye.",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "Refund process paise turant deposit ho jata hai lekin withdraw time itna natak",
+          "source": "play_store",
+          "rating": 3.0
+        }
+      ],
+      "description": "Users report that sell orders often get stuck in pending or fail to execute, and withdrawal and refund requests are delayed or missing, causing frustration and financial loss.",
+      "business_impact": "Loss of active trader engagement, increased churn risk among frequent traders, potential regulatory scrutiny over delayed payouts, and a spike in support tickets that drain resources.",
+      "root_cause_hypothesis": "The platform\u2019s order routing to exchanges is experiencing latency or misrouting, the withdrawal processing pipeline has bottlenecks or missing state transitions, and the UI obscures status updates, leading users to believe orders are pending or funds are missing.",
+      "action_plan": "\u2022 1. Audit and optimize order routing latency and failure handling\n\u2022 2. Implement real\u2011time order status updates and error alerts\n\u2022 3. Redesign withdrawal processing pipeline to guarantee 24\u2011hour turnaround\n\u2022 4. Add a retry/fallback mechanism for failed sell orders\n\u2022 5. Provide transparent fee and refund breakdowns in the UI\n\u2022 6. Load test the end\u2011to\u2011end trade and withdrawal flow\n\u2022 7. Communicate changes and educate users via in\u2011app messages",
+      "teams_impacted": [
+        "Trading Systems Engineering",
+        "Backend Ops",
+        "Data & Analytics",
+        "UX Design",
+        "Customer Support"
+      ],
+      "mentions_count": 84,
+      "rating_distribution": {
+        "1": 40,
+        "2": 6,
+        "3": 7,
+        "4": 5,
+        "5": 26
+      },
+      "average_rating": 2.65,
+      "confidence_score": 0.79,
+      "confidence_components": {
+        "volume": 0.64,
+        "quote_validation": 1.0
+      },
+      "priority_score": 30,
+      "theme_id": "trade_execution_withdrawal_delays",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 30,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W41",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 6704,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 1,
+    "filtered_short": 4670,
+    "filtered_short_positive": 4491,
+    "filtered_short_negative": 94,
+    "filtered_short_neutral": 85
+  },
+  "source_counts": {
+    "app_store": 500,
+    "play_store": 11124
+  },
+  "rating_distribution": {
+    "1": 1135,
+    "2": 163,
+    "3": 224,
+    "4": 513,
+    "5": 4669
+  },
+  "average_rating": 4.106503579952268,
+  "top_escalations": [],
+  "top_improvements": []
+}

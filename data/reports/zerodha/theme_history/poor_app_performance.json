@@ -16,5 +16,14 @@
     "priority_score": 26,
     "average_rating": 1.45,
     "confidence_score": 0.66
+  },
+  {
+    "iso_week": "2026-W41",
+    "name": "[Negative] Poor App Performance & Reliability",
+    "description": "Users repeatedly report slow performance, frequent app crashes, OTP delays, outdated UI, and a lack of timely customer support, causing frustration and loss of trading opportunities.",
+    "mentions_count": 40,
+    "priority_score": 36,
+    "average_rating": 1.25,
+    "confidence_score": 0.72
   }
 ]

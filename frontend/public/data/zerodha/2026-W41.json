@@ -1,0 +1,197 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W41",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-10-05T04:18:18.144267",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Poor App Performance & Reliability",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "worst app... other trading apps are far better, frequently getting slow, not getting OTPs on time. Customer care service is also worst.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst experience .... option price got gloct and stuck at same rate on expiry at same time no support from representative ... not taking calls",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst application, instant withdrawals don't work properly, outdated software.. worst user interface.. I made loss due to its worst Interface.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "this is the poorest app I have seen specially after been user of angel app for 5 years. so pathetic User interface. can't show how much is daily movement. profit shows different values at different screen. first of all for all things there is different console, analytics and so on. so many portal. they can't keep is single. I don't understand how this app grew so much, may be all are first time users only. Angel 5paisa, groww, all are much better that this. holdings dont get updated even in 3day",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "After last week update i am unable to add money from bank account, neither thriugh upi or net banking.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Unable to add funds Saying vpa invalid and is now asking for additional charges if i want to change my bank account. Pathetic interface",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Unable to verify using UPI Unable to verify the bank details using UPI. Nothing happens. No payment request in UPI apps",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Unable to create new account using Google pay. Even though the joining rs 1 transaction is successful, the website shows payment failed and am unable to create my account.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "if you join this app. your payment is stuck ..not suggest to use this app",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users repeatedly report slow performance, frequent app crashes, OTP delays, outdated UI, and a lack of timely customer support, causing frustration and loss of trading opportunities.",
+      "business_impact": "The negative experience drives users to abandon the platform, leading to significant churn, reduced trading volume, increased support tickets, and a damaged brand reputation that hinders user acquisition.",
+      "root_cause_hypothesis": "The app suffers from outdated architecture, suboptimal code paths, insufficient backend scalability, and a lack of comprehensive performance testing, resulting in high latency, UI freezes, and unstable network handling.",
+      "action_plan": "\u2022 Conduct a full performance audit and identify bottlenecks\n\u2022 Refactor core trading engine and upgrade libraries\n\u2022 Implement robust OTP delivery with retries and monitoring\n\u2022 Revamp UI with a modern design system and simplify navigation\n\u2022 Enhance backend scalability with load balancing, caching, and async processing\n\u2022 Deploy automated regression and load testing pipelines\n\u2022 Establish dedicated customer support SLA with rapid response times\n\u2022 Release incremental updates with thorough testing and monitoring",
+      "teams_impacted": [
+        "Android/iOS Engineering",
+        "Backend Engineering",
+        "QA & Performance",
+        "UX/UI Design",
+        "Customer Support",
+        "Product Management"
+      ],
+      "mentions_count": 40,
+      "rating_distribution": {
+        "1": 34,
+        "2": 4,
+        "3": 1,
+        "4": 0,
+        "5": 1
+      },
+      "average_rating": 1.25,
+      "confidence_score": 0.72,
+      "confidence_components": {
+        "volume": 0.54,
+        "quote_validation": 1.0
+      },
+      "priority_score": 36,
+      "theme_id": "poor_app_performance",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 10,
+        "rating_wow_delta": -0.2,
+        "first_seen": "2026-W30",
+        "age_weeks": 11
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Excessive & Hidden Fees",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "They charged me around \u20b9700 as AMC (Annual Maintenance Charges) because I had two or more demat accounts, but this was not made clear to me.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "you apply AMC Charges Directly and Not Mentioned in Anywhere while account opening time so how can we trust you....",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Zerodha charges \u20b9300 for one position in f and o. when liquidity is low in market and zerodha cannot earn money by trading and charges zerodha is adding hidden charges like Groww.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "zerodha used to good but they charge AMC every quarter, hidden charges.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "frauds, they are charging much higher than that showing in \"zerodha calculator\".. for a trade estimated charges shown \u20b9137... but they charged \u20b9235...",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Customers report that brokerage, annual maintenance, and other charges are higher than advertised or not clearly disclosed, leading to surprise bills and perceived over\u2011charging.",
+      "business_impact": "Customers are leaving the platform for competitors such as Angel One and Groww, inflating churn and acquisition costs, and eroding trust which directly impacts ARPU and long\u2011term revenue.",
+      "root_cause_hypothesis": "The fee structure is opaque and inconsistently applied across product lines; AMC is auto\u2011charged without clear pre\u2011approval, and the billing system mis\u2011calculates or mis\u2011labels charges, creating a perception of hidden or inflated costs.",
+      "action_plan": "\u2022 Revise fee disclosure in the onboarding flow and help centre\n\u2022 Implement a pre\u2011trade cost calculator in the UI\n\u2022 Change AMC to be deducted from account balance rather than as a separate yearly charge\n\u2022 Conduct a billing audit to identify and correct miscalculated charges\n\u2022 Train customer support on fee policies and dispute resolution\n\u2022 Roll out a communication campaign to rebuild trust",
+      "teams_impacted": [
+        "Finance",
+        "Product Pricing",
+        "Engineering (Billing)",
+        "UX Design",
+        "Customer Support",
+        "Legal"
+      ],
+      "mentions_count": 30,
+      "rating_distribution": {
+        "1": 27,
+        "2": 1,
+        "3": 0,
+        "4": 2,
+        "5": 0
+      },
+      "average_rating": 1.23,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.5,
+        "quote_validation": 1.0
+      },
+      "priority_score": 33,
+      "theme_id": "excessive_hidden_fees",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 33,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W41",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 1079,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 1,
+    "filtered_short": 188,
+    "filtered_short_positive": 178,
+    "filtered_short_negative": 7,
+    "filtered_short_neutral": 3
+  },
+  "source_counts": {
+    "app_store": 92,
+    "play_store": 1183
+  },
+  "rating_distribution": {
+    "1": 289,
+    "2": 59,
+    "3": 61,
+    "4": 102,
+    "5": 568
+  },
+  "average_rating": 3.556997219647822,
+  "top_escalations": [],
+  "top_improvements": []
+}

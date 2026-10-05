@@ -7,5 +7,14 @@
     "priority_score": 25,
     "average_rating": 2.28,
     "confidence_score": 0.71
+  },
+  {
+    "iso_week": "2026-W41",
+    "name": "[Negative] Misleading Cashback & US Stock Requirement",
+    "description": "Users report that the app\u2019s advertised cashback for bill and UPI payments actually redirects to US stock purchases, with rewards credited as stock points instead of cash or clear rewards, and requires users to open a US\u2011stocks account and meet investment thresholds that are not disclosed upfront.",
+    "mentions_count": 16,
+    "priority_score": 20,
+    "average_rating": 1.94,
+    "confidence_score": 0.65
   }
 ]

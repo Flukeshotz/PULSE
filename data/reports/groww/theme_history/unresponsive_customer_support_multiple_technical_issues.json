@@ -70,5 +70,14 @@
     "priority_score": 51,
     "average_rating": 1.32,
     "confidence_score": 0.81
+  },
+  {
+    "iso_week": "2026-W41",
+    "name": "[Negative] Poor Customer Support Experience",
+    "description": "Users consistently report that the customer service is unresponsive, slow, and lacking in helpful assistance.",
+    "mentions_count": 128,
+    "priority_score": 53,
+    "average_rating": 1.35,
+    "confidence_score": 0.82
   }
 ]
