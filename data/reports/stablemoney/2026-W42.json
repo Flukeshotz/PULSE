@@ -1,0 +1,112 @@
+{
+  "product": "Stable Money",
+  "iso_week": "2026-W42",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-10-12T04:36:04.988143",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] FD Booking Failures & Poor Support",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "my first experience was very disappointing. I tried to book an FD worth \u20b91 lakh using this platform; the funds were deducted from my account, but the FD was not booked.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "FD initiation from 3 days, Even after 3 days still in progress mode.. Biggest mistake that i done from this third party app. Also not refunding",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "App is not working properly, not showing the details of Invested amount like FDs RDs etc and in this. conern requested many times to customer care through mail/ calls but failed so I decided to delete this mediator app stable money and go directly to banks app for deposits, FD/RD etc",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Very frustrating experience! The FD amount was debited from my account before I was even asked to complete KYC.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "first they take your money then try KYC and the bank does not have an officer available for KYC in 3 days(it happens) they will refund money in (3+10)13 days without interest( I am waiting for 13 days to complete).",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "You will not receive proper transaction details in this app. If a transaction fails but the money is deducted, there is no reference number or transaction record available in the app, which raises serious concerns about security and transparency.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report that Fixed Deposit (FD) transactions frequently fail, resulting in funds being deducted but not credited, missing transaction records, and prolonged or absent refunds. Support responses are delayed or nonexistent, leaving customers without recourse.",
+      "business_impact": "Loss of user deposits, erosion of trust, increased churn, negative reviews, potential regulatory investigation, and financial liability.",
+      "root_cause_hypothesis": "Inadequate integration and error handling between the app\u2019s transaction engine and banks\u2019 APIs causes partial transaction commits; coupled with a lack of real\u2011time status tracking and an under\u2011resourced support workflow, users experience untracked debits and delayed resolution.",
+      "action_plan": "\u2022 Implement idempotent, transaction\u2011safe integration with bank APIs and a reliable status ledger\n\u2022 Add real\u2011time status updates and audit logs for every FD operation\n\u2022 Establish a dedicated FD support queue with defined SLA and escalation paths\n\u2022 Create automated rollback and refund procedures for failed bookings\n\u2022 Run end\u2011to\u2011end integration tests with each bank partner\n\u2022 Deploy monitoring alerts for transaction failures\n\u2022 Communicate transparent status and timelines to affected users\n\u2022 Conduct a compliance review to align with regulatory reporting requirements",
+      "teams_impacted": [
+        "Backend Engineering",
+        "Platform Engineering",
+        "Customer Support",
+        "Product Management",
+        "Compliance & Risk"
+      ],
+      "mentions_count": 42,
+      "rating_distribution": {
+        "1": 36,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 1
+      },
+      "average_rating": 1.35,
+      "confidence_score": 0.73,
+      "confidence_components": {
+        "volume": 0.54,
+        "quote_validation": 1.0
+      },
+      "priority_score": 36,
+      "theme_id": "fd_withdrawal_refund_failure",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 5.0,
+        "priority_wow_delta": 3,
+        "rating_wow_delta": -0.2,
+        "first_seen": "2026-W36",
+        "age_weeks": 6
+      },
+      "evidence_score": 0.6,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 749,
+    "unauthentic_quotes_dropped": 1,
+    "irrelevant_quotes_dropped": 11,
+    "filtered_short": 177,
+    "filtered_short_positive": 173,
+    "filtered_short_negative": 1,
+    "filtered_short_neutral": 3
+  },
+  "source_counts": {
+    "app_store": 38,
+    "play_store": 899
+  },
+  "rating_distribution": {
+    "1": 184,
+    "2": 24,
+    "3": 30,
+    "4": 48,
+    "5": 463
+  },
+  "average_rating": 3.7770360480640854,
+  "top_escalations": [],
+  "top_improvements": []
+}

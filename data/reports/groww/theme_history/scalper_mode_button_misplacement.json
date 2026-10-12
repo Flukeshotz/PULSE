@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W42",
+    "name": "[Negative] Scalper Mode Button Misplacement",
+    "description": "Users report that the new UI places the Scalper Mode button in a location that is easily and unintentionally tapped, leading to accidental activations, unwanted order placement, or chart switching, which disrupts trading workflows.",
+    "mentions_count": 34,
+    "priority_score": 25,
+    "average_rating": 2.21,
+    "confidence_score": 0.71
+  }
+]

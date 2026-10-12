@@ -1,0 +1,232 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W42",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-10-12T04:31:37.012489",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Inadequate Customer Support & Withdrawal Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "Withdrawal unsuccessful trying to get connect with an expert since last 24 hours no any response received from groww worst service ever i just want my money back as early as possible then i am going to uninstall this app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Improve your customer support, no one is there to support a transaction issues.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I have tried to reach out to customer care for one hour and the call didnt even get through.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I have been trying to call them continuously for over 20 minutes and nobody is picking up the call.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "My experience with the customer support (call centre) was highly disappointing.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users repeatedly report that their withdrawal attempts fail, their funds are blocked or missing, and that customer support is unresponsive, slow, and lacks expertise, leading to frustration and abandonment of the platform.",
+      "business_impact": "Loss of user trust results in increased churn, negative reviews, potential regulatory scrutiny for a financial services app, and revenue decline as users migrate to competitors.",
+      "root_cause_hypothesis": "The support system is understaffed or poorly organized, with insufficient escalation protocols, inadequate training on financial products, and high call volume that overwhelms available agents.",
+      "action_plan": "\u2022 Audit current support staffing and SLA\n\u2022 Implement priority queue for withdrawal and transaction issues\n\u2022 Create dedicated support squad for financial product complaints\n\u2022 Provide comprehensive training on bonds, mutual funds, and loan products\n\u2022 Automate ticket escalation to higher tiers\n\u2022 Deploy self\u2011service FAQ and live chat\n\u2022 Monitor support metrics and publish weekly reports",
+      "teams_impacted": [
+        "Customer Support Ops",
+        "Backend Engineering (Ticketing)",
+        "QA",
+        "Product Management",
+        "Compliance"
+      ],
+      "mentions_count": 29,
+      "rating_distribution": {
+        "1": 26,
+        "2": 2,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "average_rating": 1.17,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.49,
+        "quote_validation": 1.0
+      },
+      "priority_score": 33,
+      "theme_id": "withdrawal_issues",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -17.1,
+        "priority_wow_delta": 5,
+        "rating_wow_delta": -0.8,
+        "first_seen": "2026-W33",
+        "age_weeks": 9
+      },
+      "evidence_score": 0.7142857142857143,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] App Crashes",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "not able to operating app its not getting open after permissions stage keep crashing in loading loop.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "it's not even opening after updating the app. Always say there seems to be an issue with my internet even though other apps are working fine",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "nothing is showing inside the app. after opening it all blank, not showing any data",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "wrost app. i want to open demat but it the application automatic stopped and exit",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app is not working \u274c\u274cno castamer support\ud83d\udc4e",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users repeatedly report that the app fails to launch, crashes immediately upon opening, or displays a blank screen, preventing them from accessing any features.",
+      "business_impact": "Frequent launch failures lead to loss of user engagement, increased support tickets, and potential churn for the key financial data product, directly impacting revenue from premium subscriptions.",
+      "root_cause_hypothesis": "Likely a recent code or dependency update introduced a runtime exception or incompatibility on certain devices (e.g., Android 12+), causing early termination during app initialization. Possible issues include missing or misconfigured runtime permissions, corrupted cached data, or a misaligned native library.",
+      "action_plan": "\u2022 Reproduce the crash on target devices\n\u2022 Capture full stack trace via crash logs\n\u2022 Review recent commits for changes in initialization or permission handling\n\u2022 Add defensive coding for permission checks and fallback UI\n\u2022 Update and publish hotfix with new crash handling\n\u2022 Monitor crash metrics post-release",
+      "teams_impacted": [
+        "Android Engineering",
+        "Mobile QA",
+        "Product Support"
+      ],
+      "mentions_count": 30,
+      "rating_distribution": {
+        "1": 22,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 6
+      },
+      "average_rating": 2.0,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.5,
+        "quote_validation": 1.0
+      },
+      "priority_score": 26,
+      "theme_id": "app_performance_stability_issues",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -58.3,
+        "priority_wow_delta": -6,
+        "rating_wow_delta": -0.3,
+        "first_seen": "2026-W35",
+        "age_weeks": 7
+      },
+      "evidence_score": 0.625,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Scalper Mode Button Misplacement",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "not happy..After new update scalper option is given down that is very irritating every time. its getting pressed all the time.. pls change its position.",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "In the new update there is a button that is showing on positions. It should be removed from there because sometimes by mistake due to unwanted touch it may place order.",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "In the new update, as soon as I open the chart, my gesture buttons disappear, and right in that exact spot, they have placed a new button called 'Scalper mode'. If that button is pressed by mistake, the TradingView chart immediately switches to the Groww chart.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report that the new UI places the Scalper Mode button in a location that is easily and unintentionally tapped, leading to accidental activations, unwanted order placement, or chart switching, which disrupts trading workflows.",
+      "business_impact": "The misplacement has led to a spike in negative reviews, increased user churn from the F&O segment, and a measurable decline in daily active trades due to frustration and perceived loss of control.",
+      "root_cause_hypothesis": "The recent update moved the Scalper Mode toggle to the bottom-left corner of chart screens, overlapping the back gesture area and other touch targets, without adequate testing for accidental taps or offering an option to hide it.",
+      "action_plan": "\u2022 Redesign the button placement to a less intrusive corner or side panel; add an optional toggle to hide the button; implement a long\u2011press confirmation dialog for accidental touches; conduct user testing with high\u2011frequency traders to validate tap ergonomics; roll out a quick patch via the app store; monitor post\u2011release metrics for repeat incidents.",
+      "teams_impacted": [
+        "UX Design",
+        "Android Engineering",
+        "iOS Engineering",
+        "Product Management",
+        "QA"
+      ],
+      "mentions_count": 34,
+      "rating_distribution": {
+        "1": 17,
+        "2": 2,
+        "3": 9,
+        "4": 3,
+        "5": 3
+      },
+      "average_rating": 2.21,
+      "confidence_score": 0.71,
+      "confidence_components": {
+        "volume": 0.51,
+        "quote_validation": 1.0
+      },
+      "priority_score": 25,
+      "theme_id": "scalper_mode_button_misplacement",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 25,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W42",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.6,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 6555,
+    "unauthentic_quotes_dropped": 1,
+    "irrelevant_quotes_dropped": 5,
+    "filtered_short": 4557,
+    "filtered_short_positive": 4372,
+    "filtered_short_negative": 98,
+    "filtered_short_neutral": 87
+  },
+  "source_counts": {
+    "app_store": 450,
+    "play_store": 10911
+  },
+  "rating_distribution": {
+    "1": 1155,
+    "2": 160,
+    "3": 221,
+    "4": 505,
+    "5": 4514
+  },
+  "average_rating": 4.0774980930587335,
+  "top_escalations": [],
+  "top_improvements": []
+}

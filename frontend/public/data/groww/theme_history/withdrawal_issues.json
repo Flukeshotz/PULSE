@@ -7,5 +7,14 @@
     "priority_score": 28,
     "average_rating": 1.97,
     "confidence_score": 0.71
+  },
+  {
+    "iso_week": "2026-W42",
+    "name": "[Negative] Inadequate Customer Support & Withdrawal Issues",
+    "description": "Users repeatedly report that their withdrawal attempts fail, their funds are blocked or missing, and that customer support is unresponsive, slow, and lacks expertise, leading to frustration and abandonment of the platform.",
+    "mentions_count": 29,
+    "priority_score": 33,
+    "average_rating": 1.17,
+    "confidence_score": 0.7
   }
 ]

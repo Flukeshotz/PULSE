@@ -1,0 +1,238 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W42",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-10-12T04:33:54.190018",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Chart Loading & Performance Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "After update, not able to open the charts, it's worst after updating the aap.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "chart not opening..kindly fix it",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "charts are not opening in zerodha android app from last friday.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The charts wont open. after the last update, the charts stopped working, it has become useless now to use this app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Charts are not opening. Charts are not opening. It\u2019s keep on loading status",
+          "source": "app_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report that after recent updates, chart screens fail to load, hang, or load extremely slowly. The issue spans Android and iOS, causing frequent crashes or prolonged loading times, and sometimes requires a restart to view data.",
+      "business_impact": "Chart access is a core feature for traders; the inability to view charts leads to real-time decision paralysis, increased support tickets, and a measurable drop in active daily sessions (estimated 12\u201118% decrease). It also risks churn for premium users who rely on chart analysis.",
+      "root_cause_hypothesis": "A recent refactor of the chart rendering module introduced a memory leak and unoptimized data fetch logic. Combined with higher resolution data and reduced network bandwidth after the latest app update, this causes rendering stalls and crashes.",
+      "action_plan": "\u2022 1. Collect crash logs and memory usage stats from affected devices\n\u2022 2. Profile rendering pipeline to locate bottlenecks\n\u2022 3. Refactor chart data fetching to use incremental lazy loading\n\u2022 4. Implement GPU\u2011accelerated rendering for heavy indicators\n\u2022 5. Add a fallback timeout and retry logic for stalled loads\n\u2022 6. Optimize image and symbol caching to reduce memory churn\n\u2022 7. Run A/B tests on a small rollout before full deployment\n\u2022 8. Release patch and monitor key metrics via telemetry",
+      "teams_impacted": [
+        "Android Engineering",
+        "iOS Engineering",
+        "Backend API",
+        "QA",
+        "Product Support"
+      ],
+      "mentions_count": 89,
+      "rating_distribution": {
+        "1": 47,
+        "2": 11,
+        "3": 13,
+        "4": 9,
+        "5": 9
+      },
+      "average_rating": 2.12,
+      "confidence_score": 0.79,
+      "confidence_components": {
+        "volume": 0.65,
+        "quote_validation": 1.0
+      },
+      "priority_score": 37,
+      "theme_id": "chart_display_issues_1",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 21.9,
+        "priority_wow_delta": 1,
+        "rating_wow_delta": 0.1,
+        "first_seen": "2026-W30",
+        "age_weeks": 12
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Hidden & Unclear Fees / AMC",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "Not Even Completed One Year Of Account Opening in Zerodha, you apply AMC Charges Directly and Not Mentioned in Anywhere while account opening time so how can we trust you....",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I had a very bad experience. I do not recommend logging in or opening an account without fully understanding the charges. They charged me around \u20b9700 as AMC (Annual Maintenance Charges) because I had two or more demat accounts, but this was not made clear to me.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Trap for small investors \u2014 Hidden maintenance fees & penal interest Terrible experience for retail investors. While competitors offer lifetime zero AMC, Zerodha debits \u20b988.50 every quarter under the radar.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Zerodha charges \u20b9300 for one position in f and o. when liquidity is low in market and zerodha cannot earn money by trading and charges zerodha is adding hidden charges like Groww. don't use zerodha. it is a fraud application.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Customers repeatedly complain that Zerodha imposes annual maintenance charges (AMC) and other fees without clear disclosure at account opening, leading to surprise charges, account inactivity, and dissatisfaction. The lack of upfront transparency triggers distrust and drives customers to seek competitors who advertise zero or lower fees.",
+      "business_impact": "Unclear fee practices result in high churn, negative word\u2011of\u2011mouth, and potential regulatory scrutiny. Customers who perceive hidden charges may stop trading, close accounts, or publicly criticize the broker, damaging brand reputation and revenue streams.",
+      "root_cause_hypothesis": "Fee structures are buried in fine print or disclosed post\u2011account opening, possibly due to legacy compliance documentation or a business model that prioritizes revenue over transparency. Inadequate user interface cues and insufficient onboarding communication exacerbate the issue.",
+      "action_plan": "\u2022 1) Revise onboarding flow to display all applicable fees and AMC upfront with clear language and visual emphasis; 2) Implement a mandatory fee disclosure checklist before account activation; 3) Update the help center with a FAQ on AMC and hidden fees; 4) Provide a self\u2011service portal for customers to view and adjust fee settings; 5) Conduct quarterly audits to ensure fee transparency compliance; 6) Train customer support on fee policies and proactive communication; 7) Launch an awareness campaign highlighting the new transparent fee model; 8) Monitor churn metrics and gather post\u2011implementation feedback for continuous improvement.",
+      "teams_impacted": [
+        "Product Management",
+        "Finance",
+        "Legal & Compliance",
+        "Customer Support",
+        "UX Design"
+      ],
+      "mentions_count": 35,
+      "rating_distribution": {
+        "1": 30,
+        "2": 2,
+        "3": 0,
+        "4": 1,
+        "5": 2
+      },
+      "average_rating": 1.37,
+      "confidence_score": 0.71,
+      "confidence_components": {
+        "volume": 0.52,
+        "quote_validation": 1.0
+      },
+      "priority_score": 33,
+      "theme_id": "hidden_unclear_fees_amc",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 33,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W42",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Fund & Withdrawal Issues",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "After last week update i am unable to add money from bank account, neither thriugh upi or net banking.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Unable to verify using UPI Unable to verify the bank details using UPI. Nothing happens. No payment request in UPI apps",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Withdrawal issue",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Worst in fund management. Instant Withdrawal allowed for fund park in account is just Rs. 2lakh and timing is 9am to 4pm.It is my money and if I don't have any open position,why to restrict on my withdrawal. Instant Fund withdrawal should be allowed unlimited if there is no open position and timing should be 24 hours",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Worst app for withdrawal money. Other brokers are not even taking 1 day for money withdrawal. Mentioned this point based on experience.Don't know what is the use of instant withdrawal if it takes 1 day to 2 days. Missing so many IPOs because of late withdrawal. Getting a doubt is broker misleading the retailers money.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report recurring failures to add funds via UPI/net banking and significant restrictions or delays when attempting to withdraw money, including arbitrary limits, incomplete processing, and unclear error messages.",
+      "business_impact": "The inability to fund accounts or retrieve funds directly hampers trade execution, causes users to miss time\u2011sensitive opportunities (e.g., IPOs), erodes trust, drives churn, and exposes the firm to regulatory scrutiny and potential financial loss.",
+      "root_cause_hypothesis": "Integration glitches with payment gateways, combined with overly restrictive compliance rules and insufficient backend validation, are producing transaction failures and hard\u2011coded withdrawal limits that do not reflect actual account status.",
+      "action_plan": "\u2022 1. Perform a comprehensive audit of UPI/net banking integration points and rectify any missing or deprecated API calls\n\u2022 2. Remove hard\u2011coded withdrawal caps and implement dynamic limits based on real\u2011time position and regulatory thresholds\n\u2022 3. Revise error handling to provide user\u2011friendly, actionable messages instead of generic failures\n\u2022 4. Deploy automated end\u2011to\u2011end tests covering fund add and withdrawal flows across all supported payment methods\n\u2022 5. Release an urgent hotfix to unblock current users experiencing failures\n\u2022 6. Update in\u2011app notifications and help centre articles to transparently explain new limits and process changes\n\u2022 7. Monitor transaction logs and user sentiment post\u2011deployment to detect regressions\n\u2022 8. Conduct a post\u2011incident review with stakeholders and update the incident management playbook",
+      "teams_impacted": [
+        "Payment Ops",
+        "Backend Engineering",
+        "Compliance",
+        "UX Design",
+        "Support Operations"
+      ],
+      "mentions_count": 32,
+      "rating_distribution": {
+        "1": 27,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 3
+      },
+      "average_rating": 1.47,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.51,
+        "quote_validation": 1.0
+      },
+      "priority_score": 31,
+      "theme_id": "payment_account_activation_failures",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -23.8,
+        "priority_wow_delta": -5,
+        "rating_wow_delta": 0.1,
+        "first_seen": "2026-W36",
+        "age_weeks": 6
+      },
+      "evidence_score": 0.8333333333333334,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 1091,
+    "unauthentic_quotes_dropped": 1,
+    "irrelevant_quotes_dropped": 1,
+    "filtered_short": 183,
+    "filtered_short_positive": 172,
+    "filtered_short_negative": 8,
+    "filtered_short_neutral": 3
+  },
+  "source_counts": {
+    "app_store": 100,
+    "play_store": 1182
+  },
+  "rating_distribution": {
+    "1": 299,
+    "2": 61,
+    "3": 61,
+    "4": 103,
+    "5": 567
+  },
+  "average_rating": 3.529789184234647,
+  "top_escalations": [],
+  "top_improvements": []
+}

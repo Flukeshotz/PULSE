@@ -43,5 +43,14 @@
     "priority_score": 36,
     "average_rating": 2.03,
     "confidence_score": 0.77
+  },
+  {
+    "iso_week": "2026-W42",
+    "name": "[Negative] Chart Loading & Performance Issues",
+    "description": "Users report that after recent updates, chart screens fail to load, hang, or load extremely slowly. The issue spans Android and iOS, causing frequent crashes or prolonged loading times, and sometimes requires a restart to view data.",
+    "mentions_count": 89,
+    "priority_score": 37,
+    "average_rating": 2.12,
+    "confidence_score": 0.79
   }
 ]

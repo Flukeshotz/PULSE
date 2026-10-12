@@ -25,5 +25,14 @@
     "priority_score": 33,
     "average_rating": 1.57,
     "confidence_score": 0.72
+  },
+  {
+    "iso_week": "2026-W42",
+    "name": "[Negative] FD Booking Failures & Poor Support",
+    "description": "Users report that Fixed Deposit (FD) transactions frequently fail, resulting in funds being deducted but not credited, missing transaction records, and prolonged or absent refunds. Support responses are delayed or nonexistent, leaving customers without recourse.",
+    "mentions_count": 42,
+    "priority_score": 36,
+    "average_rating": 1.35,
+    "confidence_score": 0.73
   }
 ]

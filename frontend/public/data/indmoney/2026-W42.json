@@ -1,0 +1,162 @@
+{
+  "product": "INDMoney",
+  "iso_week": "2026-W42",
+  "period_label": "Last 8 weeks",
+  "generated_at": "2026-10-12T04:27:50.047964",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] UI/UX and Order Placement Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "Ui is very complicated It is very difficult to Understand the appl please make it more simple like grow",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Terrible update. Not even able to place Limit Sell orders properly. Suffered a loss while putting a GTT bid due to the changes made because of the recent update.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Bad experience. Latest app upgrade is very bad. Stock specific view is very bad no live data from cboe. UI design is bad.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "latest changes in UI is having a critical bug. I placed order at 1065 limit price. But it was executed at 1072.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "started hating the interface indmoney lost in the upgrade.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "You have to mandatorily create us stocks account and buy 5000 in us stocks to claim the cashback earned in bill payments or upi payments. which is ridiculous.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "when we press on cashback under UPI & bills section we jump to us stock page.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "very poor app, misguide about his reward money back ,first shown that if u will pay your post paid bill app reward 25/ after 10 payment of postpaid bill he assured you will get 500/ extra ,but sorry to see that all payments credited in US reward amount ,when you will purchase us equity then u can get how reward amount ,also all money back transferd in us reward points ,this shows misleading to consumer ,very poor app about bill payment and UPI payment",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Totally unsatisfied with this app, after the experience of bill payment I had! I paid my postpaid bill and got cashback in hs stocks lol. I am not buying any of us stocks! And while paying the bill it didn't mention that where exactly you will get the cashback.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Every time the target price set but hit lower than target price. It is very tough every time exit in a target price.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "App is showing incorrect day return value after market closes on dashboard as well as in US stock section.",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "after update the app is not working properly due to that I have lost money when you trade the price should be correct",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "sometimes it freezes and the web version needs more work dude literally I had stocks at 3.18 and it won't exit I clicked more than 4 times and it got 50 rs charges.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "When i set target price it always sells at very lower price which is loss",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Such a silly app. cant even show basic portfolio right. I am chasing them from two days to correct my US Stocks value. but they keep showing a day before trades already done at current value. totally distorted my P&L. Unable to assess the right value. No way to call them.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Latest update messed up big. Transaction history now shows close to nothing and deposit and withdrawal both are shown by +ve. What has happened?",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report that recent app updates have introduced a confusing interface, critical bugs in order placement, and loss of real\u2011time data, leading to incorrect trade execution and frustration.",
+      "business_impact": "Users are losing money on trades, abandoning the app, and considering switching brokers, which directly impacts revenue, increases support cost, and threatens customer acquisition goals.",
+      "root_cause_hypothesis": "Rapid iteration without thorough regression testing caused UI re\u2011design changes to break order validation and data feeds, while insufficient UX research left the interface non\u2011intuitive for existing users.",
+      "action_plan": "\u2022 1. Deploy a rollback to the previous stable UI version while a dedicated task force investigates the order execution bugs\n\u2022 2. Rebuild the order flow with end\u2011to\u2011end automated tests and include user journey testing\n\u2022 3. Conduct a rapid UX audit with focus groups to redesign confusing elements\n\u2022 4. Implement real\u2011time data streaming verification for all securities\n\u2022 5. Release a phased update with clear rollback options and monitor trade accuracy metrics",
+      "teams_impacted": [
+        "Product Management",
+        "UX Design",
+        "Android/iOS Engineering",
+        "Backend Engineering",
+        "QA & Testing"
+      ],
+      "mentions_count": 45,
+      "rating_distribution": {
+        "1": 34,
+        "2": 5,
+        "3": 0,
+        "4": 5,
+        "5": 1
+      },
+      "average_rating": 1.54,
+      "confidence_score": 0.73,
+      "confidence_components": {
+        "volume": 0.55,
+        "quote_validation": 1.0
+      },
+      "priority_score": 35,
+      "theme_id": "app_functionality_issues_and_disappointments",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -16.7,
+        "priority_wow_delta": 5,
+        "rating_wow_delta": -0.7,
+        "first_seen": "2026-W33",
+        "age_weeks": 9
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 570,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 2,
+    "filtered_short": 202,
+    "filtered_short_positive": 190,
+    "filtered_short_negative": 5,
+    "filtered_short_neutral": 7
+  },
+  "source_counts": {
+    "app_store": 82,
+    "play_store": 698
+  },
+  "rating_distribution": {
+    "1": 127,
+    "2": 26,
+    "3": 27,
+    "4": 85,
+    "5": 305
+  },
+  "average_rating": 3.7280701754385963,
+  "top_escalations": [],
+  "top_improvements": []
+}

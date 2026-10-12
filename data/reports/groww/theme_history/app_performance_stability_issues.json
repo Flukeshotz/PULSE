@@ -25,5 +25,14 @@
     "priority_score": 32,
     "average_rating": 2.32,
     "confidence_score": 0.77
+  },
+  {
+    "iso_week": "2026-W42",
+    "name": "[Negative] App Crashes",
+    "description": "Users repeatedly report that the app fails to launch, crashes immediately upon opening, or displays a blank screen, preventing them from accessing any features.",
+    "mentions_count": 30,
+    "priority_score": 26,
+    "average_rating": 2.0,
+    "confidence_score": 0.7
   }
 ]

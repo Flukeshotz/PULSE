@@ -7,5 +7,14 @@
     "priority_score": 30,
     "average_rating": 2.24,
     "confidence_score": 0.75
+  },
+  {
+    "iso_week": "2026-W42",
+    "name": "[Negative] UI/UX and Order Placement Issues",
+    "description": "Users report that recent app updates have introduced a confusing interface, critical bugs in order placement, and loss of real\u2011time data, leading to incorrect trade execution and frustration.",
+    "mentions_count": 45,
+    "priority_score": 35,
+    "average_rating": 1.54,
+    "confidence_score": 0.73
   }
 ]

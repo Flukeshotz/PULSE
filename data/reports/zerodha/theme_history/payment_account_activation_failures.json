@@ -7,5 +7,14 @@
     "priority_score": 36,
     "average_rating": 1.4,
     "confidence_score": 0.73
+  },
+  {
+    "iso_week": "2026-W42",
+    "name": "[Negative] Fund & Withdrawal Issues",
+    "description": "Users report recurring failures to add funds via UPI/net banking and significant restrictions or delays when attempting to withdraw money, including arbitrary limits, incomplete processing, and unclear error messages.",
+    "mentions_count": 32,
+    "priority_score": 31,
+    "average_rating": 1.47,
+    "confidence_score": 0.7
   }
 ]
