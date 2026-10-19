@@ -1,0 +1,129 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W43",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-10-19T03:27:29.370148",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] High Brokerage Fees",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "app thik hai lekin brockrage charge bahut leta hai pura fayda yahi le jata hai chhote traders ke liye sahi nahi hai",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "brokerage bahut jyada hai",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "stocks and ETF buy Kare to brokerage Dena padta hai , beche to bhi brokerage Dena padta hai ... Mera 3 different stock hai unhen bhejun to fir se brokerage Dena padta hai 130/ 140 rupaye total brokerage amount",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "groww is growing by high brokerage hum loss kare ya profit inke brokerage me thodi si bhi kami nahi aani chahiye",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "brokerage charge very high",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "brokerage change bhot Jada he",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Brokerage is very high.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Brokerage charges are more in my acc it's cutting and it's showing negative balance",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "brokerage charges are more than net profits earned",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users repeatedly express dissatisfaction that the brokerage fee per trade is excessively high, causing them to feel overcharged and discouraging frequent trading.",
+      "business_impact": "High brokerage costs reduce user profitability, especially for small traders, leading to lower trade volume (estimated 5\u201310% drop in daily trades) and increased churn, directly impacting the platform\u2019s commission revenue.",
+      "root_cause_hypothesis": "The current flat\u2011fee pricing model is not competitive with other brokers and lacks tiered discounts or volume\u2011based incentives, creating a perception of unfair cost.",
+      "action_plan": "\u2022 Benchmark competitor fees\n\u2022 Design a tiered brokerage pricing model based on account balance or trade volume\n\u2022 Implement promotional discount tiers for frequent traders\n\u2022 Update fee transparency in the order confirmation flow\n\u2022 Negotiate lower base rates with custodians\n\u2022 A/B test new pricing structures\n\u2022 Roll out changes with clear communication and marketing\n\u2022 Monitor trade volume, churn, and user sentiment post\u2011launch",
+      "teams_impacted": [
+        "Core Product",
+        "Pricing & Revenue",
+        "Engineering (Backend)",
+        "UX Design",
+        "Customer Support",
+        "Finance"
+      ],
+      "mentions_count": 142,
+      "rating_distribution": {
+        "1": 71,
+        "2": 9,
+        "3": 13,
+        "4": 10,
+        "5": 39
+      },
+      "average_rating": 2.56,
+      "confidence_score": 0.83,
+      "confidence_components": {
+        "volume": 0.72,
+        "quote_validation": 1.0
+      },
+      "priority_score": 36,
+      "theme_id": "high_brokerage_charges",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 36.5,
+        "priority_wow_delta": 6,
+        "rating_wow_delta": -0.2,
+        "first_seen": "2026-W24",
+        "age_weeks": 19
+      },
+      "evidence_score": 0.5714285714285714,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 6381,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 3,
+    "filtered_short": 4421,
+    "filtered_short_positive": 4245,
+    "filtered_short_negative": 96,
+    "filtered_short_neutral": 80
+  },
+  "source_counts": {
+    "app_store": 500,
+    "play_store": 10546
+  },
+  "rating_distribution": {
+    "1": 1110,
+    "2": 149,
+    "3": 219,
+    "4": 492,
+    "5": 4411
+  },
+  "average_rating": 4.088387400094029,
+  "top_escalations": [],
+  "top_improvements": []
+}

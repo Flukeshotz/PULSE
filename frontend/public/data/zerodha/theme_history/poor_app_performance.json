@@ -25,5 +25,14 @@
     "priority_score": 36,
     "average_rating": 1.25,
     "confidence_score": 0.72
+  },
+  {
+    "iso_week": "2026-W43",
+    "name": "[Negative] Outdated UI/Performance Issues",
+    "description": "Users consistently report that the app feels obsolete, with slow chart loading, frequent crashes, and a UI that hampers trading operations.",
+    "mentions_count": 95,
+    "priority_score": 42,
+    "average_rating": 1.85,
+    "confidence_score": 0.8
   }
 ]

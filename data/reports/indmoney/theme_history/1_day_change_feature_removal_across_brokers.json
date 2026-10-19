@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W43",
+    "name": "[Negative] 1\u2011Day Change Feature Removal Across Brokers",
+    "description": "Users report that the 1\u2011day change metric, previously available for all broker holdings, has been restricted to INDmoney\u2011held shares only, causing loss of cross\u2011broker portfolio visibility and confusion over total gains/losses.",
+    "mentions_count": 26,
+    "priority_score": 19,
+    "average_rating": 2.73,
+    "confidence_score": 0.69
+  }
+]

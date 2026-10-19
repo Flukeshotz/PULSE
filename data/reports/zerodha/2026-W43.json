@@ -1,0 +1,151 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W43",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-10-19T03:29:16.491552",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Outdated UI/Performance Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "worst application, instant withdrawals don't work properly, outdated software.. worst user interface.. I made loss due to its worst Interface..",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app in the market right now....no chart is loading...buy & sell order placement take lots of time .. extremely slow & outdated app....",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "this broker still has the most outdated features. Even a startup broker has 10 times better features than it. also it has yearly AMC. seriously very disappointed. btw will close it soon",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Very bad loading. Most of the time charts get break. Auth takes so much of time. most of the time api fetch gets timeout. Even after reinstalling it always gets crashed. Chart always failed to load. Always I have to reload multiple times to get data. Worthless brokerage app.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Charts are not loading sometimes.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "The view chart is not opening, it's keeping on loading.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "not able to open chart for last three days.",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "chart not working.. it kept buffering",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "charts not opening issue",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "most of timing hanging,rates not update in seconds , please provide fast service quality",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "both App and web applications freeze and need to refresh often. no response from customer support even for a ticket as well a Direct call.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The app shows a blank screen in my Redmi Pad. Do resolve this issue please.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "poor application, shows connection timeout always",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Bug found - not able to open this app in Xiaomi pad 8 tablet",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users consistently report that the app feels obsolete, with slow chart loading, frequent crashes, and a UI that hampers trading operations.",
+      "business_impact": "Increased support ticket volume, accelerated user churn, loss of trading fee revenue, and damaged brand reputation leading to higher acquisition costs.",
+      "root_cause_hypothesis": "A legacy codebase, inadequate performance optimizations, and delayed UI updates cause slow API interactions and a clunky interface.",
+      "action_plan": "\u2022 Conduct a full performance audit to pinpoint bottlenecks\n\u2022 Prioritize refactoring of legacy modules and deprecated APIs\n\u2022 Adopt a modern UI framework (e.g., React Native or SwiftUI) for responsive design\n\u2022 Optimize API endpoints, implement caching, and reduce payload sizes\n\u2022 Deploy iterative UI/UX improvements with A/B testing\n\u2022 Continuously monitor crash logs and user feedback via analytics\n\u2022 Reassess and renegotiate the yearly AMC to align costs with value delivered\n\u2022 Provide targeted training for dev and QA teams",
+      "teams_impacted": [
+        "Android Eng",
+        "iOS Eng",
+        "UX Design",
+        "Backend Eng"
+      ],
+      "mentions_count": 95,
+      "rating_distribution": {
+        "1": 58,
+        "2": 14,
+        "3": 8,
+        "4": 9,
+        "5": 6
+      },
+      "average_rating": 1.85,
+      "confidence_score": 0.8,
+      "confidence_components": {
+        "volume": 0.66,
+        "quote_validation": 1.0
+      },
+      "priority_score": 42,
+      "theme_id": "poor_app_performance",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 137.5,
+        "priority_wow_delta": 6,
+        "rating_wow_delta": 0.6,
+        "first_seen": "2026-W30",
+        "age_weeks": 13
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 1103,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 2,
+    "filtered_short": 176,
+    "filtered_short_positive": 166,
+    "filtered_short_negative": 7,
+    "filtered_short_neutral": 3
+  },
+  "source_counts": {
+    "app_store": 104,
+    "play_store": 1183
+  },
+  "rating_distribution": {
+    "1": 299,
+    "2": 62,
+    "3": 65,
+    "4": 100,
+    "5": 577
+  },
+  "average_rating": 3.5385312783318223,
+  "top_escalations": [],
+  "top_improvements": []
+}

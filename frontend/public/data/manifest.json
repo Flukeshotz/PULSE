@@ -3,6 +3,7 @@
     "indmoney": {
       "display_name": "INDMoney",
       "weeks": [
+        "2026-W43",
         "2026-W42",
         "2026-W41",
         "2026-W40",
@@ -26,6 +27,7 @@
     "groww": {
       "display_name": "Groww",
       "weeks": [
+        "2026-W43",
         "2026-W42",
         "2026-W41",
         "2026-W40",
@@ -50,6 +52,7 @@
     "zerodha": {
       "display_name": "Zerodha Kite",
       "weeks": [
+        "2026-W43",
         "2026-W42",
         "2026-W41",
         "2026-W40",
@@ -70,6 +73,7 @@
     "stablemoney": {
       "display_name": "Stable Money",
       "weeks": [
+        "2026-W43",
         "2026-W42",
         "2026-W41",
         "2026-W40",

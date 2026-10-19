@@ -16,5 +16,14 @@
     "priority_score": 35,
     "average_rating": 1.54,
     "confidence_score": 0.73
+  },
+  {
+    "iso_week": "2026-W43",
+    "name": "[Negative] App Performance & UI/UX Issues",
+    "description": "Users report frequent freezes, sluggish performance, confusing interface, missing real-time data, and overall dissatisfaction with the app\u2019s visual design.",
+    "mentions_count": 29,
+    "priority_score": 32,
+    "average_rating": 1.31,
+    "confidence_score": 0.7
   }
 ]

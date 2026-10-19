@@ -70,5 +70,14 @@
     "priority_score": 30,
     "average_rating": 2.8,
     "confidence_score": 0.8
+  },
+  {
+    "iso_week": "2026-W43",
+    "name": "[Negative] High Brokerage Fees",
+    "description": "Users repeatedly express dissatisfaction that the brokerage fee per trade is excessively high, causing them to feel overcharged and discouraging frequent trading.",
+    "mentions_count": 142,
+    "priority_score": 36,
+    "average_rating": 2.56,
+    "confidence_score": 0.83
   }
 ]

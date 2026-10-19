@@ -1,0 +1,182 @@
+{
+  "product": "INDMoney",
+  "iso_week": "2026-W43",
+  "period_label": "Last 8 weeks",
+  "generated_at": "2026-10-19T03:22:57.902247",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Performance & UI/UX Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "worst ui and very slow app .",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Pathetic app, it freezes even with 5G and Broadband,, you will defently lose money because of their technical failures. Never try this ever again",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Useless app. When account closed then no reopen process. Phone also hang with this app. Totally wastage of time using this app.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "for some reason, whenever I tap on us stocks, the app crashes instantly. I have reinstalled and cleared the data and cache, but it is still not working. please help at the earliest",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "sometimes it freezes and the web version needs more work dude literally I had stocks at 3.18 and it won't exit I clicked more than 4 times and it got 50 rs charges.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Ind money app reloading page every time and also sometimes order placed but not visible so many lags please rectify this issue bcz this app very smooth interface and good indicator service",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "latest changes in UI is having a critical bug. I placed order at 1065 limit price. But it was executed at 1072. Same with the other company shares which was sold at a price lower than target price.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report frequent freezes, sluggish performance, confusing interface, missing real-time data, and overall dissatisfaction with the app\u2019s visual design.",
+      "business_impact": "Loss of user trust leading to higher churn and negative word\u2011of\u2011mouth, potential revenue decline from abandoned trades, and increased support costs from crash\u2011related complaints.",
+      "root_cause_hypothesis": "The latest upgrade introduced regressions in rendering and networking layers, removing critical optimizations for live market data and introducing UI components that are not well\u2011tested for low\u2011bandwidth or 5G environments.",
+      "action_plan": "\u2022 Rollback to the last stable release\n\u2022 Conduct a full performance profiling of UI and network paths\n\u2022 Re\u2011integrate live data feeds from CBOE and other exchanges\n\u2022 Redesign UI components with responsive, lightweight frameworks\n\u2022 Implement automated UI/UX regression tests\n\u2022 Enable real\u2011time monitoring for freeze events and crash analytics\n\u2022 Communicate rollback and future release plan to users",
+      "teams_impacted": [
+        "Android Eng",
+        "iOS Eng",
+        "Frontend Eng",
+        "UX Design",
+        "QA",
+        "DevOps",
+        "Data Integration"
+      ],
+      "mentions_count": 29,
+      "rating_distribution": {
+        "1": 24,
+        "2": 3,
+        "3": 0,
+        "4": 2,
+        "5": 0
+      },
+      "average_rating": 1.31,
+      "confidence_score": 0.7,
+      "confidence_components": {
+        "volume": 0.49,
+        "quote_validation": 1.0
+      },
+      "priority_score": 32,
+      "theme_id": "app_functionality_issues_and_disappointments",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -35.6,
+        "priority_wow_delta": -3,
+        "rating_wow_delta": -0.2,
+        "first_seen": "2026-W33",
+        "age_weeks": 10
+      },
+      "evidence_score": 0.5,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] 1\u2011Day Change Feature Removal Across Brokers",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "The 1 day change feature should include stock price changes from other brokers as well, this was there earlier but now it only shows stocks from indmoney",
+          "source": "app_store",
+          "rating": 4.0
+        },
+        {
+          "text": "The recent decision to restrict the 1D Change feature to shares held through INDmoney is a bad move.",
+          "source": "app_store",
+          "rating": 2.0
+        },
+        {
+          "text": "app experience changed after recent updates. earlier used to see 1 day portfolio change across your brokers from high to low with 1 tap.. now after recent updates it just shows stocks purchased from indmoney. now you have to manually go and check other brokers section and that is not at all user friendly. please bring back that feature.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "10Sep26: I see that you have stopped displaying 1 day changes for other brokers. Why did you make people get used to it earlier then?",
+          "source": "app_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report that the 1\u2011day change metric, previously available for all broker holdings, has been restricted to INDmoney\u2011held shares only, causing loss of cross\u2011broker portfolio visibility and confusion over total gains/losses.",
+      "business_impact": "Power users who rely on a single\u2011tap summary of portfolio performance across multiple brokers lose critical insight, increasing support queries, decreasing confidence in the app, and potentially accelerating churn for advanced investors.",
+      "root_cause_hypothesis": "A recent scope change aimed at reducing API calls or simplifying UI inadvertently removed the cross\u2011broker aggregation logic, possibly due to incomplete rollback or oversight during the last release cycle.",
+      "action_plan": "\u2022 Re\u2011implement cross\u2011broker 1\u2011day change aggregation\n\u2022 Verify broker API data access and refresh strategy\n\u2022 Update UI to display total INR gain/loss alongside % change\n\u2022 Add release notes and rollback fallback\n\u2022 Monitor usage and support tickets post\u2011deployment",
+      "teams_impacted": [
+        "Core Product",
+        "UX Design",
+        "Backend Engineering",
+        "Data Integration",
+        "QA"
+      ],
+      "mentions_count": 26,
+      "rating_distribution": {
+        "1": 6,
+        "2": 6,
+        "3": 6,
+        "4": 5,
+        "5": 3
+      },
+      "average_rating": 2.73,
+      "confidence_score": 0.69,
+      "confidence_components": {
+        "volume": 0.48,
+        "quote_validation": 1.0
+      },
+      "priority_score": 19,
+      "theme_id": "1_day_change_feature_removal_across_brokers",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 19,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W43",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 566,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 3,
+    "filtered_short": 200,
+    "filtered_short_positive": 187,
+    "filtered_short_negative": 5,
+    "filtered_short_neutral": 8
+  },
+  "source_counts": {
+    "app_store": 83,
+    "play_store": 691
+  },
+  "rating_distribution": {
+    "1": 134,
+    "2": 30,
+    "3": 28,
+    "4": 79,
+    "5": 295
+  },
+  "average_rating": 3.6554770318021204,
+  "top_escalations": [],
+  "top_improvements": []
+}

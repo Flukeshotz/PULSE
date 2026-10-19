@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W43",
+    "name": "[Negative] KYC and Verification Failures",
+    "description": "Users consistently report that the app\u2019s verification workflow\u2014particularly the mandatory SMS requirement, unreliable video\u2011KYC, and excessive permission requests\u2014causes failed FD creation, uncredited withdrawals, and overall frustration. The process feels intrusive, slow, and error\u2011prone, leading to unmet expectations and distrust.",
+    "mentions_count": 116,
+    "priority_score": 50,
+    "average_rating": 1.42,
+    "confidence_score": 0.81
+  }
+]
