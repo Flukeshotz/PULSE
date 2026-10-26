@@ -1,0 +1,181 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W44",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-10-26T03:27:21.106260",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Slow and buggy UI/UX with chart loading issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "Very bad loading. Most of the time charts get break. Auth takes so much of time.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Very bad experience with the Zerodha app. Stock charts take too long to open and the app feels very slow when I need to check a stock quickly.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "stocks chart loading for ever. pathetic, fix it first.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Live Charts are not loading Charts are the first and foremost tool to trade in stock market but kite is missing it. Not a single charts is loading on kite mobile app during market hours which is frustrating and leaving traders nowhere.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The Charts Are Horrible . I am not able to save the chart layout, it's annoying, this has happened after the recent update and there's no further update by Kite. I have to think of switching to another broker now.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst charting experience through trading view in kite, lack of even basic features charts layout doesn't save automatically(drawing delete automatically), please improve trading view features as other broker provides.",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Up to the version 3.10.3, there was a great facility in this app which was disappeared in next versions. That is, when a user set a chart in his suitable position that was became as it was while the user was in the mean time surfing net, using another apps. In next versions when user returns to kite from other apps the chart start refreshing itself which is disgusting. Kindly add that great facility again.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report frequent crashes, long loading times for charts, and UI glitches that prevent smooth trading operations.",
+      "business_impact": "Slow performance and crashes directly hinder trade execution, causing users to miss market opportunities, generate a surge of support tickets, and increasing churn risk as customers migrate to faster, more reliable platforms.",
+      "root_cause_hypothesis": "The app\u2019s performance issues stem from inefficient network handling, suboptimal rendering of chart data, and legacy UI components that are not optimized for modern mobile hardware, leading to excessive memory usage and CPU load.",
+      "action_plan": "\u2022 Profile network requests and reduce latency\n\u2022 Refactor chart rendering pipeline to use hardware acceleration\n\u2022 Redesign UI components for responsiveness and error handling\n\u2022 Implement robust timeout and retry logic\n\u2022 Add automated performance regression tests for critical trading flows\n\u2022 Deploy incremental improvements through staged releases",
+      "teams_impacted": [
+        "Android Eng",
+        "iOS Eng",
+        "Backend API",
+        "UX Design",
+        "QA"
+      ],
+      "mentions_count": 91,
+      "rating_distribution": {
+        "1": 57,
+        "2": 17,
+        "3": 6,
+        "4": 7,
+        "5": 4
+      },
+      "average_rating": 1.72,
+      "confidence_score": 0.79,
+      "confidence_components": {
+        "volume": 0.65,
+        "quote_validation": 1.0
+      },
+      "priority_score": 42,
+      "theme_id": "poor_app_performance",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -4.2,
+        "priority_wow_delta": 0,
+        "rating_wow_delta": -0.1,
+        "first_seen": "2026-W30",
+        "age_weeks": 14
+      },
+      "evidence_score": 0.6,
+      "summary_validation": "Partially Supported"
+    },
+    {
+      "name": "[Negative] Poor Customer Support & Hidden Fees",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "Extremely disappointing experience with [HANDLE]. For the past 3 days, I\u2019ve been contacting customer support 3 times a day, but I keep receiving assurances that my account will be activated by morning, afternoon, or evening, with no resolution so far.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The customer support team at zerodha is completely unresponsive. I have raised a ticket three days ago,and it\u2019s still not resolved.",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "They said they charge very less brokerage, this is just a scam. they charge high brokerage.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Worst service don't trade in zerodha .order hanged and till 0 no buddy response call and trade response calling and waiting 15 min till that time your money loss.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users complain about unresponsive support, delayed responses, lack of clear communication, and hidden maintenance fees and penalty interest that push accounts into negative balances.",
+      "business_impact": "Loss of customer trust leading to high churn, negative brand sentiment, potential regulatory scrutiny over undisclosed fees, and lost revenue from dormant accounts still being charged.",
+      "root_cause_hypothesis": "Support processes lack defined SLAs and escalation paths; billing transparency is insufficient, causing hidden fee perception; limited communication channels result in customer frustration.",
+      "action_plan": "\u2022 Expand and train support staffing\n\u2022 Implement strict ticket SLA with automated reminders\n\u2022 Add multiple contact channels (email, WhatsApp, in\u2011app chat)\n\u2022 Automate and transparently display maintenance fee schedule\n\u2022 Review and publicize fee policy\n\u2022 Conduct quarterly support quality audits",
+      "teams_impacted": [
+        "Customer Support Ops",
+        "Billing & Finance",
+        "Product Management",
+        "Compliance",
+        "Engineering (Back\u2011end)",
+        "UX Design"
+      ],
+      "mentions_count": 42,
+      "rating_distribution": {
+        "1": 35,
+        "2": 2,
+        "3": 2,
+        "4": 1,
+        "5": 2
+      },
+      "average_rating": 1.4,
+      "confidence_score": 0.73,
+      "confidence_components": {
+        "volume": 0.54,
+        "quote_validation": 1.0
+      },
+      "priority_score": 36,
+      "theme_id": "poor_customer_support_and_experience",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 35.5,
+        "priority_wow_delta": 4,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W33",
+        "age_weeks": 11
+      },
+      "evidence_score": 0.6666666666666666,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 1099,
+    "unauthentic_quotes_dropped": 2,
+    "irrelevant_quotes_dropped": 3,
+    "filtered_short": 168,
+    "filtered_short_positive": 160,
+    "filtered_short_negative": 7,
+    "filtered_short_neutral": 1
+  },
+  "source_counts": {
+    "app_store": 104,
+    "play_store": 1169
+  },
+  "rating_distribution": {
+    "1": 290,
+    "2": 62,
+    "3": 66,
+    "4": 103,
+    "5": 578
+  },
+  "average_rating": 3.561419472247498,
+  "top_escalations": [],
+  "top_improvements": []
+}

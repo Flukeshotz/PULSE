@@ -34,5 +34,14 @@
     "priority_score": 26,
     "average_rating": 2.0,
     "confidence_score": 0.7
+  },
+  {
+    "iso_week": "2026-W44",
+    "name": "[Negative] App Crashes & Installs",
+    "description": "Users report that the application fails to launch, crashes, or does not install on devices, often after updates, causing frustration and inability to use core functionality.",
+    "mentions_count": 58,
+    "priority_score": 33,
+    "average_rating": 1.98,
+    "confidence_score": 0.75
   }
 ]

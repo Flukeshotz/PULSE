@@ -16,5 +16,14 @@
     "priority_score": 25,
     "average_rating": 1.67,
     "confidence_score": 0.67
+  },
+  {
+    "iso_week": "2026-W44",
+    "name": "[Negative] Severe App Performance & Crash Issues",
+    "description": "Users report the app constantly crashing, freezing, or taking an excessive amount of time to load screens. The app appears to be unstable, causing the entire device to lag or become unusable.",
+    "mentions_count": 12,
+    "priority_score": 23,
+    "average_rating": 1.0,
+    "confidence_score": 0.62
   }
 ]

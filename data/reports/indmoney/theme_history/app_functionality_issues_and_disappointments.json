@@ -25,5 +25,14 @@
     "priority_score": 32,
     "average_rating": 1.31,
     "confidence_score": 0.7
+  },
+  {
+    "iso_week": "2026-W44",
+    "name": "[Negative] Unstable App with Bugs & Poor UX",
+    "description": "Users report frequent crashes, freezes, slow performance, and numerous bugs that block basic functions like account management, bill payment, and data retrieval, making the app unusable and frustrating.",
+    "mentions_count": 41,
+    "priority_score": 34,
+    "average_rating": 1.46,
+    "confidence_score": 0.72
   }
 ]

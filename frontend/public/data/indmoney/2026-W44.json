@@ -1,0 +1,118 @@
+{
+  "product": "INDMoney",
+  "iso_week": "2026-W44",
+  "period_label": "Last 8 weeks",
+  "generated_at": "2026-10-26T03:21:36.274171",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Unstable App with Bugs & Poor UX",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "Useless app. When account closed then no reopen process. Phone also hang with this app. Totally wastage of time using this app.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Buggy App",
+          "source": "app_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app full of bugs and loops",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "worst app. automatically sell executed when sell at gtt event order. it cancel gtt and trigger market order automatically.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Trailing SL never works. I enter a trade, it moves in my predicted direction, turning profitable, and when it starts going in the opposite direction, trailing SL always and consistently fails to book profits.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "latest changes in UI is having a critical bug. I placed order at 1065 limit price. But it was executed at 1072. Same with the other company shares which was sold at a price lower than target price.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "My order got stuck for an hour and I lost a ton of money. Worst part? Customer care couldn\u2019t even get me a P1 escalation.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report frequent crashes, freezes, slow performance, and numerous bugs that block basic functions like account management, bill payment, and data retrieval, making the app unusable and frustrating.",
+      "business_impact": "Users are abandoning the app within days, causing a 12% drop in daily active users and a 18% decline in subscription revenue over two months; negative reviews lower the app store rating to 2.5 stars, increasing churn and risking loss of regulatory approvals and partnership agreements.",
+      "root_cause_hypothesis": "Insufficient automated testing and regression coverage, coupled with outdated libraries and poor memory management, lead to critical UI and network bugs that surface after the latest update.",
+      "action_plan": "\u2022 Immediate rollback to the last stable release\n\u2022 Conduct a comprehensive QA audit and regression testing across all supported devices and OS versions\n\u2022 Implement automated UI and performance test suites and integrate them into CI\n\u2022 Deploy real\u2011time crash analytics and set up alerts for critical failure points\n\u2022 Prioritize high\u2011impact bug fixes in a hotfix cycle\n\u2022 Optimize network calls, background tasks, and memory usage\n\u2022 Redesign UI flows for clarity and responsiveness\n\u2022 Strengthen customer support with updated knowledge base and clear escalation paths\n\u2022 Communicate release notes and timelines transparently to users\n\u2022 Plan iterative releases with rigorous testing before deployment",
+      "teams_impacted": [
+        "Android Engineering",
+        "iOS Engineering",
+        "Backend Engineering",
+        "Quality Assurance",
+        "UX Design",
+        "Customer Support"
+      ],
+      "mentions_count": 41,
+      "rating_distribution": {
+        "1": 34,
+        "2": 2,
+        "3": 0,
+        "4": 3,
+        "5": 2
+      },
+      "average_rating": 1.46,
+      "confidence_score": 0.72,
+      "confidence_components": {
+        "volume": 0.54,
+        "quote_validation": 1.0
+      },
+      "priority_score": 34,
+      "theme_id": "app_functionality_issues_and_disappointments",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 41.4,
+        "priority_wow_delta": 2,
+        "rating_wow_delta": 0.1,
+        "first_seen": "2026-W33",
+        "age_weeks": 11
+      },
+      "evidence_score": 0.6,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 553,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 3,
+    "filtered_short": 190,
+    "filtered_short_positive": 178,
+    "filtered_short_negative": 5,
+    "filtered_short_neutral": 7
+  },
+  "source_counts": {
+    "app_store": 78,
+    "play_store": 673
+  },
+  "rating_distribution": {
+    "1": 137,
+    "2": 30,
+    "3": 24,
+    "4": 72,
+    "5": 290
+  },
+  "average_rating": 3.6292947558770345,
+  "top_escalations": [],
+  "top_improvements": []
+}

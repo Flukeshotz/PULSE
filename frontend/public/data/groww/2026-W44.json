@@ -1,0 +1,176 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W44",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-10-26T03:25:08.884739",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Crashes & Installs",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "Today Android app is not working properly",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Not able to install this app in my device other apps are installing perfectly",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "App is not working today.Is it my problem?How can I fix it.",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "Now day's, application not working properly, response and laggy .",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "Since last update I am not able to open the app.. It's my urge to developers please look into this problem.",
+          "source": "play_store",
+          "rating": 5.0
+        }
+      ],
+      "description": "Users report that the application fails to launch, crashes, or does not install on devices, often after updates, causing frustration and inability to use core functionality.",
+      "business_impact": "Loss of daily active users, churn in premium subscription, negative word\u2011of\u2011mouth, increased support tickets, and potential revenue loss from subscription cancellations.",
+      "root_cause_hypothesis": "Recent updates introduced incompatibilities with newer Android OS versions and permission changes, causing runtime crashes or installation failures.",
+      "action_plan": "\u2022 Investigate crash logs and perform regression testing on recent update\n\u2022 Add compatibility check for Android versions and prompt for upgrade or downgrade\n\u2022 Fix installation flow to handle device storage constraints and permission prompts\n\u2022 Implement graceful fallback for crash on launch using try/catch and error screens\n\u2022 Deploy hotfix with clear changelog and monitor crash metrics\n\u2022 Communicate to users with support resources and temporary workarounds",
+      "teams_impacted": [
+        "Android Engineering",
+        "iOS Engineering",
+        "QA",
+        "DevOps",
+        "Customer Support",
+        "Product Management"
+      ],
+      "mentions_count": 58,
+      "rating_distribution": {
+        "1": 36,
+        "2": 8,
+        "3": 2,
+        "4": 3,
+        "5": 9
+      },
+      "average_rating": 1.98,
+      "confidence_score": 0.75,
+      "confidence_components": {
+        "volume": 0.59,
+        "quote_validation": 1.0
+      },
+      "priority_score": 33,
+      "theme_id": "app_performance_stability_issues",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 93.3,
+        "priority_wow_delta": 7,
+        "rating_wow_delta": -0.0,
+        "first_seen": "2026-W35",
+        "age_weeks": 9
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Excessive and Hidden Charges",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "high delivery charges",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "Charges are very High.,Please work on it",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Hidden charges",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "charges very High",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "prokarege charge high",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Customers consistently report that the platform charges high fees for transactions, often citing hidden or unclear charges that increase the cost of trading beyond what they anticipated.",
+      "business_impact": "The perceived costliness directly drives users to consider alternative platforms, leading to increased churn, reduced trade volume, and a negative impact on revenue per active user.",
+      "root_cause_hypothesis": "The fee structure likely includes higher brokerage rates, undisclosed service charges, and potentially inflated tax components, compounded by a lack of transparency in the fee disclosure process.",
+      "action_plan": "\u2022 Audit the current fee schedule and compare it with industry benchmarks\n\u2022 Identify all hidden or implicit charges and eliminate or disclose them upfront\n\u2022 Negotiate lower brokerage rates with service partners\n\u2022 Update the UI to present a clear, itemized fee breakdown at every trade step\n\u2022 Communicate fee changes through in-app notifications and email, emphasizing the new transparency and savings\n\u2022 Monitor user feedback and trade volume post-implementation for continuous improvement",
+      "teams_impacted": [
+        "Pricing & Finance",
+        "Product Management",
+        "UX Design",
+        "Legal & Compliance"
+      ],
+      "mentions_count": 49,
+      "rating_distribution": {
+        "1": 23,
+        "2": 7,
+        "3": 6,
+        "4": 4,
+        "5": 9
+      },
+      "average_rating": 2.37,
+      "confidence_score": 0.74,
+      "confidence_components": {
+        "volume": 0.57,
+        "quote_validation": 1.0
+      },
+      "priority_score": 28,
+      "theme_id": "high_brokerage_charges",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -65.5,
+        "priority_wow_delta": -8,
+        "rating_wow_delta": -0.2,
+        "first_seen": "2026-W24",
+        "age_weeks": 20
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 6280,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 0,
+    "filtered_short": 4331,
+    "filtered_short_positive": 4151,
+    "filtered_short_negative": 102,
+    "filtered_short_neutral": 78
+  },
+  "source_counts": {
+    "app_store": 500,
+    "play_store": 10351
+  },
+  "rating_distribution": {
+    "1": 1092,
+    "2": 154,
+    "3": 214,
+    "4": 495,
+    "5": 4325
+  },
+  "average_rating": 4.083917197452229,
+  "top_escalations": [],
+  "top_improvements": []
+}

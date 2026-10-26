@@ -16,5 +16,14 @@
     "priority_score": 32,
     "average_rating": 1.35,
     "confidence_score": 0.7
+  },
+  {
+    "iso_week": "2026-W44",
+    "name": "[Negative] Poor Customer Support & Hidden Fees",
+    "description": "Users complain about unresponsive support, delayed responses, lack of clear communication, and hidden maintenance fees and penalty interest that push accounts into negative balances.",
+    "mentions_count": 42,
+    "priority_score": 36,
+    "average_rating": 1.4,
+    "confidence_score": 0.73
   }
 ]

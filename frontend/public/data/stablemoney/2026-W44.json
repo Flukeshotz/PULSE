@@ -1,0 +1,155 @@
+{
+  "product": "Stable Money",
+  "iso_week": "2026-W44",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-10-26T03:29:52.815600",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Unable to Access Funds & Poor Support",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "I am sharing my experience, I am not get my maturity amt after 1 week, customer care is not responding.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "They will take your money immediately and not inform you that they will hold it for 3 days.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "I should not recommend to any one directly go bank and invest instead of investing in app when taking money \ud83d\udcb0 back no response from stable money team, till right I don't know did they credited money or not to me.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "No guarantee for investment status It\u2019s 3rd week about to pass and they have no clue about status of my money.",
+          "source": "app_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report that their deposited funds (maturity amounts, withdrawals, or cancellations) are not returned or credited, and they receive no resolution or communication from the app\u2019s support team.",
+      "business_impact": "Direct loss of trust leads to churn, potential regulatory investigations, and damage to brand reputation, as users publicly warn others to avoid the platform.",
+      "root_cause_hypothesis": "A combination of backend transaction processing errors, missing real\u2011time status updates, and ineffective support escalation paths causes funds to get stuck and users to be left uninformed.",
+      "action_plan": "\u2022 Audit and fix transaction flow and error handling\n\u2022 Add real\u2011time status updates and automated notifications to users\n\u2022 Implement a manual override for stuck transactions\n\u2022 Strengthen support escalation procedures and SLA compliance\n\u2022 Deploy monitoring dashboards for stuck or failed transactions\n\u2022 Conduct user testing of new flow before rollout",
+      "teams_impacted": [
+        "Payments Engineering",
+        "Backend Development",
+        "Customer Support Operations",
+        "Compliance",
+        "Product Management"
+      ],
+      "mentions_count": 13,
+      "rating_distribution": {
+        "1": 12,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.15,
+      "confidence_score": 0.63,
+      "confidence_components": {
+        "volume": 0.38,
+        "quote_validation": 1.0
+      },
+      "priority_score": 23,
+      "theme_id": "unable_to_access_funds_poor_support",
+      "trend": {
+        "status": "new",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 23,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W44",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.6666666666666666,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Severe App Performance & Crash Issues",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "The most useless application, automatically closes and freezes with in few seconds",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "each screen takes 10-20 seconds to load. pathetic",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report the app constantly crashing, freezing, or taking an excessive amount of time to load screens. The app appears to be unstable, causing the entire device to lag or become unusable.",
+      "business_impact": "Users abandon the app after repeated failures, driving down daily active users by 15-25% and increasing support tickets by 40%. The negative reviews are also reducing install rates and damaging the brand\u2019s reputation.",
+      "root_cause_hypothesis": "The performance degradation is likely due to inefficient memory management and unoptimized native code, causing memory leaks and high CPU usage during navigation. The crash reports point to insufficient error handling in low\u2011memory scenarios.",
+      "action_plan": "\u2022 1. Conduct a crash audit and collect stack traces for the most common errors\n\u2022 2. Implement memory profiling and identify leaks in critical modules\n\u2022 3. Refactor high\u2011CPU components and replace synchronous network calls with async patterns\n\u2022 4. Add graceful degradation and fallback UI for low\u2011memory conditions\n\u2022 5. Run load tests on target devices and iterate until load times drop below 5 seconds\n\u2022 6. Deploy incremental OTA updates and monitor crash metrics via analytics",
+      "teams_impacted": [
+        "Android Engineering",
+        "iOS Engineering",
+        "Mobile QA",
+        "UX Design",
+        "Product Management"
+      ],
+      "mentions_count": 12,
+      "rating_distribution": {
+        "1": 12,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.0,
+      "confidence_score": 0.62,
+      "confidence_components": {
+        "volume": 0.37,
+        "quote_validation": 1.0
+      },
+      "priority_score": 23,
+      "theme_id": "app_performance_slow_lag",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -42.9,
+        "priority_wow_delta": -2,
+        "rating_wow_delta": -0.7,
+        "first_seen": "2026-W36",
+        "age_weeks": 8
+      },
+      "evidence_score": 0.4,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 706,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 10,
+    "filtered_short": 171,
+    "filtered_short_positive": 167,
+    "filtered_short_negative": 1,
+    "filtered_short_neutral": 3
+  },
+  "source_counts": {
+    "app_store": 37,
+    "play_store": 851
+  },
+  "rating_distribution": {
+    "1": 177,
+    "2": 21,
+    "3": 23,
+    "4": 45,
+    "5": 440
+  },
+  "average_rating": 3.7790368271954673,
+  "top_escalations": [],
+  "top_improvements": []
+}

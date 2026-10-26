@@ -34,5 +34,14 @@
     "priority_score": 42,
     "average_rating": 1.85,
     "confidence_score": 0.8
+  },
+  {
+    "iso_week": "2026-W44",
+    "name": "[Negative] Slow and buggy UI/UX with chart loading issues",
+    "description": "Users report frequent crashes, long loading times for charts, and UI glitches that prevent smooth trading operations.",
+    "mentions_count": 91,
+    "priority_score": 42,
+    "average_rating": 1.72,
+    "confidence_score": 0.79
   }
 ]

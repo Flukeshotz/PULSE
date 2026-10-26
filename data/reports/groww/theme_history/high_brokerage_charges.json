@@ -79,5 +79,14 @@
     "priority_score": 36,
     "average_rating": 2.56,
     "confidence_score": 0.83
+  },
+  {
+    "iso_week": "2026-W44",
+    "name": "[Negative] Excessive and Hidden Charges",
+    "description": "Customers consistently report that the platform charges high fees for transactions, often citing hidden or unclear charges that increase the cost of trading beyond what they anticipated.",
+    "mentions_count": 49,
+    "priority_score": 28,
+    "average_rating": 2.37,
+    "confidence_score": 0.74
   }
 ]
