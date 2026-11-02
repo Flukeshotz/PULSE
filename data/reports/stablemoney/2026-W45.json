@@ -1,0 +1,225 @@
+{
+  "product": "Stable Money",
+  "iso_week": "2026-W45",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-11-02T04:43:37.893264",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] FD Crediting & Withdrawal Issues",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "Invested in FD, but one of my FDs have not been credited even after breaking it.",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "I should not recommend to any one directly go bank and invest instead of investing in app when taking money \ud83d\udcb0 back no response from stable money team, till right I don't know did they credited money or not to me.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "they lie about instant withdrawal. it's 3rd day since my withdrawal request but my money still hasn't been credited to my account",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "No guarantee for investment status It\u2019s 3rd week about to pass and they have no clue about status of my money.",
+          "source": "app_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users repeatedly report that their fixed deposits (FDs) are not credited after purchase or maturity, and that withdrawal requests are delayed or fail altogether, often tied to KYC verification problems. These delays create confusion and frustration, eroding trust in the platform.",
+      "business_impact": "The delays are causing customers to abandon the app, resulting in churn, potential loss of FD revenue, negative word\u2011of\u2011mouth, and increased support tickets. The uncertainty also risks regulatory scrutiny for incomplete financial disclosures and could lead to financial penalties if delayed payouts are deemed non\u2011compliant.",
+      "root_cause_hypothesis": "Backend integration with banking partners for FD crediting and withdrawal processing is incomplete or incorrectly handling success/failure states. Concurrently, the KYC verification workflow is overly stringent or poorly timed, causing approvals to lag and triggering repeated re\u2011kyc prompts that break the FD booking flow.",
+      "action_plan": "\u2022 1) Conduct a full audit of the FD crediting and withdrawal APIs and fix any missing or mis\u2011configured endpoints\n\u2022 2) Implement idempotent, transactional handling for FD payouts and withdrawals to guarantee consistency\n\u2022 3) Simplify the KYC flow: move from video\u2011to\u2011document verification to a more reliable pre\u2011approval step, with clear status updates\n\u2022 4) Add automated alerts for pending transactions and a self\u2011service portal for customers to track status\n\u2022 5) Launch a dedicated support squad with 24/7 coverage for FD and withdrawal inquiries and provide proactive outreach for high\u2011value customers",
+      "teams_impacted": [
+        "Backend Engineering",
+        "KYC Operations",
+        "Customer Support",
+        "Product Management",
+        "QA"
+      ],
+      "mentions_count": 106,
+      "rating_distribution": {
+        "1": 83,
+        "2": 9,
+        "3": 5,
+        "4": 3,
+        "5": 6
+      },
+      "average_rating": 1.49,
+      "confidence_score": 0.81,
+      "confidence_components": {
+        "volume": 0.68,
+        "quote_validation": 1.0
+      },
+      "priority_score": 48,
+      "theme_id": "fd_withdrawal_refund_failure",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 152.4,
+        "priority_wow_delta": 12,
+        "rating_wow_delta": 0.1,
+        "first_seen": "2026-W36",
+        "age_weeks": 9
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Poor Customer Support Responsiveness",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "the standard in-app support and email channels were completely ineffective and ignored my ticket for over a week.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "super delay in support or help",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "When I called customer care, they didn't respond..\ud83d\ude0f Don't waste your money..\ud83d\ude13",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "i have been trying to contact them, but they just redirect me to WhatsApp and doesn't reply its been 5 days no reply not even mentioned that they have received my msg.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "Horrible Customer support, not proper response from Customer care person",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report that the app\u2019s customer support channels are unresponsive, delayed, or redirect customers to unhelpful paths such as WhatsApp, leading to unresolved issues and frustration.",
+      "business_impact": "High customer churn, negative brand perception, potential financial loss due to refunds or unclaimed rewards, and regulatory scrutiny for inadequate support.",
+      "root_cause_hypothesis": "The support system lacks adequate staffing, proper ticket routing, and escalation procedures, and the reliance on WhatsApp as a primary channel is ineffective for timely, documented resolution.",
+      "action_plan": "\u2022 Audit current support workflow to identify bottlenecks\n\u2022 Increase staffing and provide multi\u2011channel training (email, in\u2011app, phone)\n\u2022 Implement automated ticket routing and SLAs\n\u2022 Deploy a knowledge base and chatbot for common queries\n\u2022 Monitor response metrics and iterate\n\u2022 Escalate high\u2011priority issues to product owners",
+      "teams_impacted": [
+        "Customer Support Ops",
+        "Backend Engineering",
+        "Product Management",
+        "QA"
+      ],
+      "mentions_count": 35,
+      "rating_distribution": {
+        "1": 29,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 4
+      },
+      "average_rating": 1.54,
+      "confidence_score": 0.71,
+      "confidence_components": {
+        "volume": 0.52,
+        "quote_validation": 1.0
+      },
+      "priority_score": 32,
+      "theme_id": "poor_customer_support_responsiveness",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 32,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W45",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Performance & Load Issues",
+      "rank": 3,
+      "quotes": [
+        {
+          "text": "each screen takes 10-20 seconds to load. pathetic",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "one of the slowest and useless app very disappointed",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app very slow not working properly",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report that the application takes excessive time to load screens and frequently lags, leading to frustration and inability to use the app effectively.",
+      "business_impact": "The slow performance causes immediate drop in user engagement, increasing uninstall rates by a measurable percentage and degrading overall app rating, which can reduce future downloads and revenue.",
+      "root_cause_hypothesis": "Likely suboptimal rendering and resource handling in the front-end code, coupled with inefficient data fetching and heavy assets, causing UI thread blocking and memory pressure.",
+      "action_plan": "\u2022 Profile and optimize rendering pipeline\n\u2022 Reduce image and asset sizes\n\u2022 Implement lazy loading for non-critical resources\n\u2022 Refactor heavy JavaScript logic to Web Workers\n\u2022 Optimize API calls with caching and pagination\n\u2022 Conduct performance regression tests before releases",
+      "teams_impacted": [
+        "UX Design",
+        "Front-end Engineering",
+        "QA"
+      ],
+      "mentions_count": 12,
+      "rating_distribution": {
+        "1": 12,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "average_rating": 1.0,
+      "confidence_score": 0.62,
+      "confidence_components": {
+        "volume": 0.37,
+        "quote_validation": 1.0
+      },
+      "priority_score": 23,
+      "theme_id": "app_performance_slow_lag",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 0.0,
+        "priority_wow_delta": 0,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W36",
+        "age_weeks": 9
+      },
+      "evidence_score": 0.6,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 736,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 3,
+    "filtered_short": 176,
+    "filtered_short_positive": 174,
+    "filtered_short_negative": 0,
+    "filtered_short_neutral": 2
+  },
+  "source_counts": {
+    "app_store": 36,
+    "play_store": 888
+  },
+  "rating_distribution": {
+    "1": 169,
+    "2": 20,
+    "3": 23,
+    "4": 41,
+    "5": 483
+  },
+  "average_rating": 3.8817934782608696,
+  "top_escalations": [],
+  "top_improvements": []
+}

@@ -34,5 +34,14 @@
     "priority_score": 36,
     "average_rating": 1.35,
     "confidence_score": 0.73
+  },
+  {
+    "iso_week": "2026-W45",
+    "name": "[Negative] FD Crediting & Withdrawal Issues",
+    "description": "Users repeatedly report that their fixed deposits (FDs) are not credited after purchase or maturity, and that withdrawal requests are delayed or fail altogether, often tied to KYC verification problems. These delays create confusion and frustration, eroding trust in the platform.",
+    "mentions_count": 106,
+    "priority_score": 48,
+    "average_rating": 1.49,
+    "confidence_score": 0.81
   }
 ]

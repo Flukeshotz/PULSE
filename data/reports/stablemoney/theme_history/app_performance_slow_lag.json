@@ -25,5 +25,14 @@
     "priority_score": 23,
     "average_rating": 1.0,
     "confidence_score": 0.62
+  },
+  {
+    "iso_week": "2026-W45",
+    "name": "[Negative] Performance & Load Issues",
+    "description": "Users report that the application takes excessive time to load screens and frequently lags, leading to frustration and inability to use the app effectively.",
+    "mentions_count": 12,
+    "priority_score": 23,
+    "average_rating": 1.0,
+    "confidence_score": 0.62
   }
 ]

@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W45",
+    "name": "[Negative] Platform Reliability & Trade Execution Failures",
+    "description": "Users report frequent internal errors, order execution failures, chart and login glitches, and missing IPOs, leading to financial loss and frustration.",
+    "mentions_count": 21,
+    "priority_score": 27,
+    "average_rating": 1.43,
+    "confidence_score": 0.67
+  }
+]

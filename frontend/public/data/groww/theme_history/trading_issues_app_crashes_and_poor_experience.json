@@ -25,5 +25,14 @@
     "priority_score": 33,
     "average_rating": 1.54,
     "confidence_score": 0.72
+  },
+  {
+    "iso_week": "2026-W45",
+    "name": "[Negative] App Performance & Stability",
+    "description": "Users report frequent slow loading, freezing, and crashes especially when viewing charts or switching accounts, leading to poor trading experience.",
+    "mentions_count": 63,
+    "priority_score": 29,
+    "average_rating": 2.48,
+    "confidence_score": 0.76
   }
 ]

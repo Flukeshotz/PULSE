@@ -1,0 +1,190 @@
+{
+  "product": "Zerodha Kite",
+  "iso_week": "2026-W45",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-11-02T04:40:41.602159",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] Chart Loading Failures",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "problem in loading chart",
+          "source": "play_store",
+          "rating": 4.0
+        },
+        {
+          "text": "\ud83d\udcc9 chart is not working",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "chart not loading...",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The graph is not opening many times, it keeps on loading.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "bakwas or gatiya app hai ye isse acha aingle one hai iski sabse badi kamjori hai iska software jab market kuch bada move karta hai to ye fail ho jata hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "app mein koi bhi chart open nahi ho raha hai. update se pehle hi thik tha.",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "trash app hai ye or live chart bhi galt btata h trading k liye sahi nhi h. brokrage kam krne se kuch nhi hota live chart bhi sahi hona chahiye.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "chart khulta hi nhi hai isse achha angel one hai turant chart khulta hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "acha app h easy to use 2016 \u0938\u0947 use kr rha hu, \u0932\u0947\u0915\u093f\u0928 update \u0915\u0930\u0928\u0947 \u0915\u0947 \u092c\u093e\u0926 \u092f\u0947 \u0915\u094d\u092f\u093e \u0939\u094b rha h isme \u0905\u092c \u0924\u094b charts \u0939\u0940 \u0928\u0939\u0940\u0902 \u0916\u0941\u0932\u0924\u0947 \u0907\u0924\u0928\u093e gnda kaise \u0939\u094b gya, please sahi kr rdo na yar, paise invested h",
+          "source": "play_store",
+          "rating": 2.0
+        }
+      ],
+      "description": "Users report that charts fail to load, show persistent buffering, or do not display at all. The issue appears across multiple device types and persists after app updates.",
+      "business_impact": "When charts cannot be rendered, traders cannot view real\u2011time market data, leading to missed trade opportunities, decreased user trust, and potential churn for a feature central to the app\u2019s value proposition.",
+      "root_cause_hypothesis": "A combination of back\u2011end API latency or errors and front\u2011end rendering inefficiencies (e.g., improper handling of large data sets or memory leaks) causes the chart component to hang or never complete rendering.",
+      "action_plan": "\u2022 1. Audit API endpoints for latency and error rates; add retries and exponential backoff.\n\u2022 2. Instrument front\u2011end chart component to capture rendering duration and memory usage.\n\u2022 3. Implement lazy loading and data pagination to limit payload size.\n\u2022 4. Add graceful error handling with clear fallback UI and retry button.\n\u2022 5. Deploy automated smoke tests that trigger chart load on a sample of scripts to detect regressions.\n\u2022 6. Roll out a phased feature flag for the updated chart rendering logic, monitor telemetry, and iterate based on user feedback.",
+      "teams_impacted": [
+        "Backend/API",
+        "Frontend Engineering",
+        "QA",
+        "DevOps"
+      ],
+      "mentions_count": 63,
+      "rating_distribution": {
+        "1": 34,
+        "2": 7,
+        "3": 6,
+        "4": 6,
+        "5": 10
+      },
+      "average_rating": 2.22,
+      "confidence_score": 0.76,
+      "confidence_components": {
+        "volume": 0.6,
+        "quote_validation": 1.0
+      },
+      "priority_score": 32,
+      "theme_id": "chart_display_issues_1",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": -29.2,
+        "priority_wow_delta": -5,
+        "rating_wow_delta": 0.1,
+        "first_seen": "2026-W30",
+        "age_weeks": 15
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Partially Supported"
+    },
+    {
+      "name": "[Negative] Platform Reliability & Trade Execution Failures",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "why are you cheat us by holding trade, i can't sell, edit in expiry day, everything is collapsed\ud83d\ude21",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "due to an internal error while selling my lot in F&O i wasnt able to sell which cost me 3-4k and it happened with the 3rd time now so I'm uninstalling this app",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "the app and web has degraded. i called them regarding the chart issues. they said their platform is the best and it does not glitch.",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "The app does not let's you connect to the support. I am trying to download the capital gains statement not able to do that and the app is giving and error while trying to download statement in the funds section.",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report frequent internal errors, order execution failures, chart and login glitches, and missing IPOs, leading to financial loss and frustration.",
+      "business_impact": "Direct monetary losses from failed trades, accelerated churn toward competitors, erosion of brand trust, potential regulatory investigation for unexecuted orders.",
+      "root_cause_hypothesis": "A combination of insufficient backend order routing validation, inadequate error handling, rushed feature rollouts without sufficient regression testing, and weak monitoring of critical trade paths.",
+      "action_plan": "\u2022 Investigate and patch order routing pipeline with robust retry logic\n\u2022 Implement automated integration and regression tests for critical trade flows\n\u2022 Deploy real\u2011time monitoring and alerts for order failure events\n\u2022 Prioritize bug fixes for high\u2011impact trade errors in the next sprint\n\u2022 Communicate transparent updates and timelines to affected customers",
+      "teams_impacted": [
+        "Backend Engineering",
+        "Frontend Engineering",
+        "QA & Automation",
+        "DevOps & SRE",
+        "Customer Support",
+        "Product Management"
+      ],
+      "mentions_count": 21,
+      "rating_distribution": {
+        "1": 17,
+        "2": 2,
+        "3": 0,
+        "4": 1,
+        "5": 1
+      },
+      "average_rating": 1.43,
+      "confidence_score": 0.67,
+      "confidence_components": {
+        "volume": 0.45,
+        "quote_validation": 1.0
+      },
+      "priority_score": 27,
+      "theme_id": "platform_reliability_trade_execution_failures",
+      "trend": {
+        "status": "new",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 27,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W45",
+        "age_weeks": 0
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Partially Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 1002,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 2,
+    "filtered_short": 174,
+    "filtered_short_positive": 166,
+    "filtered_short_negative": 7,
+    "filtered_short_neutral": 1
+  },
+  "source_counts": {
+    "app_store": 0,
+    "play_store": 1182
+  },
+  "rating_distribution": {
+    "1": 272,
+    "2": 55,
+    "3": 62,
+    "4": 91,
+    "5": 522
+  },
+  "average_rating": 3.534930139720559,
+  "top_escalations": [],
+  "top_improvements": []
+}

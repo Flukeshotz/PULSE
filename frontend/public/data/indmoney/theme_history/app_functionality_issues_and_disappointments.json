@@ -34,5 +34,14 @@
     "priority_score": 34,
     "average_rating": 1.46,
     "confidence_score": 0.72
+  },
+  {
+    "iso_week": "2026-W45",
+    "name": "[Negative] Poor UI & Performance",
+    "description": "Users report that the app has a bad interface design, is extremely slow, freezes frequently, and the recent upgrade introduced severe usability and data issues.",
+    "mentions_count": 13,
+    "priority_score": 24,
+    "average_rating": 1.0,
+    "confidence_score": 0.63
   }
 ]

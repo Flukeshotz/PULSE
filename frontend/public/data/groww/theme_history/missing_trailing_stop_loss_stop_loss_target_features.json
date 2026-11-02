@@ -1,0 +1,11 @@
+[
+  {
+    "iso_week": "2026-W45",
+    "name": "[Negative] Missing Trailing Stop Loss & Stop Loss/Target Features",
+    "description": "Users repeatedly report that the app lacks the ability to set trailing stop losses, stop\u2011loss, and target orders directly on the chart or within a single GTT order, hindering effective risk management during trades.",
+    "mentions_count": 73,
+    "priority_score": 22,
+    "average_rating": 3.19,
+    "confidence_score": 0.77
+  }
+]

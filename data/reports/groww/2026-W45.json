@@ -1,0 +1,172 @@
+{
+  "product": "Groww",
+  "iso_week": "2026-W45",
+  "period_label": "Last 10 weeks",
+  "generated_at": "2026-11-02T04:38:25.612007",
+  "sources_covered": [
+    "app_store",
+    "play_store"
+  ],
+  "expected_sources": [
+    "app_store",
+    "play_store",
+    "reddit"
+  ],
+  "themes": [
+    {
+      "name": "[Negative] App Performance & Stability",
+      "rank": 1,
+      "quotes": [
+        {
+          "text": "app open ker ke chat dekhne ke liye kafi time wghit karna perta hai enki service poor hai",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "chart thode slow chal rahai hai",
+          "source": "play_store",
+          "rating": 3.0
+        },
+        {
+          "text": "update he baad app chopi chalti he, hang marta he",
+          "source": "play_store",
+          "rating": 2.0
+        },
+        {
+          "text": "sabse bekar aap hai ye last 30 min me graph ruk jata hai uske bad hm logo ko pata nhi chala pa rha hai ki kaise dekhe chart ko",
+          "source": "play_store",
+          "rating": 1.0
+        }
+      ],
+      "description": "Users report frequent slow loading, freezing, and crashes especially when viewing charts or switching accounts, leading to poor trading experience.",
+      "business_impact": "Delays in chart rendering and app freezes cause users to miss market opportunities, directly reducing commission revenue and increasing churn for the platform.",
+      "root_cause_hypothesis": "The chart rendering engine is inefficient and tightly coupled with data fetching; combined with memory leaks and inadequate caching, it overconsumes CPU and RAM, triggering stalls and crashes.",
+      "action_plan": "\u2022 Profile CPU/memory during chart load to identify hotspots\n\u2022 Refactor chart rendering to use a lightweight, WebGL\u2011based library\n\u2022 Implement lazy loading and data caching for historical candles\n\u2022 Move data fetching to background threads and debounce UI updates\n\u2022 Reduce unnecessary re\u2011renders when switching accounts or adding indicators\n\u2022 Deploy a staged rollout with telemetry to monitor latency and crash rates\n\u2022 Provide a lightweight placeholder UI during heavy loads\n\u2022 Conduct regression QA and user testing before each release",
+      "teams_impacted": [
+        "Android Eng",
+        "iOS Eng",
+        "Backend API",
+        "QA",
+        "Product Ops"
+      ],
+      "mentions_count": 63,
+      "rating_distribution": {
+        "1": 35,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 18
+      },
+      "average_rating": 2.48,
+      "confidence_score": 0.76,
+      "confidence_components": {
+        "volume": 0.6,
+        "quote_validation": 1.0
+      },
+      "priority_score": 29,
+      "theme_id": "trading_issues_app_crashes_and_poor_experience",
+      "trend": {
+        "status": "stable",
+        "mentions_wow_pct": 70.3,
+        "priority_wow_delta": -4,
+        "rating_wow_delta": 0.9,
+        "first_seen": "2026-W23",
+        "age_weeks": 22
+      },
+      "evidence_score": 0.8,
+      "summary_validation": "Supported"
+    },
+    {
+      "name": "[Negative] Missing Trailing Stop Loss & Stop Loss/Target Features",
+      "rank": 2,
+      "quotes": [
+        {
+          "text": "Groww must introduce a trailing stoploss feature on the chart. To Groww team , please don't make any delay to introduce this feature. We need this feature by next week",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "please add trailing stop loss system on charts.. get updated bro it's time to bring that",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "real market trailing stoploss and profit adjustment please \ud83e\udd7a",
+          "source": "play_store",
+          "rating": 5.0
+        },
+        {
+          "text": "this app is missing basic features like 1.stop loss and target for GTT in one order 2.trailing stoploss on 1tap trading screen 3.oi on 1tap trading screen",
+          "source": "play_store",
+          "rating": 1.0
+        },
+        {
+          "text": "please add oco add stop loss and target feature rest all",
+          "source": "play_store",
+          "rating": 4.0
+        }
+      ],
+      "description": "Users repeatedly report that the app lacks the ability to set trailing stop losses, stop\u2011loss, and target orders directly on the chart or within a single GTT order, hindering effective risk management during trades.",
+      "business_impact": "Without these risk\u2011management tools, traders are forced to exit positions manually or rely on external tools, increasing the probability of unplanned losses and reducing user satisfaction, which can lead to churn and negative word\u2011of\u2011mouth among active traders.",
+      "root_cause_hypothesis": "The feature backlog prioritizes interface polish over core trading functionality, and the current order\u2011execution API does not expose a unified GTT type that supports stop\u2011loss/target, causing developers to postpone implementation.",
+      "action_plan": "\u2022 1. Re\u2011prioritize trailing stop loss and stop\u2011loss/target feature into the next release sprint\n\u2022 2. Design a unified GTT order model supporting stop\u2011loss, target, and trailing stop loss\n\u2022 3. Implement chart overlay controls for setting these values with real\u2011time price feedback\n\u2022 4. Add validation and confirmation screens to prevent accidental orders\n\u2022 5. Conduct regression and integration testing on Android, iOS, and web platforms\n\u2022 6. Roll out feature with a phased release and collect telemetry to refine UX",
+      "teams_impacted": [
+        "Product Management",
+        "Backend Engineering",
+        "Android Engineering",
+        "iOS Engineering",
+        "UX Design",
+        "QA"
+      ],
+      "mentions_count": 73,
+      "rating_distribution": {
+        "1": 20,
+        "2": 7,
+        "3": 11,
+        "4": 9,
+        "5": 26
+      },
+      "average_rating": 3.19,
+      "confidence_score": 0.77,
+      "confidence_components": {
+        "volume": 0.62,
+        "quote_validation": 1.0
+      },
+      "priority_score": 22,
+      "theme_id": "missing_trailing_stop_loss_stop_loss_target_features",
+      "trend": {
+        "status": "emerging",
+        "mentions_wow_pct": 100.0,
+        "priority_wow_delta": 22,
+        "rating_wow_delta": 0.0,
+        "first_seen": "2026-W45",
+        "age_weeks": 0
+      },
+      "evidence_score": 1.0,
+      "summary_validation": "Supported"
+    }
+  ],
+  "counts": {
+    "reviews": 6246,
+    "unauthentic_quotes_dropped": 0,
+    "irrelevant_quotes_dropped": 1,
+    "filtered_short": 4264,
+    "filtered_short_positive": 4082,
+    "filtered_short_negative": 100,
+    "filtered_short_neutral": 82
+  },
+  "source_counts": {
+    "app_store": 500,
+    "play_store": 10258
+  },
+  "rating_distribution": {
+    "1": 1098,
+    "2": 147,
+    "3": 217,
+    "4": 486,
+    "5": 4298
+  },
+  "average_rating": 4.078930515529939,
+  "top_escalations": [],
+  "top_improvements": []
+}

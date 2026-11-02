@@ -7,5 +7,14 @@
     "priority_score": 19,
     "average_rating": 2.73,
     "confidence_score": 0.69
+  },
+  {
+    "iso_week": "2026-W45",
+    "name": "[Negative] Loss of 1\u2011Day Change Cross\u2011Broker Tracking",
+    "description": "Users report that the app no longer displays the 1\u2011day price change for shares and mutual funds held with external brokers, and that sorting or viewing combined portfolio performance has been removed. This feature was a key differentiator for the platform.",
+    "mentions_count": 32,
+    "priority_score": 19,
+    "average_rating": 2.84,
+    "confidence_score": 0.7
   }
 ]

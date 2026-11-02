@@ -52,5 +52,14 @@
     "priority_score": 37,
     "average_rating": 2.12,
     "confidence_score": 0.79
+  },
+  {
+    "iso_week": "2026-W45",
+    "name": "[Negative] Chart Loading Failures",
+    "description": "Users report that charts fail to load, show persistent buffering, or do not display at all. The issue appears across multiple device types and persists after app updates.",
+    "mentions_count": 63,
+    "priority_score": 32,
+    "average_rating": 2.22,
+    "confidence_score": 0.76
   }
 ]
